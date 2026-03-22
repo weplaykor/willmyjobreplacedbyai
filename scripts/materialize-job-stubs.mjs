@@ -39,6 +39,7 @@ function materializeProfile(stub, config) {
     aiRole: config.aiRole,
     classification: stub.classification,
     currentReplacementUrl: config.currentReplacementUrl,
+    marketSignals: buildMarketSignals(config, stub.classification),
     degree: {
       status: config.degreeStatus,
       level: config.degreeLevel
@@ -56,6 +57,7 @@ function materializeProfile(stub, config) {
         tasks: generated.tasks.en,
         skills: generated.skills.en,
         path: generated.path.en,
+        educationPathways: buildEducationPathways('en', config, stub.classification),
         degreeNote: buildDegreeNote('en', config),
         aiNow: generated.aiNow.en,
         aiFuture: generated.aiFuture.en,
@@ -67,6 +69,7 @@ function materializeProfile(stub, config) {
         tasks: generated.tasks.ko,
         skills: generated.skills.ko,
         path: generated.path.ko,
+        educationPathways: buildEducationPathways('ko', config, stub.classification),
         degreeNote: buildDegreeNote('ko', config),
         aiNow: generated.aiNow.ko,
         aiFuture: generated.aiFuture.ko,
@@ -78,6 +81,7 @@ function materializeProfile(stub, config) {
         tasks: generated.tasks.es,
         skills: generated.skills.es,
         path: generated.path.es,
+        educationPathways: buildEducationPathways('es', config, stub.classification),
         degreeNote: buildDegreeNote('es', config),
         aiNow: generated.aiNow.es,
         aiFuture: generated.aiFuture.es,
@@ -220,6 +224,411 @@ function buildDegreeNote(locale, config) {
 
 function capitalize(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function getCareerFamilyKey(config, classification) {
+  if (config.degreeFamily === 'care' && classification?.majorId === 'service') {
+    return 'careSupport';
+  }
+
+  const map = {
+    management: 'management',
+    care: 'healthcare',
+    design: 'creative',
+    engineering: 'technical',
+    education: 'education',
+    language: 'language',
+    business: 'business',
+    operations: 'clerical',
+    support: 'support',
+    service: 'service',
+    security: 'security',
+    sales: 'sales',
+    agriculture: 'agriculture',
+    trades: 'trades',
+    logistics: 'machine',
+    manufacturing: 'machine',
+    labor: 'labor'
+  };
+
+  return map[config.degreeFamily] || 'business';
+}
+
+function buildMarketSignals(config, classification) {
+  const familyKey = getCareerFamilyKey(config, classification);
+  const salaryBases = {
+    management: [72000, 120000],
+    healthcare: [45000, 85000],
+    careSupport: [32000, 46000],
+    creative: [55000, 90000],
+    technical: [80000, 125000],
+    education: [42000, 70000],
+    language: [40000, 70000],
+    business: [55000, 95000],
+    clerical: [38000, 62000],
+    support: [36000, 56000],
+    service: [32000, 50000],
+    security: [38000, 62000],
+    sales: [45000, 85000],
+    agriculture: [35000, 60000],
+    trades: [50000, 80000],
+    machine: [42000, 68000],
+    labor: [34000, 52000]
+  };
+  const degreeAdjustments = {
+    optional: {
+      none: [0, 0],
+      bachelor: [5000, 10000],
+      master: [10000, 18000],
+      doctorate: [18000, 30000]
+    },
+    preferred: {
+      none: [0, 0],
+      bachelor: [10000, 20000],
+      master: [15000, 25000],
+      doctorate: [25000, 40000]
+    },
+    required: {
+      none: [0, 0],
+      bachelor: [25000, 45000],
+      master: [40000, 65000],
+      doctorate: [70000, 95000]
+    }
+  };
+  const demandLevels = {
+    management: 'medium',
+    healthcare: 'high',
+    careSupport: 'high',
+    creative: 'medium',
+    technical: 'high',
+    education: 'medium',
+    language: 'low',
+    business: 'medium',
+    clerical: 'medium',
+    support: 'medium',
+    service: 'medium',
+    security: 'medium',
+    sales: 'high',
+    agriculture: 'medium',
+    trades: 'high',
+    machine: 'medium',
+    labor: 'medium'
+  };
+  const demandNotes = {
+    en: {
+      management: 'Demand holds where employers need people to coordinate teams, vendors, budgets, and changing priorities.',
+      healthcare: 'Demand stays strong because licensed care delivery, safety, and patient responsibility still require people in the loop.',
+      careSupport: 'Demand stays strong in aging care and in-person support, even though pay remains tighter than licensed clinical roles.',
+      creative: 'Demand is selective: AI compresses commodity output, but teams still hire for taste, direction, and client-facing execution.',
+      technical: 'Demand remains strong for builders who can ship systems, own reliability, and work around changing technical stacks.',
+      education: 'Demand remains steady because teaching still depends on classroom control, human explanation, and parent-facing accountability.',
+      language: 'Demand is selective because routine translation and content conversion are being compressed by AI tools.',
+      business: 'Demand stays steady where employers need analysis, coordination, and compliance judgment tied to business outcomes.',
+      clerical: 'Demand is steady but vulnerable: openings exist, yet routine digital workflows face strong automation pressure.',
+      support: 'Demand remains active for escalation, retention, and complex case handling even as routine support is automated.',
+      service: 'Demand stays active in live service environments, but routine front-desk and order-taking work is under pressure.',
+      security: 'Demand remains steady where physical presence, incident response, and duty coverage matter.',
+      sales: 'Demand stays strong for people who can build trust, handle objections, and convert pipeline into revenue.',
+      agriculture: 'Demand stays steady where field work, equipment handling, and site conditions still require humans.',
+      trades: 'Demand remains strong because licensed field work and on-site problem solving are hard to automate fully.',
+      machine: 'Demand stays steady in production and logistics, but the most repetitive machine-centered roles face automation pressure first.',
+      labor: 'Demand stays active for site-ready workers, though repetitive and highly structured environments are more exposed to automation.'
+    },
+    ko: {
+      management: '팀, 협력사, 예산, 바뀌는 우선순위를 함께 조율할 사람이 필요한 곳에서는 수요가 유지됩니다.',
+      healthcare: '면허 기반 돌봄, 안전, 환자 책임이 여전히 사람에게 남아 있어 수요가 강하게 유지됩니다.',
+      careSupport: '고령화 돌봄과 대면 지원 수요는 강하지만, 면허형 임상 직무보다 보상 수준은 낮은 편입니다.',
+      creative: '수요는 선별적입니다. AI가 범용 산출물을 압축하지만, 취향, 방향성, 클라이언트 대응 실행력은 계속 필요합니다.',
+      technical: '실제 시스템을 만들고 안정성을 책임질 수 있는 인력에 대한 수요는 강하게 유지됩니다.',
+      education: '수업 운영, 인간적 설명, 학부모 대응 책임이 남아 있어 교육 수요는 비교적 안정적입니다.',
+      language: '반복 번역과 단순 콘텐츠 변환은 AI가 압축하고 있어 수요가 더 선별적으로 움직입니다.',
+      business: '비즈니스 성과와 연결된 분석, 조율, 규정 판단이 필요한 곳에서는 수요가 유지됩니다.',
+      clerical: '채용은 존재하지만, 반복적인 디지털 워크플로는 자동화 압력이 강해 취약성이 큽니다.',
+      support: '단순 문의는 자동화되더라도 에스컬레이션, 유지, 복합 사례 처리를 위한 수요는 남습니다.',
+      service: '현장 서비스 수요는 유지되지만, 프런트데스크와 주문 처리처럼 반복적인 업무는 압박을 받습니다.',
+      security: '현장 상주, 사고 대응, 근무 커버가 필요한 곳에서는 수요가 비교적 안정적입니다.',
+      sales: '신뢰 형성, 반론 대응, 매출 전환을 해낼 수 있는 사람에 대한 수요는 강합니다.',
+      agriculture: '현장 작업, 장비 운용, 농장 상황 대응이 필요해 수요는 비교적 안정적으로 유지됩니다.',
+      trades: '면허가 필요한 현장 작업과 현장 문제 해결은 완전 자동화가 어려워 수요가 강합니다.',
+      machine: '생산과 물류 수요는 유지되지만, 가장 반복적인 장비 중심 역할부터 자동화 압박을 받습니다.',
+      labor: '현장 투입 가능한 인력 수요는 남지만, 반복적이고 구조화된 환경일수록 자동화 노출이 커집니다.'
+    },
+    es: {
+      management: 'La demanda se mantiene donde las empresas necesitan coordinar equipos, proveedores, presupuesto y prioridades cambiantes.',
+      healthcare: 'La demanda sigue fuerte porque la atencion con licencia, la seguridad y la responsabilidad sobre pacientes aun requieren personas.',
+      careSupport: 'La demanda sigue fuerte en cuidado presencial y apoyo a personas mayores, aunque el salario es menor que en roles clinicos con licencia.',
+      creative: 'La demanda es selectiva: la IA comprime la produccion generica, pero sigue habiendo contratacion para criterio, direccion y ejecucion con clientes.',
+      technical: 'La demanda sigue fuerte para quienes construyen sistemas reales, cuidan la fiabilidad y trabajan con stacks cambiantes.',
+      education: 'La demanda se mantiene porque la ensenanza todavia depende del control del aula, la explicacion humana y la responsabilidad frente a familias.',
+      language: 'La demanda es selectiva porque la traduccion rutinaria y la conversion de contenido estan siendo comprimidas por la IA.',
+      business: 'La demanda se mantiene donde se necesitan analisis, coordinacion y criterio de cumplimiento ligados a resultados de negocio.',
+      clerical: 'La demanda es estable pero vulnerable: hay vacantes, aunque los flujos digitales rutinarios enfrentan fuerte presion de automatizacion.',
+      support: 'La demanda sigue activa para escalaciones, retencion y casos complejos aunque el soporte rutinario se automatiza.',
+      service: 'La demanda sigue activa en servicios presenciales, pero el trabajo rutinario de recepcion y toma de pedidos esta bajo presion.',
+      security: 'La demanda se mantiene donde importan la presencia fisica, la respuesta a incidentes y la cobertura de turnos.',
+      sales: 'La demanda sigue fuerte para quienes generan confianza, manejan objeciones y convierten el pipeline en ingresos.',
+      agriculture: 'La demanda se mantiene donde el trabajo de campo, el manejo de equipos y las condiciones del sitio siguen requiriendo personas.',
+      trades: 'La demanda sigue fuerte porque el trabajo de campo con licencia y la resolucion de problemas en sitio son dificiles de automatizar por completo.',
+      machine: 'La demanda se mantiene en produccion y logistica, pero los roles mas repetitivos alrededor de maquinaria sienten primero la presion de automatizacion.',
+      labor: 'La demanda sigue activa para trabajadores listos para sitio, aunque los entornos repetitivos y muy estructurados estan mas expuestos a la automatizacion.'
+    }
+  };
+  const baseRange = salaryBases[familyKey] || salaryBases.business;
+  const adjustment = degreeAdjustments[config.degreeStatus]?.[config.degreeLevel] || [0, 0];
+
+  return {
+    salaryRange: {
+      currency: 'USD',
+      period: 'year',
+      scope: 'illustrative-us-annual-base',
+      min: baseRange[0] + adjustment[0],
+      max: baseRange[1] + adjustment[1]
+    },
+    hiringDemand: {
+      level: demandLevels[familyKey] || 'medium',
+      note: {
+        en: demandNotes.en[familyKey] || demandNotes.en.business,
+        ko: demandNotes.ko[familyKey] || demandNotes.ko.business,
+        es: demandNotes.es[familyKey] || demandNotes.es.business
+      }
+    }
+  };
+}
+
+function buildEducationPathways(locale, config, classification) {
+  const familyKey = getCareerFamilyKey(config, classification);
+  const levelLabels = {
+    en: {
+      none: 'no university degree',
+      bachelor: 'a bachelor-level route',
+      master: 'a master-level route',
+      doctorate: 'a doctorate-level route'
+    },
+    ko: {
+      none: '대학 학위 없이도 가능한 경로',
+      bachelor: '학사 중심 경로',
+      master: '석사 중심 경로',
+      doctorate: '박사 중심 경로'
+    },
+    es: {
+      none: 'una ruta sin titulo universitario',
+      bachelor: 'una ruta de licenciatura',
+      master: 'una ruta de maestria',
+      doctorate: 'una ruta de doctorado'
+    }
+  };
+  const practiceFocus = {
+    en: {
+      management: 'budgeting, reporting, workflow design, and stakeholder leadership on real projects',
+      healthcare: 'clinical routines, documentation, safety rules, and supervised care practice',
+      careSupport: 'care routines, shift discipline, safety habits, and live support experience',
+      creative: 'portfolio work, critique, client revisions, and tool fluency',
+      technical: 'real systems, debugging depth, version control, and shipped project proof',
+      education: 'classroom practice, tutoring, curriculum work, and student communication',
+      language: 'domain knowledge, editing quality, bilingual samples, and terminology control',
+      business: 'analysis, spreadsheets, compliance awareness, and cross-functional project work',
+      clerical: 'office software, records accuracy, documentation discipline, and workflow consistency',
+      support: 'ticketing, de-escalation, product knowledge, and system hygiene',
+      service: 'live customer service, reliability, point-of-service judgment, and shift readiness',
+      security: 'observation, incident reporting, safety procedure, and certification where needed',
+      sales: 'pipeline management, objection handling, CRM use, and quota discipline',
+      agriculture: 'field safety, equipment routines, seasonality, and crop or livestock basics',
+      trades: 'apprenticeship practice, vocational training, licensing prep, and supervised field hours',
+      machine: 'equipment safety, SOP discipline, monitoring, and shift consistency',
+      labor: 'site safety, stamina, punctuality, and consistency under physical demand'
+    },
+    ko: {
+      management: '예산, 리포팅, 워크플로 설계, 이해관계자 리더십을 실제 프로젝트에서',
+      healthcare: '임상 루틴, 문서화, 안전 규칙, 감독하 돌봄 실습을',
+      careSupport: '돌봄 루틴, 교대 근무 규율, 안전 습관, 대면 지원 경험을',
+      creative: '포트폴리오 작업, 피드백 반영, 클라이언트 수정 대응, 툴 숙련을',
+      technical: '실제 시스템 구축, 디버깅 깊이, 버전 관리, 배포 경험을',
+      education: '수업 실습, 튜터링, 커리큘럼 작업, 학생 커뮤니케이션을',
+      language: '도메인 지식, 편집 품질, 이중언어 샘플, 용어 통제를',
+      business: '분석, 스프레드시트, 규정 이해, 협업 프로젝트 경험을',
+      clerical: '오피스 소프트웨어, 기록 정확성, 문서 규율, 워크플로 일관성을',
+      support: '티켓 처리, 디에스컬레이션, 제품 이해, 시스템 위생을',
+      service: '대면 서비스, 근무 신뢰성, 현장 판단, 교대 준비를',
+      security: '관찰, 사고 보고, 안전 절차, 필요한 자격을',
+      sales: '파이프라인 관리, 반론 대응, CRM 사용, 목표 관리 능력을',
+      agriculture: '현장 안전, 장비 루틴, 계절성 이해, 작물·축산 기초를',
+      trades: '도제 실습, 직업훈련, 자격 준비, 감독하 현장 시간을',
+      machine: '장비 안전, 표준 작업 규율, 모니터링, 교대 일관성을',
+      labor: '현장 안전, 체력, 시간 준수, 물리적 강도 아래의 일관성을'
+    },
+    es: {
+      management: 'presupuesto, reportes, diseno de flujo y liderazgo con actores reales en proyectos',
+      healthcare: 'rutinas clinicas, documentacion, normas de seguridad y practica supervisada',
+      careSupport: 'rutinas de cuidado, disciplina de turnos, habitos de seguridad y apoyo presencial',
+      creative: 'portafolio, critica, revisiones con clientes y dominio de herramientas',
+      technical: 'sistemas reales, depuracion, control de versiones y proyectos publicados',
+      education: 'practica de aula, tutoria, trabajo curricular y comunicacion con estudiantes',
+      language: 'conocimiento de dominio, calidad editorial, muestras bilingues y control terminologico',
+      business: 'analisis, hojas de calculo, cumplimiento y proyectos interfuncionales',
+      clerical: 'software de oficina, precision en registros, disciplina documental y consistencia operativa',
+      support: 'ticketing, desescalada, conocimiento del producto e higiene del sistema',
+      service: 'servicio en vivo, fiabilidad, criterio en el punto de servicio y preparacion por turno',
+      security: 'observacion, reportes de incidentes, procedimiento de seguridad y certificacion cuando aplique',
+      sales: 'gestion de pipeline, manejo de objeciones, uso de CRM y disciplina comercial',
+      agriculture: 'seguridad de campo, rutinas de equipos, estacionalidad y bases de cultivo o ganado',
+      trades: 'aprendizaje, formacion tecnica, preparacion para licencia y horas supervisadas',
+      machine: 'seguridad de equipos, disciplina SOP, monitoreo y consistencia por turno',
+      labor: 'seguridad en sitio, resistencia, puntualidad y consistencia bajo demanda fisica'
+    }
+  };
+  const proofFocus = {
+    en: {
+      management: 'ownership of outcomes, escalations, and team coordination',
+      healthcare: 'licenses, supervised hours, and patient-safe execution',
+      careSupport: 'reliability for shifts, caregiving references, and safe human support',
+      creative: 'taste, shipped work, and revision-ready execution',
+      technical: 'delivered systems, reliability, and problem-solving under change',
+      education: 'subject credibility, classroom trust, and instruction quality',
+      language: 'quality control, nuance, and domain accuracy',
+      business: 'judgment, execution, and business-facing reliability',
+      clerical: 'accuracy, consistency, and trust with records or workflows',
+      support: 'complex case handling, retention, and calm escalation',
+      service: 'live service judgment, reliability, and customer trust',
+      security: 'responsible presence, incident handling, and compliance',
+      sales: 'trust, quota progress, and repeatable conversion',
+      agriculture: 'field readiness, safe routines, and equipment confidence',
+      trades: 'field hours, licensing, and jobsite-ready problem solving',
+      machine: 'safe machine handling, shift reliability, and process control',
+      labor: 'site readiness, safety, and reliable execution under pressure'
+    },
+    ko: {
+      management: '성과 책임, 에스컬레이션 대응, 팀 조율 능력',
+      healthcare: '면허, 감독 시간, 환자 안전 실행력',
+      careSupport: '교대 신뢰성, 돌봄 추천서, 안전한 대면 지원 능력',
+      creative: '취향, 실제 산출물, 수정 대응 실행력',
+      technical: '배포된 시스템, 안정성, 변화 대응 문제 해결력',
+      education: '교과 신뢰도, 교실 신뢰, 수업 품질',
+      language: '품질 관리, 뉘앙스, 도메인 정확성',
+      business: '판단력, 실행력, 비즈니스 대응 신뢰성',
+      clerical: '정확성, 일관성, 기록·워크플로 신뢰성',
+      support: '복합 사례 처리, 유지, 차분한 에스컬레이션 대응',
+      service: '현장 서비스 판단, 근무 신뢰성, 고객 신뢰',
+      security: '책임 있는 상주, 사고 대응, 규정 준수',
+      sales: '신뢰 형성, 목표 달성 흐름, 반복 가능한 전환 능력',
+      agriculture: '현장 준비도, 안전 루틴, 장비 자신감',
+      trades: '현장 시간, 자격, 공사 현장 문제 해결력',
+      machine: '안전한 장비 운용, 교대 신뢰성, 공정 통제',
+      labor: '현장 투입 준비, 안전, 압박 속의 안정적 실행'
+    },
+    es: {
+      management: 'propiedad sobre resultados, escalaciones y coordinacion de equipos',
+      healthcare: 'licencias, horas supervisadas y ejecucion segura para pacientes',
+      careSupport: 'fiabilidad para turnos, referencias de cuidado y apoyo humano seguro',
+      creative: 'criterio, trabajo publicado y ejecucion lista para revisiones',
+      technical: 'sistemas entregados, fiabilidad y resolucion de problemas bajo cambio',
+      education: 'credibilidad de materia, confianza de aula y calidad de instruccion',
+      language: 'control de calidad, matiz y precision de dominio',
+      business: 'criterio, ejecucion y fiabilidad frente al negocio',
+      clerical: 'precision, consistencia y confianza con registros o flujos',
+      support: 'manejo de casos complejos, retencion y escalacion calmada',
+      service: 'criterio de servicio en vivo, fiabilidad y confianza del cliente',
+      security: 'presencia responsable, respuesta a incidentes y cumplimiento',
+      sales: 'confianza, avance de cuota y conversion repetible',
+      agriculture: 'preparacion de campo, rutinas seguras y confianza con equipos',
+      trades: 'horas de campo, licencia y resolucion de problemas en obra',
+      machine: 'manejo seguro de maquinaria, fiabilidad por turno y control de proceso',
+      labor: 'preparacion de sitio, seguridad y ejecucion fiable bajo presion'
+    }
+  };
+  const entryStep = buildEducationEntryStep(locale, config, levelLabels[locale][config.degreeLevel]);
+
+  if (locale === 'en') {
+    return [
+      entryStep,
+      `Build ${practiceFocus.en[familyKey] || practiceFocus.en.business}.`,
+      `Collect proof of ${proofFocus.en[familyKey] || proofFocus.en.business}.`
+    ];
+  }
+
+  if (locale === 'ko') {
+    return [
+      entryStep,
+      `${practiceFocus.ko[familyKey] || practiceFocus.ko.business} 실제 환경에서 익히세요.`,
+      `${proofFocus.ko[familyKey] || proofFocus.ko.business}를 보여 주는 경력, 자격, 추천서를 만드세요.`
+    ];
+  }
+
+  return [
+    entryStep,
+    `Desarrolla ${practiceFocus.es[familyKey] || practiceFocus.es.business}.`,
+    `Reune evidencia de ${proofFocus.es[familyKey] || proofFocus.es.business} con proyectos, horas de campo o referencias.`
+  ];
+}
+
+function buildEducationEntryStep(locale, config, levelLabel) {
+  if (locale === 'en') {
+    if (config.degreeStatus === 'required') {
+      return `Start with ${levelLabel} or equivalent accredited training because this market usually screens for credentials first.`;
+    }
+
+    if (config.degreeStatus === 'preferred') {
+      return `Use ${levelLabel} as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.`;
+    }
+
+    return 'Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.';
+  }
+
+  if (locale === 'ko') {
+    if (config.degreeStatus === 'required') {
+      return `이 시장은 보통 자격부터 보기 때문에 ${levelLabel} 또는 이에 준하는 공인 교육부터 시작하세요.`;
+    }
+
+    if (config.degreeStatus === 'preferred') {
+      return `${levelLabel}가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.`;
+    }
+
+    return '4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.';
+  }
+
+  if (config.degreeStatus === 'required') {
+    return `Empieza con ${levelLabel} o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.`;
+  }
+
+  if (config.degreeStatus === 'preferred') {
+    return `Usa ${levelLabel} como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.`;
+  }
+
+  return 'Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.';
+}
+
+function enrichExistingJob(job, config) {
+  return {
+    ...job,
+    marketSignals: buildMarketSignals(config, job.classification),
+    content: {
+      ...job.content,
+      en: {
+        ...job.content.en,
+        educationPathways: buildEducationPathways('en', config, job.classification)
+      },
+      ko: {
+        ...job.content.ko,
+        educationPathways: buildEducationPathways('ko', config, job.classification)
+      },
+      es: {
+        ...job.content.es,
+        educationPathways: buildEducationPathways('es', config, job.classification)
+      }
+    }
+  };
+}
+
+function deriveConfigFromJob(job) {
+  return {
+    category: job.category,
+    degreeFamily: job.category,
+    automationRisk: job.automationRisk,
+    aiRole: job.aiRole,
+    degreeStatus: job.degree?.status,
+    degreeLevel: job.degree?.level,
+    currentReplacementUrl: job.currentReplacementUrl,
+    references: job.aiEvidence?.references || []
+  };
 }
 
 function buildFamily(titles, config, copy) {
@@ -2021,7 +2430,12 @@ function main() {
   const taxonomy = readJson(taxonomyPath);
   const roleConfigs = createRoleConfigs();
   const detailOrder = flattenDetailIds(taxonomy);
-  const existingIds = new Set(existingJobs.map((job) => job.id));
+  const enrichedExistingJobs = existingJobs.map((job) => {
+    const config = roleConfigs[job.id] || deriveConfigFromJob(job);
+
+    return enrichExistingJob(job, config);
+  });
+  const existingIds = new Set(enrichedExistingJobs.map((job) => job.id));
 
   const generatedJobs = stubs
     .filter((stub) => !existingIds.has(stub.id))
@@ -2035,7 +2449,7 @@ function main() {
       return materializeProfile(stub, config);
     });
 
-  const mergedJobs = [...existingJobs, ...generatedJobs].sort((left, right) => {
+  const mergedJobs = [...enrichedExistingJobs, ...generatedJobs].sort((left, right) => {
     return detailOrder.indexOf(left.id) - detailOrder.indexOf(right.id);
   });
 

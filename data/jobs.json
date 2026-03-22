@@ -93,6 +93,11 @@
           "Business copilots",
           "Meeting summarizers",
           "Forecasting assistants"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build budgeting, reporting, workflow design, and stakeholder leadership on real projects.",
+          "Collect proof of ownership of outcomes, escalations, and team coordination."
         ]
       },
       "ko": {
@@ -121,6 +126,11 @@
           "비즈니스 코파일럿",
           "회의 요약 도구",
           "예측 보조 도구"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "예산, 리포팅, 워크플로 설계, 이해관계자 리더십을 실제 프로젝트에서 실제 환경에서 익히세요.",
+          "성과 책임, 에스컬레이션 대응, 팀 조율 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -149,7 +159,29 @@
           "Copilotos de negocio",
           "Resumidores de reuniones",
           "Asistentes de proyeccion"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla presupuesto, reportes, diseno de flujo y liderazgo con actores reales en proyectos.",
+          "Reune evidencia de propiedad sobre resultados, escalaciones y coordinacion de equipos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 82000,
+        "max": 140000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand holds where employers need people to coordinate teams, vendors, budgets, and changing priorities.",
+          "ko": "팀, 협력사, 예산, 바뀌는 우선순위를 함께 조율할 사람이 필요한 곳에서는 수요가 유지됩니다.",
+          "es": "La demanda se mantiene donde las empresas necesitan coordinar equipos, proveedores, presupuesto y prioridades cambiantes."
+        }
       }
     }
   },
@@ -247,6 +279,11 @@
           "Business copilots",
           "Meeting summarizers",
           "Forecasting assistants"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build budgeting, reporting, workflow design, and stakeholder leadership on real projects.",
+          "Collect proof of ownership of outcomes, escalations, and team coordination."
         ]
       },
       "ko": {
@@ -275,6 +312,11 @@
           "비즈니스 코파일럿",
           "회의 요약 도구",
           "예측 보조 도구"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "예산, 리포팅, 워크플로 설계, 이해관계자 리더십을 실제 프로젝트에서 실제 환경에서 익히세요.",
+          "성과 책임, 에스컬레이션 대응, 팀 조율 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -303,7 +345,29 @@
           "Copilotos de negocio",
           "Resumidores de reuniones",
           "Asistentes de proyeccion"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla presupuesto, reportes, diseno de flujo y liderazgo con actores reales en proyectos.",
+          "Reune evidencia de propiedad sobre resultados, escalaciones y coordinacion de equipos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 82000,
+        "max": 140000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand holds where employers need people to coordinate teams, vendors, budgets, and changing priorities.",
+          "ko": "팀, 협력사, 예산, 바뀌는 우선순위를 함께 조율할 사람이 필요한 곳에서는 수요가 유지됩니다.",
+          "es": "La demanda se mantiene donde las empresas necesitan coordinar equipos, proveedores, presupuesto y prioridades cambiantes."
+        }
       }
     }
   },
@@ -401,6 +465,11 @@
           "Business copilots",
           "Meeting summarizers",
           "Forecasting assistants"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build budgeting, reporting, workflow design, and stakeholder leadership on real projects.",
+          "Collect proof of ownership of outcomes, escalations, and team coordination."
         ]
       },
       "ko": {
@@ -429,6 +498,11 @@
           "비즈니스 코파일럿",
           "회의 요약 도구",
           "예측 보조 도구"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "예산, 리포팅, 워크플로 설계, 이해관계자 리더십을 실제 프로젝트에서 실제 환경에서 익히세요.",
+          "성과 책임, 에스컬레이션 대응, 팀 조율 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -457,7 +531,29 @@
           "Copilotos de negocio",
           "Resumidores de reuniones",
           "Asistentes de proyeccion"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla presupuesto, reportes, diseno de flujo y liderazgo con actores reales en proyectos.",
+          "Reune evidencia de propiedad sobre resultados, escalaciones y coordinacion de equipos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 82000,
+        "max": 140000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand holds where employers need people to coordinate teams, vendors, budgets, and changing priorities.",
+          "ko": "팀, 협력사, 예산, 바뀌는 우선순위를 함께 조율할 사람이 필요한 곳에서는 수요가 유지됩니다.",
+          "es": "La demanda se mantiene donde las empresas necesitan coordinar equipos, proveedores, presupuesto y prioridades cambiantes."
+        }
       }
     }
   },
@@ -555,6 +651,11 @@
           "Business copilots",
           "Meeting summarizers",
           "Forecasting assistants"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build budgeting, reporting, workflow design, and stakeholder leadership on real projects.",
+          "Collect proof of ownership of outcomes, escalations, and team coordination."
         ]
       },
       "ko": {
@@ -583,6 +684,11 @@
           "비즈니스 코파일럿",
           "회의 요약 도구",
           "예측 보조 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "예산, 리포팅, 워크플로 설계, 이해관계자 리더십을 실제 프로젝트에서 실제 환경에서 익히세요.",
+          "성과 책임, 에스컬레이션 대응, 팀 조율 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -611,7 +717,29 @@
           "Copilotos de negocio",
           "Resumidores de reuniones",
           "Asistentes de proyeccion"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla presupuesto, reportes, diseno de flujo y liderazgo con actores reales en proyectos.",
+          "Reune evidencia de propiedad sobre resultados, escalaciones y coordinacion de equipos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 72000,
+        "max": 120000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand holds where employers need people to coordinate teams, vendors, budgets, and changing priorities.",
+          "ko": "팀, 협력사, 예산, 바뀌는 우선순위를 함께 조율할 사람이 필요한 곳에서는 수요가 유지됩니다.",
+          "es": "La demanda se mantiene donde las empresas necesitan coordinar equipos, proveedores, presupuesto y prioridades cambiantes."
+        }
       }
     }
   },
@@ -709,6 +837,11 @@
           "Business copilots",
           "Meeting summarizers",
           "Forecasting assistants"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build budgeting, reporting, workflow design, and stakeholder leadership on real projects.",
+          "Collect proof of ownership of outcomes, escalations, and team coordination."
         ]
       },
       "ko": {
@@ -737,6 +870,11 @@
           "비즈니스 코파일럿",
           "회의 요약 도구",
           "예측 보조 도구"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "예산, 리포팅, 워크플로 설계, 이해관계자 리더십을 실제 프로젝트에서 실제 환경에서 익히세요.",
+          "성과 책임, 에스컬레이션 대응, 팀 조율 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -765,7 +903,29 @@
           "Copilotos de negocio",
           "Resumidores de reuniones",
           "Asistentes de proyeccion"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla presupuesto, reportes, diseno de flujo y liderazgo con actores reales en proyectos.",
+          "Reune evidencia de propiedad sobre resultados, escalaciones y coordinacion de equipos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 82000,
+        "max": 140000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand holds where employers need people to coordinate teams, vendors, budgets, and changing priorities.",
+          "ko": "팀, 협력사, 예산, 바뀌는 우선순위를 함께 조율할 사람이 필요한 곳에서는 수요가 유지됩니다.",
+          "es": "La demanda se mantiene donde las empresas necesitan coordinar equipos, proveedores, presupuesto y prioridades cambiantes."
+        }
       }
     }
   },
@@ -863,6 +1023,11 @@
           "Clinical documentation copilots",
           "Triage support AI",
           "Monitoring alert systems"
+        ],
+        "educationPathways": [
+          "Start with a bachelor-level route or equivalent accredited training because this market usually screens for credentials first.",
+          "Build clinical routines, documentation, safety rules, and supervised care practice.",
+          "Collect proof of licenses, supervised hours, and patient-safe execution."
         ]
       },
       "ko": {
@@ -891,6 +1056,11 @@
           "임상 문서 코파일럿",
           "트리아지 지원 AI",
           "모니터링 알림 시스템"
+        ],
+        "educationPathways": [
+          "이 시장은 보통 자격부터 보기 때문에 학사 중심 경로 또는 이에 준하는 공인 교육부터 시작하세요.",
+          "임상 루틴, 문서화, 안전 규칙, 감독하 돌봄 실습을 실제 환경에서 익히세요.",
+          "면허, 감독 시간, 환자 안전 실행력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -919,7 +1089,29 @@
           "Copilotos de documentacion clinica",
           "IA de apoyo al triaje",
           "Sistemas de alertas de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con una ruta de licenciatura o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.",
+          "Desarrolla rutinas clinicas, documentacion, normas de seguridad y practica supervisada.",
+          "Reune evidencia de licencias, horas supervisadas y ejecucion segura para pacientes con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 70000,
+        "max": 130000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong because licensed care delivery, safety, and patient responsibility still require people in the loop.",
+          "ko": "면허 기반 돌봄, 안전, 환자 책임이 여전히 사람에게 남아 있어 수요가 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte porque la atencion con licencia, la seguridad y la responsabilidad sobre pacientes aun requieren personas."
+        }
       }
     }
   },
@@ -1017,6 +1209,11 @@
           "Clinical copilots",
           "Scheduling assistants",
           "Screening support AI"
+        ],
+        "educationPathways": [
+          "Start with a bachelor-level route or equivalent accredited training because this market usually screens for credentials first.",
+          "Build clinical routines, documentation, safety rules, and supervised care practice.",
+          "Collect proof of licenses, supervised hours, and patient-safe execution."
         ]
       },
       "ko": {
@@ -1045,6 +1242,11 @@
           "임상 코파일럿",
           "일정 보조 도구",
           "선별 지원 AI"
+        ],
+        "educationPathways": [
+          "이 시장은 보통 자격부터 보기 때문에 학사 중심 경로 또는 이에 준하는 공인 교육부터 시작하세요.",
+          "임상 루틴, 문서화, 안전 규칙, 감독하 돌봄 실습을 실제 환경에서 익히세요.",
+          "면허, 감독 시간, 환자 안전 실행력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -1073,7 +1275,29 @@
           "Copilotos clinicos",
           "Asistentes de agenda",
           "IA de apoyo al cribado"
+        ],
+        "educationPathways": [
+          "Empieza con una ruta de licenciatura o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.",
+          "Desarrolla rutinas clinicas, documentacion, normas de seguridad y practica supervisada.",
+          "Reune evidencia de licencias, horas supervisadas y ejecucion segura para pacientes con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 70000,
+        "max": 130000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong because licensed care delivery, safety, and patient responsibility still require people in the loop.",
+          "ko": "면허 기반 돌봄, 안전, 환자 책임이 여전히 사람에게 남아 있어 수요가 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte porque la atencion con licencia, la seguridad y la responsabilidad sobre pacientes aun requieren personas."
+        }
       }
     }
   },
@@ -1171,6 +1395,11 @@
           "Clinical copilots",
           "Scheduling assistants",
           "Screening support AI"
+        ],
+        "educationPathways": [
+          "Start with a bachelor-level route or equivalent accredited training because this market usually screens for credentials first.",
+          "Build clinical routines, documentation, safety rules, and supervised care practice.",
+          "Collect proof of licenses, supervised hours, and patient-safe execution."
         ]
       },
       "ko": {
@@ -1199,6 +1428,11 @@
           "임상 코파일럿",
           "일정 보조 도구",
           "선별 지원 AI"
+        ],
+        "educationPathways": [
+          "이 시장은 보통 자격부터 보기 때문에 학사 중심 경로 또는 이에 준하는 공인 교육부터 시작하세요.",
+          "임상 루틴, 문서화, 안전 규칙, 감독하 돌봄 실습을 실제 환경에서 익히세요.",
+          "면허, 감독 시간, 환자 안전 실행력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -1227,7 +1461,29 @@
           "Copilotos clinicos",
           "Asistentes de agenda",
           "IA de apoyo al cribado"
+        ],
+        "educationPathways": [
+          "Empieza con una ruta de licenciatura o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.",
+          "Desarrolla rutinas clinicas, documentacion, normas de seguridad y practica supervisada.",
+          "Reune evidencia de licencias, horas supervisadas y ejecucion segura para pacientes con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 70000,
+        "max": 130000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong because licensed care delivery, safety, and patient responsibility still require people in the loop.",
+          "ko": "면허 기반 돌봄, 안전, 환자 책임이 여전히 사람에게 남아 있어 수요가 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte porque la atencion con licencia, la seguridad y la responsabilidad sobre pacientes aun requieren personas."
+        }
       }
     }
   },
@@ -1325,6 +1581,11 @@
           "Clinical copilots",
           "Scheduling assistants",
           "Screening support AI"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build clinical routines, documentation, safety rules, and supervised care practice.",
+          "Collect proof of licenses, supervised hours, and patient-safe execution."
         ]
       },
       "ko": {
@@ -1353,6 +1614,11 @@
           "임상 코파일럿",
           "일정 보조 도구",
           "선별 지원 AI"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "임상 루틴, 문서화, 안전 규칙, 감독하 돌봄 실습을 실제 환경에서 익히세요.",
+          "면허, 감독 시간, 환자 안전 실행력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -1381,7 +1647,29 @@
           "Copilotos clinicos",
           "Asistentes de agenda",
           "IA de apoyo al cribado"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla rutinas clinicas, documentacion, normas de seguridad y practica supervisada.",
+          "Reune evidencia de licencias, horas supervisadas y ejecucion segura para pacientes con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 55000,
+        "max": 105000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong because licensed care delivery, safety, and patient responsibility still require people in the loop.",
+          "ko": "면허 기반 돌봄, 안전, 환자 책임이 여전히 사람에게 남아 있어 수요가 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte porque la atencion con licencia, la seguridad y la responsabilidad sobre pacientes aun requieren personas."
+        }
       }
     }
   },
@@ -1479,6 +1767,11 @@
           "Wireframe generators",
           "Research summarizers",
           "UI copy copilots"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build portfolio work, critique, client revisions, and tool fluency.",
+          "Collect proof of taste, shipped work, and revision-ready execution."
         ]
       },
       "ko": {
@@ -1507,6 +1800,11 @@
           "와이어프레임 생성기",
           "리서치 요약 도구",
           "UI 카피 코파일럿"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "포트폴리오 작업, 피드백 반영, 클라이언트 수정 대응, 툴 숙련을 실제 환경에서 익히세요.",
+          "취향, 실제 산출물, 수정 대응 실행력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -1535,7 +1833,29 @@
           "Generadores de wireframes",
           "Resumidores de investigacion",
           "Copilotos de copy UI"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla portafolio, critica, revisiones con clientes y dominio de herramientas.",
+          "Reune evidencia de criterio, trabajo publicado y ejecucion lista para revisiones con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 65000,
+        "max": 110000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is selective: AI compresses commodity output, but teams still hire for taste, direction, and client-facing execution.",
+          "ko": "수요는 선별적입니다. AI가 범용 산출물을 압축하지만, 취향, 방향성, 클라이언트 대응 실행력은 계속 필요합니다.",
+          "es": "La demanda es selectiva: la IA comprime la produccion generica, pero sigue habiendo contratacion para criterio, direccion y ejecucion con clientes."
+        }
       }
     }
   },
@@ -1633,6 +1953,11 @@
           "Generative design tools",
           "Editing copilots",
           "Asset variation AI"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build portfolio work, critique, client revisions, and tool fluency.",
+          "Collect proof of taste, shipped work, and revision-ready execution."
         ]
       },
       "ko": {
@@ -1661,6 +1986,11 @@
           "생성형 디자인 도구",
           "편집 코파일럿",
           "자산 변형 AI"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "포트폴리오 작업, 피드백 반영, 클라이언트 수정 대응, 툴 숙련을 실제 환경에서 익히세요.",
+          "취향, 실제 산출물, 수정 대응 실행력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -1689,7 +2019,29 @@
           "Herramientas generativas",
           "Copilotos de edicion",
           "IA de variacion de activos"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla portafolio, critica, revisiones con clientes y dominio de herramientas.",
+          "Reune evidencia de criterio, trabajo publicado y ejecucion lista para revisiones con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 65000,
+        "max": 110000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is selective: AI compresses commodity output, but teams still hire for taste, direction, and client-facing execution.",
+          "ko": "수요는 선별적입니다. AI가 범용 산출물을 압축하지만, 취향, 방향성, 클라이언트 대응 실행력은 계속 필요합니다.",
+          "es": "La demanda es selectiva: la IA comprime la produccion generica, pero sigue habiendo contratacion para criterio, direccion y ejecucion con clientes."
+        }
       }
     }
   },
@@ -1787,6 +2139,11 @@
           "Generative design tools",
           "Editing copilots",
           "Asset variation AI"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build portfolio work, critique, client revisions, and tool fluency.",
+          "Collect proof of taste, shipped work, and revision-ready execution."
         ]
       },
       "ko": {
@@ -1815,6 +2172,11 @@
           "생성형 디자인 도구",
           "편집 코파일럿",
           "자산 변형 AI"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "포트폴리오 작업, 피드백 반영, 클라이언트 수정 대응, 툴 숙련을 실제 환경에서 익히세요.",
+          "취향, 실제 산출물, 수정 대응 실행력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -1843,7 +2205,29 @@
           "Herramientas generativas",
           "Copilotos de edicion",
           "IA de variacion de activos"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla portafolio, critica, revisiones con clientes y dominio de herramientas.",
+          "Reune evidencia de criterio, trabajo publicado y ejecucion lista para revisiones con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 65000,
+        "max": 110000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is selective: AI compresses commodity output, but teams still hire for taste, direction, and client-facing execution.",
+          "ko": "수요는 선별적입니다. AI가 범용 산출물을 압축하지만, 취향, 방향성, 클라이언트 대응 실행력은 계속 필요합니다.",
+          "es": "La demanda es selectiva: la IA comprime la produccion generica, pero sigue habiendo contratacion para criterio, direccion y ejecucion con clientes."
+        }
       }
     }
   },
@@ -1941,6 +2325,11 @@
           "Generative design tools",
           "Editing copilots",
           "Asset variation AI"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build portfolio work, critique, client revisions, and tool fluency.",
+          "Collect proof of taste, shipped work, and revision-ready execution."
         ]
       },
       "ko": {
@@ -1969,6 +2358,11 @@
           "생성형 디자인 도구",
           "편집 코파일럿",
           "자산 변형 AI"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "포트폴리오 작업, 피드백 반영, 클라이언트 수정 대응, 툴 숙련을 실제 환경에서 익히세요.",
+          "취향, 실제 산출물, 수정 대응 실행력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -1997,7 +2391,29 @@
           "Herramientas generativas",
           "Copilotos de edicion",
           "IA de variacion de activos"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla portafolio, critica, revisiones con clientes y dominio de herramientas.",
+          "Reune evidencia de criterio, trabajo publicado y ejecucion lista para revisiones con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 65000,
+        "max": 110000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is selective: AI compresses commodity output, but teams still hire for taste, direction, and client-facing execution.",
+          "ko": "수요는 선별적입니다. AI가 범용 산출물을 압축하지만, 취향, 방향성, 클라이언트 대응 실행력은 계속 필요합니다.",
+          "es": "La demanda es selectiva: la IA comprime la produccion generica, pero sigue habiendo contratacion para criterio, direccion y ejecucion con clientes."
+        }
       }
     }
   },
@@ -2095,6 +2511,11 @@
           "Code copilots",
           "Test generators",
           "Static analysis AI"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build real systems, debugging depth, version control, and shipped project proof.",
+          "Collect proof of delivered systems, reliability, and problem-solving under change."
         ]
       },
       "ko": {
@@ -2123,6 +2544,11 @@
           "코드 코파일럿",
           "테스트 생성기",
           "정적 분석 AI"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "실제 시스템 구축, 디버깅 깊이, 버전 관리, 배포 경험을 실제 환경에서 익히세요.",
+          "배포된 시스템, 안정성, 변화 대응 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -2151,7 +2577,29 @@
           "Copilotos de codigo",
           "Generadores de pruebas",
           "IA de analisis estatico"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla sistemas reales, depuracion, control de versiones y proyectos publicados.",
+          "Reune evidencia de sistemas entregados, fiabilidad y resolucion de problemas bajo cambio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 90000,
+        "max": 145000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong for builders who can ship systems, own reliability, and work around changing technical stacks.",
+          "ko": "실제 시스템을 만들고 안정성을 책임질 수 있는 인력에 대한 수요는 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte para quienes construyen sistemas reales, cuidan la fiabilidad y trabajan con stacks cambiantes."
+        }
       }
     }
   },
@@ -2249,6 +2697,11 @@
           "Code copilots",
           "Monitoring assistants",
           "Analysis copilots"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build real systems, debugging depth, version control, and shipped project proof.",
+          "Collect proof of delivered systems, reliability, and problem-solving under change."
         ]
       },
       "ko": {
@@ -2277,6 +2730,11 @@
           "코드 코파일럿",
           "모니터링 보조 도구",
           "분석 코파일럿"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "실제 시스템 구축, 디버깅 깊이, 버전 관리, 배포 경험을 실제 환경에서 익히세요.",
+          "배포된 시스템, 안정성, 변화 대응 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -2305,7 +2763,29 @@
           "Copilotos de codigo",
           "Asistentes de monitoreo",
           "Copilotos de analisis"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla sistemas reales, depuracion, control de versiones y proyectos publicados.",
+          "Reune evidencia de sistemas entregados, fiabilidad y resolucion de problemas bajo cambio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 90000,
+        "max": 145000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong for builders who can ship systems, own reliability, and work around changing technical stacks.",
+          "ko": "실제 시스템을 만들고 안정성을 책임질 수 있는 인력에 대한 수요는 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte para quienes construyen sistemas reales, cuidan la fiabilidad y trabajan con stacks cambiantes."
+        }
       }
     }
   },
@@ -2403,6 +2883,11 @@
           "Code copilots",
           "Monitoring assistants",
           "Analysis copilots"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build real systems, debugging depth, version control, and shipped project proof.",
+          "Collect proof of delivered systems, reliability, and problem-solving under change."
         ]
       },
       "ko": {
@@ -2431,6 +2916,11 @@
           "코드 코파일럿",
           "모니터링 보조 도구",
           "분석 코파일럿"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "실제 시스템 구축, 디버깅 깊이, 버전 관리, 배포 경험을 실제 환경에서 익히세요.",
+          "배포된 시스템, 안정성, 변화 대응 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -2459,7 +2949,29 @@
           "Copilotos de codigo",
           "Asistentes de monitoreo",
           "Copilotos de analisis"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla sistemas reales, depuracion, control de versiones y proyectos publicados.",
+          "Reune evidencia de sistemas entregados, fiabilidad y resolucion de problemas bajo cambio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 90000,
+        "max": 145000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong for builders who can ship systems, own reliability, and work around changing technical stacks.",
+          "ko": "실제 시스템을 만들고 안정성을 책임질 수 있는 인력에 대한 수요는 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte para quienes construyen sistemas reales, cuidan la fiabilidad y trabajan con stacks cambiantes."
+        }
       }
     }
   },
@@ -2557,6 +3069,11 @@
           "Code copilots",
           "Monitoring assistants",
           "Analysis copilots"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build real systems, debugging depth, version control, and shipped project proof.",
+          "Collect proof of delivered systems, reliability, and problem-solving under change."
         ]
       },
       "ko": {
@@ -2585,6 +3102,11 @@
           "코드 코파일럿",
           "모니터링 보조 도구",
           "분석 코파일럿"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "실제 시스템 구축, 디버깅 깊이, 버전 관리, 배포 경험을 실제 환경에서 익히세요.",
+          "배포된 시스템, 안정성, 변화 대응 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -2613,7 +3135,29 @@
           "Copilotos de codigo",
           "Asistentes de monitoreo",
           "Copilotos de analisis"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla sistemas reales, depuracion, control de versiones y proyectos publicados.",
+          "Reune evidencia de sistemas entregados, fiabilidad y resolucion de problemas bajo cambio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 90000,
+        "max": 145000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong for builders who can ship systems, own reliability, and work around changing technical stacks.",
+          "ko": "실제 시스템을 만들고 안정성을 책임질 수 있는 인력에 대한 수요는 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte para quienes construyen sistemas reales, cuidan la fiabilidad y trabajan con stacks cambiantes."
+        }
       }
     }
   },
@@ -2711,6 +3255,11 @@
           "Code copilots",
           "Monitoring assistants",
           "Analysis copilots"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build real systems, debugging depth, version control, and shipped project proof.",
+          "Collect proof of delivered systems, reliability, and problem-solving under change."
         ]
       },
       "ko": {
@@ -2739,6 +3288,11 @@
           "코드 코파일럿",
           "모니터링 보조 도구",
           "분석 코파일럿"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "실제 시스템 구축, 디버깅 깊이, 버전 관리, 배포 경험을 실제 환경에서 익히세요.",
+          "배포된 시스템, 안정성, 변화 대응 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -2767,7 +3321,29 @@
           "Copilotos de codigo",
           "Asistentes de monitoreo",
           "Copilotos de analisis"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla sistemas reales, depuracion, control de versiones y proyectos publicados.",
+          "Reune evidencia de sistemas entregados, fiabilidad y resolucion de problemas bajo cambio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 90000,
+        "max": 145000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong for builders who can ship systems, own reliability, and work around changing technical stacks.",
+          "ko": "실제 시스템을 만들고 안정성을 책임질 수 있는 인력에 대한 수요는 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte para quienes construyen sistemas reales, cuidan la fiabilidad y trabajan con stacks cambiantes."
+        }
       }
     }
   },
@@ -2865,6 +3441,11 @@
           "Code copilots",
           "Monitoring assistants",
           "Analysis copilots"
+        ],
+        "educationPathways": [
+          "Start with a master-level route or equivalent accredited training because this market usually screens for credentials first.",
+          "Build real systems, debugging depth, version control, and shipped project proof.",
+          "Collect proof of delivered systems, reliability, and problem-solving under change."
         ]
       },
       "ko": {
@@ -2893,6 +3474,11 @@
           "코드 코파일럿",
           "모니터링 보조 도구",
           "분석 코파일럿"
+        ],
+        "educationPathways": [
+          "이 시장은 보통 자격부터 보기 때문에 석사 중심 경로 또는 이에 준하는 공인 교육부터 시작하세요.",
+          "실제 시스템 구축, 디버깅 깊이, 버전 관리, 배포 경험을 실제 환경에서 익히세요.",
+          "배포된 시스템, 안정성, 변화 대응 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -2921,7 +3507,29 @@
           "Copilotos de codigo",
           "Asistentes de monitoreo",
           "Copilotos de analisis"
+        ],
+        "educationPathways": [
+          "Empieza con una ruta de maestria o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.",
+          "Desarrolla sistemas reales, depuracion, control de versiones y proyectos publicados.",
+          "Reune evidencia de sistemas entregados, fiabilidad y resolucion de problemas bajo cambio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 120000,
+        "max": 190000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong for builders who can ship systems, own reliability, and work around changing technical stacks.",
+          "ko": "실제 시스템을 만들고 안정성을 책임질 수 있는 인력에 대한 수요는 강하게 유지됩니다.",
+          "es": "La demanda sigue fuerte para quienes construyen sistemas reales, cuidan la fiabilidad y trabajan con stacks cambiantes."
+        }
       }
     }
   },
@@ -3019,6 +3627,11 @@
           "Lesson planning AI",
           "Adaptive learning systems",
           "Feedback assistants"
+        ],
+        "educationPathways": [
+          "Start with a bachelor-level route or equivalent accredited training because this market usually screens for credentials first.",
+          "Build classroom practice, tutoring, curriculum work, and student communication.",
+          "Collect proof of subject credibility, classroom trust, and instruction quality."
         ]
       },
       "ko": {
@@ -3047,6 +3660,11 @@
           "수업 계획 AI",
           "적응형 학습 시스템",
           "피드백 보조 도구"
+        ],
+        "educationPathways": [
+          "이 시장은 보통 자격부터 보기 때문에 학사 중심 경로 또는 이에 준하는 공인 교육부터 시작하세요.",
+          "수업 실습, 튜터링, 커리큘럼 작업, 학생 커뮤니케이션을 실제 환경에서 익히세요.",
+          "교과 신뢰도, 교실 신뢰, 수업 품질를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -3075,7 +3693,29 @@
           "IA para planificar clases",
           "Sistemas de aprendizaje adaptativo",
           "Asistentes de retroalimentacion"
+        ],
+        "educationPathways": [
+          "Empieza con una ruta de licenciatura o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.",
+          "Desarrolla practica de aula, tutoria, trabajo curricular y comunicacion con estudiantes.",
+          "Reune evidencia de credibilidad de materia, confianza de aula y calidad de instruccion con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 67000,
+        "max": 115000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand remains steady because teaching still depends on classroom control, human explanation, and parent-facing accountability.",
+          "ko": "수업 운영, 인간적 설명, 학부모 대응 책임이 남아 있어 교육 수요는 비교적 안정적입니다.",
+          "es": "La demanda se mantiene porque la ensenanza todavia depende del control del aula, la explicacion humana y la responsabilidad frente a familias."
+        }
       }
     }
   },
@@ -3173,6 +3813,11 @@
           "Lesson planning AI",
           "Assessment assistants",
           "Adaptive tutoring tools"
+        ],
+        "educationPathways": [
+          "Start with a bachelor-level route or equivalent accredited training because this market usually screens for credentials first.",
+          "Build classroom practice, tutoring, curriculum work, and student communication.",
+          "Collect proof of subject credibility, classroom trust, and instruction quality."
         ]
       },
       "ko": {
@@ -3201,6 +3846,11 @@
           "수업 계획 AI",
           "평가 보조 도구",
           "적응형 튜터링 도구"
+        ],
+        "educationPathways": [
+          "이 시장은 보통 자격부터 보기 때문에 학사 중심 경로 또는 이에 준하는 공인 교육부터 시작하세요.",
+          "수업 실습, 튜터링, 커리큘럼 작업, 학생 커뮤니케이션을 실제 환경에서 익히세요.",
+          "교과 신뢰도, 교실 신뢰, 수업 품질를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -3229,7 +3879,29 @@
           "IA para planificar clases",
           "Asistentes de evaluacion",
           "Herramientas de tutoria adaptativa"
+        ],
+        "educationPathways": [
+          "Empieza con una ruta de licenciatura o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.",
+          "Desarrolla practica de aula, tutoria, trabajo curricular y comunicacion con estudiantes.",
+          "Reune evidencia de credibilidad de materia, confianza de aula y calidad de instruccion con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 67000,
+        "max": 115000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand remains steady because teaching still depends on classroom control, human explanation, and parent-facing accountability.",
+          "ko": "수업 운영, 인간적 설명, 학부모 대응 책임이 남아 있어 교육 수요는 비교적 안정적입니다.",
+          "es": "La demanda se mantiene porque la ensenanza todavia depende del control del aula, la explicacion humana y la responsabilidad frente a familias."
+        }
       }
     }
   },
@@ -3327,6 +3999,11 @@
           "Lesson planning AI",
           "Assessment assistants",
           "Adaptive tutoring tools"
+        ],
+        "educationPathways": [
+          "Start with a master-level route or equivalent accredited training because this market usually screens for credentials first.",
+          "Build classroom practice, tutoring, curriculum work, and student communication.",
+          "Collect proof of subject credibility, classroom trust, and instruction quality."
         ]
       },
       "ko": {
@@ -3355,6 +4032,11 @@
           "수업 계획 AI",
           "평가 보조 도구",
           "적응형 튜터링 도구"
+        ],
+        "educationPathways": [
+          "이 시장은 보통 자격부터 보기 때문에 석사 중심 경로 또는 이에 준하는 공인 교육부터 시작하세요.",
+          "수업 실습, 튜터링, 커리큘럼 작업, 학생 커뮤니케이션을 실제 환경에서 익히세요.",
+          "교과 신뢰도, 교실 신뢰, 수업 품질를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -3383,7 +4065,29 @@
           "IA para planificar clases",
           "Asistentes de evaluacion",
           "Herramientas de tutoria adaptativa"
+        ],
+        "educationPathways": [
+          "Empieza con una ruta de maestria o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.",
+          "Desarrolla practica de aula, tutoria, trabajo curricular y comunicacion con estudiantes.",
+          "Reune evidencia de credibilidad de materia, confianza de aula y calidad de instruccion con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 82000,
+        "max": 135000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand remains steady because teaching still depends on classroom control, human explanation, and parent-facing accountability.",
+          "ko": "수업 운영, 인간적 설명, 학부모 대응 책임이 남아 있어 교육 수요는 비교적 안정적입니다.",
+          "es": "La demanda se mantiene porque la ensenanza todavia depende del control del aula, la explicacion humana y la responsabilidad frente a familias."
+        }
       }
     }
   },
@@ -3481,6 +4185,11 @@
           "Machine translation",
           "Localization QA tools",
           "Terminology assistants"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build domain knowledge, editing quality, bilingual samples, and terminology control.",
+          "Collect proof of quality control, nuance, and domain accuracy."
         ]
       },
       "ko": {
@@ -3509,6 +4218,11 @@
           "기계 번역",
           "로컬라이제이션 QA 도구",
           "용어 관리 보조"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "도메인 지식, 편집 품질, 이중언어 샘플, 용어 통제를 실제 환경에서 익히세요.",
+          "품질 관리, 뉘앙스, 도메인 정확성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -3537,7 +4251,29 @@
           "Traduccion automatica",
           "Herramientas QA de localizacion",
           "Asistentes terminologicos"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla conocimiento de dominio, calidad editorial, muestras bilingues y control terminologico.",
+          "Reune evidencia de control de calidad, matiz y precision de dominio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 90000
+      },
+      "hiringDemand": {
+        "level": "low",
+        "note": {
+          "en": "Demand is selective because routine translation and content conversion are being compressed by AI tools.",
+          "ko": "반복 번역과 단순 콘텐츠 변환은 AI가 압축하고 있어 수요가 더 선별적으로 움직입니다.",
+          "es": "La demanda es selectiva porque la traduccion rutinaria y la conversion de contenido estan siendo comprimidas por la IA."
+        }
       }
     }
   },
@@ -3635,6 +4371,11 @@
           "Translation AI",
           "Content copilots",
           "Editorial assistants"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build domain knowledge, editing quality, bilingual samples, and terminology control.",
+          "Collect proof of quality control, nuance, and domain accuracy."
         ]
       },
       "ko": {
@@ -3663,6 +4404,11 @@
           "번역 AI",
           "콘텐츠 코파일럿",
           "편집 보조 도구"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "도메인 지식, 편집 품질, 이중언어 샘플, 용어 통제를 실제 환경에서 익히세요.",
+          "품질 관리, 뉘앙스, 도메인 정확성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -3691,7 +4437,29 @@
           "IA de traduccion",
           "Copilotos de contenido",
           "Asistentes editoriales"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla conocimiento de dominio, calidad editorial, muestras bilingues y control terminologico.",
+          "Reune evidencia de control de calidad, matiz y precision de dominio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 90000
+      },
+      "hiringDemand": {
+        "level": "low",
+        "note": {
+          "en": "Demand is selective because routine translation and content conversion are being compressed by AI tools.",
+          "ko": "반복 번역과 단순 콘텐츠 변환은 AI가 압축하고 있어 수요가 더 선별적으로 움직입니다.",
+          "es": "La demanda es selectiva porque la traduccion rutinaria y la conversion de contenido estan siendo comprimidas por la IA."
+        }
       }
     }
   },
@@ -3789,6 +4557,11 @@
           "Translation AI",
           "Content copilots",
           "Editorial assistants"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build domain knowledge, editing quality, bilingual samples, and terminology control.",
+          "Collect proof of quality control, nuance, and domain accuracy."
         ]
       },
       "ko": {
@@ -3817,6 +4590,11 @@
           "번역 AI",
           "콘텐츠 코파일럿",
           "편집 보조 도구"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "도메인 지식, 편집 품질, 이중언어 샘플, 용어 통제를 실제 환경에서 익히세요.",
+          "품질 관리, 뉘앙스, 도메인 정확성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -3845,7 +4623,29 @@
           "IA de traduccion",
           "Copilotos de contenido",
           "Asistentes editoriales"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla conocimiento de dominio, calidad editorial, muestras bilingues y control terminologico.",
+          "Reune evidencia de control de calidad, matiz y precision de dominio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 90000
+      },
+      "hiringDemand": {
+        "level": "low",
+        "note": {
+          "en": "Demand is selective because routine translation and content conversion are being compressed by AI tools.",
+          "ko": "반복 번역과 단순 콘텐츠 변환은 AI가 압축하고 있어 수요가 더 선별적으로 움직입니다.",
+          "es": "La demanda es selectiva porque la traduccion rutinaria y la conversion de contenido estan siendo comprimidas por la IA."
+        }
       }
     }
   },
@@ -3943,6 +4743,11 @@
           "Document review AI",
           "Policy search assistants",
           "Drafting copilots"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build analysis, spreadsheets, compliance awareness, and cross-functional project work.",
+          "Collect proof of judgment, execution, and business-facing reliability."
         ]
       },
       "ko": {
@@ -3971,6 +4776,11 @@
           "문서 검토 AI",
           "정책 검색 보조 도구",
           "초안 코파일럿"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "분석, 스프레드시트, 규정 이해, 협업 프로젝트 경험을 실제 환경에서 익히세요.",
+          "판단력, 실행력, 비즈니스 대응 신뢰성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -3999,7 +4809,29 @@
           "IA de revision documental",
           "Asistentes de busqueda normativa",
           "Copilotos de redaccion"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla analisis, hojas de calculo, cumplimiento y proyectos interfuncionales.",
+          "Reune evidencia de criterio, ejecucion y fiabilidad frente al negocio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 65000,
+        "max": 115000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady where employers need analysis, coordination, and compliance judgment tied to business outcomes.",
+          "ko": "비즈니스 성과와 연결된 분석, 조율, 규정 판단이 필요한 곳에서는 수요가 유지됩니다.",
+          "es": "La demanda se mantiene donde se necesitan analisis, coordinacion y criterio de cumplimiento ligados a resultados de negocio."
+        }
       }
     }
   },
@@ -4097,6 +4929,11 @@
           "Document review AI",
           "Policy search assistants",
           "Drafting copilots"
+        ],
+        "educationPathways": [
+          "Start with a bachelor-level route or equivalent accredited training because this market usually screens for credentials first.",
+          "Build analysis, spreadsheets, compliance awareness, and cross-functional project work.",
+          "Collect proof of judgment, execution, and business-facing reliability."
         ]
       },
       "ko": {
@@ -4125,6 +4962,11 @@
           "문서 검토 AI",
           "정책 검색 보조 도구",
           "초안 코파일럿"
+        ],
+        "educationPathways": [
+          "이 시장은 보통 자격부터 보기 때문에 학사 중심 경로 또는 이에 준하는 공인 교육부터 시작하세요.",
+          "분석, 스프레드시트, 규정 이해, 협업 프로젝트 경험을 실제 환경에서 익히세요.",
+          "판단력, 실행력, 비즈니스 대응 신뢰성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -4153,7 +4995,29 @@
           "IA de revision documental",
           "Asistentes de busqueda normativa",
           "Copilotos de redaccion"
+        ],
+        "educationPathways": [
+          "Empieza con una ruta de licenciatura o formacion acreditada equivalente porque este mercado suele filtrar primero por credenciales.",
+          "Desarrolla analisis, hojas de calculo, cumplimiento y proyectos interfuncionales.",
+          "Reune evidencia de criterio, ejecucion y fiabilidad frente al negocio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 80000,
+        "max": 140000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady where employers need analysis, coordination, and compliance judgment tied to business outcomes.",
+          "ko": "비즈니스 성과와 연결된 분석, 조율, 규정 판단이 필요한 곳에서는 수요가 유지됩니다.",
+          "es": "La demanda se mantiene donde se necesitan analisis, coordinacion y criterio de cumplimiento ligados a resultados de negocio."
+        }
       }
     }
   },
@@ -4251,6 +5115,11 @@
           "Document review AI",
           "Policy search assistants",
           "Drafting copilots"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build analysis, spreadsheets, compliance awareness, and cross-functional project work.",
+          "Collect proof of judgment, execution, and business-facing reliability."
         ]
       },
       "ko": {
@@ -4279,6 +5148,11 @@
           "문서 검토 AI",
           "정책 검색 보조 도구",
           "초안 코파일럿"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "분석, 스프레드시트, 규정 이해, 협업 프로젝트 경험을 실제 환경에서 익히세요.",
+          "판단력, 실행력, 비즈니스 대응 신뢰성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -4307,7 +5181,29 @@
           "IA de revision documental",
           "Asistentes de busqueda normativa",
           "Copilotos de redaccion"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla analisis, hojas de calculo, cumplimiento y proyectos interfuncionales.",
+          "Reune evidencia de criterio, ejecucion y fiabilidad frente al negocio con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 65000,
+        "max": 115000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady where employers need analysis, coordination, and compliance judgment tied to business outcomes.",
+          "ko": "비즈니스 성과와 연결된 분석, 조율, 규정 판단이 필요한 곳에서는 수요가 유지됩니다.",
+          "es": "La demanda se mantiene donde se necesitan analisis, coordinacion y criterio de cumplimiento ligados a resultados de negocio."
+        }
       }
     }
   },
@@ -4405,6 +5301,11 @@
           "Document AI",
           "RPA workflow bots",
           "Spreadsheet copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build office software, records accuracy, documentation discipline, and workflow consistency.",
+          "Collect proof of accuracy, consistency, and trust with records or workflows."
         ]
       },
       "ko": {
@@ -4433,6 +5334,11 @@
           "문서 AI",
           "RPA 워크플로 봇",
           "스프레드시트 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "오피스 소프트웨어, 기록 정확성, 문서 규율, 워크플로 일관성을 실제 환경에서 익히세요.",
+          "정확성, 일관성, 기록·워크플로 신뢰성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -4461,7 +5367,29 @@
           "IA documental",
           "Bots RPA",
           "Copilotos de hojas de calculo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla software de oficina, precision en registros, disciplina documental y consistencia operativa.",
+          "Reune evidencia de precision, consistencia y confianza con registros o flujos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 38000,
+        "max": 62000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is steady but vulnerable: openings exist, yet routine digital workflows face strong automation pressure.",
+          "ko": "채용은 존재하지만, 반복적인 디지털 워크플로는 자동화 압력이 강해 취약성이 큽니다.",
+          "es": "La demanda es estable pero vulnerable: hay vacantes, aunque los flujos digitales rutinarios enfrentan fuerte presion de automatizacion."
+        }
       }
     }
   },
@@ -4559,6 +5487,11 @@
           "Document AI",
           "Workflow automation",
           "Admin copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build office software, records accuracy, documentation discipline, and workflow consistency.",
+          "Collect proof of accuracy, consistency, and trust with records or workflows."
         ]
       },
       "ko": {
@@ -4587,6 +5520,11 @@
           "문서 AI",
           "워크플로 자동화",
           "행정 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "오피스 소프트웨어, 기록 정확성, 문서 규율, 워크플로 일관성을 실제 환경에서 익히세요.",
+          "정확성, 일관성, 기록·워크플로 신뢰성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -4615,7 +5553,29 @@
           "IA documental",
           "Automatizacion de flujos",
           "Copilotos administrativos"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla software de oficina, precision en registros, disciplina documental y consistencia operativa.",
+          "Reune evidencia de precision, consistencia y confianza con registros o flujos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 38000,
+        "max": 62000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is steady but vulnerable: openings exist, yet routine digital workflows face strong automation pressure.",
+          "ko": "채용은 존재하지만, 반복적인 디지털 워크플로는 자동화 압력이 강해 취약성이 큽니다.",
+          "es": "La demanda es estable pero vulnerable: hay vacantes, aunque los flujos digitales rutinarios enfrentan fuerte presion de automatizacion."
+        }
       }
     }
   },
@@ -4713,6 +5673,11 @@
           "Document AI",
           "Workflow automation",
           "Admin copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build office software, records accuracy, documentation discipline, and workflow consistency.",
+          "Collect proof of accuracy, consistency, and trust with records or workflows."
         ]
       },
       "ko": {
@@ -4741,6 +5706,11 @@
           "문서 AI",
           "워크플로 자동화",
           "행정 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "오피스 소프트웨어, 기록 정확성, 문서 규율, 워크플로 일관성을 실제 환경에서 익히세요.",
+          "정확성, 일관성, 기록·워크플로 신뢰성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -4769,7 +5739,29 @@
           "IA documental",
           "Automatizacion de flujos",
           "Copilotos administrativos"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla software de oficina, precision en registros, disciplina documental y consistencia operativa.",
+          "Reune evidencia de precision, consistencia y confianza con registros o flujos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 38000,
+        "max": 62000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is steady but vulnerable: openings exist, yet routine digital workflows face strong automation pressure.",
+          "ko": "채용은 존재하지만, 반복적인 디지털 워크플로는 자동화 압력이 강해 취약성이 큽니다.",
+          "es": "La demanda es estable pero vulnerable: hay vacantes, aunque los flujos digitales rutinarios enfrentan fuerte presion de automatizacion."
+        }
       }
     }
   },
@@ -4867,6 +5859,11 @@
           "Document AI",
           "Workflow automation",
           "Admin copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build office software, records accuracy, documentation discipline, and workflow consistency.",
+          "Collect proof of accuracy, consistency, and trust with records or workflows."
         ]
       },
       "ko": {
@@ -4895,6 +5892,11 @@
           "문서 AI",
           "워크플로 자동화",
           "행정 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "오피스 소프트웨어, 기록 정확성, 문서 규율, 워크플로 일관성을 실제 환경에서 익히세요.",
+          "정확성, 일관성, 기록·워크플로 신뢰성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -4923,7 +5925,29 @@
           "IA documental",
           "Automatizacion de flujos",
           "Copilotos administrativos"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla software de oficina, precision en registros, disciplina documental y consistencia operativa.",
+          "Reune evidencia de precision, consistencia y confianza con registros o flujos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 38000,
+        "max": 62000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is steady but vulnerable: openings exist, yet routine digital workflows face strong automation pressure.",
+          "ko": "채용은 존재하지만, 반복적인 디지털 워크플로는 자동화 압력이 강해 취약성이 큽니다.",
+          "es": "La demanda es estable pero vulnerable: hay vacantes, aunque los flujos digitales rutinarios enfrentan fuerte presion de automatizacion."
+        }
       }
     }
   },
@@ -5021,6 +6045,11 @@
           "Document AI",
           "Workflow automation",
           "Admin copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build office software, records accuracy, documentation discipline, and workflow consistency.",
+          "Collect proof of accuracy, consistency, and trust with records or workflows."
         ]
       },
       "ko": {
@@ -5049,6 +6078,11 @@
           "문서 AI",
           "워크플로 자동화",
           "행정 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "오피스 소프트웨어, 기록 정확성, 문서 규율, 워크플로 일관성을 실제 환경에서 익히세요.",
+          "정확성, 일관성, 기록·워크플로 신뢰성를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -5077,7 +6111,29 @@
           "IA documental",
           "Automatizacion de flujos",
           "Copilotos administrativos"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla software de oficina, precision en registros, disciplina documental y consistencia operativa.",
+          "Reune evidencia de precision, consistencia y confianza con registros o flujos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 38000,
+        "max": 62000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand is steady but vulnerable: openings exist, yet routine digital workflows face strong automation pressure.",
+          "ko": "채용은 존재하지만, 반복적인 디지털 워크플로는 자동화 압력이 강해 취약성이 큽니다.",
+          "es": "La demanda es estable pero vulnerable: hay vacantes, aunque los flujos digitales rutinarios enfrentan fuerte presion de automatizacion."
+        }
       }
     }
   },
@@ -5175,6 +6231,11 @@
           "AI chat agents",
           "Conversation summarizers",
           "Knowledge base copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build ticketing, de-escalation, product knowledge, and system hygiene.",
+          "Collect proof of complex case handling, retention, and calm escalation."
         ]
       },
       "ko": {
@@ -5203,6 +6264,11 @@
           "AI 챗 에이전트",
           "대화 요약 도구",
           "지식베이스 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "티켓 처리, 디에스컬레이션, 제품 이해, 시스템 위생을 실제 환경에서 익히세요.",
+          "복합 사례 처리, 유지, 차분한 에스컬레이션 대응를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -5231,7 +6297,29 @@
           "Agentes de chat con IA",
           "Resumidores de conversaciones",
           "Copilotos de base de conocimiento"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla ticketing, desescalada, conocimiento del producto e higiene del sistema.",
+          "Reune evidencia de manejo de casos complejos, retencion y escalacion calmada con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 36000,
+        "max": 56000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand remains active for escalation, retention, and complex case handling even as routine support is automated.",
+          "ko": "단순 문의는 자동화되더라도 에스컬레이션, 유지, 복합 사례 처리를 위한 수요는 남습니다.",
+          "es": "La demanda sigue activa para escalaciones, retencion y casos complejos aunque el soporte rutinario se automatiza."
+        }
       }
     }
   },
@@ -5329,6 +6417,11 @@
           "AI chat agents",
           "Conversation summarizers",
           "Ticket-routing AI"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build ticketing, de-escalation, product knowledge, and system hygiene.",
+          "Collect proof of complex case handling, retention, and calm escalation."
         ]
       },
       "ko": {
@@ -5357,6 +6450,11 @@
           "AI 채팅 에이전트",
           "대화 요약 도구",
           "티켓 분류 AI"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "티켓 처리, 디에스컬레이션, 제품 이해, 시스템 위생을 실제 환경에서 익히세요.",
+          "복합 사례 처리, 유지, 차분한 에스컬레이션 대응를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -5385,7 +6483,29 @@
           "Agentes de chat con IA",
           "Resumidores de conversaciones",
           "IA de enrutamiento"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla ticketing, desescalada, conocimiento del producto e higiene del sistema.",
+          "Reune evidencia de manejo de casos complejos, retencion y escalacion calmada con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 36000,
+        "max": 56000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand remains active for escalation, retention, and complex case handling even as routine support is automated.",
+          "ko": "단순 문의는 자동화되더라도 에스컬레이션, 유지, 복합 사례 처리를 위한 수요는 남습니다.",
+          "es": "La demanda sigue activa para escalaciones, retencion y casos complejos aunque el soporte rutinario se automatiza."
+        }
       }
     }
   },
@@ -5483,6 +6603,11 @@
           "Guest messaging AI",
           "Scheduling assistants",
           "Service workflow copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build live customer service, reliability, point-of-service judgment, and shift readiness.",
+          "Collect proof of live service judgment, reliability, and customer trust."
         ]
       },
       "ko": {
@@ -5511,6 +6636,11 @@
           "고객 메시지 AI",
           "일정 보조 도구",
           "서비스 워크플로 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "대면 서비스, 근무 신뢰성, 현장 판단, 교대 준비를 실제 환경에서 익히세요.",
+          "현장 서비스 판단, 근무 신뢰성, 고객 신뢰를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -5539,7 +6669,29 @@
           "IA de mensajeria al huesped",
           "Asistentes de agenda",
           "Copilotos de servicio"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla servicio en vivo, fiabilidad, criterio en el punto de servicio y preparacion por turno.",
+          "Reune evidencia de criterio de servicio en vivo, fiabilidad y confianza del cliente con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 32000,
+        "max": 50000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active in live service environments, but routine front-desk and order-taking work is under pressure.",
+          "ko": "현장 서비스 수요는 유지되지만, 프런트데스크와 주문 처리처럼 반복적인 업무는 압박을 받습니다.",
+          "es": "La demanda sigue activa en servicios presenciales, pero el trabajo rutinario de recepcion y toma de pedidos esta bajo presion."
+        }
       }
     }
   },
@@ -5637,6 +6789,11 @@
           "Guest messaging AI",
           "Scheduling assistants",
           "Service workflow copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build live customer service, reliability, point-of-service judgment, and shift readiness.",
+          "Collect proof of live service judgment, reliability, and customer trust."
         ]
       },
       "ko": {
@@ -5665,6 +6822,11 @@
           "고객 메시지 AI",
           "일정 보조 도구",
           "서비스 워크플로 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "대면 서비스, 근무 신뢰성, 현장 판단, 교대 준비를 실제 환경에서 익히세요.",
+          "현장 서비스 판단, 근무 신뢰성, 고객 신뢰를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -5693,7 +6855,29 @@
           "IA de mensajeria al huesped",
           "Asistentes de agenda",
           "Copilotos de servicio"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla servicio en vivo, fiabilidad, criterio en el punto de servicio y preparacion por turno.",
+          "Reune evidencia de criterio de servicio en vivo, fiabilidad y confianza del cliente con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 32000,
+        "max": 50000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active in live service environments, but routine front-desk and order-taking work is under pressure.",
+          "ko": "현장 서비스 수요는 유지되지만, 프런트데스크와 주문 처리처럼 반복적인 업무는 압박을 받습니다.",
+          "es": "La demanda sigue activa en servicios presenciales, pero el trabajo rutinario de recepcion y toma de pedidos esta bajo presion."
+        }
       }
     }
   },
@@ -5791,6 +6975,11 @@
           "Scheduling AI",
           "Inventory assistants",
           "Service prep copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build live customer service, reliability, point-of-service judgment, and shift readiness.",
+          "Collect proof of live service judgment, reliability, and customer trust."
         ]
       },
       "ko": {
@@ -5819,6 +7008,11 @@
           "일정 AI",
           "재고 보조 도구",
           "서비스 준비 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "대면 서비스, 근무 신뢰성, 현장 판단, 교대 준비를 실제 환경에서 익히세요.",
+          "현장 서비스 판단, 근무 신뢰성, 고객 신뢰를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -5847,7 +7041,29 @@
           "IA de agenda",
           "Asistentes de inventario",
           "Copilotos de preparacion"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla servicio en vivo, fiabilidad, criterio en el punto de servicio y preparacion por turno.",
+          "Reune evidencia de criterio de servicio en vivo, fiabilidad y confianza del cliente con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 32000,
+        "max": 50000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active in live service environments, but routine front-desk and order-taking work is under pressure.",
+          "ko": "현장 서비스 수요는 유지되지만, 프런트데스크와 주문 처리처럼 반복적인 업무는 압박을 받습니다.",
+          "es": "La demanda sigue activa en servicios presenciales, pero el trabajo rutinario de recepcion y toma de pedidos esta bajo presion."
+        }
       }
     }
   },
@@ -5945,6 +7161,11 @@
           "Scheduling AI",
           "Inventory assistants",
           "Service prep copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build live customer service, reliability, point-of-service judgment, and shift readiness.",
+          "Collect proof of live service judgment, reliability, and customer trust."
         ]
       },
       "ko": {
@@ -5973,6 +7194,11 @@
           "일정 AI",
           "재고 보조 도구",
           "서비스 준비 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "대면 서비스, 근무 신뢰성, 현장 판단, 교대 준비를 실제 환경에서 익히세요.",
+          "현장 서비스 판단, 근무 신뢰성, 고객 신뢰를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -6001,7 +7227,29 @@
           "IA de agenda",
           "Asistentes de inventario",
           "Copilotos de preparacion"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla servicio en vivo, fiabilidad, criterio en el punto de servicio y preparacion por turno.",
+          "Reune evidencia de criterio de servicio en vivo, fiabilidad y confianza del cliente con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 32000,
+        "max": 50000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active in live service environments, but routine front-desk and order-taking work is under pressure.",
+          "ko": "현장 서비스 수요는 유지되지만, 프런트데스크와 주문 처리처럼 반복적인 업무는 압박을 받습니다.",
+          "es": "La demanda sigue activa en servicios presenciales, pero el trabajo rutinario de recepcion y toma de pedidos esta bajo presion."
+        }
       }
     }
   },
@@ -6099,6 +7347,11 @@
           "Scheduling AI",
           "Inventory assistants",
           "Service prep copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build live customer service, reliability, point-of-service judgment, and shift readiness.",
+          "Collect proof of live service judgment, reliability, and customer trust."
         ]
       },
       "ko": {
@@ -6127,6 +7380,11 @@
           "일정 AI",
           "재고 보조 도구",
           "서비스 준비 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "대면 서비스, 근무 신뢰성, 현장 판단, 교대 준비를 실제 환경에서 익히세요.",
+          "현장 서비스 판단, 근무 신뢰성, 고객 신뢰를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -6155,7 +7413,29 @@
           "IA de agenda",
           "Asistentes de inventario",
           "Copilotos de preparacion"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla servicio en vivo, fiabilidad, criterio en el punto de servicio y preparacion por turno.",
+          "Reune evidencia de criterio de servicio en vivo, fiabilidad y confianza del cliente con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 32000,
+        "max": 50000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active in live service environments, but routine front-desk and order-taking work is under pressure.",
+          "ko": "현장 서비스 수요는 유지되지만, 프런트데스크와 주문 처리처럼 반복적인 업무는 압박을 받습니다.",
+          "es": "La demanda sigue activa en servicios presenciales, pero el trabajo rutinario de recepcion y toma de pedidos esta bajo presion."
+        }
       }
     }
   },
@@ -6253,6 +7533,11 @@
           "Scheduling AI",
           "Inventory assistants",
           "Service prep copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build care routines, shift discipline, safety habits, and live support experience.",
+          "Collect proof of reliability for shifts, caregiving references, and safe human support."
         ]
       },
       "ko": {
@@ -6281,6 +7566,11 @@
           "일정 AI",
           "재고 보조 도구",
           "서비스 준비 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "돌봄 루틴, 교대 근무 규율, 안전 습관, 대면 지원 경험을 실제 환경에서 익히세요.",
+          "교대 신뢰성, 돌봄 추천서, 안전한 대면 지원 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -6309,7 +7599,29 @@
           "IA de agenda",
           "Asistentes de inventario",
           "Copilotos de preparacion"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla rutinas de cuidado, disciplina de turnos, habitos de seguridad y apoyo presencial.",
+          "Reune evidencia de fiabilidad para turnos, referencias de cuidado y apoyo humano seguro con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 32000,
+        "max": 46000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong in aging care and in-person support, even though pay remains tighter than licensed clinical roles.",
+          "ko": "고령화 돌봄과 대면 지원 수요는 강하지만, 면허형 임상 직무보다 보상 수준은 낮은 편입니다.",
+          "es": "La demanda sigue fuerte en cuidado presencial y apoyo a personas mayores, aunque el salario es menor que en roles clinicos con licencia."
+        }
       }
     }
   },
@@ -6407,6 +7719,11 @@
           "Scheduling AI",
           "Inventory assistants",
           "Service prep copilots"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build observation, incident reporting, safety procedure, and certification where needed.",
+          "Collect proof of responsible presence, incident handling, and compliance."
         ]
       },
       "ko": {
@@ -6435,6 +7752,11 @@
           "일정 AI",
           "재고 보조 도구",
           "서비스 준비 코파일럿"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "관찰, 사고 보고, 안전 절차, 필요한 자격을 실제 환경에서 익히세요.",
+          "책임 있는 상주, 사고 대응, 규정 준수를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -6463,7 +7785,29 @@
           "IA de agenda",
           "Asistentes de inventario",
           "Copilotos de preparacion"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla observacion, reportes de incidentes, procedimiento de seguridad y certificacion cuando aplique.",
+          "Reune evidencia de presencia responsable, respuesta a incidentes y cumplimiento con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 38000,
+        "max": 62000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand remains steady where physical presence, incident response, and duty coverage matter.",
+          "ko": "현장 상주, 사고 대응, 근무 커버가 필요한 곳에서는 수요가 비교적 안정적입니다.",
+          "es": "La demanda se mantiene donde importan la presencia fisica, la respuesta a incidentes y la cobertura de turnos."
+        }
       }
     }
   },
@@ -6561,6 +7905,11 @@
           "Lead generation AI",
           "Proposal copilots",
           "CRM assistants"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build pipeline management, objection handling, CRM use, and quota discipline.",
+          "Collect proof of trust, quota progress, and repeatable conversion."
         ]
       },
       "ko": {
@@ -6589,6 +7938,11 @@
           "리드 생성 AI",
           "제안서 코파일럿",
           "CRM 보조 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "파이프라인 관리, 반론 대응, CRM 사용, 목표 관리 능력을 실제 환경에서 익히세요.",
+          "신뢰 형성, 목표 달성 흐름, 반복 가능한 전환 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -6617,7 +7971,29 @@
           "IA de generacion de leads",
           "Copilotos de propuestas",
           "Asistentes CRM"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla gestion de pipeline, manejo de objeciones, uso de CRM y disciplina comercial.",
+          "Reune evidencia de confianza, avance de cuota y conversion repetible con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 45000,
+        "max": 85000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong for people who can build trust, handle objections, and convert pipeline into revenue.",
+          "ko": "신뢰 형성, 반론 대응, 매출 전환을 해낼 수 있는 사람에 대한 수요는 강합니다.",
+          "es": "La demanda sigue fuerte para quienes generan confianza, manejan objeciones y convierten el pipeline en ingresos."
+        }
       }
     }
   },
@@ -6715,6 +8091,11 @@
           "Lead generation AI",
           "Proposal copilots",
           "CRM assistants"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build pipeline management, objection handling, CRM use, and quota discipline.",
+          "Collect proof of trust, quota progress, and repeatable conversion."
         ]
       },
       "ko": {
@@ -6743,6 +8124,11 @@
           "리드 생성 AI",
           "제안서 코파일럿",
           "CRM 보조 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "파이프라인 관리, 반론 대응, CRM 사용, 목표 관리 능력을 실제 환경에서 익히세요.",
+          "신뢰 형성, 목표 달성 흐름, 반복 가능한 전환 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -6771,7 +8157,29 @@
           "IA de generacion de leads",
           "Copilotos de propuestas",
           "Asistentes CRM"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla gestion de pipeline, manejo de objeciones, uso de CRM y disciplina comercial.",
+          "Reune evidencia de confianza, avance de cuota y conversion repetible con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 45000,
+        "max": 85000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong for people who can build trust, handle objections, and convert pipeline into revenue.",
+          "ko": "신뢰 형성, 반론 대응, 매출 전환을 해낼 수 있는 사람에 대한 수요는 강합니다.",
+          "es": "La demanda sigue fuerte para quienes generan confianza, manejan objeciones y convierten el pipeline en ingresos."
+        }
       }
     }
   },
@@ -6869,6 +8277,11 @@
           "Lead generation AI",
           "Proposal copilots",
           "CRM assistants"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build pipeline management, objection handling, CRM use, and quota discipline.",
+          "Collect proof of trust, quota progress, and repeatable conversion."
         ]
       },
       "ko": {
@@ -6897,6 +8310,11 @@
           "리드 생성 AI",
           "제안서 코파일럿",
           "CRM 보조 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "파이프라인 관리, 반론 대응, CRM 사용, 목표 관리 능력을 실제 환경에서 익히세요.",
+          "신뢰 형성, 목표 달성 흐름, 반복 가능한 전환 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -6925,7 +8343,29 @@
           "IA de generacion de leads",
           "Copilotos de propuestas",
           "Asistentes CRM"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla gestion de pipeline, manejo de objeciones, uso de CRM y disciplina comercial.",
+          "Reune evidencia de confianza, avance de cuota y conversion repetible con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 45000,
+        "max": 85000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong for people who can build trust, handle objections, and convert pipeline into revenue.",
+          "ko": "신뢰 형성, 반론 대응, 매출 전환을 해낼 수 있는 사람에 대한 수요는 강합니다.",
+          "es": "La demanda sigue fuerte para quienes generan confianza, manejan objeciones y convierten el pipeline en ingresos."
+        }
       }
     }
   },
@@ -7023,6 +8463,11 @@
           "Lead generation AI",
           "Proposal copilots",
           "CRM assistants"
+        ],
+        "educationPathways": [
+          "Use a bachelor-level route as a strong signal, but combine it with certificates, internships, or adjacent training if you need a faster route.",
+          "Build pipeline management, objection handling, CRM use, and quota discipline.",
+          "Collect proof of trust, quota progress, and repeatable conversion."
         ]
       },
       "ko": {
@@ -7051,6 +8496,11 @@
           "리드 생성 AI",
           "제안서 코파일럿",
           "CRM 보조 도구"
+        ],
+        "educationPathways": [
+          "학사 중심 경로가 강한 신호가 되지만, 더 빠른 경로가 필요하면 자격증, 인턴십, 인접 전공을 함께 활용하세요.",
+          "파이프라인 관리, 반론 대응, CRM 사용, 목표 관리 능력을 실제 환경에서 익히세요.",
+          "신뢰 형성, 목표 달성 흐름, 반복 가능한 전환 능력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -7079,7 +8529,29 @@
           "IA de generacion de leads",
           "Copilotos de propuestas",
           "Asistentes CRM"
+        ],
+        "educationPathways": [
+          "Usa una ruta de licenciatura como una senal fuerte, pero combinala con certificados, practicas o estudio adyacente si necesitas una ruta mas rapida.",
+          "Desarrolla gestion de pipeline, manejo de objeciones, uso de CRM y disciplina comercial.",
+          "Reune evidencia de confianza, avance de cuota y conversion repetible con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 55000,
+        "max": 105000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand stays strong for people who can build trust, handle objections, and convert pipeline into revenue.",
+          "ko": "신뢰 형성, 반론 대응, 매출 전환을 해낼 수 있는 사람에 대한 수요는 강합니다.",
+          "es": "La demanda sigue fuerte para quienes generan confianza, manejan objeciones y convierten el pipeline en ingresos."
+        }
       }
     }
   },
@@ -7177,6 +8649,11 @@
           "Precision ag AI",
           "Sensing systems",
           "Forecasting assistants"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build field safety, equipment routines, seasonality, and crop or livestock basics.",
+          "Collect proof of field readiness, safe routines, and equipment confidence."
         ]
       },
       "ko": {
@@ -7205,6 +8682,11 @@
           "정밀농업 AI",
           "센싱 시스템",
           "예측 보조 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "현장 안전, 장비 루틴, 계절성 이해, 작물·축산 기초를 실제 환경에서 익히세요.",
+          "현장 준비도, 안전 루틴, 장비 자신감를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -7233,7 +8715,29 @@
           "IA de agricultura de precision",
           "Sistemas de sensorizacion",
           "Asistentes de prediccion"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad de campo, rutinas de equipos, estacionalidad y bases de cultivo o ganado.",
+          "Reune evidencia de preparacion de campo, rutinas seguras y confianza con equipos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 35000,
+        "max": 60000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady where field work, equipment handling, and site conditions still require humans.",
+          "ko": "현장 작업, 장비 운용, 농장 상황 대응이 필요해 수요는 비교적 안정적으로 유지됩니다.",
+          "es": "La demanda se mantiene donde el trabajo de campo, el manejo de equipos y las condiciones del sitio siguen requiriendo personas."
+        }
       }
     }
   },
@@ -7331,6 +8835,11 @@
           "Precision ag AI",
           "Sensing systems",
           "Forecasting assistants"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build field safety, equipment routines, seasonality, and crop or livestock basics.",
+          "Collect proof of field readiness, safe routines, and equipment confidence."
         ]
       },
       "ko": {
@@ -7359,6 +8868,11 @@
           "정밀농업 AI",
           "센싱 시스템",
           "예측 보조 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "현장 안전, 장비 루틴, 계절성 이해, 작물·축산 기초를 실제 환경에서 익히세요.",
+          "현장 준비도, 안전 루틴, 장비 자신감를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -7387,7 +8901,29 @@
           "IA de agricultura de precision",
           "Sistemas de sensorizacion",
           "Asistentes de prediccion"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad de campo, rutinas de equipos, estacionalidad y bases de cultivo o ganado.",
+          "Reune evidencia de preparacion de campo, rutinas seguras y confianza con equipos con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 35000,
+        "max": 60000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady where field work, equipment handling, and site conditions still require humans.",
+          "ko": "현장 작업, 장비 운용, 농장 상황 대응이 필요해 수요는 비교적 안정적으로 유지됩니다.",
+          "es": "La demanda se mantiene donde el trabajo de campo, el manejo de equipos y las condiciones del sitio siguen requiriendo personas."
+        }
       }
     }
   },
@@ -7485,6 +9021,11 @@
           "Visual inspection AI",
           "Quote generation tools",
           "Diagnostic assistants"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build apprenticeship practice, vocational training, licensing prep, and supervised field hours.",
+          "Collect proof of field hours, licensing, and jobsite-ready problem solving."
         ]
       },
       "ko": {
@@ -7513,6 +9054,11 @@
           "시각 점검 AI",
           "견적 생성 도구",
           "진단 보조 시스템"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "도제 실습, 직업훈련, 자격 준비, 감독하 현장 시간을 실제 환경에서 익히세요.",
+          "현장 시간, 자격, 공사 현장 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -7541,7 +9087,29 @@
           "IA de inspeccion visual",
           "Herramientas de presupuestos",
           "Asistentes de diagnostico"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla aprendizaje, formacion tecnica, preparacion para licencia y horas supervisadas.",
+          "Reune evidencia de horas de campo, licencia y resolucion de problemas en obra con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 80000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong because licensed field work and on-site problem solving are hard to automate fully.",
+          "ko": "면허가 필요한 현장 작업과 현장 문제 해결은 완전 자동화가 어려워 수요가 강합니다.",
+          "es": "La demanda sigue fuerte porque el trabajo de campo con licencia y la resolucion de problemas en sitio son dificiles de automatizar por completo."
+        }
       }
     }
   },
@@ -7639,6 +9207,11 @@
           "Diagnostic assistants",
           "Field-service AI",
           "Quote automation tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build apprenticeship practice, vocational training, licensing prep, and supervised field hours.",
+          "Collect proof of field hours, licensing, and jobsite-ready problem solving."
         ]
       },
       "ko": {
@@ -7667,6 +9240,11 @@
           "진단 보조 도구",
           "현장 서비스 AI",
           "견적 자동화 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "도제 실습, 직업훈련, 자격 준비, 감독하 현장 시간을 실제 환경에서 익히세요.",
+          "현장 시간, 자격, 공사 현장 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -7695,7 +9273,29 @@
           "Asistentes de diagnostico",
           "IA de servicio en campo",
           "Herramientas de presupuesto"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla aprendizaje, formacion tecnica, preparacion para licencia y horas supervisadas.",
+          "Reune evidencia de horas de campo, licencia y resolucion de problemas en obra con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 80000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong because licensed field work and on-site problem solving are hard to automate fully.",
+          "ko": "면허가 필요한 현장 작업과 현장 문제 해결은 완전 자동화가 어려워 수요가 강합니다.",
+          "es": "La demanda sigue fuerte porque el trabajo de campo con licencia y la resolucion de problemas en sitio son dificiles de automatizar por completo."
+        }
       }
     }
   },
@@ -7793,6 +9393,11 @@
           "Diagnostic assistants",
           "Field-service AI",
           "Quote automation tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build apprenticeship practice, vocational training, licensing prep, and supervised field hours.",
+          "Collect proof of field hours, licensing, and jobsite-ready problem solving."
         ]
       },
       "ko": {
@@ -7821,6 +9426,11 @@
           "진단 보조 도구",
           "현장 서비스 AI",
           "견적 자동화 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "도제 실습, 직업훈련, 자격 준비, 감독하 현장 시간을 실제 환경에서 익히세요.",
+          "현장 시간, 자격, 공사 현장 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -7849,7 +9459,29 @@
           "Asistentes de diagnostico",
           "IA de servicio en campo",
           "Herramientas de presupuesto"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla aprendizaje, formacion tecnica, preparacion para licencia y horas supervisadas.",
+          "Reune evidencia de horas de campo, licencia y resolucion de problemas en obra con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 80000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong because licensed field work and on-site problem solving are hard to automate fully.",
+          "ko": "면허가 필요한 현장 작업과 현장 문제 해결은 완전 자동화가 어려워 수요가 강합니다.",
+          "es": "La demanda sigue fuerte porque el trabajo de campo con licencia y la resolucion de problemas en sitio son dificiles de automatizar por completo."
+        }
       }
     }
   },
@@ -7947,6 +9579,11 @@
           "Diagnostic assistants",
           "Field-service AI",
           "Quote automation tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build apprenticeship practice, vocational training, licensing prep, and supervised field hours.",
+          "Collect proof of field hours, licensing, and jobsite-ready problem solving."
         ]
       },
       "ko": {
@@ -7975,6 +9612,11 @@
           "진단 보조 도구",
           "현장 서비스 AI",
           "견적 자동화 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "도제 실습, 직업훈련, 자격 준비, 감독하 현장 시간을 실제 환경에서 익히세요.",
+          "현장 시간, 자격, 공사 현장 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -8003,7 +9645,29 @@
           "Asistentes de diagnostico",
           "IA de servicio en campo",
           "Herramientas de presupuesto"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla aprendizaje, formacion tecnica, preparacion para licencia y horas supervisadas.",
+          "Reune evidencia de horas de campo, licencia y resolucion de problemas en obra con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 80000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong because licensed field work and on-site problem solving are hard to automate fully.",
+          "ko": "면허가 필요한 현장 작업과 현장 문제 해결은 완전 자동화가 어려워 수요가 강합니다.",
+          "es": "La demanda sigue fuerte porque el trabajo de campo con licencia y la resolucion de problemas en sitio son dificiles de automatizar por completo."
+        }
       }
     }
   },
@@ -8101,6 +9765,11 @@
           "Diagnostic assistants",
           "Field-service AI",
           "Quote automation tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build apprenticeship practice, vocational training, licensing prep, and supervised field hours.",
+          "Collect proof of field hours, licensing, and jobsite-ready problem solving."
         ]
       },
       "ko": {
@@ -8129,6 +9798,11 @@
           "진단 보조 도구",
           "현장 서비스 AI",
           "견적 자동화 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "도제 실습, 직업훈련, 자격 준비, 감독하 현장 시간을 실제 환경에서 익히세요.",
+          "현장 시간, 자격, 공사 현장 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -8157,7 +9831,29 @@
           "Asistentes de diagnostico",
           "IA de servicio en campo",
           "Herramientas de presupuesto"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla aprendizaje, formacion tecnica, preparacion para licencia y horas supervisadas.",
+          "Reune evidencia de horas de campo, licencia y resolucion de problemas en obra con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 80000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong because licensed field work and on-site problem solving are hard to automate fully.",
+          "ko": "면허가 필요한 현장 작업과 현장 문제 해결은 완전 자동화가 어려워 수요가 강합니다.",
+          "es": "La demanda sigue fuerte porque el trabajo de campo con licencia y la resolucion de problemas en sitio son dificiles de automatizar por completo."
+        }
       }
     }
   },
@@ -8255,6 +9951,11 @@
           "Diagnostic assistants",
           "Field-service AI",
           "Quote automation tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build apprenticeship practice, vocational training, licensing prep, and supervised field hours.",
+          "Collect proof of field hours, licensing, and jobsite-ready problem solving."
         ]
       },
       "ko": {
@@ -8283,6 +9984,11 @@
           "진단 보조 도구",
           "현장 서비스 AI",
           "견적 자동화 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "도제 실습, 직업훈련, 자격 준비, 감독하 현장 시간을 실제 환경에서 익히세요.",
+          "현장 시간, 자격, 공사 현장 문제 해결력를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -8311,7 +10017,29 @@
           "Asistentes de diagnostico",
           "IA de servicio en campo",
           "Herramientas de presupuesto"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla aprendizaje, formacion tecnica, preparacion para licencia y horas supervisadas.",
+          "Reune evidencia de horas de campo, licencia y resolucion de problemas en obra con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 50000,
+        "max": 80000
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Demand remains strong because licensed field work and on-site problem solving are hard to automate fully.",
+          "ko": "면허가 필요한 현장 작업과 현장 문제 해결은 완전 자동화가 어려워 수요가 강합니다.",
+          "es": "La demanda sigue fuerte porque el trabajo de campo con licencia y la resolucion de problemas en sitio son dificiles de automatizar por completo."
+        }
       }
     }
   },
@@ -8409,6 +10137,11 @@
           "Routing AI",
           "Predictive maintenance",
           "Machine monitoring tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build equipment safety, SOP discipline, monitoring, and shift consistency.",
+          "Collect proof of safe machine handling, shift reliability, and process control."
         ]
       },
       "ko": {
@@ -8437,6 +10170,11 @@
           "경로 최적화 AI",
           "예지 정비",
           "기계 모니터링 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "장비 안전, 표준 작업 규율, 모니터링, 교대 일관성을 실제 환경에서 익히세요.",
+          "안전한 장비 운용, 교대 신뢰성, 공정 통제를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -8465,7 +10203,29 @@
           "IA de ruteo",
           "Mantenimiento predictivo",
           "Herramientas de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad de equipos, disciplina SOP, monitoreo y consistencia por turno.",
+          "Reune evidencia de manejo seguro de maquinaria, fiabilidad por turno y control de proceso con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 42000,
+        "max": 68000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady in production and logistics, but the most repetitive machine-centered roles face automation pressure first.",
+          "ko": "생산과 물류 수요는 유지되지만, 가장 반복적인 장비 중심 역할부터 자동화 압박을 받습니다.",
+          "es": "La demanda se mantiene en produccion y logistica, pero los roles mas repetitivos alrededor de maquinaria sienten primero la presion de automatizacion."
+        }
       }
     }
   },
@@ -8563,6 +10323,11 @@
           "Routing AI",
           "Predictive maintenance",
           "Machine monitoring tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build equipment safety, SOP discipline, monitoring, and shift consistency.",
+          "Collect proof of safe machine handling, shift reliability, and process control."
         ]
       },
       "ko": {
@@ -8591,6 +10356,11 @@
           "경로 최적화 AI",
           "예지 정비",
           "기계 모니터링 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "장비 안전, 표준 작업 규율, 모니터링, 교대 일관성을 실제 환경에서 익히세요.",
+          "안전한 장비 운용, 교대 신뢰성, 공정 통제를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -8619,7 +10389,29 @@
           "IA de ruteo",
           "Mantenimiento predictivo",
           "Herramientas de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad de equipos, disciplina SOP, monitoreo y consistencia por turno.",
+          "Reune evidencia de manejo seguro de maquinaria, fiabilidad por turno y control de proceso con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 42000,
+        "max": 68000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady in production and logistics, but the most repetitive machine-centered roles face automation pressure first.",
+          "ko": "생산과 물류 수요는 유지되지만, 가장 반복적인 장비 중심 역할부터 자동화 압박을 받습니다.",
+          "es": "La demanda se mantiene en produccion y logistica, pero los roles mas repetitivos alrededor de maquinaria sienten primero la presion de automatizacion."
+        }
       }
     }
   },
@@ -8717,6 +10509,11 @@
           "Routing AI",
           "Predictive maintenance",
           "Machine monitoring tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build equipment safety, SOP discipline, monitoring, and shift consistency.",
+          "Collect proof of safe machine handling, shift reliability, and process control."
         ]
       },
       "ko": {
@@ -8745,6 +10542,11 @@
           "경로 최적화 AI",
           "예지 정비",
           "기계 모니터링 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "장비 안전, 표준 작업 규율, 모니터링, 교대 일관성을 실제 환경에서 익히세요.",
+          "안전한 장비 운용, 교대 신뢰성, 공정 통제를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -8773,7 +10575,29 @@
           "IA de ruteo",
           "Mantenimiento predictivo",
           "Herramientas de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad de equipos, disciplina SOP, monitoreo y consistencia por turno.",
+          "Reune evidencia de manejo seguro de maquinaria, fiabilidad por turno y control de proceso con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 42000,
+        "max": 68000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady in production and logistics, but the most repetitive machine-centered roles face automation pressure first.",
+          "ko": "생산과 물류 수요는 유지되지만, 가장 반복적인 장비 중심 역할부터 자동화 압박을 받습니다.",
+          "es": "La demanda se mantiene en produccion y logistica, pero los roles mas repetitivos alrededor de maquinaria sienten primero la presion de automatizacion."
+        }
       }
     }
   },
@@ -8871,6 +10695,11 @@
           "Routing AI",
           "Predictive maintenance",
           "Machine monitoring tools"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build equipment safety, SOP discipline, monitoring, and shift consistency.",
+          "Collect proof of safe machine handling, shift reliability, and process control."
         ]
       },
       "ko": {
@@ -8899,6 +10728,11 @@
           "경로 최적화 AI",
           "예지 정비",
           "기계 모니터링 도구"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "장비 안전, 표준 작업 규율, 모니터링, 교대 일관성을 실제 환경에서 익히세요.",
+          "안전한 장비 운용, 교대 신뢰성, 공정 통제를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -8927,7 +10761,29 @@
           "IA de ruteo",
           "Mantenimiento predictivo",
           "Herramientas de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad de equipos, disciplina SOP, monitoreo y consistencia por turno.",
+          "Reune evidencia de manejo seguro de maquinaria, fiabilidad por turno y control de proceso con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 42000,
+        "max": 68000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays steady in production and logistics, but the most repetitive machine-centered roles face automation pressure first.",
+          "ko": "생산과 물류 수요는 유지되지만, 가장 반복적인 장비 중심 역할부터 자동화 압박을 받습니다.",
+          "es": "La demanda se mantiene en produccion y logistica, pero los roles mas repetitivos alrededor de maquinaria sienten primero la presion de automatizacion."
+        }
       }
     }
   },
@@ -9025,6 +10881,11 @@
           "Routing assistants",
           "Warehouse robotics",
           "Facility monitoring AI"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build site safety, stamina, punctuality, and consistency under physical demand.",
+          "Collect proof of site readiness, safety, and reliable execution under pressure."
         ]
       },
       "ko": {
@@ -9053,6 +10914,11 @@
           "경로 보조 도구",
           "창고 로봇",
           "시설 모니터링 AI"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "현장 안전, 체력, 시간 준수, 물리적 강도 아래의 일관성을 실제 환경에서 익히세요.",
+          "현장 투입 준비, 안전, 압박 속의 안정적 실행를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -9081,7 +10947,29 @@
           "Asistentes de ruteo",
           "Robotica de almacen",
           "IA de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad en sitio, resistencia, puntualidad y consistencia bajo demanda fisica.",
+          "Reune evidencia de preparacion de sitio, seguridad y ejecucion fiable bajo presion con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 34000,
+        "max": 52000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active for site-ready workers, though repetitive and highly structured environments are more exposed to automation.",
+          "ko": "현장 투입 가능한 인력 수요는 남지만, 반복적이고 구조화된 환경일수록 자동화 노출이 커집니다.",
+          "es": "La demanda sigue activa para trabajadores listos para sitio, aunque los entornos repetitivos y muy estructurados estan mas expuestos a la automatizacion."
+        }
       }
     }
   },
@@ -9179,6 +11067,11 @@
           "Routing assistants",
           "Warehouse robotics",
           "Facility monitoring AI"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build site safety, stamina, punctuality, and consistency under physical demand.",
+          "Collect proof of site readiness, safety, and reliable execution under pressure."
         ]
       },
       "ko": {
@@ -9207,6 +11100,11 @@
           "경로 보조 도구",
           "창고 로봇",
           "시설 모니터링 AI"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "현장 안전, 체력, 시간 준수, 물리적 강도 아래의 일관성을 실제 환경에서 익히세요.",
+          "현장 투입 준비, 안전, 압박 속의 안정적 실행를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -9235,7 +11133,29 @@
           "Asistentes de ruteo",
           "Robotica de almacen",
           "IA de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad en sitio, resistencia, puntualidad y consistencia bajo demanda fisica.",
+          "Reune evidencia de preparacion de sitio, seguridad y ejecucion fiable bajo presion con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 34000,
+        "max": 52000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active for site-ready workers, though repetitive and highly structured environments are more exposed to automation.",
+          "ko": "현장 투입 가능한 인력 수요는 남지만, 반복적이고 구조화된 환경일수록 자동화 노출이 커집니다.",
+          "es": "La demanda sigue activa para trabajadores listos para sitio, aunque los entornos repetitivos y muy estructurados estan mas expuestos a la automatizacion."
+        }
       }
     }
   },
@@ -9333,6 +11253,11 @@
           "Routing assistants",
           "Warehouse robotics",
           "Facility monitoring AI"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build site safety, stamina, punctuality, and consistency under physical demand.",
+          "Collect proof of site readiness, safety, and reliable execution under pressure."
         ]
       },
       "ko": {
@@ -9361,6 +11286,11 @@
           "경로 보조 도구",
           "창고 로봇",
           "시설 모니터링 AI"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "현장 안전, 체력, 시간 준수, 물리적 강도 아래의 일관성을 실제 환경에서 익히세요.",
+          "현장 투입 준비, 안전, 압박 속의 안정적 실행를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -9389,7 +11319,29 @@
           "Asistentes de ruteo",
           "Robotica de almacen",
           "IA de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad en sitio, resistencia, puntualidad y consistencia bajo demanda fisica.",
+          "Reune evidencia de preparacion de sitio, seguridad y ejecucion fiable bajo presion con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 34000,
+        "max": 52000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active for site-ready workers, though repetitive and highly structured environments are more exposed to automation.",
+          "ko": "현장 투입 가능한 인력 수요는 남지만, 반복적이고 구조화된 환경일수록 자동화 노출이 커집니다.",
+          "es": "La demanda sigue activa para trabajadores listos para sitio, aunque los entornos repetitivos y muy estructurados estan mas expuestos a la automatizacion."
+        }
       }
     }
   },
@@ -9487,6 +11439,11 @@
           "Routing assistants",
           "Warehouse robotics",
           "Facility monitoring AI"
+        ],
+        "educationPathways": [
+          "Start with a certificate, apprenticeship, bootcamp, or entry role instead of assuming a four-year degree is mandatory.",
+          "Build site safety, stamina, punctuality, and consistency under physical demand.",
+          "Collect proof of site readiness, safety, and reliable execution under pressure."
         ]
       },
       "ko": {
@@ -9515,6 +11472,11 @@
           "경로 보조 도구",
           "창고 로봇",
           "시설 모니터링 AI"
+        ],
+        "educationPathways": [
+          "4년제 학위를 전제로 두기보다 자격증, 도제, 부트캠프, 입문 직무부터 시작하세요.",
+          "현장 안전, 체력, 시간 준수, 물리적 강도 아래의 일관성을 실제 환경에서 익히세요.",
+          "현장 투입 준비, 안전, 압박 속의 안정적 실행를 보여 주는 경력, 자격, 추천서를 만드세요."
         ]
       },
       "es": {
@@ -9543,7 +11505,29 @@
           "Asistentes de ruteo",
           "Robotica de almacen",
           "IA de monitoreo"
+        ],
+        "educationPathways": [
+          "Empieza con certificado, aprendizaje, bootcamp o un rol de entrada en lugar de asumir que hace falta una carrera de cuatro anos.",
+          "Desarrolla seguridad en sitio, resistencia, puntualidad y consistencia bajo demanda fisica.",
+          "Reune evidencia de preparacion de sitio, seguridad y ejecucion fiable bajo presion con proyectos, horas de campo o referencias."
         ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 34000,
+        "max": 52000
+      },
+      "hiringDemand": {
+        "level": "medium",
+        "note": {
+          "en": "Demand stays active for site-ready workers, though repetitive and highly structured environments are more exposed to automation.",
+          "ko": "현장 투입 가능한 인력 수요는 남지만, 반복적이고 구조화된 환경일수록 자동화 노출이 커집니다.",
+          "es": "La demanda sigue activa para trabajadores listos para sitio, aunque los entornos repetitivos y muy estructurados estan mas expuestos a la automatizacion."
+        }
       }
     }
   }

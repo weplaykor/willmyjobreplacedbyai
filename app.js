@@ -1,4 +1,4 @@
-const ASSET_VERSION = '2026-03-23-1';
+const ASSET_VERSION = '2026-03-23-2';
 
 const DATA_FILES = {
   jobs: 'data/jobs.json',
@@ -125,6 +125,9 @@ const UI = {
       skills: 'Skills to build',
       path: 'How to reach it',
       degree: 'Degree signal',
+      salaryRange: 'Salary range',
+      hiringDemand: 'Hiring demand',
+      educationPathways: 'Education pathways',
       aiNow: 'AI now',
       aiFuture: 'What changes next',
       currentReplacement: 'Current AI replacement',
@@ -134,6 +137,15 @@ const UI = {
       automatableNow: 'Tasks AI can already take',
       humanEdge: 'Human edge that remains',
       references: 'Evidence links'
+    },
+    market: {
+      salaryScope: 'Illustrative U.S. annual base pay range.',
+      perYear: 'per year',
+      demandLevels: {
+        high: 'High demand',
+        medium: 'Steady demand',
+        low: 'Selective demand'
+      }
     },
     education: {
       statuses: {
@@ -269,6 +281,9 @@ const UI = {
       skills: '필요 역량',
       path: '진입 방법',
       degree: '학위 요구',
+      salaryRange: '급여 범위',
+      hiringDemand: '채용 수요',
+      educationPathways: '교육 경로',
       aiNow: '현재의 AI',
       aiFuture: '앞으로의 변화',
       currentReplacement: '현재 AI 대체 서비스',
@@ -278,6 +293,15 @@ const UI = {
       automatableNow: 'AI가 이미 처리할 수 있는 일',
       humanEdge: '여전히 사람에게 남는 핵심',
       references: '근거 링크'
+    },
+    market: {
+      salaryScope: '미국 기준 예시 연봉 범위입니다.',
+      perYear: '연봉',
+      demandLevels: {
+        high: '수요 높음',
+        medium: '수요 보통',
+        low: '수요 선별적'
+      }
     },
     education: {
       statuses: {
@@ -413,6 +437,9 @@ const UI = {
       skills: 'Habilidades clave',
       path: 'Como llegar',
       degree: 'Requisito de titulo',
+      salaryRange: 'Rango salarial',
+      hiringDemand: 'Demanda de contratacion',
+      educationPathways: 'Rutas educativas',
       aiNow: 'IA hoy',
       aiFuture: 'Lo que cambia despues',
       currentReplacement: 'Reemplazo actual con IA',
@@ -422,6 +449,15 @@ const UI = {
       automatableNow: 'Tareas que la IA ya puede tomar',
       humanEdge: 'Ventaja humana que permanece',
       references: 'Enlaces de evidencia'
+    },
+    market: {
+      salaryScope: 'Rango salarial anual ilustrativo del mercado de EE. UU.',
+      perYear: 'al ano',
+      demandLevels: {
+        high: 'Demanda alta',
+        medium: 'Demanda estable',
+        low: 'Demanda selectiva'
+      }
     },
     education: {
       statuses: {
@@ -951,6 +987,9 @@ function renderJobDetails(job, copy) {
   const roleLabel = copy.roles[job.aiRole];
   const degreeStatusLabel = copy.education.statuses[job.degree.status] || job.degree.status;
   const degreeLevelLabel = copy.education.levels[job.degree.level] || job.degree.level;
+  const hiringDemandLevelLabel = copy.market.demandLevels[job.marketSignals?.hiringDemand?.level] || job.marketSignals?.hiringDemand?.level || '';
+  const hiringDemandNote = getLocalizedContent(job.marketSignals?.hiringDemand?.note);
+  const salaryRangeLabel = formatSalaryRange(job.marketSignals?.salaryRange, copy);
   const taxonomyPath = [
     classification.major,
     classification.mid,
@@ -1019,6 +1058,33 @@ function renderJobDetails(job, copy) {
             </div>
             <p>${escapeHtml(localized.degreeNote)}</p>
           </div>
+        </section>
+
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.salaryRange)}</h3>
+          <div class="detail-copy">
+            <div class="service-list">
+              <span class="service-pill">${escapeHtml(salaryRangeLabel)}</span>
+            </div>
+            <p>${escapeHtml(copy.market.salaryScope)}</p>
+          </div>
+        </section>
+
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.hiringDemand)}</h3>
+          <div class="detail-copy">
+            <div class="service-list">
+              <span class="service-pill">${escapeHtml(hiringDemandLevelLabel)}</span>
+            </div>
+            <p>${escapeHtml(hiringDemandNote)}</p>
+          </div>
+        </section>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.educationPathways)}</h3>
+          ${renderStringList(localized.educationPathways || [])}
         </section>
 
         <section class="detail-block">
@@ -1227,10 +1293,25 @@ function getLocalizedEvidence(job) {
   };
 }
 
+function formatSalaryRange(range, copy) {
+  if (!range || typeof range.min !== 'number' || typeof range.max !== 'number') {
+    return 'none';
+  }
+
+  const formatter = new Intl.NumberFormat(copy.locale, {
+    style: 'currency',
+    currency: range.currency || 'USD',
+    maximumFractionDigits: 0
+  });
+
+  return `${formatter.format(range.min)} - ${formatter.format(range.max)} ${copy.market.perYear}`;
+}
+
 function searchText(job) {
   const localized = Object.values(job.content);
   const classification = getClassificationLabels(job.classification);
   const evidence = job.aiEvidence || {};
+  const demandNotes = Object.values(job.marketSignals?.hiringDemand?.note || {});
   const rationale = Object.values(evidence.rationale || {});
   const automatableNow = flattenLocalizedLists(evidence.automatableNow);
   const humanEdge = flattenLocalizedLists(evidence.humanEdge);
@@ -1243,6 +1324,7 @@ function searchText(job) {
       ...content.tasks,
       ...content.skills,
       ...content.path,
+      ...(content.educationPathways || []),
       content.degreeNote,
       content.aiNow,
       content.aiFuture,
@@ -1256,6 +1338,12 @@ function searchText(job) {
     job.currentReplacementUrl || 'none',
     job.degree.status,
     job.degree.level,
+    job.marketSignals?.salaryRange?.currency || '',
+    String(job.marketSignals?.salaryRange?.min || ''),
+    String(job.marketSignals?.salaryRange?.max || ''),
+    job.marketSignals?.salaryRange?.scope || '',
+    job.marketSignals?.hiringDemand?.level || '',
+    ...demandNotes,
     ...rationale,
     ...automatableNow,
     ...humanEdge,

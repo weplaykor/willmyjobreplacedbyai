@@ -114,6 +114,7 @@ function validateJobs(jobsData, taxonomyIndexData, errorsList) {
     validateClassification(job, taxonomyIndexData, errorsList);
     validateLocalizedContent(job, errorsList);
     validateEvidence(job, errorsList);
+    validateMarketSignals(job, errorsList);
   }
 }
 
@@ -167,6 +168,7 @@ function validateLocalizedContent(job, errorsList) {
     validateStringArray(`job:${job.id}.content.${locale}.tasks`, content.tasks, errorsList);
     validateStringArray(`job:${job.id}.content.${locale}.skills`, content.skills, errorsList);
     validateStringArray(`job:${job.id}.content.${locale}.path`, content.path, errorsList);
+    validateStringArray(`job:${job.id}.content.${locale}.educationPathways`, content.educationPathways, errorsList);
     validateString(`job:${job.id}.content.${locale}.degreeNote`, content.degreeNote, errorsList);
     validateString(`job:${job.id}.content.${locale}.aiNow`, content.aiNow, errorsList);
     validateString(`job:${job.id}.content.${locale}.aiFuture`, content.aiFuture, errorsList);
@@ -199,6 +201,31 @@ function validateEvidence(job, errorsList) {
   });
 }
 
+function validateMarketSignals(job, errorsList) {
+  const marketSignals = job.marketSignals;
+
+  if (!marketSignals) {
+    errorsList.push(`job:${job.id} is missing marketSignals`);
+    return;
+  }
+
+  validateEnum(`job:${job.id}.marketSignals.salaryRange.currency`, marketSignals.salaryRange?.currency, ['USD'], errorsList);
+  validateEnum(`job:${job.id}.marketSignals.salaryRange.period`, marketSignals.salaryRange?.period, ['year'], errorsList);
+  validateString(`job:${job.id}.marketSignals.salaryRange.scope`, marketSignals.salaryRange?.scope, errorsList);
+  validatePositiveNumber(`job:${job.id}.marketSignals.salaryRange.min`, marketSignals.salaryRange?.min, errorsList);
+  validatePositiveNumber(`job:${job.id}.marketSignals.salaryRange.max`, marketSignals.salaryRange?.max, errorsList);
+
+  if (typeof marketSignals.salaryRange?.min === 'number' && typeof marketSignals.salaryRange?.max === 'number' && marketSignals.salaryRange.min >= marketSignals.salaryRange.max) {
+    errorsList.push(`job:${job.id}.marketSignals.salaryRange should have min lower than max`);
+  }
+
+  validateEnum(`job:${job.id}.marketSignals.hiringDemand.level`, marketSignals.hiringDemand?.level, ['high', 'medium', 'low'], errorsList);
+
+  for (const locale of ['en', 'ko', 'es']) {
+    validateString(`job:${job.id}.marketSignals.hiringDemand.note.${locale}`, marketSignals.hiringDemand?.note?.[locale], errorsList);
+  }
+}
+
 function validateLabels(labelPath, labels, errorsList) {
   for (const locale of ['en', 'ko', 'es']) {
     validateString(`${labelPath}.labels.${locale}`, labels?.[locale], errorsList);
@@ -214,6 +241,12 @@ function validateNumber(label, value, errorsList) {
 function validateString(label, value, errorsList) {
   if (typeof value !== 'string' || value.trim().length === 0) {
     errorsList.push(`${label} should be a non-empty string`);
+  }
+}
+
+function validatePositiveNumber(label, value, errorsList) {
+  if (typeof value !== 'number' || Number.isNaN(value) || value <= 0) {
+    errorsList.push(`${label} should be a positive number`);
   }
 }
 
