@@ -4,7 +4,7 @@ import process from 'node:process';
 
 const rootDir = process.cwd();
 const jobsPath = path.join(rootDir, 'data', 'jobs.json');
-const taxonomyPath = path.join(rootDir, 'data', 'ksco-taxonomy.json');
+const taxonomyPath = path.join(rootDir, 'data', 'taxonomy.json');
 const templatePath = path.join(rootDir, 'data', 'job-profile-template.json');
 
 const jobs = JSON.parse(fs.readFileSync(jobsPath, 'utf8'));

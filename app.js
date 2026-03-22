@@ -1,8 +1,8 @@
-const ASSET_VERSION = '2026-03-23-2';
+const ASSET_VERSION = '2026-03-23-3';
 
 const DATA_FILES = {
   jobs: 'data/jobs.json',
-  taxonomy: 'data/ksco-taxonomy.json',
+  taxonomy: 'data/taxonomy.json',
   news: 'data/news.json',
   articles: 'data/articles.json'
 };
@@ -96,7 +96,7 @@ const UI = {
       kicker: 'Job profiles',
       title: 'Scan the current catalog',
       summary: (count) => `${count} role${count === 1 ? '' : 's'} matched your filters.`,
-      coverage: (profiled, total) => `${profiled} fully profiled role${profiled === 1 ? '' : 's'} live out of ${total} KSCO-aligned detail roles.`
+      coverage: (profiled, total) => `${profiled} fully profiled role${profiled === 1 ? '' : 's'} live out of ${total} detail roles.`
     },
     actions: {
       openDetails: 'View full profile',
@@ -132,7 +132,7 @@ const UI = {
       aiFuture: 'What changes next',
       currentReplacement: 'Current AI replacement',
       services: 'AI services',
-      taxonomy: 'KSCO-aligned path',
+      taxonomy: 'Path',
       rationale: 'Why this risk level',
       automatableNow: 'Tasks AI can already take',
       humanEdge: 'Human edge that remains',
@@ -161,7 +161,7 @@ const UI = {
       }
     },
     loading: 'Loading job intelligence...',
-    loadError: 'Could not load the job dataset. If you opened this file directly, use the deployed website or run a local web server. If this is the live site, make sure data/jobs.json and data/ksco-taxonomy.json are committed and deployed.',
+    loadError: 'Could not load the job dataset. If you opened this file directly, use the deployed website or run a local web server. If this is the live site, make sure the job and taxonomy data files are committed and deployed.',
     noResults: 'No roles matched this combination. Try clearing a filter or using a broader keyword.'
   },
   ko: {
@@ -252,7 +252,7 @@ const UI = {
       kicker: '직무 프로필',
       title: '현재 카탈로그 탐색',
       summary: (count) => `필터와 일치하는 직무는 ${count}개입니다.`,
-      coverage: (profiled, total) => `현재 공개 프로필은 ${profiled}개이며, KSCO 기반 detail 직업 노드는 총 ${total}개입니다.`
+      coverage: (profiled, total) => `현재 공개 프로필은 ${profiled}개이며, 전체 detail 직업 노드는 총 ${total}개입니다.`
     },
     actions: {
       openDetails: '상세 프로필 보기',
@@ -288,7 +288,7 @@ const UI = {
       aiFuture: '앞으로의 변화',
       currentReplacement: '현재 AI 대체 서비스',
       services: '관련 AI 서비스',
-      taxonomy: 'KSCO 기반 경로',
+      taxonomy: '경로',
       rationale: '이 위험도로 본 이유',
       automatableNow: 'AI가 이미 처리할 수 있는 일',
       humanEdge: '여전히 사람에게 남는 핵심',
@@ -317,7 +317,7 @@ const UI = {
       }
     },
     loading: '직업 인텔리전스를 불러오는 중입니다...',
-    loadError: '직업 데이터셋을 불러오지 못했습니다. 로컬 파일을 직접 열었다면 배포된 사이트로 접속하거나 로컬 웹서버로 실행해 주세요. 라이브 사이트라면 data/jobs.json과 data/ksco-taxonomy.json이 커밋되고 배포되었는지 확인해 주세요.',
+    loadError: '직업 데이터셋을 불러오지 못했습니다. 로컬 파일을 직접 열었다면 배포된 사이트로 접속하거나 로컬 웹서버로 실행해 주세요. 라이브 사이트라면 직업 데이터와 taxonomy 데이터 파일이 커밋되고 배포되었는지 확인해 주세요.',
     noResults: '이 조합과 일치하는 직무가 없습니다. 필터를 줄이거나 더 넓은 검색어를 사용해 보세요.'
   },
   es: {
@@ -408,7 +408,7 @@ const UI = {
       kicker: 'Perfiles laborales',
       title: 'Explora el catalogo actual',
       summary: (count) => `${count} puesto${count === 1 ? '' : 's'} coincide${count === 1 ? '' : 'n'} con tus filtros.`,
-      coverage: (profiled, total) => `${profiled} perfil${profiled === 1 ? '' : 'es'} completo${profiled === 1 ? '' : 's'} publicado${profiled === 1 ? '' : 's'} de ${total} roles detail alineados con KSCO.`
+      coverage: (profiled, total) => `${profiled} perfil${profiled === 1 ? '' : 'es'} completo${profiled === 1 ? '' : 's'} publicado${profiled === 1 ? '' : 's'} de ${total} roles detail.`
     },
     actions: {
       openDetails: 'Ver perfil completo',
@@ -444,7 +444,7 @@ const UI = {
       aiFuture: 'Lo que cambia despues',
       currentReplacement: 'Reemplazo actual con IA',
       services: 'Servicios de IA',
-      taxonomy: 'Ruta alineada con KSCO',
+      taxonomy: 'Ruta',
       rationale: 'Por que este nivel de riesgo',
       automatableNow: 'Tareas que la IA ya puede tomar',
       humanEdge: 'Ventaja humana que permanece',
@@ -473,7 +473,7 @@ const UI = {
       }
     },
     loading: 'Cargando inteligencia laboral...',
-    loadError: 'No se pudo cargar el conjunto de trabajos. Si abriste el archivo directamente, usa el sitio desplegado o ejecuta un servidor web local. Si es el sitio en produccion, confirma que data/jobs.json y data/ksco-taxonomy.json esten versionados y desplegados.',
+    loadError: 'No se pudo cargar el conjunto de trabajos. Si abriste el archivo directamente, usa el sitio desplegado o ejecuta un servidor web local. Si es el sitio en produccion, confirma que los archivos de trabajos y taxonomia esten versionados y desplegados.',
     noResults: 'Ningun puesto coincide con esta combinacion. Prueba limpiando un filtro o usando una palabra mas amplia.'
   }
 };

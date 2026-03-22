@@ -1,8 +1,8 @@
 {
   "meta": {
-    "name": "KSCO-aligned expansion hierarchy",
+    "name": "Occupation expansion hierarchy",
     "version": "2025-01",
-    "notes": "Major-group naming follows Statistics Korea KSCO references. Mid, sub, and detail nodes are KSCO-aligned project hierarchy entries used to scale the catalog."
+    "notes": "Major-group naming follows official occupation references. Mid, sub, and detail nodes are project hierarchy entries used to scale the catalog."
   },
   "majors": [
     {

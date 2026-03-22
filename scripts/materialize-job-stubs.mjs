@@ -4,7 +4,7 @@ import path from 'node:path';
 const rootDir = process.cwd();
 const jobsPath = path.join(rootDir, 'data', 'jobs.json');
 const stubsPath = path.join(rootDir, 'data', 'generated-job-stubs.json');
-const taxonomyPath = path.join(rootDir, 'data', 'ksco-taxonomy.json');
+const taxonomyPath = path.join(rootDir, 'data', 'taxonomy.json');
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
