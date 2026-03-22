@@ -91,7 +91,8 @@ const UI = {
     results: {
       kicker: 'Job profiles',
       title: 'Scan the current catalog',
-      summary: (count) => `${count} role${count === 1 ? '' : 's'} matched your filters.`
+      summary: (count) => `${count} role${count === 1 ? '' : 's'} matched your filters.`,
+      coverage: (profiled, total) => `${profiled} fully profiled role${profiled === 1 ? '' : 's'} live out of ${total} KSCO-aligned detail roles.`
     },
     details: {
       tasks: 'What the job does',
@@ -222,7 +223,8 @@ const UI = {
     results: {
       kicker: '직무 프로필',
       title: '현재 카탈로그 탐색',
-      summary: (count) => `필터와 일치하는 직무는 ${count}개입니다.`
+      summary: (count) => `필터와 일치하는 직무는 ${count}개입니다.`,
+      coverage: (profiled, total) => `현재 공개 프로필은 ${profiled}개이며, KSCO 기반 detail 직업 노드는 총 ${total}개입니다.`
     },
     details: {
       tasks: '직무 내용',
@@ -353,7 +355,8 @@ const UI = {
     results: {
       kicker: 'Perfiles laborales',
       title: 'Explora el catalogo actual',
-      summary: (count) => `${count} puesto${count === 1 ? '' : 's'} coincide${count === 1 ? '' : 'n'} con tus filtros.`
+      summary: (count) => `${count} puesto${count === 1 ? '' : 's'} coincide${count === 1 ? '' : 'n'} con tus filtros.`,
+      coverage: (profiled, total) => `${profiled} perfil${profiled === 1 ? '' : 'es'} completo${profiled === 1 ? '' : 's'} publicado${profiled === 1 ? '' : 's'} de ${total} roles detail alineados con KSCO.`
     },
     details: {
       tasks: 'Que hace el trabajo',
@@ -686,7 +689,7 @@ function hydrateInsights(copy, stats, totalCount) {
 }
 
 function hydrateResults(copy, jobs) {
-  elements.resultsSummary.textContent = copy.results.summary(jobs.length);
+  elements.resultsSummary.textContent = `${copy.results.summary(jobs.length)} ${copy.results.coverage(state.jobs.length, state.taxonomyIndex.details.size)}`;
 
   if (jobs.length === 0) {
     elements.jobGrid.innerHTML = `<div class="empty-state">${escapeHtml(copy.noResults)}</div>`;

@@ -83,5 +83,9 @@ Useful official references:
 
 ## Current limitation
 
-The current taxonomy file is KSCO-aligned but still only contains the branches needed for the first 8 sample roles.
-The next real content step is to add more detail nodes to `ksco-taxonomy.json`, then generate and fill profile stubs in batches.
+Current snapshot:
+- `62` KSCO-aligned detail nodes in taxonomy
+- `8` fully profiled public jobs in `jobs.json`
+- `54` generated stubs waiting for real AI evidence and multilingual content
+
+The next real content step is no longer taxonomy setup. It is to convert the generated stubs into real profiles in batches.

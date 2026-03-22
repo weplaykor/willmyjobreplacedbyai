@@ -1,10 +1,121 @@
 {
   "meta": {
-    "name": "KSCO-aligned demo hierarchy",
+    "name": "KSCO-aligned expansion hierarchy",
     "version": "2025-01",
-    "notes": "Major-group naming follows Statistics Korea KSCO references. Mid, sub, and detail nodes are project hierarchy entries for the current catalog."
+    "notes": "Major-group naming follows Statistics Korea KSCO references. Mid, sub, and detail nodes are KSCO-aligned project hierarchy entries used to scale the catalog."
   },
   "majors": [
+    {
+      "id": "management",
+      "majorCode": "1",
+      "labels": {
+        "en": "Managers",
+        "ko": "관리자",
+        "es": "Gerentes"
+      },
+      "mids": [
+        {
+          "id": "operations-management",
+          "labels": {
+            "en": "Operations and General Managers",
+            "ko": "운영 및 총괄 관리자",
+            "es": "Gerentes de operaciones y generales"
+          },
+          "subs": [
+            {
+              "id": "business-operations-managers",
+              "labels": {
+                "en": "Business Operations Managers",
+                "ko": "사업 운영 관리자",
+                "es": "Gerentes de operaciones empresariales"
+              },
+              "details": [
+                {
+                  "id": "operations-manager",
+                  "labels": {
+                    "en": "Operations Manager",
+                    "ko": "운영 관리자",
+                    "es": "Gerente de operaciones"
+                  }
+                },
+                {
+                  "id": "product-manager",
+                  "labels": {
+                    "en": "Product Manager",
+                    "ko": "제품 관리자",
+                    "es": "Gerente de producto"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finance-management",
+          "labels": {
+            "en": "Finance Managers",
+            "ko": "재무 관리자",
+            "es": "Gerentes financieros"
+          },
+          "subs": [
+            {
+              "id": "corporate-finance-managers",
+              "labels": {
+                "en": "Corporate Finance Managers",
+                "ko": "기업 재무 관리자",
+                "es": "Gerentes de finanzas corporativas"
+              },
+              "details": [
+                {
+                  "id": "finance-manager",
+                  "labels": {
+                    "en": "Finance Manager",
+                    "ko": "재무 관리자",
+                    "es": "Gerente financiero"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "commercial-management",
+          "labels": {
+            "en": "Commercial Managers",
+            "ko": "상업 관리자",
+            "es": "Gerentes comerciales"
+          },
+          "subs": [
+            {
+              "id": "retail-marketing-managers",
+              "labels": {
+                "en": "Retail and Marketing Managers",
+                "ko": "유통 및 마케팅 관리자",
+                "es": "Gerentes de comercio y marketing"
+              },
+              "details": [
+                {
+                  "id": "retail-manager",
+                  "labels": {
+                    "en": "Retail Manager",
+                    "ko": "소매점 관리자",
+                    "es": "Gerente minorista"
+                  }
+                },
+                {
+                  "id": "marketing-manager",
+                  "labels": {
+                    "en": "Marketing Manager",
+                    "ko": "마케팅 관리자",
+                    "es": "Gerente de marketing"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "professional",
       "majorCode": "2",
@@ -39,6 +150,40 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "medical-pharmacy-professionals",
+              "labels": {
+                "en": "Medical and Pharmacy Professionals",
+                "ko": "의료 및 약학 전문직",
+                "es": "Profesionales medicos y farmaceuticos"
+              },
+              "details": [
+                {
+                  "id": "pharmacist",
+                  "labels": {
+                    "en": "Pharmacist",
+                    "ko": "약사",
+                    "es": "Farmaceutico"
+                  }
+                },
+                {
+                  "id": "physical-therapist",
+                  "labels": {
+                    "en": "Physical Therapist",
+                    "ko": "물리치료사",
+                    "es": "Fisioterapeuta"
+                  }
+                },
+                {
+                  "id": "dental-hygienist",
+                  "labels": {
+                    "en": "Dental Hygienist",
+                    "ko": "치과위생사",
+                    "es": "Higienista dental"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -64,6 +209,40 @@
                     "en": "UX Designer",
                     "ko": "UX 디자이너",
                     "es": "Disenador UX"
+                  }
+                },
+                {
+                  "id": "graphic-designer",
+                  "labels": {
+                    "en": "Graphic Designer",
+                    "ko": "그래픽 디자이너",
+                    "es": "Disenador grafico"
+                  }
+                },
+                {
+                  "id": "industrial-designer",
+                  "labels": {
+                    "en": "Industrial Designer",
+                    "ko": "산업 디자이너",
+                    "es": "Disenador industrial"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "media-production-professionals",
+              "labels": {
+                "en": "Media Production Professionals",
+                "ko": "미디어 제작 전문직",
+                "es": "Profesionales de produccion de medios"
+              },
+              "details": [
+                {
+                  "id": "video-editor",
+                  "labels": {
+                    "en": "Video Editor",
+                    "ko": "영상 편집자",
+                    "es": "Editor de video"
                   }
                 }
               ]
@@ -92,6 +271,56 @@
                     "en": "Software Developer",
                     "ko": "소프트웨어 개발자",
                     "es": "Desarrollador de software"
+                  }
+                },
+                {
+                  "id": "qa-engineer",
+                  "labels": {
+                    "en": "QA Engineer",
+                    "ko": "QA 엔지니어",
+                    "es": "Ingeniero de QA"
+                  }
+                },
+                {
+                  "id": "devops-engineer",
+                  "labels": {
+                    "en": "DevOps Engineer",
+                    "ko": "데브옵스 엔지니어",
+                    "es": "Ingeniero DevOps"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "data-ai-professionals",
+              "labels": {
+                "en": "Data and AI Professionals",
+                "ko": "데이터 및 AI 전문직",
+                "es": "Profesionales de datos e IA"
+              },
+              "details": [
+                {
+                  "id": "data-analyst",
+                  "labels": {
+                    "en": "Data Analyst",
+                    "ko": "데이터 분석가",
+                    "es": "Analista de datos"
+                  }
+                },
+                {
+                  "id": "cybersecurity-analyst",
+                  "labels": {
+                    "en": "Cybersecurity Analyst",
+                    "ko": "사이버보안 분석가",
+                    "es": "Analista de ciberseguridad"
+                  }
+                },
+                {
+                  "id": "ai-research-engineer",
+                  "labels": {
+                    "en": "AI Research Engineer",
+                    "ko": "AI 연구 엔지니어",
+                    "es": "Ingeniero de investigacion en IA"
                   }
                 }
               ]
@@ -123,6 +352,32 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "primary-tertiary-education",
+              "labels": {
+                "en": "Primary and Tertiary Education Teachers",
+                "ko": "초등 및 고등교육 교사",
+                "es": "Docentes de primaria y educacion superior"
+              },
+              "details": [
+                {
+                  "id": "elementary-school-teacher",
+                  "labels": {
+                    "en": "Elementary School Teacher",
+                    "ko": "초등 교사",
+                    "es": "Profesor de primaria"
+                  }
+                },
+                {
+                  "id": "university-lecturer",
+                  "labels": {
+                    "en": "University Lecturer",
+                    "ko": "대학 강사",
+                    "es": "Profesor universitario"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -148,6 +403,76 @@
                     "en": "Translator",
                     "ko": "번역가",
                     "es": "Traductor"
+                  }
+                },
+                {
+                  "id": "interpreter",
+                  "labels": {
+                    "en": "Interpreter",
+                    "ko": "통역사",
+                    "es": "Interprete"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "content-publication-specialists",
+              "labels": {
+                "en": "Content and Publication Specialists",
+                "ko": "콘텐츠 및 출판 전문가",
+                "es": "Especialistas en contenido y publicacion"
+              },
+              "details": [
+                {
+                  "id": "content-strategist",
+                  "labels": {
+                    "en": "Content Strategist",
+                    "ko": "콘텐츠 전략가",
+                    "es": "Estratega de contenido"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "business-legal",
+          "labels": {
+            "en": "Business and Legal Professionals",
+            "ko": "경영·법률 관련 전문직",
+            "es": "Profesionales de negocios y derecho"
+          },
+          "subs": [
+            {
+              "id": "finance-hr-legal-professionals",
+              "labels": {
+                "en": "Finance, HR, and Legal Professionals",
+                "ko": "재무·인사·법률 전문직",
+                "es": "Profesionales de finanzas, RRHH y derecho"
+              },
+              "details": [
+                {
+                  "id": "accountant",
+                  "labels": {
+                    "en": "Accountant",
+                    "ko": "회계사",
+                    "es": "Contador"
+                  }
+                },
+                {
+                  "id": "lawyer",
+                  "labels": {
+                    "en": "Lawyer",
+                    "ko": "변호사",
+                    "es": "Abogado"
+                  }
+                },
+                {
+                  "id": "hr-specialist",
+                  "labels": {
+                    "en": "HR Specialist",
+                    "ko": "인사 담당자",
+                    "es": "Especialista de RRHH"
                   }
                 }
               ]
@@ -188,6 +513,48 @@
                     "ko": "데이터 입력 사무원",
                     "es": "Auxiliar de entrada de datos"
                   }
+                },
+                {
+                  "id": "bookkeeping-clerk",
+                  "labels": {
+                    "en": "Bookkeeping Clerk",
+                    "ko": "경리 사무원",
+                    "es": "Auxiliar contable"
+                  }
+                },
+                {
+                  "id": "payroll-clerk",
+                  "labels": {
+                    "en": "Payroll Clerk",
+                    "ko": "급여 사무원",
+                    "es": "Auxiliar de nomina"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "general-office-clerks",
+              "labels": {
+                "en": "General Office Clerks",
+                "ko": "일반 사무원",
+                "es": "Empleados administrativos generales"
+              },
+              "details": [
+                {
+                  "id": "administrative-assistant",
+                  "labels": {
+                    "en": "Administrative Assistant",
+                    "ko": "행정 보조",
+                    "es": "Asistente administrativo"
+                  }
+                },
+                {
+                  "id": "receptionist",
+                  "labels": {
+                    "en": "Receptionist",
+                    "ko": "접수 사무원",
+                    "es": "Recepcionista"
+                  }
                 }
               ]
             }
@@ -227,6 +594,300 @@
                     "ko": "고객 지원 전문가",
                     "es": "Especialista en soporte al cliente"
                   }
+                },
+                {
+                  "id": "call-center-agent",
+                  "labels": {
+                    "en": "Call Center Agent",
+                    "ko": "콜센터 상담원",
+                    "es": "Agente de call center"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hospitality-services",
+          "labels": {
+            "en": "Hospitality Service Workers",
+            "ko": "숙박·외식 서비스 종사자",
+            "es": "Trabajadores de hospitalidad"
+          },
+          "subs": [
+            {
+              "id": "front-desk-service-workers",
+              "labels": {
+                "en": "Front Desk Service Workers",
+                "ko": "프런트 서비스 종사자",
+                "es": "Trabajadores de recepcion"
+              },
+              "details": [
+                {
+                  "id": "hotel-receptionist",
+                  "labels": {
+                    "en": "Hotel Receptionist",
+                    "ko": "호텔 프런트 직원",
+                    "es": "Recepcionista de hotel"
+                  }
+                },
+                {
+                  "id": "flight-attendant",
+                  "labels": {
+                    "en": "Flight Attendant",
+                    "ko": "승무원",
+                    "es": "Auxiliar de vuelo"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "food-beverage-service-workers",
+              "labels": {
+                "en": "Food and Beverage Service Workers",
+                "ko": "식음료 서비스 종사자",
+                "es": "Trabajadores de alimentos y bebidas"
+              },
+              "details": [
+                {
+                  "id": "barista",
+                  "labels": {
+                    "en": "Barista",
+                    "ko": "바리스타",
+                    "es": "Barista"
+                  }
+                },
+                {
+                  "id": "cook",
+                  "labels": {
+                    "en": "Cook",
+                    "ko": "요리사",
+                    "es": "Cocinero"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "personal-protective-services",
+          "labels": {
+            "en": "Personal and Protective Service Workers",
+            "ko": "개인 및 보호 서비스 종사자",
+            "es": "Trabajadores de servicios personales y de proteccion"
+          },
+          "subs": [
+            {
+              "id": "personal-care-service-workers",
+              "labels": {
+                "en": "Personal Care Service Workers",
+                "ko": "개인 돌봄 서비스 종사자",
+                "es": "Trabajadores de cuidado personal"
+              },
+              "details": [
+                {
+                  "id": "hairdresser",
+                  "labels": {
+                    "en": "Hairdresser",
+                    "ko": "미용사",
+                    "es": "Peluquero"
+                  }
+                },
+                {
+                  "id": "caregiver",
+                  "labels": {
+                    "en": "Caregiver",
+                    "ko": "요양보호사",
+                    "es": "Cuidador"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "security-service-workers",
+              "labels": {
+                "en": "Security Service Workers",
+                "ko": "보안 서비스 종사자",
+                "es": "Trabajadores de seguridad"
+              },
+              "details": [
+                {
+                  "id": "security-guard",
+                  "labels": {
+                    "en": "Security Guard",
+                    "ko": "경비원",
+                    "es": "Guardia de seguridad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "majorCode": "5",
+      "labels": {
+        "en": "Sales Occupations",
+        "ko": "판매 종사자",
+        "es": "Ocupaciones de ventas"
+      },
+      "mids": [
+        {
+          "id": "retail-sales",
+          "labels": {
+            "en": "Retail and Store Sales Workers",
+            "ko": "소매 판매 종사자",
+            "es": "Trabajadores de ventas minoristas"
+          },
+          "subs": [
+            {
+              "id": "store-sales-workers",
+              "labels": {
+                "en": "Store Sales Workers",
+                "ko": "매장 판매 종사자",
+                "es": "Trabajadores de tienda"
+              },
+              "details": [
+                {
+                  "id": "retail-salesperson",
+                  "labels": {
+                    "en": "Retail Salesperson",
+                    "ko": "판매원",
+                    "es": "Vendedor minorista"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "financial-property-sales",
+          "labels": {
+            "en": "Financial and Property Sales Workers",
+            "ko": "금융·부동산 판매 종사자",
+            "es": "Trabajadores de ventas financieras e inmobiliarias"
+          },
+          "subs": [
+            {
+              "id": "specialized-sales-agents",
+              "labels": {
+                "en": "Specialized Sales Agents",
+                "ko": "전문 판매 대리인",
+                "es": "Agentes de ventas especializadas"
+              },
+              "details": [
+                {
+                  "id": "real-estate-agent",
+                  "labels": {
+                    "en": "Real Estate Agent",
+                    "ko": "공인중개사",
+                    "es": "Agente inmobiliario"
+                  }
+                },
+                {
+                  "id": "insurance-sales-agent",
+                  "labels": {
+                    "en": "Insurance Sales Agent",
+                    "ko": "보험 설계사",
+                    "es": "Agente de seguros"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "digital-commerce-sales",
+          "labels": {
+            "en": "Digital Commerce Workers",
+            "ko": "디지털 커머스 종사자",
+            "es": "Trabajadores de comercio digital"
+          },
+          "subs": [
+            {
+              "id": "online-merchandising-workers",
+              "labels": {
+                "en": "Online Merchandising Workers",
+                "ko": "온라인 머천다이징 종사자",
+                "es": "Trabajadores de merchandising digital"
+              },
+              "details": [
+                {
+                  "id": "ecommerce-merchandiser",
+                  "labels": {
+                    "en": "E-commerce Merchandiser",
+                    "ko": "이커머스 머천다이저",
+                    "es": "Merchandiser de comercio electronico"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "majorCode": "6",
+      "labels": {
+        "en": "Skilled Agricultural, Forestry and Fishery Workers",
+        "ko": "농림어업 숙련 종사자",
+        "es": "Trabajadores calificados agropecuarios, forestales y pesqueros"
+      },
+      "mids": [
+        {
+          "id": "crop-farming",
+          "labels": {
+            "en": "Crop Growers",
+            "ko": "작물 재배 종사자",
+            "es": "Trabajadores de cultivos"
+          },
+          "subs": [
+            {
+              "id": "field-crop-farmers",
+              "labels": {
+                "en": "Field Crop Farmers",
+                "ko": "노지 작물 재배 종사자",
+                "es": "Agricultores de campo"
+              },
+              "details": [
+                {
+                  "id": "crop-farmer",
+                  "labels": {
+                    "en": "Crop Farmer",
+                    "ko": "작물 재배 농업인",
+                    "es": "Agricultor"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "livestock-farming",
+          "labels": {
+            "en": "Livestock Workers",
+            "ko": "축산 종사자",
+            "es": "Trabajadores pecuarios"
+          },
+          "subs": [
+            {
+              "id": "animal-breeding-workers",
+              "labels": {
+                "en": "Animal Breeding Workers",
+                "ko": "가축 사육 종사자",
+                "es": "Trabajadores de cria animal"
+              },
+              "details": [
+                {
+                  "id": "livestock-farmer",
+                  "labels": {
+                    "en": "Livestock Farmer",
+                    "ko": "축산 농업인",
+                    "es": "Ganadero"
+                  }
                 }
               ]
             }
@@ -265,6 +926,272 @@
                     "en": "Electrician",
                     "ko": "전기 기술자",
                     "es": "Electricista"
+                  }
+                },
+                {
+                  "id": "hvac-technician",
+                  "labels": {
+                    "en": "HVAC Technician",
+                    "ko": "냉난방 설비 기술자",
+                    "es": "Tecnico HVAC"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "construction-trades",
+          "labels": {
+            "en": "Construction Trade Workers",
+            "ko": "건설 기능직",
+            "es": "Trabajadores de oficios de construccion"
+          },
+          "subs": [
+            {
+              "id": "wood-pipe-building-fitters",
+              "labels": {
+                "en": "Wood, Pipe, and Building Fitters",
+                "ko": "목공·배관·건물 시공 기능직",
+                "es": "Carpinteros, plomeros y montadores"
+              },
+              "details": [
+                {
+                  "id": "plumber",
+                  "labels": {
+                    "en": "Plumber",
+                    "ko": "배관공",
+                    "es": "Plomero"
+                  }
+                },
+                {
+                  "id": "carpenter",
+                  "labels": {
+                    "en": "Carpenter",
+                    "ko": "목수",
+                    "es": "Carpintero"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metal-vehicle-trades",
+          "labels": {
+            "en": "Metal and Vehicle Trade Workers",
+            "ko": "금속 및 차량 기능직",
+            "es": "Trabajadores metalicos y de vehiculos"
+          },
+          "subs": [
+            {
+              "id": "metal-vehicle-repair-workers",
+              "labels": {
+                "en": "Metal and Vehicle Repair Workers",
+                "ko": "금속·차량 수리 기능직",
+                "es": "Trabajadores de reparacion metalica y vehicular"
+              },
+              "details": [
+                {
+                  "id": "welder",
+                  "labels": {
+                    "en": "Welder",
+                    "ko": "용접공",
+                    "es": "Soldador"
+                  }
+                },
+                {
+                  "id": "automotive-technician",
+                  "labels": {
+                    "en": "Automotive Technician",
+                    "ko": "자동차 정비사",
+                    "es": "Tecnico automotriz"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "machine-operators",
+      "majorCode": "8",
+      "labels": {
+        "en": "Plant and Machine Operators and Assemblers",
+        "ko": "장치·기계 조작 및 조립 종사자",
+        "es": "Operadores de instalaciones, maquinas y ensambladores"
+      },
+      "mids": [
+        {
+          "id": "transport-operators",
+          "labels": {
+            "en": "Transport and Mobile Equipment Operators",
+            "ko": "운송 및 이동장비 조작 종사자",
+            "es": "Operadores de transporte y equipo movil"
+          },
+          "subs": [
+            {
+              "id": "road-vehicle-operators",
+              "labels": {
+                "en": "Road Vehicle Operators",
+                "ko": "도로 운송장비 운전 종사자",
+                "es": "Operadores de vehiculos de carretera"
+              },
+              "details": [
+                {
+                  "id": "truck-driver",
+                  "labels": {
+                    "en": "Truck Driver",
+                    "ko": "트럭 운전사",
+                    "es": "Conductor de camion"
+                  }
+                },
+                {
+                  "id": "forklift-operator",
+                  "labels": {
+                    "en": "Forklift Operator",
+                    "ko": "지게차 운전원",
+                    "es": "Operador de montacargas"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "industrial-machine-operators",
+          "labels": {
+            "en": "Industrial Machine Operators",
+            "ko": "산업 기계 조작 종사자",
+            "es": "Operadores de maquinas industriales"
+          },
+          "subs": [
+            {
+              "id": "production-line-machine-operators",
+              "labels": {
+                "en": "Production Line Machine Operators",
+                "ko": "생산라인 기계 조작 종사자",
+                "es": "Operadores de lineas de produccion"
+              },
+              "details": [
+                {
+                  "id": "cnc-machine-operator",
+                  "labels": {
+                    "en": "CNC Machine Operator",
+                    "ko": "CNC 기계 조작원",
+                    "es": "Operador de maquina CNC"
+                  }
+                },
+                {
+                  "id": "packaging-machine-operator",
+                  "labels": {
+                    "en": "Packaging Machine Operator",
+                    "ko": "포장 기계 조작원",
+                    "es": "Operador de maquina de empaque"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elementary",
+      "majorCode": "9",
+      "labels": {
+        "en": "Elementary Occupations",
+        "ko": "단순노무 종사자",
+        "es": "Ocupaciones elementales"
+      },
+      "mids": [
+        {
+          "id": "cleaning-labor",
+          "labels": {
+            "en": "Cleaning and Maintenance Laborers",
+            "ko": "청소 및 유지보수 단순노무",
+            "es": "Trabajadores elementales de limpieza y mantenimiento"
+          },
+          "subs": [
+            {
+              "id": "building-maintenance-laborers",
+              "labels": {
+                "en": "Building Maintenance Laborers",
+                "ko": "건물 유지보수 단순노무",
+                "es": "Trabajadores de mantenimiento de edificios"
+              },
+              "details": [
+                {
+                  "id": "cleaner",
+                  "labels": {
+                    "en": "Cleaner",
+                    "ko": "청소원",
+                    "es": "Limpiador"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "construction-warehouse-labor",
+          "labels": {
+            "en": "Construction and Warehouse Laborers",
+            "ko": "건설 및 창고 단순노무",
+            "es": "Trabajadores elementales de construccion y almacen"
+          },
+          "subs": [
+            {
+              "id": "manual-material-laborers",
+              "labels": {
+                "en": "Manual Material Laborers",
+                "ko": "물류 및 자재 취급 단순노무",
+                "es": "Trabajadores manuales de materiales"
+              },
+              "details": [
+                {
+                  "id": "warehouse-laborer",
+                  "labels": {
+                    "en": "Warehouse Laborer",
+                    "ko": "창고 작업원",
+                    "es": "Trabajador de almacen"
+                  }
+                },
+                {
+                  "id": "construction-laborer",
+                  "labels": {
+                    "en": "Construction Laborer",
+                    "ko": "건설 현장 작업원",
+                    "es": "Peon de construccion"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "delivery-support-labor",
+          "labels": {
+            "en": "Delivery and Support Laborers",
+            "ko": "배달 및 지원 단순노무",
+            "es": "Trabajadores elementales de reparto y apoyo"
+          },
+          "subs": [
+            {
+              "id": "last-mile-delivery-workers",
+              "labels": {
+                "en": "Last-mile Delivery Workers",
+                "ko": "라스트마일 배달 종사자",
+                "es": "Trabajadores de reparto de ultima milla"
+              },
+              "details": [
+                {
+                  "id": "delivery-rider",
+                  "labels": {
+                    "en": "Delivery Rider",
+                    "ko": "배달 기사",
+                    "es": "Repartidor"
                   }
                 }
               ]
