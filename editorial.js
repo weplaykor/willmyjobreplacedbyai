@@ -1,4 +1,4 @@
-const ASSET_VERSION = '2026-03-23-1';
+const ASSET_VERSION = '2026-03-23-2';
 const NEWS_PAGE_SIZE = 30;
 
 const DATA_FILES = {
@@ -162,11 +162,11 @@ function injectArticleSchema(articles) {
       dateModified: article.publishedAt,
       author: {
         '@type': 'Organization',
-        name: 'Will My Job Replaced by AI?'
+        name: 'Weplay Inc. 종이비행기국가대표팀 위플레이'
       },
       publisher: {
         '@type': 'Organization',
-        name: 'Will My Job Replaced by AI?'
+        name: 'Weplay Inc. 종이비행기국가대표팀 위플레이'
       },
       mainEntityOfPage: `https://www.willmyjobreplacedbyai.com/articles.html#${article.id}`,
       keywords: article.keywords.join(', '),

@@ -276,6 +276,13 @@ body::before {
   line-height: 1.6;
 }
 
+.hero-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .hero-notes {
   display: grid;
   gap: 0.8rem;
@@ -393,6 +400,18 @@ body::before {
   background: rgba(255, 255, 255, 0.05);
   color: var(--text);
   transition: border-color 0.18s ease, transform 0.18s ease;
+}
+
+.editorial-button-strong {
+  border-color: transparent;
+  background: linear-gradient(135deg, rgba(255, 135, 92, 0.95) 0%, rgba(255, 205, 107, 0.95) 100%);
+  color: #091420;
+  font-weight: 800;
+}
+
+.editorial-button-strong:hover {
+  color: #091420;
+  border-color: transparent;
 }
 
 .editorial-button:hover,
@@ -572,10 +591,43 @@ body::before {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+.seo-columns {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.seo-list {
+  margin: 0.8rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.48rem;
+  line-height: 1.6;
+}
+
+.seo-inline-link {
+  color: var(--teal);
+  text-decoration-color: rgba(108, 229, 216, 0.6);
+  text-underline-offset: 0.16rem;
+}
+
+.seo-inline-link:hover {
+  color: var(--text);
+}
+
 .faq-list {
   margin-top: 1rem;
   display: grid;
-  gap: 0.4rem;
+  gap: 0.75rem;
+}
+
+.faq-item {
+  padding: 1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 .faq-list h3 {

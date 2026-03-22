@@ -1,4 +1,4 @@
-const ASSET_VERSION = '2026-03-23-3';
+const ASSET_VERSION = '2026-03-23-4';
 
 const DATA_FILES = {
   jobs: 'data/jobs.json',
@@ -11,9 +11,9 @@ const UI = {
   en: {
     locale: 'en-US',
     brandSubtitle: 'World Job Intelligence for an AI-shaped Labor Market',
-    heroEyebrow: 'Job replacement map for the next decade',
-    heroTitle: 'Will My Job Replaced by AI?',
-    heroLead: 'This service helps answer whether AI will replace jobs in each role. Explore job replacement risk by occupation, AI replacing jobs impact, and where AI may replace job tasks versus strengthen people.',
+    heroEyebrow: 'Will AI replace jobs? Career map for the next decade',
+    heroTitle: 'Will My Job Be Replaced by AI? Find Out in Seconds',
+    heroLead: 'Wondering will my job be replaced by AI? You are not alone. Use this free career risk tool to compare jobs, see what AI can automate now, and learn which skills, education paths, and human strengths still matter.',
     stats: {
       jobs: 'jobs in view',
       highRisk: 'high risk jobs',
@@ -26,7 +26,7 @@ const UI = {
       aiTitle: 'Filter by replacement and education signals'
     },
     controls: {
-      search: 'Search job replacement',
+      search: 'Enter your job title',
       searchPlaceholder: 'Try nurse, software developer, translator, customer support...',
       major: '1st classification (major)',
       mid: '2nd classification (mid)',
@@ -99,6 +99,8 @@ const UI = {
       coverage: (profiled, total) => `${profiled} fully profiled role${profiled === 1 ? '' : 's'} live out of ${total} detail roles.`
     },
     actions: {
+      checkRisk: 'Check Your Job Risk Now',
+      riskArticle: 'Read: jobs most at risk from AI',
       openDetails: 'View full profile',
       closeDetails: 'Close job details'
     },
@@ -167,9 +169,9 @@ const UI = {
   ko: {
     locale: 'ko-KR',
     brandSubtitle: 'AI 시대 노동시장을 위한 세계 직업 인텔리전스',
-    heroEyebrow: '직업 대체 지도를 위한 10년 로드맵',
-    heroTitle: 'Will My Job Replaced by AI?',
-    heroLead: '이 서비스는 직종별 AI 대체 위험도를 보여주는 지도입니다. AI가 직업을 대체할지, 어떤 직무에서 AI가 일 일부를 대체하는지, 그리고 어떤 일은 사람이 더 중요해지는지를 한 번에 확인할 수 있습니다.',
+    heroEyebrow: 'AI가 직업을 대체할까? 앞으로 10년의 커리어 지도',
+    heroTitle: '내 직업은 AI로 대체될까? 바로 확인해보세요',
+    heroLead: '내 직업이 AI로 대체될지 궁금하다면 여기서 바로 확인할 수 있습니다. 이 무료 도구는 직업별 대체 위험도, 현재 가능한 자동화, 필요한 역량, 교육 경로, 그리고 사람에게 남는 강점을 한 번에 보여줍니다.',
     stats: {
       jobs: '현재 표시된 직무',
       highRisk: '고위험 직무',
@@ -182,7 +184,7 @@ const UI = {
       aiTitle: '대체 위험과 학위 신호로 좁히기'
     },
     controls: {
-      search: '직업 대체 검색',
+      search: '직업명을 입력하세요',
       searchPlaceholder: '간호사, 교사, 번역가, 고객지원 등 입력',
       major: '1차 분류 (대항목)',
       mid: '2차 분류 (하위카테고리)',
@@ -255,6 +257,8 @@ const UI = {
       coverage: (profiled, total) => `현재 공개 프로필은 ${profiled}개이며, 전체 detail 직업 노드는 총 ${total}개입니다.`
     },
     actions: {
+      checkRisk: '내 직업 위험도 확인하기',
+      riskArticle: '읽기: AI에 가장 노출된 직업',
       openDetails: '상세 프로필 보기',
       closeDetails: '직무 상세 닫기'
     },
@@ -323,9 +327,9 @@ const UI = {
   es: {
     locale: 'es-ES',
     brandSubtitle: 'Inteligencia laboral mundial para un mercado definido por la IA',
-    heroEyebrow: 'Mapa profesional para la proxima decada',
-    heroTitle: 'Will My Job Replaced by AI?',
-    heroLead: 'Este servicio muestra la evolucion del reemplazo por IA por ocupacion. Busca si la IA esta reemplazando trabajos hoy y compara el riesgo de reemplazo, AI replacing jobs, y en que roles la IA mejora a la fuerza laboral.',
+    heroEyebrow: 'La IA reemplazara trabajos? Mapa de carrera para la proxima decada',
+    heroTitle: 'La IA reemplazara mi trabajo? Descubrelo en segundos',
+    heroLead: 'Si te preguntas si la IA reemplazara tu trabajo, este sitio te ayuda a compararlo. Usa esta herramienta gratuita para ver el riesgo por ocupacion, que tareas ya puede automatizar la IA y que habilidades o rutas educativas siguen importando.',
     stats: {
       jobs: 'puestos visibles',
       highRisk: 'trabajos de alto riesgo',
@@ -338,7 +342,7 @@ const UI = {
       aiTitle: 'Filtrar por reemplazo y senales educativas'
     },
     controls: {
-      search: 'Buscar empleos',
+      search: 'Ingresa tu trabajo',
       searchPlaceholder: 'Prueba enfermero, profesor, traductor, soporte...',
       major: '1ra clasificacion (mayor)',
       mid: '2da clasificacion (media)',
@@ -411,6 +415,8 @@ const UI = {
       coverage: (profiled, total) => `${profiled} perfil${profiled === 1 ? '' : 'es'} completo${profiled === 1 ? '' : 's'} publicado${profiled === 1 ? '' : 's'} de ${total} roles detail.`
     },
     actions: {
+      checkRisk: 'Revisar riesgo de mi trabajo',
+      riskArticle: 'Leer: trabajos con mas riesgo por IA',
       openDetails: 'Ver perfil completo',
       closeDetails: 'Cerrar detalles del puesto'
     },
@@ -503,6 +509,8 @@ const elements = {
   heroEyebrow: document.getElementById('heroEyebrow'),
   heroTitle: document.getElementById('heroTitle'),
   heroLead: document.getElementById('heroLead'),
+  heroPrimaryCta: document.getElementById('heroPrimaryCta'),
+  heroSecondaryLink: document.getElementById('heroSecondaryLink'),
   statJobsValue: document.getElementById('statJobsValue'),
   statJobsLabel: document.getElementById('statJobsLabel'),
   statRiskValue: document.getElementById('statRiskValue'),
@@ -742,6 +750,9 @@ function hydrateChrome(copy) {
   elements.heroEyebrow.textContent = copy.heroEyebrow;
   elements.heroTitle.textContent = copy.heroTitle;
   elements.heroLead.textContent = copy.heroLead;
+  elements.heroPrimaryCta.textContent = copy.actions.checkRisk;
+  elements.heroSecondaryLink.textContent = copy.actions.riskArticle;
+  elements.heroSecondaryLink.href = 'articles.html#jobs-most-exposed-to-ai-agents';
   elements.jobFilterKicker.textContent = copy.filterGroups.jobKicker;
   elements.jobFilterTitle.textContent = copy.filterGroups.jobTitle;
   elements.aiFilterKicker.textContent = copy.filterGroups.aiKicker;
