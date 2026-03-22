@@ -117,6 +117,45 @@
       ]
     },
     {
+      "id": "business-financial-operations",
+      "majorCode": "10",
+      "labels": {
+        "en": "Business and Financial Operations Occupations",
+        "ko": "사업 및 재무 운영 관련 직종",
+        "es": "Ocupaciones de operaciones empresariales y financieras"
+      },
+      "mids": [
+        {
+          "id": "business-operations-specialists",
+          "labels": {
+            "en": "Business Operations Specialists",
+            "ko": "사업 운영 전문가",
+            "es": "Especialistas en operaciones empresariales"
+          },
+          "subs": [
+            {
+              "id": "project-management-specialists",
+              "labels": {
+                "en": "Project Management Specialists",
+                "ko": "프로젝트 관리 전문가",
+                "es": "Especialistas en gestion de proyectos"
+              },
+              "details": [
+                {
+                  "id": "project-manager",
+                  "labels": {
+                    "en": "Project Manager",
+                    "ko": "프로젝트 매니저",
+                    "es": "Gerente de proyectos"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "professional",
       "majorCode": "2",
       "labels": {

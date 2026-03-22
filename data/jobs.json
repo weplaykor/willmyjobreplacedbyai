@@ -930,6 +930,225 @@
     }
   },
   {
+    "id": "project-manager",
+    "category": "business",
+    "automationRisk": 46,
+    "aiRole": "hybrid",
+    "classification": {
+      "majorId": "business-financial-operations",
+      "midId": "business-operations-specialists",
+      "subId": "project-management-specialists",
+      "detailId": "project-manager"
+    },
+    "currentReplacementUrl": "https://asana.com/product/ai",
+    "degree": {
+      "status": "required",
+      "level": "bachelor"
+    },
+    "aiEvidence": {
+      "rationale": {
+        "en": "Project management is exposed because a meaningful share of the job is structured coordination work: plans, updates, summaries, task breakdowns, workflow rules, and dashboard monitoring. But it is not high-risk in the same way as repetitive clerical work, because projects frequently involve conflicting incentives, unclear scope, organizational politics, and real accountability under uncertainty. That combination makes this a medium-risk, AI-reshaped role rather than a near-term full replacement role.",
+        "ko": "프로젝트 관리는 계획, 업데이트, 요약, 작업 분해, 워크플로 규칙, 대시보드 모니터링처럼 구조화된 조정 업무 비중이 커서 AI 노출도가 있습니다. 하지만 반복 사무직처럼 고위험은 아닙니다. 실제 프로젝트는 이해관계 충돌, 불명확한 범위, 조직 정치, 불확실성 속 책임이 계속 따라오기 때문입니다. 그래서 이 직업은 중위험의 AI 재편형 역할에 가깝고, 단기 전면 대체 직무는 아닙니다.",
+        "es": "La gestion de proyectos esta expuesta porque una parte significativa del trabajo es coordinacion estructurada: planes, actualizaciones, resumenes, desglose de tareas, reglas de flujo y monitoreo de paneles. Pero no es de alto riesgo como el trabajo clerical repetitivo, porque los proyectos suelen incluir incentivos en conflicto, alcance ambiguo, politica organizacional y responsabilidad real bajo incertidumbre. Esa combinacion hace que sea un rol de riesgo medio remodelado por IA, no un reemplazo total a corto plazo."
+      },
+      "automatableNow": {
+        "en": [
+          "Drafting project plans and task lists from prompts.",
+          "Summarizing project activity, comments, and updates.",
+          "Drafting status reports from KPI and project data.",
+          "Suggesting risks and mitigation steps.",
+          "Creating workflow automations and turning chat or docs into trackable work items."
+        ],
+        "ko": [
+          "프롬프트에서 프로젝트 계획과 작업 목록 초안 만들기.",
+          "프로젝트 활동, 댓글, 업데이트 요약하기.",
+          "KPI와 프로젝트 데이터를 바탕으로 상태 보고서 초안 만들기.",
+          "리스크와 대응 방안 제안하기.",
+          "워크플로 자동화를 만들고 채팅이나 문서를 추적 가능한 작업으로 바꾸기."
+        ],
+        "es": [
+          "Redactar planes de proyecto y listas de tareas desde prompts.",
+          "Resumir actividad, comentarios y actualizaciones del proyecto.",
+          "Redactar reportes de estado a partir de KPI y datos del proyecto.",
+          "Sugerir riesgos y pasos de mitigacion.",
+          "Crear automatizaciones de flujo y convertir chats o documentos en trabajo rastreable."
+        ]
+      },
+      "humanEdge": {
+        "en": [
+          "Winning stakeholder trust when priorities clash.",
+          "Making judgment calls when budget, timeline, and scope cannot all be protected.",
+          "Handling political friction across teams, vendors, and leadership.",
+          "Owning delivery outcomes when the model misses context.",
+          "Motivating people, negotiating tradeoffs, and keeping momentum through uncertainty."
+        ],
+        "ko": [
+          "우선순위가 충돌할 때 이해관계자 신뢰를 얻는 일.",
+          "예산, 일정, 범위를 모두 지킬 수 없을 때 판단을 내리는 일.",
+          "팀, 협력사, 리더십 사이의 정치적 마찰을 다루는 일.",
+          "모델이 맥락을 놓칠 때도 결과 책임을 지는 일.",
+          "사람을 움직이고, 트레이드오프를 협상하며, 불확실성 속에서 추진력을 유지하는 일."
+        ],
+        "es": [
+          "Ganar confianza de stakeholders cuando las prioridades chocan.",
+          "Tomar decisiones cuando presupuesto, calendario y alcance no pueden protegerse al mismo tiempo.",
+          "Gestionar friccion politica entre equipos, proveedores y liderazgo.",
+          "Asumir responsabilidad por la entrega cuando el modelo pierde contexto.",
+          "Motivar personas, negociar compensaciones y mantener impulso bajo incertidumbre."
+        ]
+      },
+      "references": [
+        {
+          "name": "BLS: Project Management Specialists",
+          "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm"
+        },
+        {
+          "name": "PMI: Shaping the Future of Project Management With AI",
+          "url": "https://www.pmi.org/learning/thought-leadership/ai-impact/shaping-the-future-of-project-management-with-ai"
+        },
+        {
+          "name": "Microsoft Planner + Copilot",
+          "url": "https://support.microsoft.com/en-us/topic/microsoft-365-copilot-in-planner-help-learning-0a958ec4-1ebc-491c-b9ef-ae1ef99979a2"
+        },
+        {
+          "name": "Atlassian Intelligence features in Jira",
+          "url": "https://support.atlassian.com/jira-software-cloud/docs/what-is-atlassian-intelligence-for-jira/"
+        },
+        {
+          "name": "Asana AI",
+          "url": "https://asana.com/product/ai"
+        }
+      ]
+    },
+    "content": {
+      "en": {
+        "title": "Project Manager",
+        "summary": "Project Manager coordinates scope, schedule, budget, vendors, stakeholders, and delivery across a project. AI is increasingly absorbing the planning, summarizing, tracking, and reporting layer, but the role still keeps strong human ownership in decision-making, alignment, and accountability.",
+        "tasks": [
+          "Coordinate project scope, budget, schedule, staffing, vendors, and client expectations.",
+          "Track milestones, deliverables, risks, and changes.",
+          "Resolve blockers, adjust plans, and keep teams aligned when tradeoffs or surprises appear."
+        ],
+        "skills": [
+          "Stakeholder communication",
+          "Tradeoff judgment",
+          "Risk management",
+          "Dependency planning",
+          "Team coordination",
+          "AI workflow literacy"
+        ],
+        "path": [
+          "Start in operations, business analysis, delivery coordination, PMO support, or a technical team role.",
+          "Learn project planning, budgeting, issue tracking, and cross-functional communication.",
+          "Build proof that you can keep projects moving when requirements change, priorities conflict, or teams lose alignment. Certifications can help, but practical delivery history matters more than theory alone."
+        ],
+        "degreeNote": "A bachelor's degree is typically expected for entry into project management specialist roles, although the exact field may vary by industry. Certifications may help, but the clearest hiring signal is still the ability to deliver projects on time, within budget, and across competing stakeholders.",
+        "aiNow": "AI already helps project managers generate task plans, draft status reports, summarize comments and activity, surface risks, create workflow rules from natural language, and turn chat or document content into trackable work items.",
+        "aiFuture": "The administrative core of project management will keep shrinking first. Teams will need fewer people for routine tracking, status-chasing, meeting recap, and dashboard upkeep. The surviving value shifts upward toward ambiguous problem-solving, executive alignment, negotiation, resource tradeoffs, and being the accountable human when AI outputs are incomplete or wrong. PMI also argues that AI fluency is becoming non-negotiable for project managers.",
+        "services": [
+          "Asana AI",
+          "Atlassian Intelligence",
+          "Microsoft 365 Copilot in Planner / Project tools"
+        ],
+        "educationPathways": [
+          "Start with a bachelor's degree in business, project management, or an industry-relevant technical field.",
+          "Add hands-on experience through analyst, coordinator, operations, PMO, or delivery roles.",
+          "Build strength in planning, budgeting, stakeholder updates, issue logs, and risk review.",
+          "Layer in AI tool usage for task generation, status drafting, workflow automation, and portfolio summaries so you are not competing as a pure manual coordinator."
+        ]
+      },
+      "ko": {
+        "title": "프로젝트 매니저",
+        "summary": "프로젝트 매니저는 프로젝트 전반의 범위, 일정, 예산, 협력사, 이해관계자, 납품을 조율합니다. AI는 계획, 요약, 추적, 리포팅 계층을 빠르게 흡수하고 있지만, 최종 의사결정, 정렬, 책임은 여전히 사람의 몫이 큽니다.",
+        "tasks": [
+          "프로젝트 범위, 예산, 일정, 인력, 협력사, 고객 기대치를 조율합니다.",
+          "마일스톤, 산출물, 리스크, 변경사항을 추적합니다.",
+          "막히는 문제를 풀고 계획을 조정하며, 트레이드오프나 돌발 상황이 생겨도 팀 정렬을 유지합니다."
+        ],
+        "skills": [
+          "이해관계자 커뮤니케이션",
+          "트레이드오프 판단",
+          "리스크 관리",
+          "의존성 계획",
+          "팀 조율",
+          "AI 워크플로 이해력"
+        ],
+        "path": [
+          "운영, 비즈니스 분석, 딜리버리 코디네이션, PMO 지원, 또는 기술팀 역할에서 시작할 수 있습니다.",
+          "프로젝트 계획, 예산 관리, 이슈 추적, 크로스펑셔널 커뮤니케이션을 익히세요.",
+          "요구사항이 바뀌고 우선순위가 충돌하거나 팀 정렬이 무너질 때도 프로젝트를 계속 움직일 수 있다는 증거를 쌓으세요. 자격증은 도움이 될 수 있지만, 실전 딜리버리 경험이 이론보다 더 중요합니다."
+        ],
+        "degreeNote": "프로젝트 관리 전문직으로 들어가기 위해서는 일반적으로 학사 학위가 기대됩니다. 전공은 산업에 따라 달라질 수 있습니다. 자격증이 도움이 되긴 하지만, 채용에서 가장 분명한 신호는 결국 예산과 일정 안에서 여러 이해관계자를 조율하며 프로젝트를 완수한 경험입니다.",
+        "aiNow": "AI는 이미 프로젝트 매니저가 작업 계획을 만들고, 상태 보고서를 초안화하고, 댓글과 활동을 요약하고, 리스크를 드러내고, 자연어로 워크플로 규칙을 만들고, 채팅이나 문서를 추적 가능한 작업으로 바꾸는 데 도움을 줍니다.",
+        "aiFuture": "프로젝트 관리의 행정 핵심은 먼저 더 작아질 가능성이 큽니다. 반복적인 추적, 상태 확인, 회의 요약, 대시보드 유지에는 더 적은 인원이 필요해질 것입니다. 대신 살아남는 가치는 모호한 문제 해결, 임원 정렬, 협상, 자원 트레이드오프, 그리고 AI 출력이 불완전하거나 틀릴 때 책임지는 인간 역할로 올라갑니다. PMI 역시 프로젝트 매니저에게 AI 활용 역량이 사실상 필수로 가고 있다고 봅니다.",
+        "services": [
+          "Asana AI",
+          "Atlassian Intelligence",
+          "Microsoft 365 Copilot in Planner / Project tools"
+        ],
+        "educationPathways": [
+          "경영, 프로젝트 관리, 또는 산업과 맞는 기술 분야의 학사 경로부터 시작하세요.",
+          "분석가, 코디네이터, 운영, PMO, 딜리버리 역할을 통해 실무 경험을 더하세요.",
+          "계획, 예산, 이해관계자 업데이트, 이슈 로그, 리스크 리뷰 역량을 쌓으세요.",
+          "작업 생성, 상태 초안, 워크플로 자동화, 포트폴리오 요약에 AI 도구를 겹쳐 써서 순수 수작업 코디네이터로 경쟁하지 않도록 하세요."
+        ]
+      },
+      "es": {
+        "title": "Gerente de proyectos",
+        "summary": "Gerente de proyectos coordina alcance, calendario, presupuesto, proveedores, stakeholders y entrega a lo largo de un proyecto. La IA esta absorbiendo cada vez mas la capa de planificacion, resumen, seguimiento y reporte, pero el rol todavia conserva una fuerte propiedad humana en la toma de decisiones, la alineacion y la responsabilidad.",
+        "tasks": [
+          "Coordinar alcance, presupuesto, calendario, dotacion, proveedores y expectativas del cliente.",
+          "Seguir hitos, entregables, riesgos y cambios.",
+          "Resolver bloqueos, ajustar planes y mantener equipos alineados cuando aparecen compensaciones o sorpresas."
+        ],
+        "skills": [
+          "Comunicacion con stakeholders",
+          "Juicio sobre compensaciones",
+          "Gestion de riesgos",
+          "Planificacion de dependencias",
+          "Coordinacion de equipos",
+          "Alfabetizacion en flujos con IA"
+        ],
+        "path": [
+          "Empieza en operaciones, analisis de negocio, coordinacion de entrega, soporte PMO o en un rol dentro de un equipo tecnico.",
+          "Aprende planificacion de proyectos, presupuesto, seguimiento de incidencias y comunicacion interfuncional.",
+          "Construye evidencia de que puedes mantener proyectos en movimiento cuando cambian requisitos, chocan prioridades o los equipos pierden alineacion. Las certificaciones ayudan, pero el historial practico de entrega pesa mas que la teoria."
+        ],
+        "degreeNote": "Normalmente se espera una licenciatura para entrar a roles especialistas en gestion de proyectos, aunque el campo exacto puede variar segun la industria. Las certificaciones pueden ayudar, pero la senal mas clara de contratacion sigue siendo la capacidad de entregar proyectos a tiempo, dentro de presupuesto y entre stakeholders con intereses en conflicto.",
+        "aiNow": "La IA ya ayuda a los gerentes de proyectos a generar planes de tareas, redactar reportes de estado, resumir comentarios y actividad, sacar riesgos a la vista, crear reglas de flujo desde lenguaje natural y convertir chat o documentos en trabajo rastreable.",
+        "aiFuture": "El nucleo administrativo de la gestion de proyectos seguira reduciendose primero. Los equipos necesitaran menos personas para seguimiento rutinario, persecucion de estados, recapitulacion de reuniones y mantenimiento de paneles. El valor que sobrevive sube hacia resolucion de problemas ambiguos, alineacion ejecutiva, negociacion, compensaciones de recursos y ser el humano responsable cuando la salida de IA sea incompleta o incorrecta. PMI tambien sostiene que la fluidez con IA se esta volviendo innegociable para los gerentes de proyectos.",
+        "services": [
+          "Asana AI",
+          "Atlassian Intelligence",
+          "Microsoft 365 Copilot in Planner / Project tools"
+        ],
+        "educationPathways": [
+          "Empieza con una licenciatura en negocios, gestion de proyectos o un campo tecnico relevante para la industria.",
+          "Suma experiencia practica mediante roles de analista, coordinador, operaciones, PMO o entrega.",
+          "Fortalece planificacion, presupuesto, actualizaciones a stakeholders, registros de incidencias y revision de riesgos.",
+          "Agrega uso de herramientas de IA para generacion de tareas, borradores de estado, automatizacion de flujos y resumenes de portafolio para no competir solo como coordinador manual."
+        ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 59830,
+        "max": 165790
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "Employment for project management specialists is projected to grow 6% from 2024 to 2034, faster than the average for all occupations, with about 78,200 openings per year on average in the U.S.",
+          "ko": "미국에서 프로젝트 관리 전문직 고용은 2024년부터 2034년까지 6% 성장할 것으로 전망되며, 이는 전체 직종 평균보다 빠른 수준입니다. 연평균 약 78,200개의 채용 기회가 예상됩니다.",
+          "es": "Se proyecta que el empleo de especialistas en gestion de proyectos crecera 6% entre 2024 y 2034, mas rapido que el promedio de todas las ocupaciones, con unas 78,200 vacantes al ano en promedio en EE. UU."
+        }
+      }
+    }
+  },
+  {
     "id": "registered-nurse",
     "category": "care",
     "automationRisk": 24,
