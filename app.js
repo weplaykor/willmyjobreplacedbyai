@@ -1,8 +1,10 @@
-const ASSET_VERSION = '2025-03-23-1';
+const ASSET_VERSION = '2026-03-23-1';
 
 const DATA_FILES = {
   jobs: 'data/jobs.json',
-  taxonomy: 'data/ksco-taxonomy.json'
+  taxonomy: 'data/ksco-taxonomy.json',
+  news: 'data/news.json',
+  articles: 'data/articles.json'
 };
 
 const UI = {
@@ -99,6 +101,24 @@ const UI = {
     actions: {
       openDetails: 'View full profile',
       closeDetails: 'Close job details'
+    },
+    editorial: {
+      news: {
+        kicker: 'Recent News',
+        title: 'AI service releases to watch',
+        lead: 'Track official launches and deployment stories that signal where AI may automate work next.',
+        more: 'View all news',
+        empty: 'News tracker is loading.'
+      },
+      articles: {
+        kicker: 'Job Article',
+        title: 'Deep articles for search and strategy',
+        lead: 'Use essay-style articles to target high-intent search queries and bigger questions about human value after AI.',
+        featured: 'Featured article',
+        read: 'Read featured article',
+        more: 'Browse article library',
+        empty: 'Article library is loading.'
+      }
     },
     details: {
       tasks: 'What the job does',
@@ -236,6 +256,24 @@ const UI = {
       openDetails: '상세 프로필 보기',
       closeDetails: '직무 상세 닫기'
     },
+    editorial: {
+      news: {
+        kicker: 'Recent News',
+        title: '주목할 AI 서비스 출시 뉴스',
+        lead: '어떤 일이 다음으로 자동화될지 보여주는 공식 출시와 실제 도입 사례를 추적합니다.',
+        more: '뉴스 전체 보기',
+        empty: '뉴스 트래커를 불러오는 중입니다.'
+      },
+      articles: {
+        kicker: 'Job Article',
+        title: '검색과 전략을 위한 심층 아티클',
+        lead: '검색 수요가 높은 질문과 AI 이후 인간의 역할 같은 깊은 주제를 다루는 글을 모읍니다.',
+        featured: '대표 아티클',
+        read: '대표 아티클 읽기',
+        more: '아티클 라이브러리 보기',
+        empty: '아티클 라이브러리를 불러오는 중입니다.'
+      }
+    },
     details: {
       tasks: '직무 내용',
       skills: '필요 역량',
@@ -372,6 +410,24 @@ const UI = {
       openDetails: 'Ver perfil completo',
       closeDetails: 'Cerrar detalles del puesto'
     },
+    editorial: {
+      news: {
+        kicker: 'Recent News',
+        title: 'Lanzamientos de IA para seguir',
+        lead: 'Sigue anuncios oficiales y casos de despliegue que senalan donde la IA puede automatizar trabajo despues.',
+        more: 'Ver todas las noticias',
+        empty: 'Cargando seguimiento de noticias.'
+      },
+      articles: {
+        kicker: 'Job Article',
+        title: 'Articulos profundos para SEO y estrategia',
+        lead: 'Usa ensayos para captar busquedas de alta intencion y preguntas mas profundas sobre el valor humano despues de la IA.',
+        featured: 'Articulo destacado',
+        read: 'Leer articulo destacado',
+        more: 'Explorar biblioteca de articulos',
+        empty: 'Cargando biblioteca de articulos.'
+      }
+    },
     details: {
       tasks: 'Que hace el trabajo',
       skills: 'Habilidades clave',
@@ -427,6 +483,8 @@ const state = {
   degree: 'all',
   sort: 'riskDesc',
   jobs: [],
+  news: [],
+  articles: [],
   taxonomyIndex: createEmptyTaxonomyIndex(),
   isReady: false,
   loadError: false,
@@ -445,6 +503,17 @@ const elements = {
   statRiskLabel: document.getElementById('statRiskLabel'),
   statLowRiskValue: document.getElementById('statLowRiskValue'),
   statLowRiskLabel: document.getElementById('statLowRiskLabel'),
+  newsKicker: document.getElementById('newsKicker'),
+  newsTitle: document.getElementById('newsTitle'),
+  newsLead: document.getElementById('newsLead'),
+  newsPreviewList: document.getElementById('newsPreviewList'),
+  newsMoreLink: document.getElementById('newsMoreLink'),
+  articleKicker: document.getElementById('articleKicker'),
+  articleTitle: document.getElementById('articleTitle'),
+  articleLead: document.getElementById('articleLead'),
+  articlePreview: document.getElementById('articlePreview'),
+  articleReadLink: document.getElementById('articleReadLink'),
+  articleMoreLink: document.getElementById('articleMoreLink'),
   jobFilterKicker: document.getElementById('jobFilterKicker'),
   jobFilterTitle: document.getElementById('jobFilterTitle'),
   aiFilterKicker: document.getElementById('aiFilterKicker'),
@@ -492,18 +561,35 @@ render();
 init();
 
 async function init() {
-  try {
-    const [taxonomy, jobs] = await Promise.all([
-      fetchJSON(DATA_FILES.taxonomy),
-      fetchJSON(DATA_FILES.jobs)
-    ]);
+  const [taxonomyResult, jobsResult, newsResult, articlesResult] = await Promise.allSettled([
+    fetchJSON(DATA_FILES.taxonomy),
+    fetchJSON(DATA_FILES.jobs),
+    fetchJSON(DATA_FILES.news),
+    fetchJSON(DATA_FILES.articles)
+  ]);
 
-    state.taxonomyIndex = buildTaxonomyIndex(taxonomy);
-    state.jobs = jobs;
+  if (taxonomyResult.status === 'fulfilled' && jobsResult.status === 'fulfilled') {
+    state.taxonomyIndex = buildTaxonomyIndex(taxonomyResult.value);
+    state.jobs = jobsResult.value;
     state.isReady = true;
-  } catch (error) {
-    console.error('Failed to load site data', error);
+  } else {
+    console.error('Failed to load required site data', {
+      taxonomyError: taxonomyResult.status === 'rejected' ? taxonomyResult.reason : null,
+      jobsError: jobsResult.status === 'rejected' ? jobsResult.reason : null
+    });
     state.loadError = true;
+  }
+
+  if (newsResult.status === 'fulfilled') {
+    state.news = sortByPublishedAt(newsResult.value);
+  } else {
+    console.error('Failed to load news feed', newsResult.reason);
+  }
+
+  if (articlesResult.status === 'fulfilled') {
+    state.articles = sortByPublishedAt(articlesResult.value);
+  } else {
+    console.error('Failed to load article library', articlesResult.reason);
   }
 
   render();
@@ -627,6 +713,7 @@ function render() {
 
   document.documentElement.lang = state.lang;
   hydrateChrome(copy);
+  hydrateEditorial(copy);
   hydrateFilters(copy);
   hydrateStats(copy, stats);
   hydrateInsights(copy, stats, filteredJobs.length);
@@ -678,6 +765,38 @@ function hydrateChrome(copy) {
   elements.roadmapTitle.textContent = copy.roadmap.title;
   elements.roadmapLead.textContent = copy.roadmap.lead;
   elements.searchInput.value = state.query;
+}
+
+function hydrateEditorial(copy) {
+  elements.newsKicker.textContent = copy.editorial.news.kicker;
+  elements.newsTitle.textContent = copy.editorial.news.title;
+  elements.newsLead.textContent = copy.editorial.news.lead;
+  elements.newsMoreLink.textContent = copy.editorial.news.more;
+  elements.newsMoreLink.href = 'news.html';
+
+  elements.articleKicker.textContent = copy.editorial.articles.kicker;
+  elements.articleTitle.textContent = copy.editorial.articles.title;
+  elements.articleLead.textContent = copy.editorial.articles.lead;
+  elements.articleMoreLink.textContent = copy.editorial.articles.more;
+  elements.articleMoreLink.href = 'articles.html';
+
+  if (state.news.length === 0) {
+    elements.newsPreviewList.innerHTML = `<p class="editorial-empty">${escapeHtml(copy.editorial.news.empty)}</p>`;
+  } else {
+    elements.newsPreviewList.innerHTML = state.news.slice(0, 4).map((item) => renderNewsPreviewCard(item, copy)).join('');
+  }
+
+  if (state.articles.length === 0) {
+    elements.articlePreview.innerHTML = `<p class="editorial-empty">${escapeHtml(copy.editorial.articles.empty)}</p>`;
+    elements.articleReadLink.textContent = copy.editorial.articles.read;
+    elements.articleReadLink.href = 'articles.html';
+    return;
+  }
+
+  const featuredArticle = state.articles[0];
+  elements.articlePreview.innerHTML = renderArticlePreviewCard(featuredArticle, copy);
+  elements.articleReadLink.textContent = copy.editorial.articles.read;
+  elements.articleReadLink.href = `articles.html#${escapeAttribute(featuredArticle.id)}`;
 }
 
 function hydrateModalCopy(copy) {
@@ -989,6 +1108,41 @@ function hydrateRoadmap(copy) {
   `).join('');
 }
 
+function renderNewsPreviewCard(item, copy) {
+  const headline = item.url
+    ? `<a class="news-preview-title" href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer noopener">${escapeHtml(item.title)}</a>`
+    : `<span class="news-preview-title">${escapeHtml(item.title)}</span>`;
+
+  return `
+    <article class="news-preview-item">
+      <div class="news-preview-meta">
+        <span>${escapeHtml(formatContentDate(item.publishedAt, copy.locale))}</span>
+        <span>${escapeHtml(item.source)}</span>
+      </div>
+      ${headline}
+      <p class="news-preview-summary">${escapeHtml(item.summary)}</p>
+    </article>
+  `;
+}
+
+function renderArticlePreviewCard(article, copy) {
+  return `
+    <div class="article-preview-card">
+      <div class="news-preview-meta">
+        <span>${escapeHtml(copy.editorial.articles.featured)}</span>
+        <span>${escapeHtml(formatContentDate(article.publishedAt, copy.locale))}</span>
+        <span>${escapeHtml(article.readTime)}</span>
+      </div>
+      <h3 class="article-preview-title">${escapeHtml(article.title)}</h3>
+      <p class="article-preview-hook">${escapeHtml(article.hook)}</p>
+      <p class="article-preview-summary">${escapeHtml(article.excerpt)}</p>
+      <div class="keyword-list">
+        ${article.keywords.slice(0, 4).map((keyword) => `<span class="keyword-chip">${escapeHtml(keyword)}</span>`).join('')}
+      </div>
+    </div>
+  `;
+}
+
 function renderLanguageButtons() {
   elements.languageSwitch.querySelectorAll('[data-lang]').forEach((button) => {
     button.setAttribute('aria-pressed', String(button.dataset.lang === state.lang));
@@ -1219,6 +1373,20 @@ function getLocalizedArray(value) {
 
 function flattenLocalizedLists(value) {
   return Object.values(value || {}).flatMap((list) => list);
+}
+
+function sortByPublishedAt(items) {
+  return [...items].sort((left, right) => {
+    return new Date(right.publishedAt).getTime() - new Date(left.publishedAt).getTime();
+  });
+}
+
+function formatContentDate(dateString, locale) {
+  return new Intl.DateTimeFormat(locale, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  }).format(new Date(dateString));
 }
 
 function formatDashboardNumber(value) {

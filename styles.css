@@ -86,8 +86,13 @@ body::before {
 
 .hero,
 .filter-card,
+.editorial-card,
 .insight-card,
 .roadmap-card,
+.subpage-hero,
+.article-toc-card,
+.news-feed-item,
+.article-longform,
 .job-card {
   backdrop-filter: blur(18px);
   background: linear-gradient(180deg, rgba(12, 32, 50, 0.92) 0%, rgba(7, 20, 32, 0.92) 100%);
@@ -260,6 +265,224 @@ body::before {
   margin-top: 1.4rem;
   display: grid;
   gap: 1rem;
+}
+
+.editorial-grid {
+  margin-top: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.editorial-card,
+.subpage-hero,
+.article-toc-card,
+.news-feed-item,
+.article-longform {
+  padding: 1.2rem;
+  border-radius: var(--radius-lg);
+  animation: rise 0.85s ease both;
+}
+
+.editorial-card {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.editorial-card-header,
+.section-actions,
+.news-feed-meta,
+.news-preview-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.editorial-card h2,
+.subpage-hero h1,
+.article-toc-card h2,
+.news-feed-item h2,
+.article-longform h2 {
+  margin: 0;
+  font-size: 1.65rem;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.editorial-link,
+.editorial-button,
+.news-source-link,
+.back-link,
+.toc-link,
+.pagination-link {
+  text-decoration: none;
+}
+
+.editorial-link,
+.news-source-link,
+.back-link {
+  color: var(--teal);
+  font-weight: 700;
+  text-underline-offset: 0.16rem;
+}
+
+.editorial-button,
+.pagination-link,
+.toc-link {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  padding: 0.62rem 0.88rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+
+.editorial-button:hover,
+.pagination-link:hover,
+.toc-link:hover,
+.editorial-link:hover,
+.news-source-link:hover,
+.back-link:hover {
+  border-color: rgba(255, 255, 255, 0.24);
+  color: var(--text);
+}
+
+.news-preview-list,
+.news-feed,
+.article-index,
+.article-toc {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.news-preview-item {
+  padding: 0.95rem 1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.news-preview-meta,
+.news-feed-meta {
+  color: #c3d8e7;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.news-preview-title,
+.article-preview-title {
+  color: var(--text);
+  display: inline-block;
+  margin-top: 0.2rem;
+  font-size: 1.12rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.news-preview-summary,
+.article-preview-hook,
+.article-preview-summary,
+.editorial-empty,
+.news-impact,
+.subpage-summary,
+.article-section p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.article-preview-card,
+.article-longform-header {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.article-preview-hook {
+  color: #dbeaf6;
+}
+
+.keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.keyword-chip,
+.meta-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.68rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  color: #dcecf9;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.keyword-chip-strong {
+  background: rgba(255, 135, 92, 0.16);
+  color: #ffd0bd;
+}
+
+.subpage-hero {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.news-feed {
+  margin-top: 1.2rem;
+}
+
+.news-feed-item,
+.article-longform {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.article-toc-card {
+  margin-top: 1.2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.article-toc {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.toc-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.article-index {
+  margin-top: 1.2rem;
+}
+
+.article-section {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.article-section h3 {
+  margin: 0;
+  font-size: 1.08rem;
+  color: var(--text);
+}
+
+.pagination {
+  margin-top: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.pagination-link.is-active {
+  background: linear-gradient(135deg, rgba(255, 135, 92, 0.95) 0%, rgba(255, 205, 107, 0.95) 100%);
+  color: #091420;
+  border-color: transparent;
 }
 
 .filter-card {
@@ -710,6 +933,7 @@ select:focus,
 
 @media (max-width: 980px) {
   .hero,
+  .editorial-grid,
   .insight-grid,
   .job-control-panel,
   .ai-control-panel {
@@ -729,6 +953,11 @@ select:focus,
   }
 
   .hero,
+  .editorial-card,
+  .subpage-hero,
+  .article-toc-card,
+  .news-feed-item,
+  .article-longform,
   .insight-card,
   .roadmap-card,
   .filter-card,
