@@ -1,3 +1,5 @@
+const ASSET_VERSION = '2025-03-23-1';
+
 const DATA_FILES = {
   jobs: 'data/jobs.json',
   taxonomy: 'data/ksco-taxonomy.json'
@@ -1255,10 +1257,11 @@ function escapeAttribute(value) {
 }
 
 async function fetchJSON(path) {
-  const response = await fetch(path);
+  const assetPath = path.includes('?') ? `${path}&v=${ASSET_VERSION}` : `${path}?v=${ASSET_VERSION}`;
+  const response = await fetch(assetPath, { cache: 'no-store' });
 
   if (!response.ok) {
-    throw new Error(`Failed to load ${path}: ${response.status}`);
+    throw new Error(`Failed to load ${assetPath}: ${response.status}`);
   }
 
   return response.json();
