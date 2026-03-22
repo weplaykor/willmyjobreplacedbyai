@@ -15,15 +15,14 @@ This site now separates three concerns:
    - The authoring template for new job profiles.
    - Use this as the starter shape whenever a new profiled job is added.
 
-## Why the site still shows 8 jobs
+## Public profile count
 
-The current public site only renders entries that exist in `jobs.json`.
+The public site only renders entries that exist in `jobs.json`.
 
-That means:
-- the taxonomy can grow first
-- the public cards only grow when full job profiles are added
-
-This is the right order for scale. It lets the project ingest a large occupation hierarchy before every role has AI evidence and multilingual copy.
+Right now:
+- the taxonomy has `62` KSCO-aligned detail roles
+- `jobs.json` also has `62` fully profiled public roles
+- `generated-job-stubs.json` is empty because every current taxonomy detail node has been materialized into a live profile
 
 ## Bulk expansion workflow
 
@@ -40,9 +39,14 @@ node scripts/generate-profile-stubs.mjs --write
 
    - This writes `data/generated-job-stubs.json` for taxonomy detail nodes that do not yet have a job profile.
 
-3. Convert selected stubs into real profiles
-   - Copy the needed objects into `jobs.json`.
-   - Replace placeholders using `job-profile-template.json` as the content standard.
+3. Convert stubs into real profiles
+   - Run:
+
+```bash
+node scripts/materialize-job-stubs.mjs
+```
+
+   - This materializes any pending stubs into public profiles inside `jobs.json` and clears `generated-job-stubs.json`.
 
 4. Validate the dataset
    - Run:
@@ -85,7 +89,7 @@ Useful official references:
 
 Current snapshot:
 - `62` KSCO-aligned detail nodes in taxonomy
-- `8` fully profiled public jobs in `jobs.json`
-- `54` generated stubs waiting for real AI evidence and multilingual content
+- `62` fully profiled public jobs in `jobs.json`
+- `0` generated stubs waiting for conversion
 
-The next real content step is no longer taxonomy setup. It is to convert the generated stubs into real profiles in batches.
+The next real content step is no longer coverage. It is quality refinement: stronger evidence sources, more occupation-specific AI links, and eventually separate SEO pages per job.
