@@ -7,9 +7,9 @@ const UI = {
   en: {
     locale: 'en-US',
     brandSubtitle: 'World Job Intelligence for an AI-shaped Labor Market',
-    heroEyebrow: 'Career map for the next decade',
+    heroEyebrow: 'Job replacement map for the next decade',
     heroTitle: 'Will My Job Replaced by AI?',
-    heroLead: 'This service provides multi-layer job intelligence to measure the risk of future jobs. It consists of risk meter, core skills, learning paths, etc to measure whether AI is more likely to automate the work or make the worker stronger in the future.',
+    heroLead: 'This service helps answer whether AI will replace jobs in each role. Explore job replacement risk by occupation, AI replacing jobs impact, and where AI may replace job tasks versus strengthen people.',
     stats: {
       jobs: 'jobs in view',
       highRisk: 'high risk jobs',
@@ -22,8 +22,8 @@ const UI = {
       aiTitle: 'Filter by replacement and education signals'
     },
     controls: {
-      search: 'Search job',
-      searchPlaceholder: 'Try nurse, teacher, translator, support...',
+      search: 'Search job replacement',
+      searchPlaceholder: 'Try nurse, software developer, translator, customer support...',
       major: '1st classification (major)',
       mid: '2nd classification (mid)',
       sub: '3rd classification (sub)',
@@ -94,6 +94,10 @@ const UI = {
       summary: (count) => `${count} role${count === 1 ? '' : 's'} matched your filters.`,
       coverage: (profiled, total) => `${profiled} fully profiled role${profiled === 1 ? '' : 's'} live out of ${total} KSCO-aligned detail roles.`
     },
+    actions: {
+      openDetails: 'View full profile',
+      closeDetails: 'Close job details'
+    },
     details: {
       tasks: 'What the job does',
       skills: 'Skills to build',
@@ -139,9 +143,9 @@ const UI = {
   ko: {
     locale: 'ko-KR',
     brandSubtitle: 'AI 시대 노동시장을 위한 세계 직업 인텔리전스',
-    heroEyebrow: '다음 10년을 위한 커리어 지도',
+    heroEyebrow: '직업 대체 지도를 위한 10년 로드맵',
     heroTitle: 'Will My Job Replaced by AI?',
-    heroLead: '이 서비스는 미래 직업의 위험도를 측정하기 위한 다층적 직업 인텔리전스를 제공합니다. 위험도 계량기, 핵심 역량, 학습 경로 등을 통해 AI가 미래에 일을 자동화할 가능성이 큰지, 아니면 사람을 더 강하게 만들 가능성이 큰지를 보여줍니다.',
+    heroLead: '이 서비스는 직종별 AI 대체 위험도를 보여주는 지도입니다. AI가 직업을 대체할지, 어떤 직무에서 AI가 일 일부를 대체하는지, 그리고 어떤 일은 사람이 더 중요해지는지를 한 번에 확인할 수 있습니다.',
     stats: {
       jobs: '현재 표시된 직무',
       highRisk: '고위험 직무',
@@ -154,8 +158,8 @@ const UI = {
       aiTitle: '대체 위험과 학위 신호로 좁히기'
     },
     controls: {
-      search: '직업 검색',
-      searchPlaceholder: '간호사, 교사, 번역가, 고객지원...',
+      search: '직업 대체 검색',
+      searchPlaceholder: '간호사, 교사, 번역가, 고객지원 등 입력',
       major: '1차 분류 (대항목)',
       mid: '2차 분류 (하위카테고리)',
       sub: '3차 분류 (세부카테고리)',
@@ -226,6 +230,10 @@ const UI = {
       summary: (count) => `필터와 일치하는 직무는 ${count}개입니다.`,
       coverage: (profiled, total) => `현재 공개 프로필은 ${profiled}개이며, KSCO 기반 detail 직업 노드는 총 ${total}개입니다.`
     },
+    actions: {
+      openDetails: '상세 프로필 보기',
+      closeDetails: '직무 상세 닫기'
+    },
     details: {
       tasks: '직무 내용',
       skills: '필요 역량',
@@ -273,7 +281,7 @@ const UI = {
     brandSubtitle: 'Inteligencia laboral mundial para un mercado definido por la IA',
     heroEyebrow: 'Mapa profesional para la proxima decada',
     heroTitle: 'Will My Job Replaced by AI?',
-    heroLead: 'Este servicio ofrece inteligencia laboral multinivel para medir el riesgo de los trabajos del futuro. Incluye medidor de riesgo, habilidades clave, rutas de aprendizaje y otros elementos para mostrar si la IA tiene mas probabilidad de automatizar el trabajo o de fortalecer a la persona en el futuro.',
+    heroLead: 'Este servicio muestra la evolucion del reemplazo por IA por ocupacion. Busca si la IA esta reemplazando trabajos hoy y compara el riesgo de reemplazo, AI replacing jobs, y en que roles la IA mejora a la fuerza laboral.',
     stats: {
       jobs: 'puestos visibles',
       highRisk: 'trabajos de alto riesgo',
@@ -358,6 +366,10 @@ const UI = {
       summary: (count) => `${count} puesto${count === 1 ? '' : 's'} coincide${count === 1 ? '' : 'n'} con tus filtros.`,
       coverage: (profiled, total) => `${profiled} perfil${profiled === 1 ? '' : 'es'} completo${profiled === 1 ? '' : 's'} publicado${profiled === 1 ? '' : 's'} de ${total} roles detail alineados con KSCO.`
     },
+    actions: {
+      openDetails: 'Ver perfil completo',
+      closeDetails: 'Cerrar detalles del puesto'
+    },
     details: {
       tasks: 'Que hace el trabajo',
       skills: 'Habilidades clave',
@@ -404,7 +416,7 @@ const UI = {
 
 const state = {
   lang: detectLanguage(),
-  query: '',
+  query: getQueryParam(),
   major: 'all',
   mid: 'all',
   sub: 'all',
@@ -415,7 +427,9 @@ const state = {
   jobs: [],
   taxonomyIndex: createEmptyTaxonomyIndex(),
   isReady: false,
-  loadError: false
+  loadError: false,
+  activeJobId: null,
+  lastFocusedCard: null
 };
 
 const elements = {
@@ -464,7 +478,11 @@ const elements = {
   roadmapTitle: document.getElementById('roadmapTitle'),
   roadmapLead: document.getElementById('roadmapLead'),
   roadmapGrid: document.getElementById('roadmapGrid'),
-  languageSwitch: document.getElementById('languageSwitch')
+  languageSwitch: document.getElementById('languageSwitch'),
+  jobModal: document.getElementById('jobModal'),
+  jobModalTitle: document.getElementById('jobModalTitle'),
+  jobModalBody: document.getElementById('jobModalBody'),
+  jobModalClose: document.getElementById('jobModalClose')
 };
 
 attachEvents();
@@ -492,6 +510,7 @@ async function init() {
 function attachEvents() {
   elements.searchInput.addEventListener('input', (event) => {
     state.query = event.target.value.trim().toLowerCase();
+    closeJobModal();
     render();
   });
 
@@ -499,37 +518,44 @@ function attachEvents() {
     state.major = event.target.value;
     state.mid = 'all';
     state.sub = 'all';
+    closeJobModal();
     render();
   });
 
   elements.midSelect.addEventListener('change', (event) => {
     state.mid = event.target.value;
     state.sub = 'all';
+    closeJobModal();
     render();
   });
 
   elements.subSelect.addEventListener('change', (event) => {
     state.sub = event.target.value;
+    closeJobModal();
     render();
   });
 
   elements.riskSelect.addEventListener('change', (event) => {
     state.risk = event.target.value;
+    closeJobModal();
     render();
   });
 
   elements.roleSelect.addEventListener('change', (event) => {
     state.aiRole = event.target.value;
+    closeJobModal();
     render();
   });
 
   elements.degreeSelect.addEventListener('change', (event) => {
     state.degree = event.target.value;
+    closeJobModal();
     render();
   });
 
   elements.sortSelect.addEventListener('change', (event) => {
     state.sort = event.target.value;
+    closeJobModal();
     render();
   });
 
@@ -541,7 +567,49 @@ function attachEvents() {
     }
 
     state.lang = button.dataset.lang;
+    closeJobModal();
     render();
+  });
+
+  elements.jobGrid.addEventListener('click', (event) => {
+    const card = event.target.closest('.job-card[data-job-id]');
+
+    if (!card || !elements.jobGrid.contains(card)) {
+      return;
+    }
+
+    openJobModal(card.dataset.jobId);
+  });
+
+  elements.jobGrid.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') {
+      return;
+    }
+
+    const card = event.target.closest('.job-card[data-job-id]');
+
+    if (!card || !elements.jobGrid.contains(card)) {
+      return;
+    }
+
+    event.preventDefault();
+    openJobModal(card.dataset.jobId);
+  });
+
+  elements.jobModalClose.addEventListener('click', () => {
+    closeJobModal();
+  });
+
+  elements.jobModal.addEventListener('click', (event) => {
+    if (event.target === elements.jobModal) {
+      closeJobModal();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeJobModal();
+    }
   });
 }
 
@@ -549,6 +617,11 @@ function render() {
   const copy = UI[state.lang];
   const filteredJobs = state.isReady ? sortJobs(filterJobs()) : [];
   const stats = summarize(filteredJobs);
+  const selectedJobStillExists = state.jobs.some((job) => job.id === state.activeJobId);
+
+  if (state.activeJobId && !selectedJobStillExists) {
+    closeJobModal();
+  }
 
   document.documentElement.lang = state.lang;
   hydrateChrome(copy);
@@ -557,6 +630,7 @@ function render() {
   hydrateInsights(copy, stats, filteredJobs.length);
   hydrateRoadmap(copy);
   renderLanguageButtons();
+  hydrateModalCopy(copy);
 
   if (state.loadError) {
     elements.resultsSummary.textContent = copy.loadError;
@@ -601,6 +675,11 @@ function hydrateChrome(copy) {
   elements.roadmapKicker.textContent = copy.roadmap.kicker;
   elements.roadmapTitle.textContent = copy.roadmap.title;
   elements.roadmapLead.textContent = copy.roadmap.lead;
+  elements.searchInput.value = state.query;
+}
+
+function hydrateModalCopy(copy) {
+  elements.jobModalClose.setAttribute('aria-label', copy.actions.closeDetails);
 }
 
 function hydrateFilters(copy) {
@@ -697,6 +776,206 @@ function hydrateResults(copy, jobs) {
   }
 
   elements.jobGrid.innerHTML = jobs.map((job) => renderCard(job, copy)).join('');
+}
+
+function openJobModal(jobId) {
+  const copy = UI[state.lang];
+  const job = state.jobs.find((item) => item.id === jobId);
+
+  if (!job) {
+    return;
+  }
+
+  state.activeJobId = jobId;
+  state.lastFocusedCard = Array.from(elements.jobGrid.querySelectorAll('.job-card[data-job-id]')).find((card) => card.dataset.jobId === jobId) || null;
+  elements.jobModalBody.innerHTML = renderJobDetails(job, copy);
+  elements.jobModalTitle.textContent = getLocalizedJobContent(job).title;
+  elements.jobModal.classList.add('is-open');
+  elements.jobModal.setAttribute('aria-hidden', 'false');
+  elements.jobModalClose.setAttribute('aria-label', copy.actions.closeDetails);
+  document.body.classList.add('no-scroll');
+  elements.jobModalClose.focus();
+}
+
+function closeJobModal() {
+  if (!state.activeJobId) {
+    return;
+  }
+
+  state.activeJobId = null;
+  elements.jobModal.classList.remove('is-open');
+  elements.jobModal.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('no-scroll');
+  elements.jobModalBody.innerHTML = '';
+  elements.jobModalTitle.textContent = '';
+
+  if (state.lastFocusedCard) {
+    state.lastFocusedCard.focus();
+    state.lastFocusedCard = null;
+  }
+}
+
+function renderCard(job, copy) {
+  const localized = getLocalizedJobContent(job);
+  const classification = getClassificationLabels(job.classification);
+  const band = getRiskBand(job.automationRisk);
+  const roleLabel = copy.roles[job.aiRole];
+  const taxonomyPath = [
+    classification.major,
+    classification.mid,
+    classification.sub,
+    classification.detail
+  ].filter(Boolean).join(' / ');
+
+  return `
+    <article
+      class="job-card"
+      role="button"
+      tabindex="0"
+      data-job-id="${escapeAttribute(job.id)}"
+      aria-label="${escapeAttribute(`${copy.actions.openDetails}: ${localized.title}`)}"
+    >
+      <div class="card-top">
+        <div>
+          <div class="card-tags">
+            <span class="tag neutral">${escapeHtml(classification.major)}</span>
+            <span class="tag ${job.aiRole}">${escapeHtml(roleLabel)}</span>
+          </div>
+          <h3 class="job-title">${escapeHtml(localized.title)}</h3>
+          <p class="job-summary">${escapeHtml(localized.summary)}</p>
+          <p class="classification-path">${escapeHtml(copy.details.taxonomy)}: ${escapeHtml(taxonomyPath)}</p>
+        </div>
+        <div>
+          <p class="risk-number">${job.automationRisk}</p>
+          <span class="meter-label">${escapeHtml(copy.riskBands[band])}</span>
+        </div>
+      </div>
+
+      <div class="meter-track" aria-hidden="true">
+        <div class="meter-fill ${band}" style="width: ${job.automationRisk}%"></div>
+      </div>
+
+      <p class="job-open-label">${escapeHtml(copy.actions.openDetails)} →</p>
+    </article>
+  `;
+}
+
+function renderJobDetails(job, copy) {
+  const localized = getLocalizedJobContent(job);
+  const evidence = getLocalizedEvidence(job);
+  const classification = getClassificationLabels(job.classification);
+  const band = getRiskBand(job.automationRisk);
+  const roleLabel = copy.roles[job.aiRole];
+  const degreeStatusLabel = copy.education.statuses[job.degree.status] || job.degree.status;
+  const degreeLevelLabel = copy.education.levels[job.degree.level] || job.degree.level;
+  const taxonomyPath = [
+    classification.major,
+    classification.mid,
+    classification.sub,
+    classification.detail
+  ].filter(Boolean).join(' / ');
+  const currentReplacementMarkup = job.currentReplacementUrl
+    ? `<a class="service-link" href="${escapeAttribute(job.currentReplacementUrl)}" target="_blank" rel="noreferrer noopener">${escapeHtml(job.currentReplacementUrl)}</a>`
+    : '<span class="service-link service-link-none">none</span>';
+
+  return `
+    <article class="job-card job-card-modal">
+      <div class="card-top">
+        <div>
+          <div class="card-tags">
+            <span class="tag neutral">${escapeHtml(classification.major)}</span>
+            <span class="tag ${job.aiRole}">${escapeHtml(roleLabel)}</span>
+          </div>
+          <h3 class="job-title">${escapeHtml(localized.title)}</h3>
+          <p class="job-summary">${escapeHtml(localized.summary)}</p>
+          <p class="classification-path">${escapeHtml(copy.details.taxonomy)}: ${escapeHtml(taxonomyPath)}</p>
+        </div>
+        <div>
+          <p class="risk-number">${job.automationRisk}</p>
+          <span class="meter-label">${escapeHtml(copy.riskBands[band])}</span>
+        </div>
+      </div>
+
+      <div class="meter-track" aria-hidden="true">
+        <div class="meter-fill ${band}" style="width: ${job.automationRisk}%"></div>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.tasks)}</h3>
+          ${renderStringList(localized.tasks)}
+        </section>
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.skills)}</h3>
+          ${renderStringList(localized.skills)}
+        </section>
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.path)}</h3>
+          ${renderStringList(localized.path)}
+        </section>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.aiNow)}</h3>
+          <p class="detail-copy">${escapeHtml(localized.aiNow)}</p>
+        </section>
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.aiFuture)}</h3>
+          <p class="detail-copy">${escapeHtml(localized.aiFuture)}</p>
+        </section>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.degree)}</h3>
+          <div class="detail-copy">
+            <div class="service-list">
+              <span class="service-pill">${escapeHtml(degreeStatusLabel)}</span>
+              <span class="service-pill">${escapeHtml(degreeLevelLabel)}</span>
+            </div>
+            <p>${escapeHtml(localized.degreeNote)}</p>
+          </div>
+        </section>
+
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.currentReplacement)}</h3>
+          <p class="detail-copy">${currentReplacementMarkup}</p>
+        </section>
+
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.services)}</h3>
+          <div class="service-list">
+            ${renderPillList(localized.services)}
+          </div>
+        </section>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.rationale)}</h3>
+          <p class="detail-copy">${escapeHtml(evidence.rationale)}</p>
+        </section>
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.automatableNow)}</h3>
+          ${renderStringList(evidence.automatableNow)}
+        </section>
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.humanEdge)}</h3>
+          ${renderStringList(evidence.humanEdge)}
+        </section>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.references)}</h3>
+          <div class="reference-list">
+            ${renderReferences(job.aiEvidence.references || [])}
+          </div>
+        </section>
+      </div>
+    </article>
+  `;
 }
 
 function hydrateRoadmap(copy) {
@@ -1115,4 +1394,8 @@ function detectLanguage() {
   }
 
   return 'en';
+}
+
+function getQueryParam() {
+  return new URLSearchParams(window.location.search).get('search')?.trim().toLowerCase() || '';
 }

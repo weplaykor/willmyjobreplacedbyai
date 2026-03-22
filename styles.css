@@ -39,6 +39,10 @@ body {
   overflow-x: hidden;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -276,6 +280,30 @@ body::before {
   font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
 
+.seo-card h2,
+.seo-card h3,
+.faq-list h3 {
+  margin-top: 0;
+}
+
+.seo-grid {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.faq-list {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.faq-list h3 {
+  font-size: 1.1rem;
+  line-height: 1.45;
+}
+
 .control-panel {
   display: grid;
   gap: 1rem;
@@ -426,6 +454,89 @@ select:focus,
   padding: 1.3rem;
   border-radius: 24px;
   animation: rise 0.9s ease both;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.job-card:hover,
+.job-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
+.job-open-label {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.job-card-modal {
+  margin: 0;
+  cursor: default;
+  animation: none;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.job-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(3, 10, 18, 0.72);
+}
+
+.job-modal-overlay.is-open {
+  display: flex;
+}
+
+.job-modal-panel {
+  width: min(980px, 100%);
+  max-height: min(86vh, 960px);
+  overflow: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(12, 32, 50, 0.98) 0%, rgba(7, 20, 32, 0.98) 100%);
+  box-shadow: var(--shadow);
+}
+
+.job-modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1rem 1.2rem;
+  background: rgba(5, 17, 29, 0.95);
+}
+
+.job-modal-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.job-modal-close {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  color: #f6fcff;
+  border-radius: 999px;
+  width: 2rem;
+  height: 2rem;
+  line-height: 1;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.job-modal-body {
+  padding: 1rem 1.2rem 1.2rem;
 }
 
 .card-top,
