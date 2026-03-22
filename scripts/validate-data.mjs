@@ -111,6 +111,10 @@ function validateJobs(jobsData, taxonomyIndexData, errorsList) {
     validateEnum(`job:${job.id}.degree.status`, job.degree?.status, ['required', 'preferred', 'optional'], errorsList);
     validateEnum(`job:${job.id}.degree.level`, job.degree?.level, ['none', 'bachelor', 'master', 'doctorate'], errorsList);
 
+    if (job.currentReplacementUrl != null) {
+      validateUrl(`job:${job.id}.currentReplacementUrl`, job.currentReplacementUrl, errorsList);
+    }
+
     validateClassification(job, taxonomyIndexData, errorsList);
     validateLocalizedContent(job, errorsList);
     validateEvidence(job, errorsList);

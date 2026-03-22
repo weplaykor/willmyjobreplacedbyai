@@ -599,6 +599,7 @@ function buildEducationEntryStep(locale, config, levelLabel) {
 function enrichExistingJob(job, config) {
   return {
     ...job,
+    currentReplacementUrl: config.currentReplacementUrl ?? job.currentReplacementUrl,
     marketSignals: buildMarketSignals(config, job.classification),
     content: {
       ...job.content,
@@ -2273,10 +2274,18 @@ function createRoleConfigs() {
     zendeskAI: 'https://www.zendesk.com/ai/',
     salesforceAI: 'https://www.salesforce.com/artificial-intelligence/',
     hubspotAI: 'https://www.hubspot.com/artificial-intelligence',
-    johnDeereAutonomy: 'https://www.deere.com/en/autonomous-tractor/',
+    johnDeereAutonomy: 'https://www.deere.com/en/autonomous/',
     johnDeerePrecision: 'https://www.deere.com/en/technology-products/precision-ag-technology/',
     serviceTitanAI: 'https://www.servicetitan.com/ai',
     electricAI: 'https://electricai.app/',
+    auroraDriverlessTrucking: 'https://ir.aurora.tech/news-events/press-releases/detail/119/aurora-begins-commercial-driverless-trucking-in-texas-ushering-in-a-new-era-of-freight',
+    foxRobotics: 'https://foxrobotics.com/',
+    universalRobotsMachineTending: 'https://www.universal-robots.com/applications/machine-tending/',
+    abbFlexPacker: 'https://new.abb.com/products/robotics/robots/delta-robots/irb-390',
+    bostonDynamicsStretch: 'https://bostondynamics.com/products/stretch/',
+    serveRobotics: 'https://serverobotics.com/company',
+    lelyAstronaut: 'https://www.lely.com/solutions/milking/astronaut/',
+    tennantT7Amr: 'https://www.tennantco.com/en_us/1/machines/scrubbers/product.t7amr.robotic-floor-scrubber.M-T7AMR.html',
     waymo: 'https://waymo.com/',
     samsaraAI: 'https://www.samsara.com/platform/artificial-intelligence',
     symbotic: 'https://www.symbotic.com/',
@@ -2390,21 +2399,21 @@ function createRoleConfigs() {
     'real-estate-agent': role('salesCommerce', 'sales', 51, 'hybrid', 'optional', 'none', null, refs.sales),
     'insurance-sales-agent': role('salesCommerce', 'sales', 63, 'hybrid', 'optional', 'none', null, refs.sales),
     'ecommerce-merchandiser': role('salesCommerce', 'sales', 68, 'hybrid', 'preferred', 'bachelor', null, refs.sales),
-    'crop-farmer': role('agriculture', 'agriculture', 31, 'enhance', 'optional', 'none', null, refs.agriculture),
-    'livestock-farmer': role('agriculture', 'agriculture', 27, 'enhance', 'optional', 'none', null, refs.agriculture),
+    'crop-farmer': role('agriculture', 'agriculture', 31, 'enhance', 'optional', 'none', URLS.johnDeereAutonomy, refs.agriculture),
+    'livestock-farmer': role('agriculture', 'agriculture', 27, 'enhance', 'optional', 'none', URLS.lelyAstronaut, refs.agriculture),
     'hvac-technician': role('skilledTrade', 'trades', 25, 'enhance', 'optional', 'none', null, refs.skilledTrade),
     'plumber': role('skilledTrade', 'trades', 21, 'enhance', 'optional', 'none', null, refs.skilledTrade),
     'carpenter': role('skilledTrade', 'trades', 18, 'enhance', 'optional', 'none', null, refs.skilledTrade),
     'welder': role('skilledTrade', 'trades', 28, 'enhance', 'optional', 'none', null, refs.skilledTrade),
     'automotive-technician': role('skilledTrade', 'trades', 34, 'enhance', 'optional', 'none', null, refs.skilledTrade),
-    'truck-driver': role('machineTransport', 'logistics', 71, 'hybrid', 'optional', 'none', null, refs.machine),
-    'forklift-operator': role('machineTransport', 'logistics', 68, 'hybrid', 'optional', 'none', null, refs.machine),
-    'cnc-machine-operator': role('machineTransport', 'manufacturing', 76, 'replace', 'optional', 'none', null, refs.machine),
-    'packaging-machine-operator': role('machineTransport', 'manufacturing', 83, 'replace', 'optional', 'none', null, refs.machine),
-    'cleaner': role('labor', 'labor', 66, 'replace', 'optional', 'none', null, refs.labor),
-    'warehouse-laborer': role('labor', 'labor', 64, 'hybrid', 'optional', 'none', null, refs.labor),
+    'truck-driver': role('machineTransport', 'logistics', 71, 'hybrid', 'optional', 'none', URLS.auroraDriverlessTrucking, refs.machine),
+    'forklift-operator': role('machineTransport', 'logistics', 68, 'hybrid', 'optional', 'none', URLS.foxRobotics, refs.machine),
+    'cnc-machine-operator': role('machineTransport', 'manufacturing', 76, 'replace', 'optional', 'none', URLS.universalRobotsMachineTending, refs.machine),
+    'packaging-machine-operator': role('machineTransport', 'manufacturing', 83, 'replace', 'optional', 'none', URLS.abbFlexPacker, refs.machine),
+    'cleaner': role('labor', 'labor', 66, 'replace', 'optional', 'none', URLS.tennantT7Amr, refs.labor),
+    'warehouse-laborer': role('labor', 'labor', 64, 'hybrid', 'optional', 'none', URLS.bostonDynamicsStretch, refs.labor),
     'construction-laborer': role('labor', 'labor', 26, 'enhance', 'optional', 'none', null, refs.labor),
-    'delivery-rider': role('labor', 'labor', 59, 'hybrid', 'optional', 'none', null, refs.labor)
+    'delivery-rider': role('labor', 'labor', 59, 'hybrid', 'optional', 'none', URLS.serveRobotics, refs.labor)
   };
 }
 

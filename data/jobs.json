@@ -8566,7 +8566,7 @@
       "subId": "field-crop-farmers",
       "detailId": "crop-farmer"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.deere.com/en/autonomous/",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -8752,7 +8752,7 @@
       "subId": "animal-breeding-workers",
       "detailId": "livestock-farmer"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.lely.com/solutions/milking/astronaut/",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -10054,7 +10054,7 @@
       "subId": "road-vehicle-operators",
       "detailId": "truck-driver"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://ir.aurora.tech/news-events/press-releases/detail/119/aurora-begins-commercial-driverless-trucking-in-texas-ushering-in-a-new-era-of-freight",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -10240,7 +10240,7 @@
       "subId": "road-vehicle-operators",
       "detailId": "forklift-operator"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://foxrobotics.com/",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -10426,7 +10426,7 @@
       "subId": "production-line-machine-operators",
       "detailId": "cnc-machine-operator"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.universal-robots.com/applications/machine-tending/",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -10612,7 +10612,7 @@
       "subId": "production-line-machine-operators",
       "detailId": "packaging-machine-operator"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://new.abb.com/products/robotics/robots/delta-robots/irb-390",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -10798,7 +10798,7 @@
       "subId": "building-maintenance-laborers",
       "detailId": "cleaner"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.tennantco.com/en_us/1/machines/scrubbers/product.t7amr.robotic-floor-scrubber.M-T7AMR.html",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -10984,7 +10984,7 @@
       "subId": "manual-material-laborers",
       "detailId": "warehouse-laborer"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://bostondynamics.com/products/stretch/",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -11356,7 +11356,7 @@
       "subId": "last-mile-delivery-workers",
       "detailId": "delivery-rider"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://serverobotics.com/company",
     "degree": {
       "status": "optional",
       "level": "none"
