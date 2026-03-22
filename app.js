@@ -1,3 +1,8 @@
+const DATA_FILES = {
+  jobs: 'data/jobs.json',
+  taxonomy: 'data/ksco-taxonomy.json'
+};
+
 const UI = {
   en: {
     locale: 'en-US',
@@ -71,16 +76,6 @@ const UI = {
       hybrid: 'Hybrid impact',
       enhance: 'Enhance-first'
     },
-    categories: {
-      operations: 'Operations',
-      support: 'Support',
-      care: 'Care',
-      trades: 'Skilled trades',
-      design: 'Design',
-      engineering: 'Engineering',
-      education: 'Education',
-      language: 'Language services'
-    },
     insights: {
       kicker: 'Portfolio view',
       title: 'See where the exposure sits.',
@@ -106,7 +101,12 @@ const UI = {
       aiNow: 'AI now',
       aiFuture: 'What changes next',
       currentReplacement: 'Current AI replacement',
-      services: 'AI services'
+      services: 'AI services',
+      taxonomy: 'KSCO-aligned path',
+      rationale: 'Why this risk level',
+      automatableNow: 'Tasks AI can already take',
+      humanEdge: 'Human edge that remains',
+      references: 'Evidence links'
     },
     education: {
       statuses: {
@@ -121,6 +121,8 @@ const UI = {
         doctorate: 'Doctorate'
       }
     },
+    loading: 'Loading job intelligence...',
+    loadError: 'Could not load the job dataset. If you opened this file directly, use the deployed website or run a local web server. If this is the live site, make sure data/jobs.json and data/ksco-taxonomy.json are committed and deployed.',
     noResults: 'No roles matched this combination. Try clearing a filter or using a broader keyword.',
     roadmap: {
       kicker: 'To scale this product',
@@ -205,16 +207,6 @@ const UI = {
       hybrid: '혼합 영향',
       enhance: '강화 중심'
     },
-    categories: {
-      operations: '운영',
-      support: '고객지원',
-      care: '돌봄',
-      trades: '기술직',
-      design: '디자인',
-      engineering: '엔지니어링',
-      education: '교육',
-      language: '언어 서비스'
-    },
     insights: {
       kicker: '포트폴리오 보기',
       title: '어디에 노출이 집중되는지 확인하세요.',
@@ -240,7 +232,12 @@ const UI = {
       aiNow: '현재의 AI',
       aiFuture: '앞으로의 변화',
       currentReplacement: '현재 AI 대체 서비스',
-      services: '관련 AI 서비스'
+      services: '관련 AI 서비스',
+      taxonomy: 'KSCO 기반 경로',
+      rationale: '이 위험도로 본 이유',
+      automatableNow: 'AI가 이미 처리할 수 있는 일',
+      humanEdge: '여전히 사람에게 남는 핵심',
+      references: '근거 링크'
     },
     education: {
       statuses: {
@@ -255,6 +252,8 @@ const UI = {
         doctorate: '박사'
       }
     },
+    loading: '직업 인텔리전스를 불러오는 중입니다...',
+    loadError: '직업 데이터셋을 불러오지 못했습니다. 로컬 파일을 직접 열었다면 배포된 사이트로 접속하거나 로컬 웹서버로 실행해 주세요. 라이브 사이트라면 data/jobs.json과 data/ksco-taxonomy.json이 커밋되고 배포되었는지 확인해 주세요.',
     noResults: '이 조합과 일치하는 직무가 없습니다. 필터를 줄이거나 더 넓은 검색어를 사용해 보세요.',
     roadmap: {
       kicker: '제품 확장 방향',
@@ -339,16 +338,6 @@ const UI = {
       hybrid: 'Impacto mixto',
       enhance: 'Primero mejora'
     },
-    categories: {
-      operations: 'Operaciones',
-      support: 'Soporte',
-      care: 'Cuidado',
-      trades: 'Oficios tecnicos',
-      design: 'Diseno',
-      engineering: 'Ingenieria',
-      education: 'Educacion',
-      language: 'Servicios linguisticos'
-    },
     insights: {
       kicker: 'Vista del portafolio',
       title: 'Mira donde esta la exposicion.',
@@ -374,7 +363,12 @@ const UI = {
       aiNow: 'IA hoy',
       aiFuture: 'Lo que cambia despues',
       currentReplacement: 'Reemplazo actual con IA',
-      services: 'Servicios de IA'
+      services: 'Servicios de IA',
+      taxonomy: 'Ruta alineada con KSCO',
+      rationale: 'Por que este nivel de riesgo',
+      automatableNow: 'Tareas que la IA ya puede tomar',
+      humanEdge: 'Ventaja humana que permanece',
+      references: 'Enlaces de evidencia'
     },
     education: {
       statuses: {
@@ -389,6 +383,8 @@ const UI = {
         doctorate: 'Doctorado'
       }
     },
+    loading: 'Cargando inteligencia laboral...',
+    loadError: 'No se pudo cargar el conjunto de trabajos. Si abriste el archivo directamente, usa el sitio desplegado o ejecuta un servidor web local. Si es el sitio en produccion, confirma que data/jobs.json y data/ksco-taxonomy.json esten versionados y desplegados.',
     noResults: 'Ningun puesto coincide con esta combinacion. Prueba limpiando un filtro o usando una palabra mas amplia.',
     roadmap: {
       kicker: 'Para escalar el producto',
@@ -403,745 +399,6 @@ const UI = {
   }
 };
 
-const JOBS = [
-  {
-    id: 'data-entry-clerk',
-    category: 'operations',
-    automationRisk: 88,
-    aiRole: 'replace',
-    classification: {
-      majorId: 'clerical',
-      midId: 'clerical-support',
-      subId: 'data-entry',
-      labels: {
-        en: {
-          major: 'Clerical Occupations',
-          mid: 'Administrative Support',
-          sub: 'Data Entry Clerks'
-        },
-        ko: {
-          major: '사무 종사자',
-          mid: '사무 지원 종사자',
-          sub: '자료 입력 사무원'
-        },
-        es: {
-          major: 'Ocupaciones administrativas',
-          mid: 'Apoyo administrativo',
-          sub: 'Personal de entrada de datos'
-        }
-      }
-    },
-    currentReplacementUrl: 'https://cloud.google.com/document-ai-workbench',
-    degree: {
-      status: 'optional',
-      level: 'none'
-    },
-    content: {
-      en: {
-        title: 'Data Entry Clerk',
-        summary: 'Moves structured information between forms, databases, and spreadsheets.',
-        tasks: [
-          'Capture records with speed and accuracy.',
-          'Validate fields and flag exceptions.',
-          'Keep digital logs organized and current.'
-        ],
-        skills: ['Attention to detail', 'Spreadsheet fluency', 'Basic database tools', 'Quality checking'],
-        path: [
-          'Build typing speed and spreadsheet accuracy.',
-          'Practice cleaning and validating messy datasets.',
-          'Learn how operations teams handle exceptions.'
-        ],
-        degreeNote: 'Most employers care more about speed, accuracy, and basic office skills than a university degree. A high school credential or short certificate is usually enough.',
-        aiNow: 'OCR, document AI, and workflow bots already automate large parts of routine entry.',
-        aiFuture: 'The role is likely to shrink toward exception review, audit trails, and sensitive records.',
-        services: ['Document AI', 'RPA workflow bots', 'Spreadsheet copilots']
-      },
-      ko: {
-        title: '데이터 입력 사무원',
-        summary: '양식, 데이터베이스, 스프레드시트 사이에서 구조화된 정보를 옮기는 업무입니다.',
-        tasks: [
-          '기록을 빠르고 정확하게 입력합니다.',
-          '필드를 검증하고 예외를 표시합니다.',
-          '디지털 로그를 체계적으로 유지합니다.'
-        ],
-        skills: ['세심함', '스프레드시트 활용', '기초 데이터베이스 도구', '품질 점검'],
-        path: [
-          '타이핑 속도와 스프레드시트 정확도를 높입니다.',
-          '정리되지 않은 데이터를 정제하고 검증하는 연습을 합니다.',
-          '운영팀의 예외 처리 흐름을 배웁니다.'
-        ],
-        degreeNote: '대학 학위보다 정확성, 속도, 기본 사무 역량을 더 보는 경우가 많습니다. 보통 고등학교 졸업이나 짧은 직무 교육이면 충분합니다.',
-        aiNow: 'OCR, 문서 AI, 워크플로 자동화가 반복 입력 업무의 큰 부분을 이미 처리합니다.',
-        aiFuture: '앞으로는 예외 검토, 감사 기록, 민감 정보 처리 중심으로 역할이 축소될 가능성이 큽니다.',
-        services: ['문서 AI', 'RPA 워크플로 봇', '스프레드시트 코파일럿']
-      },
-      es: {
-        title: 'Auxiliar de entrada de datos',
-        summary: 'Traslada informacion estructurada entre formularios, bases de datos y hojas de calculo.',
-        tasks: [
-          'Registrar datos con rapidez y precision.',
-          'Validar campos y marcar excepciones.',
-          'Mantener registros digitales ordenados.'
-        ],
-        skills: ['Atencion al detalle', 'Manejo de hojas de calculo', 'Herramientas basicas de base de datos', 'Control de calidad'],
-        path: [
-          'Mejora la velocidad de teclado y la exactitud en hojas de calculo.',
-          'Practica limpieza y validacion de datos desordenados.',
-          'Aprende como un equipo operativo gestiona excepciones.'
-        ],
-        degreeNote: 'La mayoria de empleadores valora mas la velocidad, la precision y las habilidades administrativas basicas que un titulo universitario. Suele bastar con secundaria o un certificado corto.',
-        aiNow: 'El OCR, la IA documental y los bots de flujo ya automatizan buena parte del trabajo repetitivo.',
-        aiFuture: 'El puesto probablemente se reduzca a revision de excepciones, auditoria y manejo de datos sensibles.',
-        services: ['IA documental', 'Bots RPA', 'Copilotos de hojas de calculo']
-      }
-    }
-  },
-  {
-    id: 'customer-support-specialist',
-    category: 'support',
-    automationRisk: 72,
-    aiRole: 'hybrid',
-    classification: {
-      majorId: 'service',
-      midId: 'customer-service',
-      subId: 'customer-support',
-      labels: {
-        en: {
-          major: 'Service Occupations',
-          mid: 'Customer Service',
-          sub: 'Customer Support Specialists'
-        },
-        ko: {
-          major: '서비스 종사자',
-          mid: '고객 서비스 종사자',
-          sub: '고객 지원 전문가'
-        },
-        es: {
-          major: 'Ocupaciones de servicios',
-          mid: 'Atencion al cliente',
-          sub: 'Especialistas en soporte al cliente'
-        }
-      }
-    },
-    currentReplacementUrl: 'https://fin.ai',
-    degree: {
-      status: 'optional',
-      level: 'none'
-    },
-    content: {
-      en: {
-        title: 'Customer Support Specialist',
-        summary: 'Helps users solve issues across chat, email, and service workflows.',
-        tasks: [
-          'Answer product and account questions.',
-          'Resolve complaints and escalate edge cases.',
-          'Document patterns that improve service operations.'
-        ],
-        skills: ['Clear writing', 'Empathy', 'Product knowledge', 'Troubleshooting'],
-        path: [
-          'Practice structured communication and ticket handling.',
-          'Learn a support platform and common escalation flows.',
-          'Study the product well enough to solve routine issues fast.'
-        ],
-        degreeNote: 'Many support teams hire from skill-based backgrounds without a degree. A degree can help in enterprise or specialized support, but it is not usually the gate.',
-        aiNow: 'AI agents can already deflect repetitive tickets, summarize conversations, and draft responses.',
-        aiFuture: 'Human agents will keep complex complaints, sensitive situations, and loyalty-building interactions.',
-        services: ['AI chat agents', 'Conversation summarizers', 'Knowledge base copilots']
-      },
-      ko: {
-        title: '고객 지원 전문가',
-        summary: '채팅, 이메일, 서비스 워크플로 전반에서 사용자의 문제 해결을 돕습니다.',
-        tasks: [
-          '제품과 계정 관련 질문에 답합니다.',
-          '불만을 해결하고 복잡한 사례는 상위 단계로 넘깁니다.',
-          '반복 패턴을 기록해 운영 개선에 반영합니다.'
-        ],
-        skills: ['명확한 글쓰기', '공감 능력', '제품 이해', '문제 해결'],
-        path: [
-          '구조화된 커뮤니케이션과 티켓 처리 방식을 연습합니다.',
-          '지원 플랫폼과 에스컬레이션 흐름을 익힙니다.',
-          '반복 문의를 빠르게 해결할 만큼 제품을 깊이 이해합니다.'
-        ],
-        degreeNote: '많은 고객지원 팀은 학위 없이도 실무 역량 중심으로 채용합니다. 기업용이나 전문 지원에서는 학위가 도움이 될 수 있지만 보통 핵심 입장권은 아닙니다.',
-        aiNow: 'AI 에이전트는 반복 문의 응답, 대화 요약, 초안 작성까지 이미 수행할 수 있습니다.',
-        aiFuture: '복잡한 불만, 민감한 상황, 충성도를 높이는 상호작용은 사람이 계속 맡을 가능성이 큽니다.',
-        services: ['AI 챗 에이전트', '대화 요약 도구', '지식베이스 코파일럿']
-      },
-      es: {
-        title: 'Especialista en soporte al cliente',
-        summary: 'Ayuda a usuarios a resolver problemas por chat, correo y flujos de servicio.',
-        tasks: [
-          'Responder preguntas sobre producto y cuenta.',
-          'Resolver reclamaciones y escalar casos complejos.',
-          'Documentar patrones para mejorar la operacion.'
-        ],
-        skills: ['Escritura clara', 'Empatia', 'Conocimiento del producto', 'Resolucion de problemas'],
-        path: [
-          'Practica comunicacion estructurada y manejo de tickets.',
-          'Aprende una plataforma de soporte y sus escalaciones comunes.',
-          'Estudia el producto hasta poder resolver incidencias rutinarias con rapidez.'
-        ],
-        degreeNote: 'Muchos equipos de soporte contratan por habilidades practicas sin exigir titulo. El titulo puede ayudar en soporte empresarial o especializado, pero normalmente no es la barrera principal.',
-        aiNow: 'Los agentes de IA ya pueden desviar tickets repetitivos, resumir conversaciones y redactar respuestas.',
-        aiFuture: 'Las personas seguiran siendo fuertes en reclamaciones complejas, situaciones sensibles e interacciones de confianza.',
-        services: ['Agentes de chat con IA', 'Resumidores de conversaciones', 'Copilotos de base de conocimiento']
-      }
-    }
-  },
-  {
-    id: 'registered-nurse',
-    category: 'care',
-    automationRisk: 24,
-    aiRole: 'enhance',
-    classification: {
-      majorId: 'professional',
-      midId: 'healthcare',
-      subId: 'nursing',
-      labels: {
-        en: {
-          major: 'Professional Occupations',
-          mid: 'Healthcare Professionals',
-          sub: 'Registered Nurses'
-        },
-        ko: {
-          major: '전문가 및 관련 종사자',
-          mid: '보건·의료 관련 전문직',
-          sub: '간호사'
-        },
-        es: {
-          major: 'Ocupaciones profesionales',
-          mid: 'Profesionales de salud',
-          sub: 'Enfermeros registrados'
-        }
-      }
-    },
-    currentReplacementUrl: null,
-    degree: {
-      status: 'required',
-      level: 'bachelor'
-    },
-    content: {
-      en: {
-        title: 'Registered Nurse',
-        summary: 'Delivers clinical care, monitoring, and patient advocacy in live settings.',
-        tasks: [
-          'Assess patient condition and respond in real time.',
-          'Administer treatment and coordinate with care teams.',
-          'Educate patients and families through stressful moments.'
-        ],
-        skills: ['Clinical judgment', 'Empathy', 'Care coordination', 'Attention under pressure'],
-        path: [
-          'Complete accredited nursing education and licensing.',
-          'Train in clinical placements with direct patient care.',
-          'Build specialization in areas such as ICU, pediatrics, or community care.'
-        ],
-        degreeNote: 'This role usually requires formal nursing education plus licensure. In many markets, a bachelor-level nursing degree is the dominant expectation for registered nurse hiring.',
-        aiNow: 'AI can help with documentation, triage support, and pattern detection, but not the full bedside role.',
-        aiFuture: 'The job will likely become more data-assisted, while human trust, dexterity, and accountability stay central.',
-        services: ['Clinical documentation copilots', 'Triage support AI', 'Monitoring alert systems']
-      },
-      ko: {
-        title: '간호사',
-        summary: '실제 진료 환경에서 환자 돌봄, 모니터링, 옹호 역할을 수행합니다.',
-        tasks: [
-          '환자 상태를 평가하고 실시간으로 대응합니다.',
-          '처치를 수행하고 의료진과 협업합니다.',
-          '불안한 상황에서 환자와 가족을 교육하고 지원합니다.'
-        ],
-        skills: ['임상 판단력', '공감 능력', '돌봄 조율', '압박 상황 집중력'],
-        path: [
-          '공인 간호 교육과 면허 과정을 마칩니다.',
-          '실습 현장에서 직접 환자 돌봄 경험을 쌓습니다.',
-          '중환자실, 소아, 지역사회 돌봄 등 전문 분야를 키웁니다.'
-        ],
-        degreeNote: '이 직무는 보통 정식 간호 교육과 면허가 필요합니다. 많은 시장에서 등록 간호사 채용의 기본 기대 수준은 학사급 간호 학위입니다.',
-        aiNow: 'AI는 문서 작성, 초기 분류, 패턴 탐지를 도울 수 있지만 병상 옆 역할 전체를 대체하진 못합니다.',
-        aiFuture: '이 직무는 더 많은 데이터 지원을 받겠지만 인간의 신뢰, 손기술, 책임은 여전히 핵심입니다.',
-        services: ['임상 문서 코파일럿', '트리아지 지원 AI', '모니터링 알림 시스템']
-      },
-      es: {
-        title: 'Enfermero registrado',
-        summary: 'Ofrece atencion clinica, seguimiento y defensa del paciente en entornos reales.',
-        tasks: [
-          'Evaluar la condicion del paciente y responder en tiempo real.',
-          'Administrar tratamiento y coordinarse con el equipo medico.',
-          'Guiar a pacientes y familias en momentos de estres.'
-        ],
-        skills: ['Criterio clinico', 'Empatia', 'Coordinacion asistencial', 'Atencion bajo presion'],
-        path: [
-          'Completa la formacion acreditada y la licencia de enfermeria.',
-          'Entrena en practicas clinicas con atencion directa.',
-          'Desarrolla una especializacion como UCI, pediatria o salud comunitaria.'
-        ],
-        degreeNote: 'Este rol suele requerir formacion formal en enfermeria y licencia profesional. En muchos mercados, la expectativa dominante para contratar enfermeria registrada es un grado de nivel licenciatura.',
-        aiNow: 'La IA ayuda con documentacion, apoyo al triaje y deteccion de patrones, pero no sustituye el rol junto al paciente.',
-        aiFuture: 'El trabajo sera mas asistido por datos, mientras la confianza humana, la destreza y la responsabilidad seguiran siendo centrales.',
-        services: ['Copilotos de documentacion clinica', 'IA de apoyo al triaje', 'Sistemas de alertas de monitoreo']
-      }
-    }
-  },
-  {
-    id: 'electrician',
-    category: 'trades',
-    automationRisk: 19,
-    aiRole: 'enhance',
-    classification: {
-      majorId: 'craft',
-      midId: 'electrical-trades',
-      subId: 'electricians',
-      labels: {
-        en: {
-          major: 'Craft and Trade Occupations',
-          mid: 'Electrical Trades',
-          sub: 'Electricians'
-        },
-        ko: {
-          major: '기능원 및 관련 기능 종사자',
-          mid: '전기 기능직',
-          sub: '전기 기술자'
-        },
-        es: {
-          major: 'Oficios tecnicos',
-          mid: 'Oficios electricos',
-          sub: 'Electricistas'
-        }
-      }
-    },
-    currentReplacementUrl: null,
-    degree: {
-      status: 'optional',
-      level: 'none'
-    },
-    content: {
-      en: {
-        title: 'Electrician',
-        summary: 'Installs, repairs, and inspects electrical systems in unpredictable physical environments.',
-        tasks: [
-          'Read plans and diagnose faults on site.',
-          'Install wiring, panels, and safety systems.',
-          'Work around codes, hazards, and changing field conditions.'
-        ],
-        skills: ['Physical dexterity', 'Safety discipline', 'Code knowledge', 'Fault diagnosis'],
-        path: [
-          'Start with trade school or an apprenticeship.',
-          'Log supervised field hours and pass licensing exams.',
-          'Develop specialty areas such as residential, industrial, or solar systems.'
-        ],
-        degreeNote: 'University study is usually not the main route here. Apprenticeship hours, trade training, safety discipline, and licensing matter more than a four-year degree.',
-        aiNow: 'AI can assist with quoting, documentation, diagnostics, and visual inspection support.',
-        aiFuture: 'Robotics may automate narrow tasks, but full replacement is difficult because sites are messy and variable.',
-        services: ['Visual inspection AI', 'Quote generation tools', 'Diagnostic assistants']
-      },
-      ko: {
-        title: '전기 기술자',
-        summary: '예측하기 어려운 현장 환경에서 전기 시스템을 설치, 수리, 점검합니다.',
-        tasks: [
-          '도면을 읽고 현장에서 고장을 진단합니다.',
-          '배선, 패널, 안전 시스템을 설치합니다.',
-          '법규, 위험 요소, 변화하는 현장 조건에 대응합니다.'
-        ],
-        skills: ['손기술', '안전 의식', '전기 규정 지식', '고장 진단'],
-        path: [
-          '직업학교나 도제 과정을 시작합니다.',
-          '감독 아래 현장 시간을 채우고 자격 시험을 통과합니다.',
-          '주거용, 산업용, 태양광 등 전문 분야를 키웁니다.'
-        ],
-        degreeNote: '이 분야는 보통 대학보다 도제 과정, 직업훈련, 안전 역량, 자격증이 더 중요합니다. 4년제 학위가 핵심 진입 조건은 아닙니다.',
-        aiNow: 'AI는 견적, 문서 작업, 진단, 시각 점검 보조에 도움이 됩니다.',
-        aiFuture: '로봇이 일부 좁은 작업은 자동화할 수 있지만, 현장이 복잡하고 변수가 많아 완전 대체는 어렵습니다.',
-        services: ['시각 점검 AI', '견적 생성 도구', '진단 보조 시스템']
-      },
-      es: {
-        title: 'Electricista',
-        summary: 'Instala, repara e inspecciona sistemas electricos en entornos fisicos variables.',
-        tasks: [
-          'Leer planos y diagnosticar fallas en terreno.',
-          'Instalar cableado, paneles y sistemas de seguridad.',
-          'Trabajar con normativa, riesgos y condiciones cambiantes.'
-        ],
-        skills: ['Destreza fisica', 'Disciplina de seguridad', 'Conocimiento normativo', 'Diagnostico de fallas'],
-        path: [
-          'Empieza con escuela tecnica o aprendizaje.',
-          'Acumula horas supervisadas y aprueba licencias.',
-          'Desarrolla especialidades como residencial, industrial o solar.'
-        ],
-        degreeNote: 'La universidad no suele ser la via principal. Importan mas las horas de aprendizaje, la formacion tecnica, la seguridad y la licencia que un titulo de cuatro anos.',
-        aiNow: 'La IA puede ayudar en presupuestos, documentacion, diagnostico y apoyo a inspeccion visual.',
-        aiFuture: 'La robotica automatizara tareas puntuales, pero el reemplazo total es dificil por la variabilidad del entorno.',
-        services: ['IA de inspeccion visual', 'Herramientas de presupuestos', 'Asistentes de diagnostico']
-      }
-    }
-  },
-  {
-    id: 'ux-designer',
-    category: 'design',
-    automationRisk: 48,
-    aiRole: 'enhance',
-    classification: {
-      majorId: 'professional',
-      midId: 'design-media',
-      subId: 'ux-designers',
-      labels: {
-        en: {
-          major: 'Professional Occupations',
-          mid: 'Design and Media',
-          sub: 'UX Designers'
-        },
-        ko: {
-          major: '전문가 및 관련 종사자',
-          mid: '디자인·미디어 관련 전문직',
-          sub: 'UX 디자이너'
-        },
-        es: {
-          major: 'Ocupaciones profesionales',
-          mid: 'Diseno y medios',
-          sub: 'Disenadores UX'
-        }
-      }
-    },
-    currentReplacementUrl: 'https://uizard.io/ai-design/',
-    degree: {
-      status: 'preferred',
-      level: 'bachelor'
-    },
-    content: {
-      en: {
-        title: 'UX Designer',
-        summary: 'Shapes digital products so users can understand, trust, and complete tasks.',
-        tasks: [
-          'Research user pain points and behavior patterns.',
-          'Design flows, wireframes, and interface logic.',
-          'Test concepts and refine decisions with product teams.'
-        ],
-        skills: ['Systems thinking', 'User research', 'Interface design', 'Communication'],
-        path: [
-          'Study design fundamentals and human-centered methods.',
-          'Build portfolio projects that show research to execution.',
-          'Learn product collaboration, prototyping, and accessibility.'
-        ],
-        degreeNote: 'Many employers still prefer a bachelor-level background in design, HCI, psychology, or a related field. A strong portfolio can offset that requirement in parts of the market.',
-        aiNow: 'AI can generate mockups, summarize research, and speed up content or interface exploration.',
-        aiFuture: 'Commodity screen production gets easier, while differentiated strategy, research, and taste matter more.',
-        services: ['Wireframe generators', 'Research summarizers', 'UI copy copilots']
-      },
-      ko: {
-        title: 'UX 디자이너',
-        summary: '사용자가 디지털 제품을 이해하고 신뢰하며 목적을 달성하도록 경험을 설계합니다.',
-        tasks: [
-          '사용자 문제와 행동 패턴을 조사합니다.',
-          '흐름, 와이어프레임, 인터페이스 논리를 설계합니다.',
-          '아이디어를 테스트하고 제품팀과 함께 개선합니다.'
-        ],
-        skills: ['시스템 사고', '사용자 조사', '인터페이스 설계', '커뮤니케이션'],
-        path: [
-          '디자인 기본기와 인간 중심 방법론을 배웁니다.',
-          '리서치부터 실행까지 보여주는 포트폴리오를 만듭니다.',
-          '제품 협업, 프로토타이핑, 접근성을 익힙니다.'
-        ],
-        degreeNote: '많은 고용주는 디자인, HCI, 심리학 등 관련 분야의 학사 배경을 선호합니다. 다만 강한 포트폴리오가 있으면 일부 시장에서는 이를 대체할 수 있습니다.',
-        aiNow: 'AI는 목업 생성, 리서치 요약, 콘텐츠와 인터페이스 탐색 속도를 높여 줍니다.',
-        aiFuture: '평범한 화면 제작은 쉬워지지만, 차별화된 전략, 리서치, 감각의 가치가 더 커집니다.',
-        services: ['와이어프레임 생성기', '리서치 요약 도구', 'UI 카피 코파일럿']
-      },
-      es: {
-        title: 'Disenador UX',
-        summary: 'Da forma a productos digitales para que las personas entiendan, confien y completen tareas.',
-        tasks: [
-          'Investigar dolores del usuario y patrones de comportamiento.',
-          'Disenar flujos, wireframes y logica de interfaz.',
-          'Probar conceptos y refinarlos con el equipo de producto.'
-        ],
-        skills: ['Pensamiento sistemico', 'Investigacion de usuarios', 'Diseno de interfaces', 'Comunicacion'],
-        path: [
-          'Estudia fundamentos de diseno y metodos centrados en personas.',
-          'Construye proyectos de portafolio que muestren investigacion y ejecucion.',
-          'Aprende colaboracion con producto, prototipado y accesibilidad.'
-        ],
-        degreeNote: 'Muchas empresas aun prefieren formacion universitaria de nivel licenciatura en diseno, HCI, psicologia o un campo relacionado. Un portafolio fuerte puede compensarlo en parte del mercado.',
-        aiNow: 'La IA genera bocetos, resume investigacion y acelera la exploracion de contenido o pantallas.',
-        aiFuture: 'La produccion visual basica sera mas facil, mientras la estrategia, la investigacion y el criterio destacaran mas.',
-        services: ['Generadores de wireframes', 'Resumidores de investigacion', 'Copilotos de copy UI']
-      }
-    }
-  },
-  {
-    id: 'software-developer',
-    category: 'engineering',
-    automationRisk: 43,
-    aiRole: 'enhance',
-    classification: {
-      majorId: 'professional',
-      midId: 'ict',
-      subId: 'software-developers',
-      labels: {
-        en: {
-          major: 'Professional Occupations',
-          mid: 'ICT Professionals',
-          sub: 'Software Developers'
-        },
-        ko: {
-          major: '전문가 및 관련 종사자',
-          mid: '정보통신 관련 전문직',
-          sub: '소프트웨어 개발자'
-        },
-        es: {
-          major: 'Ocupaciones profesionales',
-          mid: 'Profesionales TIC',
-          sub: 'Desarrolladores de software'
-        }
-      }
-    },
-    currentReplacementUrl: 'https://github.com/features/copilot',
-    degree: {
-      status: 'preferred',
-      level: 'bachelor'
-    },
-    content: {
-      en: {
-        title: 'Software Developer',
-        summary: 'Builds, maintains, and improves digital systems across changing requirements.',
-        tasks: [
-          'Design application logic and integrate systems.',
-          'Write, review, and debug code.',
-          'Translate business goals into reliable software behavior.'
-        ],
-        skills: ['Programming fundamentals', 'System design', 'Debugging', 'Product reasoning'],
-        path: [
-          'Learn one language deeply and build real projects.',
-          'Understand data structures, APIs, testing, and version control.',
-          'Practice shipping features while keeping systems maintainable.'
-        ],
-        degreeNote: 'A bachelor-level degree is still common in hiring pipelines, especially at larger companies. But many teams now accept strong project work, open-source proof, or real shipping experience instead.',
-        aiNow: 'Coding copilots accelerate boilerplate, test generation, and refactoring support.',
-        aiFuture: 'Routine implementation will compress, but architecture, validation, product judgment, and integration remain human-heavy.',
-        services: ['Code copilots', 'Test generators', 'Static analysis AI']
-      },
-      ko: {
-        title: '소프트웨어 개발자',
-        summary: '변화하는 요구사항 속에서 디지털 시스템을 구축, 유지, 개선합니다.',
-        tasks: [
-          '애플리케이션 로직을 설계하고 시스템을 연동합니다.',
-          '코드를 작성, 리뷰, 디버깅합니다.',
-          '비즈니스 목표를 안정적인 소프트웨어 동작으로 바꿉니다.'
-        ],
-        skills: ['프로그래밍 기초', '시스템 설계', '디버깅', '제품 사고'],
-        path: [
-          '한 언어를 깊이 배우고 실제 프로젝트를 만듭니다.',
-          '자료구조, API, 테스트, 버전 관리를 이해합니다.',
-          '유지보수성을 지키면서 기능을 출시하는 연습을 합니다.'
-        ],
-        degreeNote: '대기업 채용 파이프라인에서는 여전히 학사 학위가 흔합니다. 하지만 강한 프로젝트, 오픈소스 기여, 실제 서비스 경험으로 학위 요구를 넘는 팀도 많아지고 있습니다.',
-        aiNow: '코딩 코파일럿은 반복 코드, 테스트 생성, 리팩터링 지원 속도를 높여 줍니다.',
-        aiFuture: '단순 구현은 줄어들겠지만 아키텍처, 검증, 제품 판단, 통합은 여전히 사람 비중이 높습니다.',
-        services: ['코드 코파일럿', '테스트 생성기', '정적 분석 AI']
-      },
-      es: {
-        title: 'Desarrollador de software',
-        summary: 'Construye, mantiene y mejora sistemas digitales ante requisitos cambiantes.',
-        tasks: [
-          'Disenar logica de aplicaciones e integrar sistemas.',
-          'Escribir, revisar y depurar codigo.',
-          'Traducir objetivos de negocio en software confiable.'
-        ],
-        skills: ['Fundamentos de programacion', 'Diseno de sistemas', 'Depuracion', 'Razonamiento de producto'],
-        path: [
-          'Aprende bien un lenguaje y crea proyectos reales.',
-          'Domina estructuras de datos, APIs, pruebas y control de versiones.',
-          'Practica entregar funciones sin deteriorar la mantenibilidad.'
-        ],
-        degreeNote: 'El titulo de licenciatura sigue siendo comun en muchos procesos de contratacion, sobre todo en empresas grandes. Aun asi, muchos equipos aceptan proyectos solidos, codigo abierto o experiencia real como sustituto.',
-        aiNow: 'Los copilotos de codigo aceleran boilerplate, generacion de pruebas y apoyo al refactor.',
-        aiFuture: 'La implementacion rutinaria se comprimira, pero arquitectura, validacion, criterio de producto e integracion seguiran pesando mucho.',
-        services: ['Copilotos de codigo', 'Generadores de pruebas', 'IA de analisis estatico']
-      }
-    }
-  },
-  {
-    id: 'secondary-school-teacher',
-    category: 'education',
-    automationRisk: 28,
-    aiRole: 'enhance',
-    classification: {
-      majorId: 'professional',
-      midId: 'education',
-      subId: 'secondary-teachers',
-      labels: {
-        en: {
-          major: 'Professional Occupations',
-          mid: 'Education Professionals',
-          sub: 'Secondary School Teachers'
-        },
-        ko: {
-          major: '전문가 및 관련 종사자',
-          mid: '교육 관련 전문직',
-          sub: '중등 교사'
-        },
-        es: {
-          major: 'Ocupaciones profesionales',
-          mid: 'Profesionales de educacion',
-          sub: 'Profesores de secundaria'
-        }
-      }
-    },
-    currentReplacementUrl: null,
-    degree: {
-      status: 'required',
-      level: 'bachelor'
-    },
-    content: {
-      en: {
-        title: 'Secondary School Teacher',
-        summary: 'Guides learning, classroom culture, and student development over time.',
-        tasks: [
-          'Explain concepts and adapt lessons to student needs.',
-          'Assess progress and give feedback.',
-          'Build motivation, discipline, and social trust in the classroom.'
-        ],
-        skills: ['Instructional design', 'Communication', 'Classroom management', 'Subject mastery'],
-        path: [
-          'Complete teacher education and certification requirements.',
-          'Develop subject depth and supervised teaching practice.',
-          'Learn assessment design, student support, and curriculum planning.'
-        ],
-        degreeNote: 'A bachelor-level degree plus teacher certification is usually the minimum in most school systems. Some regions and promotion tracks later favor a master-level qualification as well.',
-        aiNow: 'AI can draft lesson materials, personalize exercises, and reduce admin work.',
-        aiFuture: 'Teachers will increasingly orchestrate AI tools, but trust, motivation, and live teaching remain difficult to automate.',
-        services: ['Lesson planning AI', 'Adaptive learning systems', 'Feedback assistants']
-      },
-      ko: {
-        title: '중등 교사',
-        summary: '시간을 두고 학습, 교실 문화, 학생 성장을 이끄는 역할입니다.',
-        tasks: [
-          '개념을 설명하고 학생 수준에 맞게 수업을 조정합니다.',
-          '성장을 평가하고 피드백을 제공합니다.',
-          '교실에서 동기, 규율, 신뢰를 형성합니다.'
-        ],
-        skills: ['수업 설계', '커뮤니케이션', '학급 운영', '교과 전문성'],
-        path: [
-          '교원 양성과 자격 요건을 마칩니다.',
-          '교과 심화와 수업 실습을 쌓습니다.',
-          '평가 설계, 학생 지원, 교육과정 기획을 배웁니다.'
-        ],
-        degreeNote: '대부분의 학교 체계에서 학사 학위와 교원 자격은 보통 최소 조건입니다. 일부 지역이나 승진 경로에서는 이후 석사 수준을 더 선호하기도 합니다.',
-        aiNow: 'AI는 수업 자료 작성, 연습 문제 개인화, 행정 업무 경감에 도움을 줍니다.',
-        aiFuture: '교사는 점점 더 AI 도구를 조율하게 되지만 신뢰 형성, 동기 부여, 실시간 수업은 자동화가 어렵습니다.',
-        services: ['수업 계획 AI', '적응형 학습 시스템', '피드백 보조 도구']
-      },
-      es: {
-        title: 'Profesor de secundaria',
-        summary: 'Guia el aprendizaje, la cultura del aula y el desarrollo del estudiante a lo largo del tiempo.',
-        tasks: [
-          'Explicar conceptos y adaptar clases a distintas necesidades.',
-          'Evaluar avances y dar retroalimentacion.',
-          'Construir motivacion, disciplina y confianza en el aula.'
-        ],
-        skills: ['Diseno instruccional', 'Comunicacion', 'Gestion de aula', 'Dominio de la materia'],
-        path: [
-          'Completa la formacion docente y la certificacion requerida.',
-          'Profundiza en la materia y en la practica supervisada.',
-          'Aprende evaluacion, apoyo estudiantil y planificacion curricular.'
-        ],
-        degreeNote: 'En la mayoria de sistemas escolares, la base es una licenciatura junto con la certificacion docente. Algunas regiones y trayectorias de promocion tambien valoran una maestria mas adelante.',
-        aiNow: 'La IA puede redactar materiales, personalizar ejercicios y reducir carga administrativa.',
-        aiFuture: 'Los docentes coordinaran cada vez mas herramientas de IA, pero la confianza, la motivacion y la ensenanza en vivo siguen siendo dificiles de automatizar.',
-        services: ['IA para planificar clases', 'Sistemas de aprendizaje adaptativo', 'Asistentes de retroalimentacion']
-      }
-    }
-  },
-  {
-    id: 'translator',
-    category: 'language',
-    automationRisk: 77,
-    aiRole: 'hybrid',
-    classification: {
-      majorId: 'professional',
-      midId: 'culture-language',
-      subId: 'translators',
-      labels: {
-        en: {
-          major: 'Professional Occupations',
-          mid: 'Language and Culture Specialists',
-          sub: 'Translators'
-        },
-        ko: {
-          major: '전문가 및 관련 종사자',
-          mid: '언어·문화 관련 전문직',
-          sub: '번역가'
-        },
-        es: {
-          major: 'Ocupaciones profesionales',
-          mid: 'Especialistas en idioma y cultura',
-          sub: 'Traductores'
-        }
-      }
-    },
-    currentReplacementUrl: 'https://www.deepl.com/en/translator',
-    degree: {
-      status: 'preferred',
-      level: 'bachelor'
-    },
-    content: {
-      en: {
-        title: 'Translator',
-        summary: 'Converts meaning between languages for documents, products, and communication.',
-        tasks: [
-          'Translate text while preserving tone, intent, and context.',
-          'Localize terminology for markets or industries.',
-          'Review nuance, quality, and cultural fit.'
-        ],
-        skills: ['Language mastery', 'Cultural nuance', 'Editing', 'Domain knowledge'],
-        path: [
-          'Build advanced fluency in at least two languages.',
-          'Practice domain-specific translation in legal, technical, or marketing fields.',
-          'Develop editing judgment and localization workflow skills.'
-        ],
-        degreeNote: 'For general translation, a bachelor-level language or translation degree is often preferred rather than strictly required. In specialized or high-stakes work, formal credentials matter more.',
-        aiNow: 'Machine translation and large language models already handle first drafts and many routine requests.',
-        aiFuture: 'Volume shifts toward post-editing, localization strategy, and high-stakes nuance where mistakes are expensive.',
-        services: ['Machine translation', 'Localization QA tools', 'Terminology assistants']
-      },
-      ko: {
-        title: '번역가',
-        summary: '문서, 제품, 커뮤니케이션에서 언어 간 의미를 옮기는 역할입니다.',
-        tasks: [
-          '톤, 의도, 맥락을 살려 번역합니다.',
-          '시장과 산업에 맞게 용어를 현지화합니다.',
-          '뉘앙스, 품질, 문화적 적합성을 검토합니다.'
-        ],
-        skills: ['언어 숙련도', '문화적 감각', '편집 능력', '도메인 지식'],
-        path: [
-          '최소 두 개 언어에서 높은 수준의 유창성을 갖춥니다.',
-          '법률, 기술, 마케팅 등 분야별 번역을 연습합니다.',
-          '편집 판단력과 로컬라이제이션 워크플로 역량을 키웁니다.'
-        ],
-        degreeNote: '일반 번역은 보통 언어 또는 번역 관련 학사 학위를 선호하지만 엄격한 필수 조건은 아닙니다. 다만 전문 분야나 실수 비용이 큰 번역에서는 공식 자격의 중요성이 커집니다.',
-        aiNow: '기계 번역과 대형 언어 모델은 초안 작성과 반복적인 요청 처리에 이미 널리 쓰입니다.',
-        aiFuture: '앞으로는 포스트에디팅, 현지화 전략, 실수 비용이 큰 고난도 작업 비중이 높아질 것입니다.',
-        services: ['기계 번역', '로컬라이제이션 QA 도구', '용어 관리 보조']
-      },
-      es: {
-        title: 'Traductor',
-        summary: 'Convierte significado entre idiomas para documentos, productos y comunicacion.',
-        tasks: [
-          'Traducir textos preservando tono, intencion y contexto.',
-          'Localizar terminologia para mercados o industrias.',
-          'Revisar matices, calidad y ajuste cultural.'
-        ],
-        skills: ['Dominio de idiomas', 'Matiz cultural', 'Edicion', 'Conocimiento del sector'],
-        path: [
-          'Desarrolla fluidez avanzada en al menos dos idiomas.',
-          'Practica traduccion especializada en campos legales, tecnicos o de marketing.',
-          'Fortalece criterio editorial y manejo de flujos de localizacion.'
-        ],
-        degreeNote: 'Para traduccion general, una licenciatura en idiomas o traduccion suele ser preferida mas que estrictamente obligatoria. En trabajos especializados o de alto riesgo, las credenciales formales pesan mas.',
-        aiNow: 'La traduccion automatica y los grandes modelos de lenguaje ya cubren borradores y muchas solicitudes rutinarias.',
-        aiFuture: 'El volumen se movera hacia posedicion, estrategia de localizacion y trabajos de alto riesgo donde el error cuesta caro.',
-        services: ['Traduccion automatica', 'Herramientas QA de localizacion', 'Asistentes terminologicos']
-      }
-    }
-  }
-];
-
 const state = {
   lang: detectLanguage(),
   query: '',
@@ -1151,7 +408,11 @@ const state = {
   risk: 'all',
   aiRole: 'all',
   degree: 'all',
-  sort: 'riskDesc'
+  sort: 'riskDesc',
+  jobs: [],
+  taxonomyIndex: createEmptyTaxonomyIndex(),
+  isReady: false,
+  loadError: false
 };
 
 const elements = {
@@ -1205,6 +466,25 @@ const elements = {
 
 attachEvents();
 render();
+init();
+
+async function init() {
+  try {
+    const [taxonomy, jobs] = await Promise.all([
+      fetchJSON(DATA_FILES.taxonomy),
+      fetchJSON(DATA_FILES.jobs)
+    ]);
+
+    state.taxonomyIndex = buildTaxonomyIndex(taxonomy);
+    state.jobs = jobs;
+    state.isReady = true;
+  } catch (error) {
+    console.error('Failed to load site data', error);
+    state.loadError = true;
+  }
+
+  render();
+}
 
 function attachEvents() {
   elements.searchInput.addEventListener('input', (event) => {
@@ -1264,7 +544,7 @@ function attachEvents() {
 
 function render() {
   const copy = UI[state.lang];
-  const filteredJobs = sortJobs(filterJobs());
+  const filteredJobs = state.isReady ? sortJobs(filterJobs()) : [];
   const stats = summarize(filteredJobs);
 
   document.documentElement.lang = state.lang;
@@ -1272,9 +552,22 @@ function render() {
   hydrateFilters(copy);
   hydrateStats(copy, stats);
   hydrateInsights(copy, stats, filteredJobs.length);
-  hydrateResults(copy, filteredJobs);
   hydrateRoadmap(copy);
   renderLanguageButtons();
+
+  if (state.loadError) {
+    elements.resultsSummary.textContent = copy.loadError;
+    elements.jobGrid.innerHTML = `<div class="empty-state">${escapeHtml(copy.loadError)}</div>`;
+    return;
+  }
+
+  if (!state.isReady) {
+    elements.resultsSummary.textContent = copy.loading;
+    elements.jobGrid.innerHTML = `<div class="empty-state">${escapeHtml(copy.loading)}</div>`;
+    return;
+  }
+
+  hydrateResults(copy, filteredJobs);
 }
 
 function hydrateChrome(copy) {
@@ -1374,7 +667,7 @@ function hydrateInsights(copy, stats, totalCount) {
     return `
       <div class="risk-row">
         <div class="risk-row-header">
-          <span>${copy.riskBands[band]}</span>
+          <span>${escapeHtml(copy.riskBands[band])}</span>
           <span>${percentage}%</span>
         </div>
         <div class="risk-row-track">
@@ -1386,8 +679,8 @@ function hydrateInsights(copy, stats, totalCount) {
 
   elements.guideList.innerHTML = copy.insights.guideItems.map((item) => `
     <div class="guide-item">
-      <strong>${item.title}</strong>
-      <p class="detail-copy">${item.body}</p>
+      <strong>${escapeHtml(item.title)}</strong>
+      <p class="detail-copy">${escapeHtml(item.body)}</p>
     </div>
   `).join('');
 }
@@ -1396,7 +689,7 @@ function hydrateResults(copy, jobs) {
   elements.resultsSummary.textContent = copy.results.summary(jobs.length);
 
   if (jobs.length === 0) {
-    elements.jobGrid.innerHTML = `<div class="empty-state">${copy.noResults}</div>`;
+    elements.jobGrid.innerHTML = `<div class="empty-state">${escapeHtml(copy.noResults)}</div>`;
     return;
   }
 
@@ -1406,21 +699,28 @@ function hydrateResults(copy, jobs) {
 function hydrateRoadmap(copy) {
   elements.roadmapGrid.innerHTML = copy.roadmap.steps.map((step) => `
     <div class="roadmap-step">
-      <strong>${step.title}</strong>
-      <p>${step.body}</p>
+      <strong>${escapeHtml(step.title)}</strong>
+      <p>${escapeHtml(step.body)}</p>
     </div>
   `).join('');
 }
 
 function renderCard(job, copy) {
-  const localized = job.content[state.lang] || job.content.en;
-  const classification = getClassificationLabels(job);
+  const localized = getLocalizedJobContent(job);
+  const evidence = getLocalizedEvidence(job);
+  const classification = getClassificationLabels(job.classification);
   const band = getRiskBand(job.automationRisk);
   const roleLabel = copy.roles[job.aiRole];
-  const degreeStatusLabel = copy.education.statuses[job.degree.status];
-  const degreeLevelLabel = copy.education.levels[job.degree.level];
+  const degreeStatusLabel = copy.education.statuses[job.degree.status] || job.degree.status;
+  const degreeLevelLabel = copy.education.levels[job.degree.level] || job.degree.level;
+  const taxonomyPath = [
+    classification.major,
+    classification.mid,
+    classification.sub,
+    classification.detail
+  ].filter(Boolean).join(' / ');
   const currentReplacementMarkup = job.currentReplacementUrl
-    ? `<a class="service-link" href="${job.currentReplacementUrl}" target="_blank" rel="noreferrer">${job.currentReplacementUrl}</a>`
+    ? `<a class="service-link" href="${escapeAttribute(job.currentReplacementUrl)}" target="_blank" rel="noreferrer noopener">${escapeHtml(job.currentReplacementUrl)}</a>`
     : '<span class="service-link service-link-none">none</span>';
 
   return `
@@ -1428,16 +728,16 @@ function renderCard(job, copy) {
       <div class="card-top">
         <div>
           <div class="card-tags">
-            <span class="tag neutral">${classification.major}</span>
-            <span class="tag ${job.aiRole}">${roleLabel}</span>
+            <span class="tag neutral">${escapeHtml(classification.major)}</span>
+            <span class="tag ${job.aiRole}">${escapeHtml(roleLabel)}</span>
           </div>
-          <h3 class="job-title">${localized.title}</h3>
-          <p class="job-summary">${localized.summary}</p>
-          <p class="classification-path">${classification.major} / ${classification.mid} / ${classification.sub}</p>
+          <h3 class="job-title">${escapeHtml(localized.title)}</h3>
+          <p class="job-summary">${escapeHtml(localized.summary)}</p>
+          <p class="classification-path">${escapeHtml(copy.details.taxonomy)}: ${escapeHtml(taxonomyPath)}</p>
         </div>
         <div>
           <p class="risk-number">${job.automationRisk}</p>
-          <span class="meter-label">${copy.riskBands[band]}</span>
+          <span class="meter-label">${escapeHtml(copy.riskBands[band])}</span>
         </div>
       </div>
 
@@ -1447,51 +747,75 @@ function renderCard(job, copy) {
 
       <div class="detail-lists">
         <section class="detail-block">
-          <h3>${copy.details.tasks}</h3>
-          <ul>${localized.tasks.map((item) => `<li>${item}</li>`).join('')}</ul>
+          <h3>${escapeHtml(copy.details.tasks)}</h3>
+          ${renderStringList(localized.tasks)}
         </section>
         <section class="detail-block">
-          <h3>${copy.details.skills}</h3>
-          <ul>${localized.skills.map((item) => `<li>${item}</li>`).join('')}</ul>
+          <h3>${escapeHtml(copy.details.skills)}</h3>
+          ${renderStringList(localized.skills)}
         </section>
         <section class="detail-block">
-          <h3>${copy.details.path}</h3>
-          <ul>${localized.path.map((item) => `<li>${item}</li>`).join('')}</ul>
-        </section>
-      </div>
-
-      <div class="detail-lists">
-        <section class="detail-block">
-          <h3>${copy.details.aiNow}</h3>
-          <p class="detail-copy">${localized.aiNow}</p>
-        </section>
-        <section class="detail-block">
-          <h3>${copy.details.aiFuture}</h3>
-          <p class="detail-copy">${localized.aiFuture}</p>
+          <h3>${escapeHtml(copy.details.path)}</h3>
+          ${renderStringList(localized.path)}
         </section>
       </div>
 
       <div class="detail-lists">
         <section class="detail-block">
-          <h3>${copy.details.degree}</h3>
+          <h3>${escapeHtml(copy.details.aiNow)}</h3>
+          <p class="detail-copy">${escapeHtml(localized.aiNow)}</p>
+        </section>
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.aiFuture)}</h3>
+          <p class="detail-copy">${escapeHtml(localized.aiFuture)}</p>
+        </section>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.degree)}</h3>
           <div class="detail-copy">
             <div class="service-list">
-              <span class="service-pill">${degreeStatusLabel}</span>
-              <span class="service-pill">${degreeLevelLabel}</span>
+              <span class="service-pill">${escapeHtml(degreeStatusLabel)}</span>
+              <span class="service-pill">${escapeHtml(degreeLevelLabel)}</span>
             </div>
-            <p>${localized.degreeNote}</p>
+            <p>${escapeHtml(localized.degreeNote)}</p>
           </div>
         </section>
 
         <section class="detail-block">
-          <h3>${copy.details.currentReplacement}</h3>
+          <h3>${escapeHtml(copy.details.currentReplacement)}</h3>
           <p class="detail-copy">${currentReplacementMarkup}</p>
         </section>
 
         <section class="detail-block">
-          <h3>${copy.details.services}</h3>
+          <h3>${escapeHtml(copy.details.services)}</h3>
           <div class="service-list">
-            ${localized.services.map((item) => `<span class="service-pill">${item}</span>`).join('')}
+            ${renderPillList(localized.services)}
+          </div>
+        </section>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.rationale)}</h3>
+          <p class="detail-copy">${escapeHtml(evidence.rationale)}</p>
+        </section>
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.automatableNow)}</h3>
+          ${renderStringList(evidence.automatableNow)}
+        </section>
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.humanEdge)}</h3>
+          ${renderStringList(evidence.humanEdge)}
+        </section>
+      </div>
+
+      <div class="detail-lists">
+        <section class="detail-block">
+          <h3>${escapeHtml(copy.details.references)}</h3>
+          <div class="reference-list">
+            ${renderReferences(job.aiEvidence.references || [])}
           </div>
         </section>
       </div>
@@ -1507,44 +831,12 @@ function renderLanguageButtons() {
 
 function setOptions(select, options, selectedValue) {
   select.innerHTML = options.map(([value, label]) => `
-    <option value="${value}" ${value === selectedValue ? 'selected' : ''}>${label}</option>
+    <option value="${escapeAttribute(value)}" ${value === selectedValue ? 'selected' : ''}>${escapeHtml(label)}</option>
   `).join('');
 }
 
-function getClassificationLabels(job) {
-  return job.classification.labels[state.lang] || job.classification.labels.en;
-}
-
-function getClassificationOptions(copy, level) {
-  const options = new Map();
-
-  JOBS.forEach((job) => {
-    const labels = getClassificationLabels(job);
-    const matchesMajor = state.major === 'all' || job.classification.majorId === state.major;
-    const matchesMid = state.mid === 'all' || job.classification.midId === state.mid;
-
-    if (level === 'major') {
-      options.set(job.classification.majorId, labels.major);
-      return;
-    }
-
-    if (level === 'mid' && matchesMajor) {
-      options.set(job.classification.midId, labels.mid);
-      return;
-    }
-
-    if (level === 'sub' && matchesMajor && matchesMid) {
-      options.set(job.classification.subId, labels.sub);
-    }
-  });
-
-  return Array.from(options.entries()).sort((left, right) => {
-    return left[1].localeCompare(right[1], copy.locale);
-  });
-}
-
 function filterJobs() {
-  return JOBS.filter((job) => {
+  return state.jobs.filter((job) => {
     const riskBand = getRiskBand(job.automationRisk);
     const matchesMajor = state.major === 'all' || state.major === job.classification.majorId;
     const matchesMid = state.mid === 'all' || state.mid === job.classification.midId;
@@ -1565,8 +857,8 @@ function sortJobs(jobs) {
     }
 
     if (state.sort === 'title') {
-      const leftTitle = (left.content[state.lang] || left.content.en).title;
-      const rightTitle = (right.content[state.lang] || right.content.en).title;
+      const leftTitle = getLocalizedJobContent(left).title;
+      const rightTitle = getLocalizedJobContent(right).title;
 
       return leftTitle.localeCompare(rightTitle, UI[state.lang].locale);
     }
@@ -1608,6 +900,161 @@ function summarize(jobs) {
   return summary;
 }
 
+function getClassificationOptions(copy, level) {
+  const options = new Map();
+
+  state.jobs.forEach((job) => {
+    const classification = getClassificationLabels(job.classification);
+    const matchesMajor = state.major === 'all' || job.classification.majorId === state.major;
+    const matchesMid = state.mid === 'all' || job.classification.midId === state.mid;
+
+    if (level === 'major') {
+      options.set(job.classification.majorId, classification.major);
+      return;
+    }
+
+    if (level === 'mid' && matchesMajor) {
+      options.set(job.classification.midId, classification.mid);
+      return;
+    }
+
+    if (level === 'sub' && matchesMajor && matchesMid) {
+      options.set(job.classification.subId, classification.sub);
+    }
+  });
+
+  return Array.from(options.entries()).sort((left, right) => {
+    return left[1].localeCompare(right[1], copy.locale);
+  });
+}
+
+function getClassificationLabels(classification) {
+  const major = state.taxonomyIndex.majors.get(classification.majorId);
+  const mid = state.taxonomyIndex.mids.get(classification.midId);
+  const sub = state.taxonomyIndex.subs.get(classification.subId);
+  const detail = state.taxonomyIndex.details.get(classification.detailId);
+
+  return {
+    major: getLocalizedLabel(major?.labels, classification.majorId),
+    mid: getLocalizedLabel(mid?.labels, classification.midId),
+    sub: getLocalizedLabel(sub?.labels, classification.subId),
+    detail: getLocalizedLabel(detail?.labels, classification.detailId)
+  };
+}
+
+function getLocalizedJobContent(job) {
+  return job.content[state.lang] || job.content.en;
+}
+
+function getLocalizedEvidence(job) {
+  return {
+    rationale: getLocalizedContent(job.aiEvidence?.rationale),
+    automatableNow: getLocalizedArray(job.aiEvidence?.automatableNow),
+    humanEdge: getLocalizedArray(job.aiEvidence?.humanEdge)
+  };
+}
+
+function searchText(job) {
+  const localized = Object.values(job.content);
+  const classification = getClassificationLabels(job.classification);
+  const evidence = job.aiEvidence || {};
+  const rationale = Object.values(evidence.rationale || {});
+  const automatableNow = flattenLocalizedLists(evidence.automatableNow);
+  const humanEdge = flattenLocalizedLists(evidence.humanEdge);
+  const references = (evidence.references || []).flatMap((item) => [item.name, item.url]);
+
+  return localized.map((content) => {
+    return [
+      content.title,
+      content.summary,
+      ...content.tasks,
+      ...content.skills,
+      ...content.path,
+      content.degreeNote,
+      content.aiNow,
+      content.aiFuture,
+      ...content.services
+    ].join(' ');
+  }).concat([
+    classification.major,
+    classification.mid,
+    classification.sub,
+    classification.detail,
+    job.currentReplacementUrl || 'none',
+    job.degree.status,
+    job.degree.level,
+    ...rationale,
+    ...automatableNow,
+    ...humanEdge,
+    ...references
+  ]).join(' ').toLowerCase();
+}
+
+function createEmptyTaxonomyIndex() {
+  return {
+    majors: new Map(),
+    mids: new Map(),
+    subs: new Map(),
+    details: new Map()
+  };
+}
+
+function buildTaxonomyIndex(taxonomy) {
+  const index = createEmptyTaxonomyIndex();
+
+  (taxonomy.majors || []).forEach((major) => {
+    index.majors.set(major.id, major);
+
+    (major.mids || []).forEach((mid) => {
+      index.mids.set(mid.id, mid);
+
+      (mid.subs || []).forEach((sub) => {
+        index.subs.set(sub.id, sub);
+
+        (sub.details || []).forEach((detail) => {
+          index.details.set(detail.id, detail);
+        });
+      });
+    });
+  });
+
+  return index;
+}
+
+function renderStringList(items) {
+  return `<ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+}
+
+function renderPillList(items) {
+  return items.map((item) => `<span class="service-pill">${escapeHtml(item)}</span>`).join('');
+}
+
+function renderReferences(items) {
+  if (items.length === 0) {
+    return '<span class="service-link service-link-none">none</span>';
+  }
+
+  return items.map((item) => {
+    return `<a class="service-link" href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer noopener">${escapeHtml(item.name)}</a>`;
+  }).join('');
+}
+
+function getLocalizedLabel(labels, fallback) {
+  return labels?.[state.lang] || labels?.en || fallback;
+}
+
+function getLocalizedContent(value) {
+  return value?.[state.lang] || value?.en || '';
+}
+
+function getLocalizedArray(value) {
+  return value?.[state.lang] || value?.en || [];
+}
+
+function flattenLocalizedLists(value) {
+  return Object.values(value || {}).flatMap((list) => list);
+}
+
 function formatDashboardNumber(value) {
   const rounded = Math.round(value);
 
@@ -1630,27 +1077,27 @@ function getRiskBand(score) {
   return 'low';
 }
 
-function searchText(job) {
-  const classificationText = Object.values(job.classification.labels).map((labels) => {
-    return [labels.major, labels.mid, labels.sub].join(' ');
-  });
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
 
-  return Object.values(job.content).map((content) => {
-    return [
-      content.title,
-      content.summary,
-      ...content.tasks,
-      ...content.skills,
-      ...content.path,
-      content.degreeNote,
-      content.aiNow,
-      content.aiFuture,
-      job.currentReplacementUrl || 'none',
-      ...content.services,
-      job.degree.status,
-      job.degree.level
-    ].join(' ');
-  }).concat(classificationText).join(' ').toLowerCase();
+function escapeAttribute(value) {
+  return escapeHtml(value);
+}
+
+async function fetchJSON(path) {
+  const response = await fetch(path);
+
+  if (!response.ok) {
+    throw new Error(`Failed to load ${path}: ${response.status}`);
+  }
+
+  return response.json();
 }
 
 function detectLanguage() {

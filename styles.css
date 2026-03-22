@@ -541,6 +541,11 @@ select:focus,
   gap: 0.55rem;
 }
 
+.reference-list {
+  display: grid;
+  gap: 0.6rem;
+}
+
 .service-pill {
   padding: 0.45rem 0.68rem;
   border-radius: 999px;
@@ -551,6 +556,8 @@ select:focus,
 
 .service-link {
   color: #aef2ea;
+  display: inline-flex;
+  width: fit-content;
   text-decoration-color: rgba(174, 242, 234, 0.6);
   text-underline-offset: 0.16rem;
   word-break: break-word;
