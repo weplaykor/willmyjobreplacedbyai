@@ -150,17 +150,7 @@ const UI = {
     },
     loading: 'Loading job intelligence...',
     loadError: 'Could not load the job dataset. If you opened this file directly, use the deployed website or run a local web server. If this is the live site, make sure data/jobs.json and data/ksco-taxonomy.json are committed and deployed.',
-    noResults: 'No roles matched this combination. Try clearing a filter or using a broader keyword.',
-    roadmap: {
-      kicker: 'To scale this product',
-      title: 'What turns this into a real global service',
-      lead: 'The frontend is ready for a larger pipeline. These are the next product layers needed to cover jobs across countries and languages.',
-      steps: [
-        { title: 'Job taxonomy ingestion', body: 'Map global roles to systems like ISCO, ESCO, or O*NET so the catalog can cover real job families rather than manual entries.' },
-        { title: 'Evidence-backed scoring', body: 'Version each risk score with source dates, exposed tasks, and analyst rationale instead of a single unexplained number.' },
-        { title: 'Regional opportunity data', body: 'Add salary ranges, hiring demand, education pathways, and country-level language variants so the advice becomes actionable.' }
-      ]
-    }
+    noResults: 'No roles matched this combination. Try clearing a filter or using a broader keyword.'
   },
   ko: {
     locale: 'ko-KR',
@@ -304,17 +294,7 @@ const UI = {
     },
     loading: '직업 인텔리전스를 불러오는 중입니다...',
     loadError: '직업 데이터셋을 불러오지 못했습니다. 로컬 파일을 직접 열었다면 배포된 사이트로 접속하거나 로컬 웹서버로 실행해 주세요. 라이브 사이트라면 data/jobs.json과 data/ksco-taxonomy.json이 커밋되고 배포되었는지 확인해 주세요.',
-    noResults: '이 조합과 일치하는 직무가 없습니다. 필터를 줄이거나 더 넓은 검색어를 사용해 보세요.',
-    roadmap: {
-      kicker: '제품 확장 방향',
-      title: '이 서비스를 글로벌 플랫폼으로 키우려면',
-      lead: '프런트엔드는 더 큰 데이터 파이프라인을 받을 준비가 되어 있습니다. 전 세계 직업을 다루려면 다음 단계가 필요합니다.',
-      steps: [
-        { title: '직업 분류 체계 연결', body: 'ISCO, ESCO, O*NET 같은 체계에 글로벌 직업을 매핑해 수작업 입력이 아닌 실제 직군 단위로 확장합니다.' },
-        { title: '근거 기반 점수화', body: '설명 없는 단일 숫자 대신, 위험 점수마다 기준 날짜, 노출 업무, 분석 근거를 버전으로 관리합니다.' },
-        { title: '지역별 기회 데이터', body: '급여, 채용 수요, 교육 경로, 국가별 언어 변형을 붙여서 실질적인 진로 조언으로 전환합니다.' }
-      ]
-    }
+    noResults: '이 조합과 일치하는 직무가 없습니다. 필터를 줄이거나 더 넓은 검색어를 사용해 보세요.'
   },
   es: {
     locale: 'es-ES',
@@ -458,17 +438,7 @@ const UI = {
     },
     loading: 'Cargando inteligencia laboral...',
     loadError: 'No se pudo cargar el conjunto de trabajos. Si abriste el archivo directamente, usa el sitio desplegado o ejecuta un servidor web local. Si es el sitio en produccion, confirma que data/jobs.json y data/ksco-taxonomy.json esten versionados y desplegados.',
-    noResults: 'Ningun puesto coincide con esta combinacion. Prueba limpiando un filtro o usando una palabra mas amplia.',
-    roadmap: {
-      kicker: 'Para escalar el producto',
-      title: 'Lo que lo convierte en un servicio global real',
-      lead: 'El frontend ya esta listo para una canalizacion de datos mas grande. Estas son las capas que faltan para cubrir trabajos en muchos paises e idiomas.',
-      steps: [
-        { title: 'Ingestion de taxonomias laborales', body: 'Relaciona los roles globales con sistemas como ISCO, ESCO u O*NET para cubrir familias reales de empleo en vez de entradas manuales.' },
-        { title: 'Puntuacion con evidencia', body: 'Versiona cada puntuacion de riesgo con fechas, tareas expuestas y razonamiento analitico en lugar de un numero aislado.' },
-        { title: 'Datos regionales de oportunidad', body: 'Agrega salarios, demanda de contratacion, rutas educativas y variantes locales del idioma para volver accionable el consejo.' }
-      ]
-    }
+    noResults: 'Ningun puesto coincide con esta combinacion. Prueba limpiando un filtro o usando una palabra mas amplia.'
   }
 };
 
@@ -545,10 +515,6 @@ const elements = {
   resultsTitle: document.getElementById('resultsTitle'),
   resultsSummary: document.getElementById('resultsSummary'),
   jobGrid: document.getElementById('jobGrid'),
-  roadmapKicker: document.getElementById('roadmapKicker'),
-  roadmapTitle: document.getElementById('roadmapTitle'),
-  roadmapLead: document.getElementById('roadmapLead'),
-  roadmapGrid: document.getElementById('roadmapGrid'),
   languageSwitch: document.getElementById('languageSwitch'),
   jobModal: document.getElementById('jobModal'),
   jobModalTitle: document.getElementById('jobModalTitle'),
@@ -717,7 +683,6 @@ function render() {
   hydrateFilters(copy);
   hydrateStats(copy, stats);
   hydrateInsights(copy, stats, filteredJobs.length);
-  hydrateRoadmap(copy);
   renderLanguageButtons();
   hydrateModalCopy(copy);
 
@@ -761,9 +726,6 @@ function hydrateChrome(copy) {
   elements.insightLead.textContent = copy.insights.lead;
   elements.guideKicker.textContent = copy.insights.guideKicker;
   elements.guideTitle.textContent = copy.insights.guideTitle;
-  elements.roadmapKicker.textContent = copy.roadmap.kicker;
-  elements.roadmapTitle.textContent = copy.roadmap.title;
-  elements.roadmapLead.textContent = copy.roadmap.lead;
   elements.searchInput.value = state.query;
 }
 
@@ -1097,15 +1059,6 @@ function renderJobDetails(job, copy) {
       </div>
     </article>
   `;
-}
-
-function hydrateRoadmap(copy) {
-  elements.roadmapGrid.innerHTML = copy.roadmap.steps.map((step) => `
-    <div class="roadmap-step">
-      <strong>${escapeHtml(step.title)}</strong>
-      <p>${escapeHtml(step.body)}</p>
-    </div>
-  `).join('');
 }
 
 function renderNewsPreviewCard(item, copy) {
