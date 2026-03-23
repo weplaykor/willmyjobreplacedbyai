@@ -1557,17 +1557,17 @@
             {
               "id": "일정-조정-담당자",
               "labels": {
-                "en": "일정 조정 담당자",
+                "en": "Scheduling Coordinators",
                 "ko": "일정 조정 담당자",
-                "es": "일정 조정 담당자"
+                "es": "Coordinador de programación"
               },
               "details": [
                 {
                   "id": "일정-조정-담당자",
                   "labels": {
-                    "en": "Scheduler",
+                    "en": "Scheduling Coordinator",
                     "ko": "일정 조정 담당자",
-                    "es": "Planificador"
+                    "es": "Coordinador de programación"
                   }
                 }
               ]

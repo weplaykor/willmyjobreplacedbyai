@@ -14752,171 +14752,200 @@
   {
     "id": "일정-조정-담당자",
     "category": "business",
-    "automationRisk": 62,
-    "aiRole": "hybrid",
+    "automationRisk": 74,
+    "aiRole": "replace",
     "classification": {
       "majorId": "management-office-finance-legal",
       "midId": "management-office-finance-legal-roles",
       "subId": "일정-조정-담당자",
       "detailId": "일정-조정-담당자"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://support.microsoft.com/en-us/office/schedule-meeting-with-copilot",
     "degree": {
-      "status": "preferred",
-      "level": "bachelor"
+      "status": "optional",
+      "level": "none"
     },
     "aiEvidence": {
       "rationale": {
-        "en": "AI can automate portions of 일정 조정 담당자, but this job still depends on human judgment, communication, and contextual responsibility.",
-        "ko": "AI는 일정 조정 담당자의 일부 업무를 자동화할 수 있지만, 판단·의사소통·책임이 필요한 구간이 여전히 존재합니다.",
-        "es": "La IA puede automatizar partes de 일정 조정 담당자, pero este trabajo sigue dependiendo del juicio humano, comunicacion y responsabilidad contextual."
+        "en": "Scheduling coordination is highly exposed because the role is repetitive and rules-based. AI tools can already handle time suggestion, confirmation, and routine rebooking at scale.",
+        "ko": "일정 조정 직무는 반복적이고 규칙 기반 작업 비중이 높아 AI 노출이 높습니다. AI 도구는 시간 제안, 확인, 반복 재예약을 상당 부분 처리할 수 있습니다.",
+        "es": "La coordinación de horarios es altamente expuesta porque el rol es repetitivo y basado en reglas. Las herramientas de IA ya manejan sugerencia de horas, confirmaciones y reprogramaciones rutinarias."
       },
       "automatableNow": {
         "en": [
-          "Preparing standard templates and recurring deliverables for 일정 조정 담당자.",
-          "Cross-checking routine data and records in 일정 조정 담당자.",
-          "Generating summaries for 일정 조정 담당자 workflows."
+          "Suggesting meeting times based on calendar availability.",
+          "Handling email-based meeting coordination.",
+          "Auto-rescheduling flexible work blocks and routine appointments.",
+          "Protecting focus time and adjusting calendars when conflicts appear.",
+          "Reducing back-and-forth communication for standard scheduling flows."
         ],
         "ko": [
-          "일정 조정 담당자의 반복 산출물을 표준 템플릿으로 초안화",
-          "일정 조정 담당자 반복 데이터와 기록의 교차 점검",
-          "일정 조정 담당자 처리 흐름의 요약 자동화"
+          "참석자 캘린더 가용 시간을 기반으로 회의 시간을 제안",
+          "이메일 기반 기본 일정 조정 처리",
+          "일상적인 약속을 유연하게 자동 재조정",
+          "일정 충돌 발생 시 포커스 시간을 보호하며 조정",
+          "표준 스케줄링에서 반복 협의 단계를 자동 축소"
         ],
         "es": [
-          "Preparar plantillas y entregables recurrentes para 일정 조정 담당자.",
-          "Verificar datos y registros rutinarios en 일정 조정 담당자.",
-          "Generar resúmenes para el flujo de 일정 조정 담당자."
+          "Sugerir horarios basados en la disponibilidad del calendario.",
+          "Gestionar parte de la coordinacion de reuniones por correo.",
+          "Reprogramar bloques flexibles y citas rutinarias.",
+          "Proteger bloques de enfoque y ajustar calendarios ante conflictos.",
+          "Reducir idas y vueltas en flujos de agendamiento estandar."
         ]
       },
       "humanEdge": {
         "en": [
-          "Handling exceptions and escalations in 일정 조정 담당자.",
-          "Negotiating tradeoffs and priorities for 일정 조정 담당자.",
-          "Communicating final recommendations and owning outcomes for 일정 조정 담당자."
+          "Handling VIP or high-emotion requests and no-shows.",
+          "Deciding which meeting should move when all requests are urgent.",
+          "Resolving scheduling exceptions with incomplete information or workplace politics.",
+          "Serving as a human buffer when scheduling becomes relationship management."
         ],
         "ko": [
-          "일정 조정 담당자에서 예외 상황과 에스컬레이션 처리",
-          "일정 조정 담당자의 우선순위 충돌 조정",
-          "일정 조정 담당자 최종 제안 제시 및 결과 책임"
+          "VIP/감정 이슈가 큰 요청 및 노쇼 처리",
+          "모든 요청이 긴급할 때 어떤 일정을 우선 이동시킬지 판단",
+          "정보가 불충분하거나 조직 내 정치가 개입한 일정 예외 처리",
+          "일정 조율이 대인관계 관리가 되는 경우 사람의 판단이 필요"
         ],
         "es": [
-          "Manejar excepciones y escalaciones en 일정 조정 담당자.",
-          "Ajustar prioridades y tradeoffs en 일정 조정 담당자.",
-          "Comunicar recomendaciones finales y asumir resultados en 일정 조정 담당자."
+          "Manejar solicitudes VIP o emocionalmente sensibles y ausencias.",
+          "Decidir que reunion mover cuando todo sea urgente.",
+          "Resolver excepciones de calendario con informacion incompleta o politicas internas.",
+          "Actuar como filtro humano cuando la agenda se convierte en gestion relacional."
         ]
       },
       "references": [
         {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+          "name": "Microsoft Copilot in Outlook",
+          "url": "https://support.microsoft.com/en-us/office/schedule-meeting-with-copilot"
         },
         {
-          "name": "Google Workspace Gemini",
-          "url": "https://workspace.google.com/intl/en_us/features/gemini.html"
+          "name": "Google Help me schedule in Gmail",
+          "url": "https://support.google.com/mail/answer/149127"
+        },
+        {
+          "name": "Reclaim.ai",
+          "url": "https://reclaim.ai/"
+        },
+        {
+          "name": "BLS: Secretaries and Administrative Assistants",
+          "url": "https://www.bls.gov/ooh/office-and-administrative-support/secretaries-and-administrative-assistants.htm"
         }
       ]
     },
     "content": {
       "en": {
-        "title": "Scheduler",
-        "summary": "The role of 일정 조정 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
+        "title": "Scheduling Coordinator",
+        "summary": "Scheduling Coordinators manage calendars, appointments, meetings, confirmations, rescheduling, and follow-ups so teams and clients stay in sync.",
         "tasks": [
-          "일정 조정 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "Schedule appointments and meetings.",
+          "Update calendars and respond to availability questions.",
+          "Coordinate changes, cancellations, and confirmations.",
+          "Prepare routine communications related to scheduling.",
+          "Maintain records and support operational flow."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "Calendar management",
+          "Attention to detail",
+          "Fast written communication",
+          "Prioritization",
+          "Client or customer coordination",
+          "Procedure discipline",
+          "Exception handling"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "Usually starts from office support, receptionist, coordinator, or customer operations roles.",
+          "Build competence with spreadsheets, email, calendars, and office software.",
+          "Progress into higher-trust coordination where exceptions and judgment dominate."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "일정 조정 담당자 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "일정 조정 담당자는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "A university degree is usually not required. Short-term on-the-job training is common.",
+        "aiNow": "Microsoft, Google, and scheduling AI products already suggest meeting times, send confirmations, and automate many routine coordination tasks.",
+        "aiFuture": "The repetitive layer is most exposed first. Routine scheduling and reminder logic is likely to become more automated, while exceptions and people-management parts remain human-centered.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Microsoft Copilot in Outlook",
+          "Google Gemini in Gmail",
+          "Reclaim.ai"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "Start in office support, receptionist, coordinator, or admin operations work.",
+          "Build reliability with calendaring accuracy and fast recovery when schedules break.",
+          "Move to project coordination or executive support where human judgment is harder to automate."
         ]
       },
       "ko": {
         "title": "일정 조정 담당자",
-        "summary": "일정 조정 담당자는 실무 처리에서 구조화된 작업과 판단이 공존하는 직무입니다.",
+        "summary": "일정 조정 담당자는 회의·약속 예약, 변경·확인·재조정, 후속 처리까지 맡아 조직 운영이 멈추지 않게 유지합니다.",
         "tasks": [
-          "일정 조정 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "약속과 회의를 예약하고 캘린더를 관리합니다.",
+          "캘린더 가용성 문의에 대응하고 일정을 업데이트합니다.",
+          "변경·취소·확인 절차를 조율합니다.",
+          "일정과 관련된 반복 커뮤니케이션을 준비합니다.",
+          "기록을 유지하고 운영 흐름을 지원합니다."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "캘린더 관리",
+          "세부사항 정확도",
+          "빠른 문서 소통",
+          "우선순위 판단",
+          "고객·내부 이해관계자 조율",
+          "절차 준수",
+          "예외 처리"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "보통 사무 지원, 접수, 코디네이터, 고객 운영 직무에서 시작합니다.",
+          "스프레드시트, 이메일, 캘린더, 사무 소프트웨어를 빠르게 다루는 역량을 쌓습니다.",
+          "반복 예외가 많은 고신뢰 협업/조율 역할로 확장하는 길이 유리합니다."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "일정 조정 담당자 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "일정 조정 담당자는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "대학 학위가 보통 필수는 아닙니다. 단기 실무 교육으로 시작하는 경우가 흔합니다.",
+        "aiNow": "Microsoft, Google 및 일정 자동화 툴은 이미 가용 시간 제안, 확인 메일 전송, 반복적 조정 작업을 지원합니다.",
+        "aiFuture": "우선 반복 업무가 자동화되며 축소될 가능성이 큽니다. 예외 처리와 조직 내 관계 조정은 여전히 사람이 처리해야 합니다.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Microsoft Copilot in Outlook",
+          "Google Gemini in Gmail",
+          "Reclaim.ai"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "사무 지원, 접수, 코디네이터, 운영 지원 업무로 시작합니다.",
+          "일정 정확도와 일정 붕괴 시 신속 복구 능력을 만들도록 훈련합니다.",
+          "반복적 조율보다 판단 비중이 높은 프로젝트/임원 지원으로 확장합니다."
         ]
       },
       "es": {
-        "title": "Planificador",
-        "summary": "El rol de 일정 조정 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
+        "title": "Coordinador de programación",
+        "summary": "El coordinador de programación gestiona calendarios, citas, reuniones, confirmaciones, reagendamientos y seguimiento para mantener a equipos y clientes alineados.",
         "tasks": [
-          "Realizar tareas principales de 일정 조정 담당자 y gestionar procesos estandarizados.",
-          "Monitorear calidad y riesgos y comunicar a los stakeholders.",
-          "Entregar resultados en forma clara y accionable."
+          "Programar citas y reuniones.",
+          "Actualizar calendarios y responder preguntas de disponibilidad.",
+          "Coordinar cambios, cancelaciones y confirmaciones.",
+          "Preparar comunicaciones rutinarias relacionadas con agenda.",
+          "Mantener registros y apoyar el flujo operativo."
         ],
         "skills": [
-          "Resolucion de problemas",
-          "Gestion de prioridades",
-          "Uso de herramientas",
-          "Comunicacion",
-          "Responsabilidad"
+          "Gestion de calendario",
+          "Atencion al detalle",
+          "Comunicacion escrita rapida",
+          "Priorizacion",
+          "Coordinacion con clientes",
+          "Disciplina de procedimiento",
+          "Gestion de excepciones"
         ],
         "path": [
-          "Frecuentemente se puede entrar por experiencia practica.",
-          "Fortalecer manejo de herramientas de operacion y gestion.",
-          "Acumular registros de resultados y dominio del dominio eleva la contratacion."
+          "Suele iniciar en soporte de oficina, recepcion, coordinacion o atencion de operaciones.",
+          "Construir destreza con hojas de calculo, correo, calendarios y software de oficina.",
+          "Progresar hacia coordinacion de proyectos o soporte ejecutivo donde el juicio humano pesa mas."
         ],
-        "degreeNote": "Estas ocupaciones suelen preferir titulacion, pero la experiencia puede complementar en varios casos.",
-        "aiNow": "IA ya apoya parte del trabajo con automatizacion de documentos, analisis y asistencias de consultoria.",
-        "aiFuture": "Aunque parte del flujo se automize, la gestion de excepciones y decisiones contextuales seguira siendo humana.",
+        "degreeNote": "Normalmente no se requiere titulo universitario; suele ser suficiente formacion corta en el puesto.",
+        "aiNow": "Microsoft, Google y herramientas de agenda ya proponen horarios, envian confirmaciones y automatizan muchos flujos de coordinacion rutinaria.",
+        "aiFuture": "La capa repetitiva es la mas expuesta. La logica de programacion y recordatorios sera automatizada, mientras excepciones y relaciones humanas permanecen con gestion humana.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Microsoft Copilot in Outlook",
+          "Google Gemini in Gmail",
+          "Reclaim.ai"
         ],
         "educationPathways": [
-          "Comenzar construyendo experiencia practica y capacidad de ejecucion.",
-          "Dominar herramientas operativas y flujos de trabajo del campo.",
-          "Agregar evidencia de resultados concretos para reemplazar estudios exclusivamente teoricos."
+          "Empieza en soporte administrativo, recepcion, coordinacion u operaciones.",
+          "Desarrolla confiabilidad con precision de agenda y recuperacion rapida cuando se rompe el plan.",
+          "Avanza hacia coordinacion de proyectos o apoyo ejecutivo, donde el juicio humano pesa mas."
         ]
       }
     },
@@ -14925,15 +14954,15 @@
         "currency": "USD",
         "period": "year",
         "scope": "illustrative-us-annual-base",
-        "min": 48000,
-        "max": 118000
+        "min": 31600,
+        "max": 64150
       },
       "hiringDemand": {
-        "level": "medium",
+        "level": "high",
         "note": {
-          "en": "Demand for 일정 조정 담당자 remains stable-to-growing in many sectors where operational continuity and professional judgment are required.",
-          "ko": "일정 조정 담당자 직무는 운영 연속성과 판단력이 필요한 영역에서 수요가 꾸준히 유지되는 편입니다.",
-          "es": "La demanda de 일정 조정 담당자 permanece estable o creciente en sectores donde la continuidad operacional y el juicio profesional son importantes."
+          "en": "BLS projects this occupation to decline from 1,944,000 jobs in 2024 to 1,913,200 in 2034, while still averaging about 202,800 openings per year largely from replacement demand.",
+          "ko": "BLS는 2024년 1,944,000명에서 2034년 1,913,200명으로 감소할 것으로 보지만, 연평균 약 20만 건의 채용 공백은 대체 수요로 계속 발생할 것으로 봅니다.",
+          "es": "El BLS proyecta que esta ocupacion disminuya de 1,944,000 en 2024 a 1,913,200 en 2034, pero aun asi con un promedio de 202,800 vacantes anuales por reemplazo."
         }
       }
     }
