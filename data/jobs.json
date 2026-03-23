@@ -14889,6 +14889,249 @@
     }
   },
   {
+    "id": "tax-preparer",
+    "category": "business",
+    "automationRisk": 77,
+    "aiRole": "replace",
+    "classification": {
+      "majorId": "business-financial-operations",
+      "midId": "financial-specialists",
+      "subId": "tax-preparers",
+      "detailId": "tax-preparer"
+    },
+    "currentReplacementUrl": "https://quickbooks.intuit.com/online/taxes/",
+    "degree": {
+      "status": "optional",
+      "level": "none"
+    },
+    "aiEvidence": {
+      "rationale": {
+        "en": "Tax preparation is one of the more exposed white-collar jobs because a large share of the workflow is structured, repetitive, and form-driven. Source documents arrive in standard patterns, prior-year returns provide context, and vendors now automate extraction, categorization, validation, and return population. That creates direct automation pressure on routine preparation work.",
+        "ko": "세무사(세금 신고 대행)는 작업의 상당 부분이 문서형·규칙형·반복형이며 표준 양식 위주라 AI 노출이 큽니다. 제출 서류가 정형 패턴으로 들어오고, 과거 신고자료가 맥락을 제공하며, AI 기반 자동 추출·분류·검증·신고 초안 작성이 가능해지면서 자동화 압력이 커집니다.",
+        "es": "La preparacion fiscal es un trabajo de mayor exposicion porque una parte importante del flujo es estructurada, repetitiva y basada en formularios estandarizados. Los documentos y el historial de declaraciones proveen contexto, y las plataformas ya automatizan extraccion, clasificacion, validacion y llenado inicial de declaraciones, lo que aumenta la presion sobre el trabajo de rutina."
+      },
+      "automatableNow": {
+        "en": [
+          "Reading borrower documents and extracting tax data.",
+          "Importing W-2, 1099, and payroll data into return workflows.",
+          "Comparing prior-year returns to validate continuity and discrepancies.",
+          "Pre-populating common return fields and routine documentation.",
+          "Flagging outliers and exceptions for human review."
+        ],
+        "ko": [
+          "납세자 문서에서 세금 관련 데이터를 추출하여 입력",
+          "W-2, 1099, 급여 데이터를 신고 입력 흐름으로 반입",
+          "작년 신고 내역과 비교해 연속성 및 이상치 점검",
+          "반복 신고 항목과 서류를 사전 작성",
+          "예외 항목을 찾아 사람이 최종 검토하도록 알림"
+        ],
+        "es": [
+          "Leer documentos del contribuyente y extraer datos fiscales.",
+          "Cargar W-2, 1099 y datos de nominas al flujo de declaraciones.",
+          "Comparar declaraciones previas para validar continuidad y diferencias.",
+          "Rellenar campos comunes y documentacion rutinaria.",
+          "Señalar excepciones para revision humana."
+        ]
+      },
+      "humanEdge": {
+        "en": [
+          "Handling messy self-employment records, unusual deductions, and small-business complexity.",
+          "Explaining tax positions and tradeoffs in plain language.",
+          "Judging when a filing scenario is technically possible but high risk.",
+          "Owning liability when software output is clean but real facts still conflict.",
+          "Taking professional responsibility for final recommendation and client communication."
+        ],
+        "ko": [
+          "프리랜서·개인사업자 같은 복잡한 증빙 정리",
+          "비표준 공제 항목, 특수 상황에 대한 판단 및 설명",
+          "일반적 규칙으로는 설명되지 않는 사례에서 공제/요건 판단",
+          "시스템 결과는 정상이더라도 실제 사실 불일치가 있으면 최종 판단",
+          "최종 신고 의견과 고객 커뮤니케이션 책임"
+        ],
+        "es": [
+          "Manejar registros complicados de autoempleo y deducciones no comunes.",
+          "Explicar posiciones tributarias y compromisos en lenguaje claro.",
+          "Juzgar cuando un escenario legalmente es posible pero riesgoso.",
+          "Asumir responsabilidad cuando la salida tecnica parece correcta pero los hechos no encajan.",
+          "Responder por la recomendacion final y la comunicacion al cliente."
+        ]
+      },
+      "references": [
+        {
+          "name": "BLS: Tax Preparers",
+          "url": "https://www.bls.gov/ooh/business-and-financial/tax-preparers.htm"
+        },
+        {
+          "name": "BLS: Occupational projections and worker characteristics",
+          "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+        },
+        {
+          "name": "O*NET: Tax Preparers",
+          "url": "https://www.onetonline.org/link/summary/13-2082.00"
+        },
+        {
+          "name": "Intuit ProConnect AI",
+          "url": "https://quickbooks.intuit.com/ca/resources/tax/prep/"
+        },
+        {
+          "name": "Thomson Reuters Ready to Review",
+          "url": "https://www.thomsonreuters.com/en-us/one/ready-to-review.html"
+        },
+        {
+          "name": "IRS: Annual Filing Season Program",
+          "url": "https://www.irs.gov/tax-professionals/annual-filing-season-program"
+        },
+        {
+          "name": "IRS: PTIN Requirements",
+          "url": "https://www.irs.gov/tax-professionals/pay-taxes/"
+        },
+        {
+          "name": "Thomson Reuters ONESOURCE Sales and Use Tax AI",
+          "url": "https://www.thomsonreuters.com/en-us/products/onesource.html"
+        }
+      ]
+    },
+    "content": {
+      "en": {
+        "title": "Tax Preparer",
+        "summary": "Tax Preparers prepare returns for individuals and small businesses, review records, apply tax rules, and communicate filing-related outcomes under strict documentation standards.",
+        "tasks": [
+          "Prepare tax returns for individuals or small businesses.",
+          "Review income, expense, and deduction data and compute taxes owed or refunds.",
+          "Determine form requirements and recommend filing steps.",
+          "Validate supporting documentation and explain filing outcomes clearly."
+        ],
+        "skills": [
+          "Tax law accuracy",
+          "Document review",
+          "Client interviewing",
+          "Attention to detail",
+          "Ethics and compliance",
+          "Exception handling",
+          "Tax software fluency"
+        ],
+        "path": [
+          "Start with a high school diploma and hands-on tax processing experience.",
+          "Learn filing platforms, tax documents, and document check routines.",
+          "Move from basic returns to more complex small-business or advisory workflows.",
+          "Build trust by improving clarity, quality checks, and accountability in client communications."
+        ],
+        "degreeNote": "A university degree is usually not required. Most entry roles need PTIN and practical workflow experience; stronger career paths often progress into advisory or complex business taxation.",
+        "aiNow": "AI tools are already used to read source documents, auto-populate forms, classify common items, and surface exceptions for review.",
+        "aiFuture": "Routine, standard filings will keep getting faster and more automated. The durable role is exception handling, advisory judgment, and accountability for unusual filings and client outcomes.",
+        "services": [
+          "Intuit ProConnect AI",
+          "Intuit tax document automation",
+          "Thomson Reuters Ready to Review",
+          "TurboTax AI-supported filing workflows"
+        ],
+        "educationPathways": [
+          "Learn filing workflows, PTIN requirements, and source document processing.",
+          "Practice income/expense document review and exception handling with real cases.",
+          "Add recurring-review habits and communication discipline to build promotion readiness.",
+          "Move into more advisory-heavy work where humans own strategy and risk decisions."
+        ]
+      },
+      "ko": {
+        "title": "세무사",
+        "summary": "세무 사무는 개인 및 소규모 사업자의 세금신고를 작성하고 정합성 규칙을 적용해 적정한 과세 처리와 환급/납부 산출을 돕는 직무입니다.",
+        "tasks": [
+          "개인 또는 소규모 사업자의 세금신고서를 작성합니다.",
+          "소득·지출·공제 자료를 검토해 세금 납부액 또는 환급액을 계산합니다.",
+          "신고 필요 서류와 유형을 확인하고 신고 절차를 안내합니다.",
+          "제출 근거를 점검하고 제출 결과를 명확하게 설명합니다."
+        ],
+        "skills": [
+          "세법 정확도",
+          "문서 검토",
+          "고객 면담",
+          "세밀한 주의력",
+          "윤리와 준법",
+          "예외 처리",
+          "세무 소프트웨어 활용"
+        ],
+        "path": [
+          "고등학교 졸업 이상과 실무 기반으로 시작하는 경우가 흔합니다.",
+          "신고 플랫폼, 세무 문서, 증빙 검증 루틴을 습득합니다.",
+          "기본 신고에서 벗어나 소규모 사업장, 복잡 사례로 범위를 확장합니다.",
+          "고객 커뮤니케이션과 오류 점검 습관을 통해 신뢰 기반 경력으로 성장합니다."
+        ],
+        "degreeNote": "대학 학위가 필수는 아닙니다. 세무사 등록(PTIN) 요건 및 실무 경험이 기본 진입 신호이며, 복잡한 자문형 업무로 확장하면 경력성이 강화됩니다.",
+        "aiNow": "AI는 서류 읽기, 항목 분류, 필수 데이터 자동 입력, 검증 예외 추출 같은 단계에서 이미 실제 작업을 지원합니다.",
+        "aiFuture": "표준 신고는 점점 더 자동화됩니다. 사람이 남는 가치는 예외 사안 판단, 조언, 신뢰 회복, 최종 책임입니다.",
+        "services": [
+          "Intuit ProConnect AI",
+          "Intuit 세금 문서 자동화",
+          "Thomson Reuters Ready to Review",
+          "TurboTax AI 지원 신고 워크플로"
+        ],
+        "educationPathways": [
+          "신고 워크플로우, PTIN 요건, 문서 처리 순서를 먼저 익힙니다.",
+          "실제 사례로 소득/지출 검증과 예외 처리 경험을 축적합니다.",
+          "반복 리뷰 습관과 커뮤니케이션 정합성을 강화해 역할 성숙도를 높입니다.",
+          "자문형 업무로 옮겨 전략·리스크 판단의 비중을 늘립니다."
+        ]
+      },
+      "es": {
+        "title": "Preparador fiscal",
+        "summary": "El preparador fiscal redacta declaraciones de individuos y pymes, aplica reglas tributarias y comunica el resultado de presentacion bajo criterios de trazabilidad documental.",
+        "tasks": [
+          "Preparar declaraciones tributarias para personas y pequeñas empresas.",
+          "Revisar ingresos, gastos y deducciones para calcular impuestos y reembolsos.",
+          "Determinar requisitos y formularios de cada caso.",
+          "Verificar evidencia de respaldo y explicar resultados de forma clara."
+        ],
+        "skills": [
+          "Precision en ley tributaria",
+          "Revision documental",
+          "Entrevista al cliente",
+          "Atencion al detalle",
+          "Etica y cumplimiento",
+          "Manejo de excepciones",
+          "Manejo de software fiscal"
+        ],
+        "path": [
+          "En general se inicia con diploma de escuela media y experiencia operativa.",
+          "Dominar plataformas de declaracion, documentos fiscales y controles de evidencia.",
+          "Escalar desde casos simples a casos de negocio pyme o mayor complejidad.",
+          "Construir confianza con revisiones consistentes y comunicacion clara al cliente."
+        ],
+        "degreeNote": "No suele requerirse titulo universitario. Normalmente se requiere PTIN y experiencia practica; luego se puede crecer hacia asesoria de casos mas complejos.",
+        "aiNow": "La IA ya lee documentos, auto-rellena formularios, clasifica conceptos frecuentes y detecta excepciones para revision humana.",
+        "aiFuture": "La carga rutinaria de declaracion se estara automatizando cada vez mas. Lo mas durable es el juicio en excepciones, la asesoría y la responsabilidad final.",
+        "services": [
+          "Intuit ProConnect AI",
+          "Automatizacion de documentos fiscales de Intuit",
+          "Thomson Reuters Ready to Review",
+          "TurboTax con IA para declaracion"
+        ],
+        "educationPathways": [
+          "Aprender flujos de declaracion, PTIN y procesamiento de documentos fuente.",
+          "Practicar revision de evidencia y manejo de excepciones con casos reales.",
+          "Agregar disciplina de revisiones repetitivas y comunicacion para mejorar la fiabilidad.",
+          "Migrar hacia tareas de asesoria y riesgo para no quedarse en procesos mecanicos."
+        ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 29170,
+        "max": 50560
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "BLS projects tax preparer employment to grow about 5% from 2024 to 2034, with continued openings from replacement demand.",
+          "ko": "BLS는 2024~2034년 사이 세무 준비 인력의 증가를 약 5%로 전망하며, 인력 교체 수요 중심의 채용 기회가 꾸준히 유지될 것으로 봅니다.",
+          "es": "BLS proyecta que el empleo de preparadores fiscales crezca alrededor de 5% entre 2024 y 2034, con vacantes por sustitucion durante el periodo."
+        }
+      }
+    }
+  },
+  {
     "id": "법무-보조원",
     "category": "business",
     "automationRisk": 62,

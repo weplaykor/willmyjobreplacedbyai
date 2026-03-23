@@ -1298,6 +1298,24 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "tax-preparers",
+              "labels": {
+                "en": "Tax Preparers",
+                "ko": "세금 준비 전문가",
+                "es": "Preparadores de impuestos"
+              },
+              "details": [
+                {
+                  "id": "tax-preparer",
+                  "labels": {
+                    "en": "Tax Preparer",
+                    "ko": "세무사",
+                    "es": "Preparador fiscal"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -1503,7 +1521,7 @@
             {
               "id": "비서",
               "labels": {
-                "en": "비서",
+                "en": "Secretary",
                 "ko": "비서",
                 "es": "비서"
               },
