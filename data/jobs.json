@@ -16190,7 +16190,7 @@
   {
     "id": "영업-대표",
     "category": "sales",
-    "automationRisk": 59,
+    "automationRisk": 53,
     "aiRole": "hybrid",
     "classification": {
       "majorId": "sales-marketing-service",
@@ -16198,163 +16198,200 @@
       "subId": "영업-대표",
       "detailId": "영업-대표"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.salesforce.com/products/agentforce/",
     "degree": {
       "status": "preferred",
       "level": "bachelor"
     },
     "aiEvidence": {
       "rationale": {
-        "en": "AI can automate portions of 영업 대표, but this job still depends on human judgment, communication, and contextual responsibility.",
-        "ko": "AI는 영업 대표의 일부 업무를 자동화할 수 있지만, 판단·의사소통·책임이 필요한 구간이 여전히 존재합니다.",
-        "es": "La IA puede automatizar partes de 영업 대표, pero este trabajo sigue dependiendo del juicio humano, comunicacion y responsabilidad contextual."
+        "en": "Sales Representative is exposed because a meaningful share of the workflow is structured and automatable: prospect research, first-pass outreach, meeting prep, note-taking, CRM hygiene, and routine follow-up. But it is not a replace-first role, because buying decisions still depend on trust, relationships, negotiation, and commercial judgment under uncertainty.",
+        "ko": "영업 대표는 잠재 고객 조사, 초안 작성, 일정 조정, 회의 준비, CRM 정리, 반복적 후속 조치처럼 구조화되고 자동화 가능한 업무 비중이 큽니다. 다만 구매 결정은 신뢰, 관계 형성, 협상, 불확실성 속 상업적 판단이 여전히 중요해 전면 대체 직무로 보기 어렵습니다.",
+        "es": "El representante de ventas está expuesto porque gran parte del flujo de trabajo es estructurado y automatizable: investigación de prospectos, alcance inicial, preparación de reuniones, toma de notas, orden de CRM y seguimiento rutinario. Pero no es un rol de reemplazo total, porque las decisiones de compra dependen de confianza, relaciones, negociación y juicio comercial bajo incertidumbre."
       },
       "automatableNow": {
         "en": [
-          "Preparing standard templates and recurring deliverables for 영업 대표.",
-          "Cross-checking routine data and records in 영업 대표.",
-          "Generating summaries for 영업 대표 workflows."
-        ],
-        "ko": [
-          "영업 대표의 반복 산출물을 표준 템플릿으로 초안화",
-          "영업 대표 반복 데이터와 기록의 교차 점검",
-          "영업 대표 처리 흐름의 요약 자동화"
+          "Summarizing candidate leads and accounts.",
+          "Drafting cold outreach, follow-up templates, and call memos.",
+          "Tracking account activity and scheduling meeting prep.",
+          "Surface opportunities and risk signals from CRM and sales history.",
+          "Automating routine follow-up and reporting."
         ],
         "es": [
-          "Preparar plantillas y entregables recurrentes para 영업 대표.",
-          "Verificar datos y registros rutinarios en 영업 대표.",
-          "Generar resúmenes para el flujo de 영업 대표."
+          "Resumenes de clientes potenciales y cuentas.",
+          "Redactar mensajes de acercamiento, plantillas y minutas.",
+          "Hacer seguimiento de actividad de cuentas y preparacion de reuniones.",
+          "Detectar oportunidades y señales de riesgo desde CRM e historial.",
+          "Automatizar seguimiento y reportes rutinarios."
         ]
       },
       "humanEdge": {
         "en": [
-          "Handling exceptions and escalations in 영업 대표.",
-          "Negotiating tradeoffs and priorities for 영업 대표.",
-          "Communicating final recommendations and owning outcomes for 영업 대표."
-        ],
-        "ko": [
-          "영업 대표에서 예외 상황과 에스컬레이션 처리",
-          "영업 대표의 우선순위 충돌 조정",
-          "영업 대표 최종 제안 제시 및 결과 책임"
+          "Reading real buyer intent when signals are mixed.",
+          "Building trust over time with accounts and decision-makers.",
+          "Negotiating price, terms, timing, and internal politics.",
+          "Adjusting execution when the conversation moves off-script.",
+          "Owning outcome and accountability when a live deal is at risk."
         ],
         "es": [
-          "Manejar excepciones y escalaciones en 영업 대표.",
-          "Ajustar prioridades y tradeoffs en 영업 대표.",
-          "Comunicar recomendaciones finales y asumir resultados en 영업 대표."
+          "Entender la intencion real del comprador cuando las señales no son claras.",
+          "Construir confianza a largo plazo con cuentas y tomadores de decision.",
+          "Negociar precio, condiciones, tiempos y politicas internas.",
+          "Ajustar la ejecucion cuando la conversacion se sale del guion.",
+          "Asumir responsabilidad por el resultado cuando un trato esta en riesgo."
         ]
       },
       "references": [
         {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+          "name": "BLS: Wholesale and Manufacturing Sales Representatives",
+          "url": "https://www.bls.gov/ooh/sales/wholesale-and-manufacturing-sales-specialists.htm"
         },
         {
-          "name": "Google Workspace Gemini",
-          "url": "https://workspace.google.com/intl/en_us/features/gemini.html"
+          "name": "O*NET: Sales Representatives, Wholesale and Manufacturing",
+          "url": "https://www.onetonline.org/link/summary/41-4011.00"
+        },
+        {
+          "name": "Salesforce Agentforce SDR",
+          "url": "https://www.salesforce.com/products/agentforce/"
+        },
+        {
+          "name": "HubSpot AI Prospecting",
+          "url": "https://www.hubspot.com/products/sales/prospector"
+        },
+        {
+          "name": "Gong Conversation Intelligence",
+          "url": "https://www.gong.io/"
+        },
+        {
+          "name": "Outreach AI",
+          "url": "https://www.outreach.io/"
         }
       ]
     },
     "content": {
       "en": {
         "title": "Sales Representative",
-        "summary": "The role of 영업 대표 involves handling structured workflows, quality checks, coordination, and decision support.",
+        "summary": "Sales Representative sells products to businesses, organizations, and institutions by prospecting, explaining product fit, negotiating terms, and maintaining accounts. AI is increasingly taking over research, outreach, summarization, CRM updating, and scheduling, but human reps still matter where trust, nuance, and commercial judgment decide outcomes.",
         "tasks": [
-          "영업 대표의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "Identify prospective customers.",
+          "Contact new and existing accounts.",
+          "Explain products and answer questions.",
+          "Negotiate pricing, terms, contracts, and orders.",
+          "Follow up after sale and monitor account activity.",
+          "Analyze sales statistics and manage operational admin."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "Customer-service skill",
+          "Interpersonal communication",
+          "Self-confidence",
+          "Negotiation",
+          "Objection handling",
+          "Relationship building",
+          "Product fluency",
+          "AI-assisted prospecting literacy"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "Entry requirements vary by product.",
+          "For non-technical products, a high school diploma is often sufficient.",
+          "For technical or scientific products, a bachelor's degree is typically needed.",
+          "Many roles also include formal training up to about a year before full field ownership."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "영업 대표 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "영업 대표는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "This role is not fully degree-gated. Nontechnical product reps often enter with a high school diploma, while technical or scientific product reps often need a bachelor's degree.",
+        "aiNow": "AI supports sales teams with prospect research, lead prioritization, draft outreach, meeting prep, call summaries, CRM updates, and automated follow-ups.",
+        "aiFuture": "AI and CRM automation will compress the routine sales-ops layer first. Surviving value shifts toward account relationships, solution framing, negotiation, and handling exceptions.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Salesforce Agentforce SDR",
+          "HubSpot Breeze / Prospecting Agent",
+          "Gong Conversation Intelligence",
+          "Outreach AI agents"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "Start with product knowledge, customer communication, and objection handling.",
+          "Build product and account-handling experience through nontechnical or technical sales tracks.",
+          "Develop negotiation and commercial judgment on real deals.",
+          "Expand through formal field training and account leadership roles."
         ]
       },
       "ko": {
         "title": "영업 대표",
-        "summary": "영업 대표는 실무 처리에서 구조화된 작업과 판단이 공존하는 직무입니다.",
+        "summary": "영업 대표는 잠재 고객 발굴, 제안, 가격·조건 협상, 계정 유지까지 수행하는 역할입니다. AI가 영업 자동화(연구, 초안 작성, CRM 업데이트, 일정 조율)에서 점점 강해지더라도, 신뢰·관계·협상 판단이 필요한 부분은 여전히 사람 역량이 중요합니다.",
         "tasks": [
-          "영업 대표의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "프로스펙트 발굴과 고객 접촉을 수행합니다.",
+          "제품 설명 및 질문 대응을 통해 적합성을 판단해 제안합니다.",
+          "가격·계약 조건을 협의하고 주문·체결 절차를 관리합니다.",
+          "거래 후 후속 대응, 통계 분석, 기본 영업 행정 업무를 수행합니다."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "고객응대 능력",
+          "대인 커뮤니케이션",
+          "자신감",
+          "협상력",
+          "이의 제기 대응",
+          "관계 형성",
+          "제품 이해도",
+          "AI 기반 영업 탐색 능력"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "제품 성격에 따라 입문 문턱이 다릅니다.",
+          "비기술 제품은 고졸 진입이 가능하고, 기술·과학 제품은 대체로 학사 학위가 요구됩니다.",
+          "정규 영업 훈련이나 현장 멘토링으로 실전 거래 경험을 쌓는 경로가 일반적입니다."
         ],
         "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "영업 대표 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "영업 대표는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "aiNow": "AI는 고객 후보 탐색, 리드 우선순위화, 아웃리치 문안 작성, 회의 준비, 통화 요약, CRM 업데이트, 자동 후속 처리에 이미 사용되고 있습니다.",
+        "aiFuture": "반복 영업 운영은 자동화로 줄어들고, 관계 구축·해결 제안·협상·예외 처리 중심으로 인적 가치가 커질 것입니다.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Salesforce Agentforce SDR",
+          "HubSpot AI",
+          "Gong Conversation Intelligence",
+          "Outreach AI"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "제품 이해와 고객 대응을 통해 영업 업무를 시작합니다.",
+          "비기술/기술 트랙에 맞춰 비즈니스 커뮤니케이션을 습득합니다.",
+          "실제 거래 사례에서 협상과 판단 역량을 누적해 실전 감각을 만듭니다.",
+          "장기적으로는 단순 영업 행정보다 거래 성사와 전략적 계정 관리 역량을 키웁니다."
         ]
       },
       "es": {
         "title": "Representante de ventas",
-        "summary": "El rol de 영업 대표 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
+        "summary": "El representante de ventas vende productos a empresas y organizaciones mediante prospección, explicación de ajuste del producto, negociación y mantenimiento de cuentas. La IA cubre investigación, alcance, resúmenes y CRM, pero la confianza, el matiz y el juicio comercial siguen siendo humanos.",
         "tasks": [
-          "Realizar tareas principales de 영업 대표 y gestionar procesos estandarizados.",
-          "Monitorear calidad y riesgos y comunicar a los stakeholders.",
-          "Entregar resultados en forma clara y accionable."
+          "Identificar clientes potenciales nuevos y existentes.",
+          "Contactar cuentas y explicar la propuesta de valor.",
+          "Resolver objeciones y negociar precio, plazos y condiciones.",
+          "Preparar contratos y pedidos.",
+          "Dar seguimiento posterior a la venta y mantener cuentas."
         ],
         "skills": [
-          "Resolucion de problemas",
-          "Gestion de prioridades",
-          "Uso de herramientas",
-          "Comunicacion",
-          "Responsabilidad"
+          "Atencion al cliente",
+          "Habilidad interpersonal",
+          "Seguridad al tratar con clientes",
+          "Negociacion",
+          "Manejo de objeciones",
+          "Construccion de relaciones",
+          "Conocimiento de producto",
+          "Prospeccion con IA"
         ],
         "path": [
-          "Frecuentemente se puede entrar por experiencia practica.",
-          "Fortalecer manejo de herramientas de operacion y gestion.",
-          "Acumular registros de resultados y dominio del dominio eleva la contratacion."
+          "Los requisitos iniciales dependen del producto.",
+          "Para productos no tecnicos suele ser suficiente diploma de secundaria.",
+          "Para productos tecnicos suele pedirse licenciatura.",
+          "Muchos roles incluyen entrenamiento formal antes de la autonomia comercial completa."
         ],
-        "degreeNote": "Estas ocupaciones suelen preferir titulacion, pero la experiencia puede complementar en varios casos.",
-        "aiNow": "IA ya apoya parte del trabajo con automatizacion de documentos, analisis y asistencias de consultoria.",
-        "aiFuture": "Aunque parte del flujo se automize, la gestion de excepciones y decisiones contextuales seguira siendo humana.",
+        "degreeNote": "No es un camino estrictamente universitario para todos. Dependiendo del producto, puede requerir solo diploma o licenciatura.",
+        "aiNow": "La IA ya soporta prospeccion, priorizacion de leads, borradores de outreach, preparacion de reuniones, resúmenes de llamadas y seguimiento en CRM.",
+        "aiFuture": "La automatizacion reduce el trabajo operativo repetitivo; crece la importancia de confianza, negociacion y decision bajo excepciones.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Salesforce Agentforce SDR",
+          "HubSpot AI",
+          "Gong Conversation Intelligence",
+          "Outreach AI"
         ],
         "educationPathways": [
-          "Comenzar construyendo experiencia practica y capacidad de ejecucion.",
-          "Dominar herramientas operativas y flujos de trabajo del campo.",
-          "Agregar evidencia de resultados concretos para reemplazar estudios exclusivamente teoricos."
+          "Empieza con conocimiento de producto y comunicacion comercial.",
+          "Combina entrenamiento de campo con experiencia en cuentas.",
+          "Fortalece capacidad de negociacion y seguimiento de oportunidades.",
+          "Avanza hacia tratos de mayor complejidad y responsabilidad de cuenta."
         ]
       }
     },
@@ -16363,15 +16400,15 @@
         "currency": "USD",
         "period": "year",
         "scope": "illustrative-us-annual-base",
-        "min": 48000,
-        "max": 118000
+        "min": 37860,
+        "max": 194890
       },
       "hiringDemand": {
         "level": "medium",
         "note": {
-          "en": "Demand for 영업 대표 remains stable-to-growing in many sectors where operational continuity and professional judgment are required.",
-          "ko": "영업 대표 직무는 운영 연속성과 판단력이 필요한 영역에서 수요가 꾸준히 유지되는 편입니다.",
-          "es": "La demanda de 영업 대표 permanece estable o creciente en sectores donde la continuidad operacional y el juicio profesional son importantes."
+          "en": "Employment is projected to grow slowly, with replacement-driven openings and steady demand across many sectors.",
+          "ko": "전반적으로 성장률은 낮지만, 채용은 주로 이직·교체 수요를 통해 계속 발생할 것으로 예상됩니다.",
+          "es": "El crecimiento proyectado es lento, pero siguen existiendo aperturas significativas por reemplazo y continuidad de demanda en varios sectores."
         }
       }
     }
@@ -16379,7 +16416,7 @@
   {
     "id": "b2b-영업-담당자",
     "category": "sales",
-    "automationRisk": 59,
+    "automationRisk": 52,
     "aiRole": "hybrid",
     "classification": {
       "majorId": "sales-marketing-service",
@@ -16387,163 +16424,192 @@
       "subId": "b2b-영업-담당자",
       "detailId": "b2b-영업-담당자"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.salesforce.com/agentforce/sdr/",
     "degree": {
-      "status": "preferred",
-      "level": "bachelor"
+      "status": "optional",
+      "level": "none"
     },
     "aiEvidence": {
       "rationale": {
-        "en": "AI can automate portions of B2B 영업 담당자, but this job still depends on human judgment, communication, and contextual responsibility.",
-        "ko": "AI는 B2B 영업 담당자의 일부 업무를 자동화할 수 있지만, 판단·의사소통·책임이 필요한 구간이 여전히 존재합니다.",
-        "es": "La IA puede automatizar partes de B2B 영업 담당자, pero este trabajo sigue dependiendo del juicio humano, comunicacion y responsabilidad contextual."
+        "en": "B2B sales is exposed because a meaningful share of the workflow is structured and automatable: account research, buying-signal detection, first-draft emails, follow-up sequencing, CRM hygiene, and meeting scheduling. But it is not a classic replace-first role because the commercial core still depends on trust, discovery, negotiation, internal customer politics, and judgment. This places it in moderate risk.",
+        "ko": "B2B 영업은 계정 조사, 구매 시그널 탐지, 영문 초안 작성, 후속 일정, CRM 정비, 미팅 스케줄링처럼 구조화되어 규칙적으로 반복되는 업무 비중이 커서 자동화 노출이 높습니다. 하지만 인간 신뢰 형성, 실질 발굴, 협상, 내부 정치 조율, 판단이 핵심인 영업 본질은 남아 있어 완전 대체보다는 중간 수준의 위험입니다.",
+        "es": "Las ventas B2B tienen una alta exposición porque gran parte del flujo es estructurado y automatizable: investigación de cuentas, detección de señales, borradores de correo, secuencias de seguimiento, mantenimiento de CRM y programación de reuniones. Sin embargo, no es un rol de reemplazo inmediato porque el valor comercial depende de confianza, descubrimiento, negociación, política interna del cliente y juicio."
       },
       "automatableNow": {
         "en": [
-          "Preparing standard templates and recurring deliverables for B2B 영업 담당자.",
-          "Cross-checking routine data and records in B2B 영업 담당자.",
-          "Generating summaries for B2B 영업 담당자 workflows."
+          "Researching accounts before outreach.",
+          "Identifying signals that suggest when to reach out.",
+          "Drafting personalized outbound emails.",
+          "Handling some inbound qualification and common objections.",
+          "Scheduling meetings and reducing repetitive top-of-funnel work."
         ],
         "ko": [
-          "B2B 영업 담당자의 반복 산출물을 표준 템플릿으로 초안화",
-          "B2B 영업 담당자 반복 데이터와 기록의 교차 점검",
-          "B2B 영업 담당자 처리 흐름의 요약 자동화"
+          "영업 전 계정 리서치 수행",
+          "접촉 시점을 판단할 수 있는 신호 탐지",
+          "개인화된 아웃바운드 이메일 초안 작성",
+          "일부 인입 상담의 1차 분류와 흔한 이의 제기 대응",
+          "미팅 일정 예약과 반복적인 초기 영업 활동 축소"
         ],
         "es": [
-          "Preparar plantillas y entregables recurrentes para B2B 영업 담당자.",
-          "Verificar datos y registros rutinarios en B2B 영업 담당자.",
-          "Generar resúmenes para el flujo de B2B 영업 담당자."
+          "Investigar cuentas antes del alcance.",
+          "Identificar señales que indiquen cuándo contactar.",
+          "Redactar correos salientes personalizados.",
+          "Gestionar parte de la calificación inicial y objeciones comunes.",
+          "Programar reuniones y reducir trabajo repetitivo de entrada."
         ]
       },
       "humanEdge": {
         "en": [
-          "Handling exceptions and escalations in B2B 영업 담당자.",
-          "Negotiating tradeoffs and priorities for B2B 영업 담당자.",
-          "Communicating final recommendations and owning outcomes for B2B 영업 담당자."
+          "Running real discovery when the buyer’s problem is unclear.",
+          "Adjusting the pitch when multiple stakeholders want different outcomes.",
+          "Negotiating price, scope, timing, and risk in live conversations.",
+          "Reading political or emotional signals that do not appear in CRM data.",
+          "Owning the deal outcome when the customer situation is too important or too ambiguous for automation."
         ],
         "ko": [
-          "B2B 영업 담당자에서 예외 상황과 에스컬레이션 처리",
-          "B2B 영업 담당자의 우선순위 충돌 조정",
-          "B2B 영업 담당자 최종 제안 제시 및 결과 책임"
+          "구매자 문제가 명확하지 않을 때 실제 요구사항을 발굴하는 실질 디스커버리 수행",
+          "여러 의사결정자가 서로 다른 요구를 갖는 경우 제안서 메시지 조정",
+          "가격, 범위, 일정, 리스크를 실시간 대화에서 협의",
+          "CRM 데이터에 없는 정치적·감정적 신호를 읽어 대응",
+          "의사결정이 크고 불확실할수록 계약 성사 책임을 지는 판단"
         ],
         "es": [
-          "Manejar excepciones y escalaciones en B2B 영업 담당자.",
-          "Ajustar prioridades y tradeoffs en B2B 영업 담당자.",
-          "Comunicar recomendaciones finales y asumir resultados en B2B 영업 담당자."
+          "Realizar descubrimiento cuando el problema del cliente no está claro.",
+          "Ajustar el pitch cuando múltiples stakeholders tienen resultados distintos.",
+          "Negociar precio, alcance, tiempos y riesgo en conversaciones en vivo.",
+          "Detectar señales políticas o emocionales que no aparecen en CRM.",
+          "Asumir el resultado de la venta cuando la situación es crítica o ambigua."
         ]
       },
       "references": [
         {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+          "name": "BLS: Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+          "url": "https://www.bls.gov/ooh/sales/sales-representatives-of-services-except-advertising-insurance-financial-services-and-travel.htm"
         },
         {
-          "name": "Google Workspace Gemini",
-          "url": "https://workspace.google.com/intl/en_us/features/gemini.html"
+          "name": "O*NET: Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+          "url": "https://www.onetonline.org/link/summary/41-3091.00"
+        },
+        {
+          "name": "HubSpot: AI-powered prospecting",
+          "url": "https://www.hubspot.com/products/sales/hubspot-ai"
+        },
+        {
+          "name": "Salesforce: Agentforce SDR",
+          "url": "https://www.salesforce.com/agentforce/sales-representative/"
         }
       ]
     },
     "content": {
       "en": {
         "title": "B2B Sales Representative",
-        "summary": "The role of B2B 영업 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
+        "summary": "B2B Sales Representative sells services or solutions to other businesses by prospecting accounts, understanding client needs, presenting fit, negotiating terms, and maintaining the relationship after the sale.",
         "tasks": [
-          "B2B 영업 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "Contact prospective or existing customers to discuss how services can meet their needs.",
+          "Develop sales presentations or proposals, answer questions about pricing or terms.",
+          "Quote contract terms or fulfillment dates, prepare agreements, and provide support after the contract is signed."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "Discovery and qualification",
+          "Objection handling",
+          "Negotiation",
+          "Proposal writing",
+          "Relationship building",
+          "Pipeline discipline",
+          "CRM fluency",
+          "Post-sale account support"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "Usually starts with a high school diploma or equivalent and short-to-moderate on-the-job training.",
+          "Many people enter through inside sales, SDR, account coordinator, or customer-facing operations roles.",
+          "Move into higher-value account management by improving discovery, proposal quality, and stakeholder management."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "B2B 영업 담당자 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "B2B 영업 담당자는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "This occupation is not usually degree-gated.",
+        "aiNow": "AI already helps B2B sales teams research accounts, identify buying signals, draft personalized outreach, answer common inbound questions, and schedule meetings.",
+        "aiFuture": "The first layer of this role likely to compress is top-of-funnel and admin tasks. Human value shifts to consultative discovery, stakeholder alignment, and closing deals where uncertainty, trust, and risk require judgment.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Salesforce Agentforce SDR",
+          "HubSpot Breeze Prospecting Agent",
+          "HubSpot AI-powered prospecting tools"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "Start with customer-facing sales or account-support work.",
+          "Build comfort with CRM systems and pipeline discipline.",
+          "Strengthen discovery calls, proposal writing, and post-sale follow through.",
+          "Avoid competing only on volume outreach; become the person who can move complex deals."
         ]
       },
       "ko": {
         "title": "B2B 영업 담당자",
-        "summary": "B2B 영업 담당자는 실무 처리에서 구조화된 작업과 판단이 공존하는 직무입니다.",
+        "summary": "B2B 영업 담당자는 고객사를 발굴하고 니즈를 파악해 제안서를 만들고 협상·계약·사후관리를 수행합니다. 계정 조사, 맞춤형 아웃리치, 미팅 예약 등 반복적 영업 업무는 AI가 선점하고 있지만, 실질 거래를 만드는 핵심은 여전히 사람의 영업력이 필요합니다.",
         "tasks": [
-          "B2B 영업 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "잠재고객 또는 기존 고객에게 접촉해 니즈 기반 영업 제안을 설명합니다.",
+          "가격·조건 중심의 질문에 답하고 제안서와 계약 초안을 만듭니다.",
+          "계약 조건과 납기일을 조정하고, 거래 후에도 계정 관계를 유지합니다."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "발굴·자격심사",
+          "이의제기 대응",
+          "협상",
+          "제안서 작성",
+          "관계 구축",
+          "CRM 운영",
+          "거래 후 계정 지원"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "보통 고졸 또는 동등 학력과 현장 적응형 훈련으로 시작합니다.",
+          "많은 인력이 인바운드/아웃바운드 세일즈, SDR, 계정 운영, 고객지원 경력에서 진입합니다.",
+          "관계형 영업, 제안 역량, 이해관계자 조율까지 확장해 장기 역량을 만듭니다."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "B2B 영업 담당자 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "B2B 영업 담당자는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "직무 자체는 대학 학위가 필수로 요구되진 않습니다.",
+        "aiNow": "AI는 계정 조사, 구매 신호 탐지, 개인화 아웃리치 작성, FAQ 처리, 미팅 일정 설정을 자동화·보조합니다.",
+        "aiFuture": "반복적인 파이프라인 선행 작업은 자동화 압력이 높아지지만, 실질 디스커버리, 다중 이해관계자 조정, 가격·범위·일정 협상은 사람 판단이 남습니다.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Salesforce Agentforce SDR",
+          "HubSpot Breeze Prospecting Agent",
+          "HubSpot AI 기반 영업 프로스펙팅"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "고객 응대형 영업이나 계정지원 업무에서 시작.",
+          "CRM 사용, 파이프라인 운영, 제안서 작성 역량을 빠르게 확보.",
+          "복잡 계정에서의 발견 질문, 제안 커스터마이징, 계약 후 관리 능력으로 성장."
         ]
       },
       "es": {
         "title": "Representante de ventas B2B",
-        "summary": "El rol de B2B 영업 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
+        "summary": "El representante de ventas B2B vende servicios o soluciones a otras empresas a través de prospección de cuentas, descubrimiento de necesidades y propuestas, negociación de condiciones y gestión post-venta.",
         "tasks": [
-          "Realizar tareas principales de B2B 영업 담당자 y gestionar procesos estandarizados.",
-          "Monitorear calidad y riesgos y comunicar a los stakeholders.",
-          "Entregar resultados en forma clara y accionable."
+          "Contactar clientes potenciales o existentes y discutir cómo el servicio encaja con su necesidad.",
+          "Desarrollar presentaciones o propuestas y responder preguntas sobre precio o condiciones.",
+          "Cuantificar condiciones de entrega o contrato y dar soporte al cliente después del cierre."
         ],
         "skills": [
-          "Resolucion de problemas",
-          "Gestion de prioridades",
-          "Uso de herramientas",
-          "Comunicacion",
-          "Responsabilidad"
+          "Descubrimiento y calificación",
+          "Manejo de objeciones",
+          "Negociación",
+          "Redacción de propuestas",
+          "Construcción de relaciones",
+          "Disciplina de pipeline",
+          "Dominio de CRM",
+          "Soporte post-venta"
         ],
         "path": [
-          "Frecuentemente se puede entrar por experiencia practica.",
-          "Fortalecer manejo de herramientas de operacion y gestion.",
-          "Acumular registros de resultados y dominio del dominio eleva la contratacion."
+          "Suele iniciar con diploma de secundaria o equivalente y entrenamiento de campo.",
+          "Muchos ingresan por inside sales, SDR, coordinación de cuentas o soporte comercial.",
+          "Cresca fortaleciendo descubrimiento, calidad de propuesta y gestión de stakeholders en ventas complejas."
         ],
-        "degreeNote": "Estas ocupaciones suelen preferir titulacion, pero la experiencia puede complementar en varios casos.",
-        "aiNow": "IA ya apoya parte del trabajo con automatizacion de documentos, analisis y asistencias de consultoria.",
-        "aiFuture": "Aunque parte del flujo se automize, la gestion de excepciones y decisiones contextuales seguira siendo humana.",
+        "degreeNote": "Normalmente no suele requerir título universitario.",
+        "aiNow": "La IA ya ayuda a investigar cuentas, detectar señales de compra, redactar outreach personalizado, gestionar preguntas comunes y programar reuniones.",
+        "aiFuture": "La capa más expuesta es la parte inicial del embudo y la administración; el valor humano queda en descubrimiento consultivo, negociación y manejo de múltiples partes interesadas.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Salesforce Agentforce SDR",
+          "HubSpot Breeze Prospecting Agent",
+          "Herramientas de prospección de HubSpot con IA"
         ],
         "educationPathways": [
-          "Comenzar construyendo experiencia practica y capacidad de ejecucion.",
-          "Dominar herramientas operativas y flujos de trabajo del campo.",
-          "Agregar evidencia de resultados concretos para reemplazar estudios exclusivamente teoricos."
+          "Comienza con trabajo de ventas o soporte de cuentas orientado al cliente.",
+          "Construye dominio de CRM, disciplina de pipeline y redacción de propuestas.",
+          "Conviértete en experto en descubrimiento, propuesta y seguimiento de cuenta para alejarte de tareas repetitivas."
         ]
       }
     },
@@ -16552,15 +16618,15 @@
         "currency": "USD",
         "period": "year",
         "scope": "illustrative-us-annual-base",
-        "min": 48000,
-        "max": 118000
+        "min": 36430,
+        "max": 138360
       },
       "hiringDemand": {
-        "level": "medium",
+        "level": "high",
         "note": {
-          "en": "Demand for B2B 영업 담당자 remains stable-to-growing in many sectors where operational continuity and professional judgment are required.",
-          "ko": "B2B 영업 담당자 직무는 운영 연속성과 판단력이 필요한 영역에서 수요가 꾸준히 유지되는 편입니다.",
-          "es": "La demanda de B2B 영업 담당자 permanece estable o creciente en sectores donde la continuidad operacional y el juicio profesional son importantes."
+          "en": "BLS projects this occupation to grow from 1,226,700 jobs in 2024 to 1,264,700 in 2034, a 3.1% increase, with about 123,000 openings per year on average.",
+          "ko": "BLS는 2024년 1,226,700명에서 2034년 1,264,700명으로 3.1% 성장해, 연평균 약 123,000개의 공석이 발생할 것으로 전망합니다.",
+          "es": "El BLS proyecta que esta ocupación crecerá de 1,226,700 puestos en 2024 a 1,264,700 en 2034, un aumento de 3.1%, con unas 123,000 vacantes anuales en promedio."
         }
       }
     }
