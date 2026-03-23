@@ -1,4 +1,6 @@
-const ASSET_VERSION = '2026-03-23-8';
+const ASSET_VERSION = '2026-03-23-9';
+const VISITOR_NAMESPACE = 'willmyjobreplacedbyai';
+const VISITOR_TOTAL_KEY = 'site-total-visits';
 
 const DATA_FILES = {
   jobs: 'data/jobs.json',
@@ -164,7 +166,11 @@ const UI = {
     },
     loading: 'Loading job intelligence...',
     loadError: 'Could not load the job dataset. If you opened this file directly, use the deployed website or run a local web server. If this is the live site, make sure the job and taxonomy data files are committed and deployed.',
-    noResults: 'No roles matched this combination. Try clearing a filter or using a broader keyword.'
+    noResults: 'No roles matched this combination. Try clearing a filter or using a broader keyword.',
+    visitors: {
+      today: 'Today',
+      total: 'Total'
+    }
   },
   ko: {
     locale: 'ko-KR',
@@ -322,7 +328,11 @@ const UI = {
     },
     loading: '직업 인텔리전스를 불러오는 중입니다...',
     loadError: '직업 데이터셋을 불러오지 못했습니다. 로컬 파일을 직접 열었다면 배포된 사이트로 접속하거나 로컬 웹서버로 실행해 주세요. 라이브 사이트라면 직업 데이터와 taxonomy 데이터 파일이 커밋되고 배포되었는지 확인해 주세요.',
-    noResults: '이 조합과 일치하는 직무가 없습니다. 필터를 줄이거나 더 넓은 검색어를 사용해 보세요.'
+    noResults: '이 조합과 일치하는 직무가 없습니다. 필터를 줄이거나 더 넓은 검색어를 사용해 보세요.',
+    visitors: {
+      today: '오늘',
+      total: '전체'
+    }
   },
   es: {
     locale: 'es-ES',
@@ -480,7 +490,11 @@ const UI = {
     },
     loading: 'Cargando inteligencia laboral...',
     loadError: 'No se pudo cargar el conjunto de trabajos. Si abriste el archivo directamente, usa el sitio desplegado o ejecuta un servidor web local. Si es el sitio en produccion, confirma que los archivos de trabajos y taxonomia esten versionados y desplegados.',
-    noResults: 'Ningun puesto coincide con esta combinacion. Prueba limpiando un filtro o usando una palabra mas amplia.'
+    noResults: 'Ningun puesto coincide con esta combinacion. Prueba limpiando un filtro o usando una palabra mas amplia.',
+    visitors: {
+      today: 'Hoy',
+      total: 'Total'
+    }
   }
 };
 
@@ -517,6 +531,8 @@ const elements = {
   statRiskLabel: document.getElementById('statRiskLabel'),
   statLowRiskValue: document.getElementById('statLowRiskValue'),
   statLowRiskLabel: document.getElementById('statLowRiskLabel'),
+  todayVisitorsLabel: document.getElementById('todayVisitorsLabel'),
+  totalVisitorsLabel: document.getElementById('totalVisitorsLabel'),
   newsKicker: document.getElementById('newsKicker'),
   newsTitle: document.getElementById('newsTitle'),
   newsLead: document.getElementById('newsLead'),
@@ -563,12 +579,15 @@ const elements = {
   jobModal: document.getElementById('jobModal'),
   jobModalTitle: document.getElementById('jobModalTitle'),
   jobModalBody: document.getElementById('jobModalBody'),
-  jobModalClose: document.getElementById('jobModalClose')
+  jobModalClose: document.getElementById('jobModalClose'),
+  todayVisitors: document.getElementById('todayVisitors'),
+  totalVisitors: document.getElementById('totalVisitors')
 };
 
 attachEvents();
 render();
 init();
+initVisitorCounters();
 
 async function init() {
   const [taxonomyResult, jobsResult, newsResult, articlesResult] = await Promise.allSettled([
@@ -863,6 +882,8 @@ function hydrateStats(copy, stats) {
   elements.statRiskLabel.textContent = copy.stats.highRisk;
   elements.statLowRiskValue.textContent = `${formatDashboardNumber(stats.lowRiskShare)}%`;
   elements.statLowRiskLabel.textContent = copy.stats.lowRisk;
+  elements.todayVisitorsLabel.textContent = copy.visitors.today;
+  elements.totalVisitorsLabel.textContent = copy.visitors.total;
 }
 
 function hydrateInsights(copy, stats, totalCount) {
@@ -1485,6 +1506,68 @@ async function fetchJSON(path) {
   }
 
   return response.json();
+}
+
+function getTodayVisitKey() {
+  const now = new Date();
+  const year = now.getUTCFullYear();
+  const month = String(now.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(now.getUTCDate()).padStart(2, '0');
+  return `site-visits-${year}-${month}-${day}`;
+}
+
+function formatVisitorCount(value) {
+  if (typeof value !== 'number' || Number.isNaN(value)) {
+    return '-';
+  }
+  return new Intl.NumberFormat(UI[state.lang].locale).format(value);
+}
+
+async function updateCounter(key, shouldIncrement) {
+  const baseUrl = `https://api.countapi.xyz`;
+  const endpoint = shouldIncrement ? 'hit' : 'get';
+  const url = `${baseUrl}/${endpoint}/${encodeURIComponent(VISITOR_NAMESPACE)}/${encodeURIComponent(key)}`;
+  const response = await fetch(url, { cache: 'no-store' });
+
+  if (!response.ok) {
+    throw new Error(`Visitor counter request failed: ${response.status}`);
+  }
+
+  const data = await response.json();
+  return data.value;
+}
+
+async function initVisitorCounters() {
+  if (!elements.todayVisitors || !elements.totalVisitors) {
+    return;
+  }
+
+  const todayKey = getTodayVisitKey();
+  const todaySessionKey = `visit-counted-${todayKey}`;
+  const totalSessionKey = 'visit-counted-total';
+  const shouldIncrementToday = !sessionStorage.getItem(todaySessionKey);
+  const shouldIncrementTotal = !sessionStorage.getItem(totalSessionKey);
+
+  try {
+    const [todayValue, totalValue] = await Promise.all([
+      updateCounter(todayKey, shouldIncrementToday),
+      updateCounter(VISITOR_TOTAL_KEY, shouldIncrementTotal)
+    ]);
+
+    if (shouldIncrementToday) {
+      sessionStorage.setItem(todaySessionKey, '1');
+    }
+    if (shouldIncrementTotal) {
+      sessionStorage.setItem(totalSessionKey, '1');
+    }
+
+    elements.todayVisitors.textContent = formatVisitorCount(todayValue);
+    elements.totalVisitors.textContent = formatVisitorCount(totalValue);
+  } catch (error) {
+    console.error('Failed to load visitor counters', error);
+    elements.todayVisitors.textContent = '-';
+    elements.totalVisitors.textContent = '-';
+  }
 }
 
 function detectLanguage() {

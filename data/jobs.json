@@ -5488,7 +5488,7 @@
   {
     "id": "accountant",
     "category": "business",
-    "automationRisk": 62,
+    "automationRisk": 60,
     "aiRole": "hybrid",
     "classification": {
       "majorId": "professional",
@@ -5496,9 +5496,9 @@
       "subId": "finance-hr-legal-professionals",
       "detailId": "accountant"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.ibm.com/products/openpages",
     "degree": {
-      "status": "preferred",
+      "status": "required",
       "level": "bachelor"
     },
     "aiEvidence": {
@@ -7348,7 +7348,7 @@
   {
     "id": "hotel-receptionist",
     "category": "service",
-    "automationRisk": 62,
+    "automationRisk": 60,
     "aiRole": "hybrid",
     "classification": {
       "majorId": "service",
@@ -7356,7 +7356,7 @@
       "subId": "front-desk-service-workers",
       "detailId": "hotel-receptionist"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.ibm.com/products/openpages",
     "degree": {
       "status": "optional",
       "level": "none"
@@ -9218,7 +9218,7 @@
     },
     "currentReplacementUrl": null,
     "degree": {
-      "status": "preferred",
+      "status": "required",
       "level": "bachelor"
     },
     "aiEvidence": {
@@ -12825,7 +12825,7 @@
   {
     "id": "내부감사-담당자",
     "category": "business",
-    "automationRisk": 62,
+    "automationRisk": 57,
     "aiRole": "hybrid",
     "classification": {
       "majorId": "management-office-finance-legal",
@@ -12833,95 +12833,122 @@
       "subId": "내부감사-담당자",
       "detailId": "내부감사-담당자"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.auditboard.com/",
     "degree": {
-      "status": "preferred",
+      "status": "required",
       "level": "bachelor"
     },
     "aiEvidence": {
       "rationale": {
-        "en": "AI can automate portions of 내부감사 담당자, but this job still depends on human judgment, communication, and contextual responsibility.",
-        "ko": "AI는 내부감사 담당자의 일부 업무를 자동화할 수 있지만, 판단·의사소통·책임이 필요한 구간이 여전히 존재합니다.",
-        "es": "La IA puede automatizar partes de 내부감사 담당자, pero este trabajo sigue dependiendo del juicio humano, comunicacion y responsabilidad contextual."
+        "en": "Internal audit is exposed because a meaningful share of the workflow is structured: controls mapping, document review, request management, anomaly screening, repetitive testing, and report drafting. But it is not replace-first in the near term, because the role depends on independence, professional skepticism, sensitive interviewing, materiality judgment, and the willingness to escalate uncomfortable truths inside the organization.",
+        "ko": "내부감사는 통제 매핑, 문서 검토, 요청 관리, 이상 징후 탐지, 반복 테스트, 보고서 초안 등 구조화된 업무 비중이 높아 AI 노출이 있습니다. 하지만 독립성, 직업적 의구심, 인터뷰 맥락 판단, 중요성 판단, 불편한 사실의 에스컬레이션 책임이 필요해 단기 전면 대체 직무는 아닙니다.",
+        "es": "La auditoria interna tiene exposicion a la IA porque gran parte del flujo es estructurado: mapeo de controles, revision documental, gestion de solicitudes, deteccion de anomalias, pruebas repetitivas y borradores de informes. Sin embargo, no es un rol de reemplazo inmediato por su necesidad de independencia, escepticismo profesional, entrevistas sensibles, juicio de materialidad y escalamiento responsable."
       },
       "automatableNow": {
         "en": [
-          "Preparing standard templates and recurring deliverables for 내부감사 담당자.",
-          "Cross-checking routine data and records in 내부감사 담당자.",
-          "Generating summaries for 내부감사 담당자 workflows."
+          "Drafting planning memos and interview guides.",
+          "Surfacing anomalies across large transaction sets.",
+          "Automating evidence requests and coordination.",
+          "Supporting control testing and recurring monitoring.",
+          "Drafting portions of audit reports from structured findings."
         ],
         "ko": [
-          "내부감사 담당자의 반복 산출물을 표준 템플릿으로 초안화",
-          "내부감사 담당자 반복 데이터와 기록의 교차 점검",
-          "내부감사 담당자 처리 흐름의 요약 자동화"
+          "감사 계획 메모와 인터뷰 가이드 초안 작성",
+          "대규모 거래 데이터에서 이상 징후 탐지",
+          "증빙 요청 및 커뮤니케이션 자동화",
+          "통제 테스트 및 상시 모니터링 보조",
+          "구조화된 결과 기반 감사보고서 일부 초안 작성"
         ],
         "es": [
-          "Preparar plantillas y entregables recurrentes para 내부감사 담당자.",
-          "Verificar datos y registros rutinarios en 내부감사 담당자.",
-          "Generar resúmenes para el flujo de 내부감사 담당자."
+          "Redaccion de memorandos de planificacion y guias de entrevista.",
+          "Deteccion de anomalias en grandes conjuntos de transacciones.",
+          "Automatizacion de solicitudes de evidencia y coordinacion.",
+          "Soporte a pruebas de control y monitoreo recurrente.",
+          "Redaccion de partes del informe de auditoria desde hallazgos estructurados."
         ]
       },
       "humanEdge": {
         "en": [
-          "Handling exceptions and escalations in 내부감사 담당자.",
-          "Negotiating tradeoffs and priorities for 내부감사 담당자.",
-          "Communicating final recommendations and owning outcomes for 내부감사 담당자."
+          "Deciding which risks are truly worth audit attention.",
+          "Reading tone, evasion, and political context in stakeholder interviews.",
+          "Judging materiality when evidence is incomplete or conflicting.",
+          "Protecting independence when leaders prefer a softer conclusion.",
+          "Standing behind the final assurance message to management, the audit committee, or the board."
         ],
         "ko": [
-          "내부감사 담당자에서 예외 상황과 에스컬레이션 처리",
-          "내부감사 담당자의 우선순위 충돌 조정",
-          "내부감사 담당자 최종 제안 제시 및 결과 책임"
+          "어떤 리스크가 실제 감사 우선순위인지 결정",
+          "이해관계자 인터뷰에서 어조, 회피, 조직 정치 맥락 파악",
+          "증거가 불완전하거나 충돌할 때 중요성(materiality) 판단",
+          "경영진이 완화된 결론을 원해도 독립성 유지",
+          "경영진·감사위원회·이사회에 최종 보증 메시지 책임"
         ],
         "es": [
-          "Manejar excepciones y escalaciones en 내부감사 담당자.",
-          "Ajustar prioridades y tradeoffs en 내부감사 담당자.",
-          "Comunicar recomendaciones finales y asumir resultados en 내부감사 담당자."
+          "Decidir que riesgos merecen realmente atencion de auditoria.",
+          "Leer tono, evasiones y contexto politico en entrevistas.",
+          "Juzgar materialidad cuando la evidencia es incompleta o contradictoria.",
+          "Proteger la independencia cuando la direccion prefiere una conclusion suave.",
+          "Respaldar el mensaje final de aseguramiento ante direccion, comite de auditoria o junta."
         ]
       },
       "references": [
         {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+          "name": "BLS: Accountants and Auditors",
+          "url": "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
         },
         {
-          "name": "Google Workspace Gemini",
-          "url": "https://workspace.google.com/intl/en_us/features/gemini.html"
+          "name": "The IIA: Transforming Audit Through AI",
+          "url": "https://www.theiia.org/en/content/articles/2024/transforming-audit-through-ai/"
+        },
+        {
+          "name": "The IIA + AuditBoard 2026 survey",
+          "url": "https://www.auditboard.com/"
+        },
+        {
+          "name": "Diligent AuditAI",
+          "url": "https://www.diligent.com/"
+        },
+        {
+          "name": "MindBridge AI",
+          "url": "https://www.mindbridge.ai/"
         }
       ]
     },
     "content": {
       "en": {
         "title": "Internal Auditor",
-        "summary": "The role of 내부감사 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
+        "summary": "Internal Auditor reviews an organization's controls, financial processes, and risk exposure to detect waste, fraud, and control weakness. AI is rapidly absorbing the evidence-gathering, testing, anomaly-spotting, and reporting layer, but the role still keeps strong human ownership in judgment, independence, stakeholder interviews, and final assurance.",
         "tasks": [
-          "내부감사 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "Review controls, records, and risk signals to identify process weakness, waste, fraud exposure, and financial risk.",
+          "Assess internal control design and operating effectiveness through walkthroughs, testing, and evidence review.",
+          "Prepare audit findings and explain implications to management and other stakeholders."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "Analytical and critical thinking",
+          "Control testing",
+          "Fraud awareness",
+          "Risk assessment",
+          "Clear writing",
+          "Interview skills",
+          "Professional skepticism"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "Start with a bachelor's degree in accounting or a related field.",
+          "Build early experience through internships or junior accounting, controls, risk, or audit roles.",
+          "Add internal-audit signaling through practical audit delivery and credentials such as CIA."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "내부감사 담당자 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "내부감사 담당자는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "BLS indicates accountants and auditors typically need at least a bachelor's degree, and internal audit usually follows the same entry gate. CIA is not always mandatory but strengthens hiring signal.",
+        "aiNow": "AI is already used in internal audit planning, reporting, risk assessment, fieldwork support, anomaly detection, evidence collection, and control testing. Usage is expected to keep increasing across audit teams.",
+        "aiFuture": "The administrative center of internal audit will shrink first: request chasing, repetitive testing support, issue drafting, and recurring reporting. Human value shifts toward risk scoping, interview judgment, materiality decisions, independence, and final assurance accountability.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "AuditBoard / Optro AI",
+          "Diligent AuditAI",
+          "MindBridge AI"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "Complete a bachelor's degree in accounting, finance, or business.",
+          "Build experience in accounting, internal controls, SOX, compliance, risk, or junior audit work.",
+          "Develop internal-audit-specific proof through control testing, walkthroughs, issue writing, and stakeholder communication.",
+          "Optionally add CIA or CRMA to strengthen specialization signaling."
         ]
       },
       "ko": {
@@ -12998,15 +13025,15 @@
         "currency": "USD",
         "period": "year",
         "scope": "illustrative-us-annual-base",
-        "min": 48000,
-        "max": 118000
+        "min": 52780,
+        "max": 141420
       },
       "hiringDemand": {
-        "level": "medium",
+        "level": "high",
         "note": {
-          "en": "Demand for 내부감사 담당자 remains stable-to-growing in many sectors where operational continuity and professional judgment are required.",
-          "ko": "내부감사 담당자 직무는 운영 연속성과 판단력이 필요한 영역에서 수요가 꾸준히 유지되는 편입니다.",
-          "es": "La demanda de 내부감사 담당자 permanece estable o creciente en sectores donde la continuidad operacional y el juicio profesional son importantes."
+          "en": "Strong demand signal: BLS projects 5% growth for accountants and auditors from 2024 to 2034 with about 124,200 openings per year on average. Internal audit demand is supported even as task mix shifts under automation.",
+          "ko": "강한 수요 신호: BLS는 2024~2034년 회계사·감사인 직군 5% 성장을 전망하며 연평균 약 124,200개 채용 기회를 제시합니다. 자동화로 업무 구성이 변해도 내부감사 수요는 유지될 가능성이 큽니다.",
+          "es": "Senal de demanda fuerte: BLS proyecta crecimiento del 5% para contadores y auditores entre 2024 y 2034, con unas 124,200 vacantes anuales promedio. La demanda de auditoria interna se mantiene aunque cambie la mezcla de tareas."
         }
       }
     }
@@ -13014,7 +13041,7 @@
   {
     "id": "리스크-분석가",
     "category": "business",
-    "automationRisk": 62,
+    "automationRisk": 60,
     "aiRole": "hybrid",
     "classification": {
       "majorId": "management-office-finance-legal",
@@ -13022,95 +13049,140 @@
       "subId": "리스크-분석가",
       "detailId": "리스크-분석가"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.ibm.com/products/openpages",
     "degree": {
-      "status": "preferred",
+      "status": "required",
       "level": "bachelor"
     },
     "aiEvidence": {
       "rationale": {
-        "en": "AI can automate portions of 리스크 분석가, but this job still depends on human judgment, communication, and contextual responsibility.",
-        "ko": "AI는 리스크 분석가의 일부 업무를 자동화할 수 있지만, 판단·의사소통·책임이 필요한 구간이 여전히 존재합니다.",
-        "es": "La IA puede automatizar partes de 리스크 분석가, pero este trabajo sigue dependiendo del juicio humano, comunicacion y responsabilidad contextual."
+        "en": "Risk analysis is meaningfully exposed because much of the workflow is measurable and structured: monitoring exposures, summarizing data, generating reports, tracking model performance, and drafting first-pass analysis. But it is not replace-first in the near term, because the job sits close to money, regulation, and uncertainty. Someone still has to decide whether the model is wrong, whether the signal is real, and whether the organization should act.",
+        "ko": "리스크 분석은 익스포저 모니터링, 데이터 요약, 보고서 생성, 모델 성능 추적, 1차 분석 초안 작성처럼 측정 가능하고 구조화된 업무 비중이 높아 AI 노출이 큽니다. 하지만 이 직무는 돈, 규제, 불확실성에 가까이 붙어 있기 때문에 단기 전면 대체 직무는 아닙니다. 결국 모델이 틀렸는지, 신호가 진짜인지, 조직이 행동해야 하는지는 사람이 판단해야 합니다.",
+        "es": "El analisis de riesgos tiene una exposicion importante porque gran parte del flujo es medible y estructurado: monitoreo de exposiciones, resumen de datos, generacion de informes, seguimiento del rendimiento de modelos y borradores de analisis. Pero no es un rol de reemplazo inmediato porque opera cerca del dinero, la regulacion y la incertidumbre. Al final, una persona debe decidir si el modelo esta equivocado, si la senal es real y si la organizacion debe actuar."
       },
       "automatableNow": {
         "en": [
-          "Preparing standard templates and recurring deliverables for 리스크 분석가.",
-          "Cross-checking routine data and records in 리스크 분석가.",
-          "Generating summaries for 리스크 분석가 workflows."
+          "Summarizing customer and transaction information for credit decisions.",
+          "Drafting credit memos, contracts, and risk reports.",
+          "Generating code to source and analyze risk data.",
+          "Monitoring model performance and flagging tolerance breaches.",
+          "Drafting model documentation and validation reports.",
+          "Synthesizing enterprise-risk summaries and executive briefings.",
+          "Supporting operational-risk controls, monitoring, and incident detection."
         ],
         "ko": [
-          "리스크 분석가의 반복 산출물을 표준 템플릿으로 초안화",
-          "리스크 분석가 반복 데이터와 기록의 교차 점검",
-          "리스크 분석가 처리 흐름의 요약 자동화"
+          "신용 의사결정을 위한 고객 및 거래 정보 요약",
+          "신용 메모, 계약서, 리스크 보고서 초안 작성",
+          "리스크 데이터 수집 및 분석용 코드 생성",
+          "모델 성능 모니터링과 허용범위 이탈 탐지",
+          "모델 문서화 및 검증 보고서 초안 작성",
+          "전사 리스크 요약과 경영진 브리핑 정리",
+          "운영 리스크 통제, 모니터링, 사고 탐지 지원"
         ],
         "es": [
-          "Preparar plantillas y entregables recurrentes para 리스크 분석가.",
-          "Verificar datos y registros rutinarios en 리스크 분석가.",
-          "Generar resúmenes para el flujo de 리스크 분석가."
+          "Resumir informacion de clientes y transacciones para decisiones de credito.",
+          "Redactar memorandos de credito, contratos e informes de riesgo.",
+          "Generar codigo para obtener y analizar datos de riesgo.",
+          "Monitorear el rendimiento de modelos y detectar incumplimientos de tolerancia.",
+          "Redactar documentacion de modelos e informes de validacion.",
+          "Sintetizar resumenes de riesgo empresarial y briefings ejecutivos.",
+          "Apoyar controles de riesgo operativo, monitoreo y deteccion de incidentes."
         ]
       },
       "humanEdge": {
         "en": [
-          "Handling exceptions and escalations in 리스크 분석가.",
-          "Negotiating tradeoffs and priorities for 리스크 분석가.",
-          "Communicating final recommendations and owning outcomes for 리스크 분석가."
+          "Judging whether an unusual pattern is noise or a real threat.",
+          "Setting risk appetite and escalation thresholds.",
+          "Challenging model assumptions when markets, regulation, or behavior shift.",
+          "Explaining risk tradeoffs to executives, committees, or regulators.",
+          "Owning the decision when an AI-assisted recommendation is incomplete or wrong."
         ],
         "ko": [
-          "리스크 분석가에서 예외 상황과 에스컬레이션 처리",
-          "리스크 분석가의 우선순위 충돌 조정",
-          "리스크 분석가 최종 제안 제시 및 결과 책임"
+          "이상 패턴이 잡음인지 실제 위협인지 판단",
+          "리스크 허용한도와 에스컬레이션 기준 설정",
+          "시장, 규제, 행동 변화 시 모델 가정에 이의 제기",
+          "경영진, 위원회, 규제기관에 리스크 트레이드오프 설명",
+          "AI 보조 권고가 불완전하거나 틀릴 때 최종 결정 책임"
         ],
         "es": [
-          "Manejar excepciones y escalaciones en 리스크 분석가.",
-          "Ajustar prioridades y tradeoffs en 리스크 분석가.",
-          "Comunicar recomendaciones finales y asumir resultados en 리스크 분석가."
+          "Juzgar si un patron inusual es ruido o una amenaza real.",
+          "Definir apetito de riesgo y umbrales de escalamiento.",
+          "Cuestionar supuestos del modelo cuando cambian mercados, regulacion o comportamiento.",
+          "Explicar tradeoffs de riesgo a ejecutivos, comites o reguladores.",
+          "Asumir la decision cuando una recomendacion asistida por IA es incompleta o incorrecta."
         ]
       },
       "references": [
         {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+          "name": "BLS: Financial Risk Specialists",
+          "url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm"
         },
         {
-          "name": "Google Workspace Gemini",
-          "url": "https://workspace.google.com/intl/en_us/features/gemini.html"
+          "name": "BLS: Occupational projections and worker characteristics",
+          "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+        },
+        {
+          "name": "BLS: Occupational separations and openings",
+          "url": "https://www.bls.gov/emp/tables/occupational-separations-and-openings.htm"
+        },
+        {
+          "name": "O*NET: Financial Risk Specialists",
+          "url": "https://www.onetonline.org/link/summary/13-2054.00"
+        },
+        {
+          "name": "McKinsey: How generative AI can help banks manage risk and compliance",
+          "url": "https://www.mckinsey.com/industries/financial-services/our-insights/how-generative-ai-can-help-banks-manage-risk-and-compliance"
+        },
+        {
+          "name": "IBM OpenPages",
+          "url": "https://www.ibm.com/products/openpages"
+        },
+        {
+          "name": "SAS Credit Risk Management",
+          "url": "https://www.sas.com/en_us/software/credit-risk-management.html"
+        },
+        {
+          "name": "Moody's Intelligent Risk Platform",
+          "url": "https://www.moodys.com/web/en/us/capabilities/risk-management.html"
         }
       ]
     },
     "content": {
       "en": {
         "title": "Risk Analyst",
-        "summary": "The role of 리스크 분석가 involves handling structured workflows, quality checks, coordination, and decision support.",
+        "summary": "Risk Analyst measures financial risk, models uncertainty, monitors exposures, and recommends ways to limit potential losses. AI is getting very strong at the data-heavy layer of this work, but humans still carry the final burden of judgment when model outputs, regulation, and market reality conflict.",
         "tasks": [
-          "리스크 분석가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "Evaluate threats to investment decisions, manage unpredictability, and recommend ways to limit losses.",
+          "Analyze areas of potential risk, conduct statistical analyses, and review market and financial information.",
+          "Assess how legislation, policy changes, or new conditions affect risk exposure."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "Analytical skills",
+          "Math and statistics comfort",
+          "Decision-making",
+          "Detail orientation",
+          "Communication",
+          "Computer skills for modeling, forecasting, and data analysis",
+          "Regulatory awareness"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "Start with a bachelor's degree, commonly in business, finance, economics, or a related quantitative field.",
+          "Build fluency in financial modeling, forecasting, statistical analysis, and risk data tools.",
+          "Move into more specialized risk work where you can prove judgment, not just spreadsheet output."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "리스크 분석가 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "리스크 분석가는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "BLS lists a bachelor's degree as the typical entry-level education for financial risk specialists, and some employers prefer a master's degree. O*NET places the occupation in Job Zone Four, meaning considerable preparation is usually needed.",
+        "aiNow": "AI already helps risk teams summarize customer and market information, draft credit memos and contracts, generate risk reports, source and analyze credit data, monitor model performance, draft validation documents, and synthesize enterprise-risk summaries and executive briefings.",
+        "aiFuture": "The first part of this role to compress is the repeatable analytical layer: data collection, routine monitoring, first-draft reporting, memo writing, model documentation, and ongoing control checks. The surviving value shifts upward toward interpreting weak signals, challenging models, setting risk guardrails, deciding when an exception matters, and advising leaders when there is no clean answer.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "IBM OpenPages",
+          "SAS Credit Risk Management Analytics",
+          "Moody's gen AI / Intelligent Risk Platform"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "Start with a bachelor's degree in business, finance, economics, or a similarly quantitative field.",
+          "Build fluency in financial modeling, forecasting, statistical analysis, and software used to analyze trends and exposures.",
+          "Move into more specialized risk work where you can prove judgment, not just spreadsheet output.",
+          "Graduate study in finance or business administration can improve advancement prospects in some employers."
         ]
       },
       "ko": {
@@ -13187,15 +13259,15 @@
         "currency": "USD",
         "period": "year",
         "scope": "illustrative-us-annual-base",
-        "min": 48000,
-        "max": 118000
+        "min": 62270,
+        "max": 182310
       },
       "hiringDemand": {
-        "level": "medium",
+        "level": "high",
         "note": {
-          "en": "Demand for 리스크 분석가 remains stable-to-growing in many sectors where operational continuity and professional judgment are required.",
-          "ko": "리스크 분석가 직무는 운영 연속성과 판단력이 필요한 영역에서 수요가 꾸준히 유지되는 편입니다.",
-          "es": "La demanda de 리스크 분석가 permanece estable o creciente en sectores donde la continuidad operacional y el juicio profesional son importantes."
+          "en": "Strong demand: BLS projects financial risk specialists to grow about 6% from 2024 to 2034, faster than average, with employment rising from about 60,500 to 64,400 and about 4,800 openings per year on average.",
+          "ko": "강한 수요: BLS는 금융 리스크 전문가 직군이 2024년부터 2034년까지 약 6% 성장할 것으로 전망하며, 고용은 약 60,500명에서 64,400명으로 늘고 연평균 약 4,800개의 채용 기회가 발생할 것으로 봅니다.",
+          "es": "Demanda fuerte: BLS proyecta que los especialistas en riesgo financiero creceran alrededor del 6% entre 2024 y 2034, con el empleo subiendo de unas 60,500 a 64,400 personas y unas 4,800 vacantes promedio por ano."
         }
       }
     }
@@ -13203,7 +13275,7 @@
   {
     "id": "투자-분석가",
     "category": "business",
-    "automationRisk": 62,
+    "automationRisk": 64,
     "aiRole": "hybrid",
     "classification": {
       "majorId": "management-office-finance-legal",
@@ -13211,95 +13283,139 @@
       "subId": "투자-분석가",
       "detailId": "투자-분석가"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.spglobal.com/marketintelligence/en/solutions/capital-iq/",
     "degree": {
-      "status": "preferred",
+      "status": "required",
       "level": "bachelor"
     },
     "aiEvidence": {
       "rationale": {
-        "en": "AI can automate portions of 투자 분석가, but this job still depends on human judgment, communication, and contextual responsibility.",
-        "ko": "AI는 투자 분석가의 일부 업무를 자동화할 수 있지만, 판단·의사소통·책임이 필요한 구간이 여전히 존재합니다.",
-        "es": "La IA puede automatizar partes de 투자 분석가, pero este trabajo sigue dependiendo del juicio humano, comunicacion y responsabilidad contextual."
+        "en": "Investment analysis is meaningfully exposed because the role is information-dense and structured in parts: reading filings, scanning transcripts, screening securities, summarizing research, building first-pass models, and drafting memos. But it is not replace-first in the near term because investment performance still depends on uncertainty management, thesis quality, accountability, and the ability to disagree intelligently with both consensus and the machine.",
+        "ko": "투자 분석은 공시 읽기, 전사 자료 검토, 종목 스크리닝, 연구 요약, 1차 모델링, 메모 작성처럼 정보 중심의 구조화 업무가 커서 AI 노출이 큽니다. 그러나 투자 성과는 여전히 불확실성 관리, 투자 논리의 질, 책임성, 그리고 합의와 기계의 권고를 이성적으로 이견을 제시하는 능력에 달려 있어 단기 전면 대체가 아닙니다.",
+        "es": "El analisis de inversiones esta expuesto porque en parte del trabajo es denso en informacion y estructurado: leer reportes, revisar transcripciones, filtrar valores, resumir investigacion, construir modelos iniciales y redactar memorandos. Sin embargo, no es un rol de reemplazo inmediato porque el desempeño de inversion depende del manejo de incertidumbre, la calidad de la tesis, la responsabilidad y la capacidad de disentir con criterio frente al consenso y la recomendacion de la IA."
       },
       "automatableNow": {
         "en": [
-          "Preparing standard templates and recurring deliverables for 투자 분석가.",
-          "Cross-checking routine data and records in 투자 분석가.",
-          "Generating summaries for 투자 분석가 workflows."
+          "Summarizing earnings calls, filings, and research documents.",
+          "Running first-pass due diligence and market research.",
+          "Comparing competitors and surfacing peer differences.",
+          "Drafting investment memos and pitch materials.",
+          "Supporting financial modeling and portfolio deep dives.",
+          "Extracting sentiment and key themes from large document sets."
         ],
         "ko": [
-          "투자 분석가의 반복 산출물을 표준 템플릿으로 초안화",
-          "투자 분석가 반복 데이터와 기록의 교차 점검",
-          "투자 분석가 처리 흐름의 요약 자동화"
+          "실적 발표, 공시, 연구 문서 요약",
+          "1차 실사와 시장 조사 실행",
+          "경쟁사 비교 및 차이점 추출",
+          "투자 메모와 피치 자료 초안 작성",
+          "재무 모델링 및 포트폴리오 심층 분석 보조",
+          "대규모 문서 집합에서 핵심 주제와 감성 신호 추출"
         ],
         "es": [
-          "Preparar plantillas y entregables recurrentes para 투자 분석가.",
-          "Verificar datos y registros rutinarios en 투자 분석가.",
-          "Generar resúmenes para el flujo de 투자 분석가."
+          "Resumir resultados, reportes y documentos de investigacion.",
+          "Ejecutar due diligence y analisis de mercado de primer paso.",
+          "Comparar competidores y detectar diferencias clave.",
+          "Redactar memorandos y materiales de presentacion.",
+          "Soportar modelado financiero y analisis profundo de carteras.",
+          "Extraer sentimiento y temas clave desde grandes conjuntos de documentos."
         ]
       },
       "humanEdge": {
         "en": [
-          "Handling exceptions and escalations in 투자 분석가.",
-          "Negotiating tradeoffs and priorities for 투자 분석가.",
-          "Communicating final recommendations and owning outcomes for 투자 분석가."
+          "Deciding whether the thesis is actually right when signals conflict.",
+          "Meeting management teams and judging credibility, incentives, and strategic realism.",
+          "Knowing when market context has changed enough that historical patterns stop helping.",
+          "Making a portfolio recommendation that must survive real money, client scrutiny, and accountability.",
+          "Producing original conviction rather than just faster synthesis."
         ],
         "ko": [
-          "투자 분석가에서 예외 상황과 에스컬레이션 처리",
-          "투자 분석가의 우선순위 충돌 조정",
-          "투자 분석가 최종 제안 제시 및 결과 책임"
+          "시장 신호가 충돌할 때 투자 가설이 맞는지 판단",
+          "경영진 미팅에서 신뢰도, 유인, 전략 현실성까지 평가",
+          "시장 환경 변화로 과거 패턴이 더 이상 유효하지 않은 시점을 판단",
+          "실자금과 고객 검토를 견디는 투자 추천을 제시",
+          "속도보다 독자적 확신과 판단을 유지"
         ],
         "es": [
-          "Manejar excepciones y escalaciones en 투자 분석가.",
-          "Ajustar prioridades y tradeoffs en 투자 분석가.",
-          "Comunicar recomendaciones finales y asumir resultados en 투자 분석가."
+          "Decidir si la tesis es correcta cuando las senales entran en conflicto.",
+          "Conocer a los equipos de gestion y juzgar credibilidad, incentivos y realismo estrategico.",
+          "Saber cuando el contexto de mercado ha cambiado tanto que los datos historicos dejan de ayudar.",
+          "Hacer recomendaciones de portafolio que soporten dinero real, revision de clientes y responsabilidad.",
+          "Generar conviccion propia, no solo una sintesis mas rapida."
         ]
       },
       "references": [
         {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+          "name": "BLS: Financial Analysts",
+          "url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm"
         },
         {
-          "name": "Google Workspace Gemini",
-          "url": "https://workspace.google.com/intl/en_us/features/gemini.html"
+          "name": "O*NET: Financial and Investment Analysts",
+          "url": "https://www.onetonline.org/link/summary/13-2051.00"
+        },
+        {
+          "name": "CFA Institute: AI in Finance: Changing Workflows, Growing Demand for Human Judgment",
+          "url": "https://www.cfainstitute.org/en/research/financial-markets-and-trends"
+        },
+        {
+          "name": "CFA Institute: Where AI Ends and Investment Judgment Begins",
+          "url": "https://www.cfainstitute.org/en/membership/professional-development/referral-programs"
+        },
+        {
+          "name": "Anthropic: Claude for Financial Services",
+          "url": "https://www.anthropic.com/use-cases/finance"
+        },
+        {
+          "name": "S&P Capital IQ Pro",
+          "url": "https://www.spglobal.com/marketintelligence/en/solutions/sp-capital-iq-pro/"
+        },
+        {
+          "name": "AlphaSense: Smart Summaries",
+          "url": "https://www.alpha-sense.com/products/smart-summaries/"
+        },
+        {
+          "name": "FactSet: Transcript Assistant",
+          "url": "https://www.factset.com/products/transcript-assistant"
         }
       ]
     },
     "content": {
       "en": {
         "title": "Investment Analyst",
-        "summary": "The role of 투자 분석가 involves handling structured workflows, quality checks, coordination, and decision support.",
+        "summary": "Investment Analyst assesses companies, securities, funds, and investment programs to decide where capital should go. AI is increasingly compressing the research, summarization, screening, and first-draft modeling layer, but humans still carry the burden of judgment when markets shift, evidence conflicts, and someone must own the recommendation.",
         "tasks": [
-          "투자 분석가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "Analyze companies, industries, and economic trends.",
+          "Assess stocks, bonds, and other investments and review financial statements.",
+          "Meet with company officials, prepare written reports, and recommend investments or portfolio actions."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "Analytical skill",
+          "Communication",
+          "Decision-making",
+          "Financial modeling",
+          "Valuation judgment",
+          "Detail orientation",
+          "Math and statistics comfort",
+          "Software fluency for research, forecasting, and portfolio analysis"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "Start with a bachelor's degree, most commonly in business or a related field.",
+          "Build fluency in financial modeling, forecasting, statistical analysis, and portfolio software.",
+          "Enter through research, banking, corporate finance, investment operations, or junior analyst roles, then specialize by sector, asset class, or strategy."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "투자 분석가 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "투자 분석가는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "A bachelor's degree is typically expected. Some employers prefer a master's degree and some roles may require FINRA licensing where the position involves selling financial products.",
+        "aiNow": "AI already helps investment teams with due diligence, market research, competitive benchmarking, portfolio deep dives, financial modeling with audit trails, and generating investment memos and pitch decks.",
+        "aiFuture": "The first part of this role to shrink is the repeatable research layer: transcript review, first-pass screening, comparable-company gathering, document summarization, memo drafting, and parts of model preparation. What remains more valuable is differentiated judgment under uncertainty.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "S&P Capital IQ Pro",
+          "AlphaSense Smart Summaries",
+          "FactSet Transcript Assistant",
+          "Claude for Financial Services"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "Start with a bachelor's degree in finance, business, economics, accounting, mathematics, statistics, or another quantitative field.",
+          "Build proof through internships or entry roles in investment research, asset management, banking, corporate finance, or equity research.",
+          "Develop the ability to turn messy information into a defendable investment view.",
+          "AI tool fluency becomes important because the mechanical research layer is increasingly automated."
         ]
       },
       "ko": {
@@ -13376,15 +13492,15 @@
         "currency": "USD",
         "period": "year",
         "scope": "illustrative-us-annual-base",
-        "min": 48000,
-        "max": 118000
+        "min": 62410,
+        "max": 180550
       },
       "hiringDemand": {
-        "level": "medium",
+        "level": "high",
         "note": {
-          "en": "Demand for 투자 분석가 remains stable-to-growing in many sectors where operational continuity and professional judgment are required.",
-          "ko": "투자 분석가 직무는 운영 연속성과 판단력이 필요한 영역에서 수요가 꾸준히 유지되는 편입니다.",
-          "es": "La demanda de 투자 분석가 permanece estable o creciente en sectores donde la continuidad operacional y el juicio profesional son importantes."
+          "en": "BLS projects financial and investment analysts to grow 6% from 2024 to 2034, from about 368,500 to 389,600 jobs.",
+          "ko": "BLS는 2024~2034년 기간 금융·투자 분석가가 약 6% 성장해 약 368,500명에서 389,600명으로 늘 것으로 전망합니다.",
+          "es": "BLS proyecta que los analistas financieros y de inversion crezcan 6% entre 2024 y 2034, de aproximadamente 368,500 a 389,600 puestos."
         }
       }
     }
@@ -13392,103 +13508,124 @@
   {
     "id": "은행-창구-직원",
     "category": "business",
-    "automationRisk": 62,
-    "aiRole": "hybrid",
+    "automationRisk": 82,
+    "aiRole": "replace",
     "classification": {
       "majorId": "management-office-finance-legal",
       "midId": "management-office-finance-legal-roles",
       "subId": "은행-창구-직원",
       "detailId": "은행-창구-직원"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.bankofamerica.com/online-banking/erica/",
     "degree": {
-      "status": "preferred",
-      "level": "bachelor"
+      "status": "optional",
+      "level": "none"
     },
     "aiEvidence": {
       "rationale": {
-        "en": "AI can automate portions of 은행 창구 직원, but this job still depends on human judgment, communication, and contextual responsibility.",
-        "ko": "AI는 은행 창구 직원의 일부 업무를 자동화할 수 있지만, 판단·의사소통·책임이 필요한 구간이 여전히 존재합니다.",
-        "es": "La IA puede automatizar partes de 은행 창구 직원, pero este trabajo sigue dependiendo del juicio humano, comunicacion y responsabilidad contextual."
+        "en": "This is a classic replace-first role because a large share of the work is structured, repetitive, rules-based, and already digitized. BLS ties declining teller demand to online banking, mobile check deposit, video kiosks, and enhanced ATMs that perform more clerical and service tasks at scale.",
+        "ko": "은행 창구원은 구조화되고 반복적인 규칙 기반 업무 비중이 높고 이미 디지털화가 진행되어 있어 대체 노출이 큽니다. BLS는 창구 이용 감소가 온라인 뱅킹, 모바일 수표 입금, 비디오 키오스크, 고도화된 ATM 확대로 이어진다고 설명합니다.",
+        "es": "El cajero de banco es un rol clasificado como replace-first porque gran parte del trabajo es repetitivo, estructurado y basado en reglas, y ya esta digitalizado. El BLS vincula la reduccion de puestos con banca en linea, deposito movil y cajeros/interacciones mejoradas."
       },
       "automatableNow": {
         "en": [
-          "Preparing standard templates and recurring deliverables for 은행 창구 직원.",
-          "Cross-checking routine data and records in 은행 창구 직원.",
-          "Generating summaries for 은행 창구 직원 workflows."
+          "Answering routine banking questions through virtual assistants.",
+          "Guiding customers through digital banking processes 24/7.",
+          "Handling many branch-style transactions via enhanced ATMs and interactive teller machines, including deposits, transfers, and card services.",
+          "Reducing branch traffic by shifting simple needs to mobile and online channels.",
+          "Assisting with standard identity checks and basic service triage."
         ],
         "ko": [
-          "은행 창구 직원의 반복 산출물을 표준 템플릿으로 초안화",
-          "은행 창구 직원 반복 데이터와 기록의 교차 점검",
-          "은행 창구 직원 처리 흐름의 요약 자동화"
+          "가상 비서로 반복적인 은행 질문 처리",
+          "디지털 뱅킹 절차를 24시간 안내",
+          "고도화된 ATM 및 인터랙티브 뱅커터를 통한 입출금/이체/카드 서비스 처리",
+          "단순 거래를 모바일·온라인 채널로 이동해 창구 혼잡 완화",
+          "기본 신원확인 및 단순 민원 분류 지원"
         ],
         "es": [
-          "Preparar plantillas y entregables recurrentes para 은행 창구 직원.",
-          "Verificar datos y registros rutinarios en 은행 창구 직원.",
-          "Generar resúmenes para el flujo de 은행 창구 직원."
+          "Responder preguntas bancarias rutinarias mediante asistentes virtuales.",
+          "Guiar procesos bancarios digitales de forma continua.",
+          "Gestionar muchas transacciones de mostrador por ATMs mejorados y kioscos interactivos.",
+          "Reducir trafico de sucursal derivando necesidades simples a canales digitales.",
+          "Apoyar verificaciones basicas de identidad y derivacion de servicios."
         ]
       },
       "humanEdge": {
         "en": [
-          "Handling exceptions and escalations in 은행 창구 직원.",
-          "Negotiating tradeoffs and priorities for 은행 창구 직원.",
-          "Communicating final recommendations and owning outcomes for 은행 창구 직원."
+          "Dealing with confused, elderly, upset, or non-digital customers in person.",
+          "Handling exceptions when identity, cash discrepancies, or account issues do not fit the standard flow.",
+          "Building trust face to face when customers need reassurance, not only task completion.",
+          "Catching subtle issues in live interactions that scripted workflows can miss."
         ],
         "ko": [
-          "은행 창구 직원에서 예외 상황과 에스컬레이션 처리",
-          "은행 창구 직원의 우선순위 충돌 조정",
-          "은행 창구 직원 최종 제안 제시 및 결과 책임"
+          "연령이 높거나 디지털 이용이 어려운 고객의 대면 응대",
+          "신원 확인, 현금 불일치, 계좌 문제 등 표준 프로세스로 해결되지 않는 예외 처리",
+          "문제 해결과 안심이 필요한 상황에서의 신뢰 관계 형성",
+          "스크립트로 포착되지 않는 미묘한 현장 이슈 발견"
         ],
         "es": [
-          "Manejar excepciones y escalaciones en 은행 창구 직원.",
-          "Ajustar prioridades y tradeoffs en 은행 창구 직원.",
-          "Comunicar recomendaciones finales y asumir resultados en 은행 창구 직원."
+          "Atender personalmente a clientes confundidos, mayores o no digitales.",
+          "Gestionar excepciones cuando la identidad, diferencias de efectivo o cuenta no encajan en el flujo.",
+          "Construir confianza presencial cuando el cliente necesita tranquilidad.",
+          "Detectar detalles finos en una atencion en vivo que un flujo guiado no detecta."
         ]
       },
       "references": [
         {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+          "name": "BLS: Tellers",
+          "url": "https://www.bls.gov/ooh/office-and-administrative-support/tellers.htm"
         },
         {
-          "name": "Google Workspace Gemini",
-          "url": "https://workspace.google.com/intl/en_us/features/gemini.html"
+          "name": "Bank of America: Erica",
+          "url": "https://www.bankofamerica.com/online-banking/erica/"
+        },
+        {
+          "name": "NCR Atleos: Interactive Teller Machines",
+          "url": "https://www.ncr.com/commerce/atleos"
+        },
+        {
+          "name": "Glia: AI Chatbot for Banking",
+          "url": "https://www.glia.com/solutions/banking-ai"
         }
       ]
     },
     "content": {
       "en": {
         "title": "Bank Teller",
-        "summary": "The role of 은행 창구 직원 involves handling structured workflows, quality checks, coordination, and decision support.",
+        "summary": "Bank Teller processes routine transactions such as deposits, withdrawals, and account services at a bank or credit union. The job is highly exposed as more routine transactions move to digital channels and AI-assisted support.",
         "tasks": [
-          "은행 창구 직원의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "Accept checks, cash, and other payments.",
+          "Process deposits and withdrawals, prepare money orders, and exchange currency.",
+          "Answer basic account questions, record transactions, and reconcile the cash drawer.",
+          "Verify customer identity and refer customers to appropriate staff when needed."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "Customer service",
+          "Accuracy with cash handling",
+          "Identity verification",
+          "Procedure discipline",
+          "Basic sales referral",
+          "Integrity and confidentiality",
+          "Arithmetic and attention to detail"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "A high school diploma or equivalent is typically sufficient for entry.",
+          "Most tellers start with short-term on-the-job training on teller software, balances, signatures, and branch products.",
+          "Developing reliability under pressure and clear communication at the window improves promotion opportunities."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "은행 창구 직원 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "은행 창구 직원는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "A high school diploma is usually enough, with on-the-job training used for role competency. University degree is typically not required.",
+        "aiNow": "AI and automation already handle many teller-adjacent tasks: AI assistants for routine inquiries, banking chat support, and self-service ATM/video teller workflows.",
+        "aiFuture": "The first layer to shrink is the routine transaction layer and simple service requests, while in-person exception handling and relationship-focused support become the stronger remaining value.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "Bank of America Erica",
+          "NCR Atleos Interactive Teller / ITM",
+          "Glia AI Chatbot for Banking"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "Start with a high school diploma and strong numeracy.",
+          "Build reliability with branch operations, customer service, and cashier-accurate transaction handling.",
+          "Progress toward broader front office roles by adding relationship handling, problem resolution, and banking sales support skills.",
+          "Move into roles with higher human judgment as the transaction layer becomes increasingly automated."
         ]
       },
       "ko": {
@@ -13565,15 +13702,15 @@
         "currency": "USD",
         "period": "year",
         "scope": "illustrative-us-annual-base",
-        "min": 48000,
-        "max": 118000
+        "min": 31270,
+        "max": 48270
       },
       "hiringDemand": {
-        "level": "medium",
+        "level": "high",
         "note": {
-          "en": "Demand for 은행 창구 직원 remains stable-to-growing in many sectors where operational continuity and professional judgment are required.",
-          "ko": "은행 창구 직원 직무는 운영 연속성과 판단력이 필요한 영역에서 수요가 꾸준히 유지되는 편입니다.",
-          "es": "La demanda de 은행 창구 직원 permanece estable o creciente en sectores donde la continuidad operacional y el juicio profesional son importantes."
+          "en": "BLS projects teller employment to decline 13% from 2024 to 2034, but still expects around 29,800 openings per year on average, mostly replacement demand.",
+          "ko": "BLS는 2024~2034년 사이 창구 직무가 13% 감소할 것으로 보지만, 연평균 약 29,800건의 대체 수요 채용은 예상됩니다.",
+          "es": "BLS proyecta un descenso del 13% en empleos de cajeros de 2024 a 2034, pero aun asi un promedio de unas 29,800 vacantes anuales por reemplazo."
         }
       }
     }
@@ -13581,103 +13718,142 @@
   {
     "id": "대출-심사-담당자",
     "category": "business",
-    "automationRisk": 62,
-    "aiRole": "hybrid",
+    "automationRisk": 79,
+    "aiRole": "replace",
     "classification": {
       "majorId": "management-office-finance-legal",
       "midId": "management-office-finance-legal-roles",
       "subId": "대출-심사-담당자",
       "detailId": "대출-심사-담당자"
     },
-    "currentReplacementUrl": null,
+    "currentReplacementUrl": "https://www.fanniemae.com/singlefamily/pipeline/smart",
     "degree": {
-      "status": "preferred",
-      "level": "bachelor"
+      "status": "optional",
+      "level": "none"
     },
     "aiEvidence": {
       "rationale": {
-        "en": "AI can automate portions of 대출 심사 담당자, but this job still depends on human judgment, communication, and contextual responsibility.",
-        "ko": "AI는 대출 심사 담당자의 일부 업무를 자동화할 수 있지만, 판단·의사소통·책임이 필요한 구간이 여전히 존재합니다.",
-        "es": "La IA puede automatizar partes de 대출 심사 담당자, pero este trabajo sigue dependiendo del juicio humano, comunicacion y responsabilidad contextual."
+        "en": "Loan processing is a classic replace-first function because much of the work is measurable, repetitive, and document-centered. BLS attributes reduced utilization of loan interviewers and clerks to automated systems that perform many loan-application tasks, while AI tools now automate document reading, extraction, exceptions, and compliance checks.",
+        "ko": "대출 심사(처리)는 구조화되고 반복적인 서류 업무 비중이 커서 대체 노출이 큽니다. BLS는 대출 면접원/서기 역할 수요 감소가 자동화 시스템 확대로 이어진다고 설명하며, AI 도구가 문서 검토·추출·예외 탐지·규제 점검을 빠르게 대체하고 있습니다.",
+        "es": "El procesamiento de prestamos es claramente replace-first porque mucho del trabajo es medible, repetitivo y centrado en documentos. El BLS vincula la menor utilizacion de entrevistadores y empleados de prestamos con sistemas automatizados, y hoy herramientas de IA leen, extraen, detectan excepciones y verifican cumplimiento."
       },
       "automatableNow": {
         "en": [
-          "Preparing standard templates and recurring deliverables for 대출 심사 담당자.",
-          "Cross-checking routine data and records in 대출 심사 담당자.",
-          "Generating summaries for 대출 심사 담당자 workflows."
+          "Reading borrower documents and extracting data.",
+          "Validating income, employment, and assets from digital sources.",
+          "Comparing documents against system records and surfacing exceptions.",
+          "Automating follow-ups and routine workflow progression.",
+          "Running compliance checks on standard file elements.",
+          "Generating summaries for the next reviewer in the chain."
         ],
         "ko": [
-          "대출 심사 담당자의 반복 산출물을 표준 템플릿으로 초안화",
-          "대출 심사 담당자 반복 데이터와 기록의 교차 점검",
-          "대출 심사 담당자 처리 흐름의 요약 자동화"
+          "차주 문서를 읽고 데이터 추출",
+          "디지털 원본으로 소득·고용·자산 정보 검증",
+          "문서를 시스템 데이터와 대조해 예외 항목 표시",
+          "표준 문서 후속 처리와 진행 단계 자동화",
+          "표준 항목의 컴플라이언스 점검 수행",
+          "다음 심사자가 볼 수 있게 요약본 생성"
         ],
         "es": [
-          "Preparar plantillas y entregables recurrentes para 대출 심사 담당자.",
-          "Verificar datos y registros rutinarios en 대출 심사 담당자.",
-          "Generar resúmenes para el flujo de 대출 심사 담당자."
+          "Leer documentos del solicitante y extraer datos.",
+          "Validar ingreso, empleo y activos desde fuentes digitales.",
+          "Comparar documentos contra registros del sistema y mostrar excepciones.",
+          "Automatizar seguimientos y avance rutinario de flujo.",
+          "Ejecutar controles de cumplimiento en elementos estandar.",
+          "Generar resúmenes para el revisor siguiente."
         ]
       },
       "humanEdge": {
         "en": [
-          "Handling exceptions and escalations in 대출 심사 담당자.",
-          "Negotiating tradeoffs and priorities for 대출 심사 담당자.",
-          "Communicating final recommendations and owning outcomes for 대출 심사 담당자."
+          "Handling messy files where documents conflict or context is missing.",
+          "Explaining requirements to confused or anxious borrowers.",
+          "Judging when something looks complete but still feels risky or inconsistent.",
+          "Coordinating with underwriters, loan officers, and closing teams when a file falls outside standard rules."
         ],
         "ko": [
-          "대출 심사 담당자에서 예외 상황과 에스컬레이션 처리",
-          "대출 심사 담당자의 우선순위 충돌 조정",
-          "대출 심사 담당자 최종 제안 제시 및 결과 책임"
+          "서류가 충돌하거나 맥락이 빠진 난해한 건 처리",
+          "불안한 고객에게 요구사항을 정확히 안내",
+          "형식상 완비되었더라도 위험 신호가 보이면 의심하고 판별",
+          "언더라이터, 대출담당자, 클로징팀과 협업 조정"
         ],
         "es": [
-          "Manejar excepciones y escalaciones en 대출 심사 담당자.",
-          "Ajustar prioridades y tradeoffs en 대출 심사 담당자.",
-          "Comunicar recomendaciones finales y asumir resultados en 대출 심사 담당자."
+          "Manejar expedientes con documentos conflictivos o con contexto faltante.",
+          "Explicar requisitos a solicitantes confundidos o ansiosos.",
+          "Determinar cuando algo parece completo pero sigue siendo arriesgado o inconsistente.",
+          "Coordinar con underwriting, loan officers y cierre cuando un archivo se sale de la regla."
         ]
       },
       "references": [
         {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+          "name": "BLS: Financial Clerks",
+          "url": "https://www.bls.gov/ooh/office-and-administrative-support/loan-interviewers-and-clerks.htm"
         },
         {
-          "name": "Google Workspace Gemini",
-          "url": "https://workspace.google.com/intl/en_us/features/gemini.html"
+          "name": "BLS: Occupational projections and worker characteristics",
+          "url": "https://www.bls.gov/emp/tables/occupational-projections-and-worker-characteristics.htm"
+        },
+        {
+          "name": "BLS: Factors affecting occupational utilization",
+          "url": "https://www.bls.gov/emp/tables/occupational-projections.htm"
+        },
+        {
+          "name": "ICE Mortgage Technology / Mortgage Analyzers",
+          "url": "https://www.icemortgagetechnology.com/"
+        },
+        {
+          "name": "Blend Intelligent Origination",
+          "url": "https://blend.com/product/intelligent-origination/"
+        },
+        {
+          "name": "Blend Autopilot",
+          "url": "https://blend.com/product/autopilot/"
+        },
+        {
+          "name": "Fannie Mae DU Validation Service",
+          "url": "https://capitalmarkets.fanniemae.com/digital-foreclosure/du"
+        },
+        {
+          "name": "Rocket Mortgage AI origination tools",
+          "url": "https://www.rocketmortgage.com/solutions"
         }
       ]
     },
     "content": {
       "en": {
-        "title": "Loan Underwriter",
-        "summary": "The role of 대출 심사 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
+        "title": "Loan Processor",
+        "summary": "Loan Processor gathers, verifies, and organizes the personal and financial information needed to move a loan application toward underwriting and closing. This role is highly exposed because the work is document-heavy, rules-based, and increasingly automated through digital verification and workflow orchestration.",
         "tasks": [
-          "대출 심사 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
-          "성과, 품질, 리스크 포인트를 모니터링하고 관련자를 업데이트합니다.",
-          "업무 결과를 설명 가능한 형태로 전달합니다."
+          "Interview applicants and related parties to collect and verify personal and financial information.",
+          "Prepare documents for appraisers and closing teams and keep records updated.",
+          "Help move files through standardized lending workflow from intake to closing support."
         ],
         "skills": [
-          "문제 해결",
-          "우선순위 조정",
-          "도구 사용 능력",
-          "의사소통",
-          "책임감"
+          "Document discipline",
+          "Verification accuracy",
+          "Borrower communication",
+          "Procedure consistency",
+          "Fraud and discrepancy awareness",
+          "Loan system fluency",
+          "Escalation judgment"
         ],
         "path": [
-          "관련 실무 경험을 통해 진입 가능한 경로가 흔합니다.",
-          "업무 도구 익숙도와 실전 사례 중심 역량을 함께 쌓는 것이 중요합니다.",
-          "현장에서의 결과 지향 실행력이 채용에서 핵심이 됩니다."
+          "A high school diploma or equivalent is usually sufficient to enter.",
+          "Build strong records accuracy through short-term on-the-job training in lending workflows.",
+          "Improve outcome quality through reliability with documentation, timing discipline, and borrower communication."
         ],
-        "degreeNote": "학위 선호 직종으로 지원되는 경우가 많지만, 일부 직무는 경력과 실전 성과로 보완 가능합니다.",
-        "aiNow": "대출 심사 담당자 업무의 일부는 문서화, 분석, 일정 정리, 질의 응답 보조에서 AI가 이미 빠르게 보조합니다.",
-        "aiFuture": "대출 심사 담당자는 반복적인 운영 작업은 자동화되더라도, 예외 처리·조정·최종 판단 영역은 사람의 책임이 남습니다.",
+        "degreeNote": "Typical entry is a high school diploma or equivalent. University degree is usually not required.",
+        "aiNow": "AI already supports document-heavy loan processing through digital verification, OCR/document extraction, and automated workflow tools. Examples include DU Validation, automated mortgage analyzers, and AI assistants that validate borrower information and prepare structured task updates.",
+        "aiFuture": "The repetitive layer will keep shrinking: document collection, field checks, follow-up routing, validation comparisons, and standard file prep. Remaining value shifts to exception handling, borrower reassurance, and coordination when automated rules are insufficient.",
         "services": [
-          "Microsoft 365 Copilot",
-          "Google Workspace Gemini",
-          "Notion AI"
+          "ICE Mortgage Analyzers",
+          "Blend Intelligent Origination / Blend Autopilot",
+          "Fannie Mae DU Validation Service",
+          "Rocket Pro Underwriting AI Agent"
         ],
         "educationPathways": [
-          "해당 직무 분야의 실무 경험을 바탕으로 단계적으로 책임 범위를 확대합니다.",
-          "기획/운영/협업 도구를 빠르게 다루는 역량을 축적합니다.",
-          "도메인 지식과 성과 기록을 함께 보완해 전문가성을 만듭니다."
+          "Start with a high school diploma or equivalent and build dependable documentation habits.",
+          "Learn lending software, file workflows, compliance rules, and verification methods through training.",
+          "Progress toward underwriting support, exception handling, borrower advisory, or loan officer paths as automation absorbs routine processing."
         ]
       },
       "ko": {
@@ -13715,7 +13891,7 @@
         ]
       },
       "es": {
-        "title": "Suscriptor de préstamos",
+        "title": "Procesador de préstamos",
         "summary": "El rol de 대출 심사 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 대출 심사 담당자 y gestionar procesos estandarizados.",
@@ -13754,15 +13930,15 @@
         "currency": "USD",
         "period": "year",
         "scope": "illustrative-us-annual-base",
-        "min": 48000,
-        "max": 118000
+        "min": 35010,
+        "max": 57150
       },
       "hiringDemand": {
-        "level": "medium",
+        "level": "high",
         "note": {
-          "en": "Demand for 대출 심사 담당자 remains stable-to-growing in many sectors where operational continuity and professional judgment are required.",
-          "ko": "대출 심사 담당자 직무는 운영 연속성과 판단력이 필요한 영역에서 수요가 꾸준히 유지되는 편입니다.",
-          "es": "La demanda de 대출 심사 담당자 permanece estable o creciente en sectores donde la continuidad operacional y el juicio profesional son importantes."
+          "en": "BLS projects employment to decline from 177,600 in 2024 to 173,500 in 2034, but about 13,300 openings per year are still expected, mostly from replacement demand.",
+          "ko": "BLS는 2024년 177,600명에서 2034년 173,500명으로 대출 인터뷰어 및 서기 직무가 감소할 것으로 보지만, 연평균 약 13,300개 정도의 대체 수요 채용은 지속될 것으로 전망합니다.",
+          "es": "BLS proyecta que el empleo baje de 177,600 en 2024 a 173,500 en 2034, pero aun asi hay unas 13,300 vacantes anuales promedio, principalmente por reemplazo."
         }
       }
     }
