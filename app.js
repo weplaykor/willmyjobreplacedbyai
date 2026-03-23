@@ -1,4 +1,4 @@
-const ASSET_VERSION = '2026-03-23-9';
+const ASSET_VERSION = '2026-03-24-1';
 const VISITOR_NAMESPACE = 'willmyjobreplacedbyai';
 const VISITOR_TOTAL_KEY = 'site-total-visits';
 
@@ -20,6 +20,13 @@ const UI = {
       jobs: 'jobs in view',
       highRisk: 'high risk jobs',
       lowRisk: 'low risk jobs'
+    },
+    nav: {
+      home: 'Home',
+      catalog: 'Job Catalog',
+      news: 'AI News',
+      articles: 'Articles',
+      faq: 'FAQ'
     },
     filterGroups: {
       jobKicker: 'Job Classification',
@@ -194,6 +201,13 @@ const UI = {
       highRisk: '고위험 직무',
       lowRisk: '저위험 직무'
     },
+    nav: {
+      home: '홈',
+      catalog: '직업 카탈로그',
+      news: 'AI 뉴스',
+      articles: '아티클',
+      faq: 'FAQ'
+    },
     filterGroups: {
       jobKicker: '직업 분류',
       jobTitle: '직업 체계로 찾기',
@@ -366,6 +380,13 @@ const UI = {
       jobs: 'puestos visibles',
       highRisk: 'trabajos de alto riesgo',
       lowRisk: 'trabajos de bajo riesgo'
+    },
+    nav: {
+      home: 'Inicio',
+      catalog: 'Catalogo',
+      news: 'Noticias IA',
+      articles: 'Articulos',
+      faq: 'FAQ'
     },
     filterGroups: {
       jobKicker: 'Clasificacion laboral',
@@ -552,6 +573,12 @@ const state = {
 };
 
 const elements = {
+  navBrandLink: document.getElementById('navBrandLink'),
+  navHomeLink: document.getElementById('navHomeLink'),
+  navCatalogLink: document.getElementById('navCatalogLink'),
+  navNewsLink: document.getElementById('navNewsLink'),
+  navArticlesLink: document.getElementById('navArticlesLink'),
+  navFaqLink: document.getElementById('navFaqLink'),
   brandSubtitle: document.getElementById('brandSubtitle'),
   heroEyebrow: document.getElementById('heroEyebrow'),
   heroTitle: document.getElementById('heroTitle'),
@@ -810,11 +837,18 @@ function render() {
 }
 
 function hydrateChrome(copy) {
+  elements.navBrandLink.textContent = 'Will My Job Be Replaced by AI?';
+  elements.navHomeLink.textContent = copy.nav.home;
+  elements.navCatalogLink.textContent = copy.nav.catalog;
+  elements.navNewsLink.textContent = copy.nav.news;
+  elements.navArticlesLink.textContent = copy.nav.articles;
+  elements.navFaqLink.textContent = copy.nav.faq;
   elements.brandSubtitle.textContent = copy.brandSubtitle;
   elements.heroEyebrow.textContent = copy.heroEyebrow;
   elements.heroTitle.textContent = copy.heroTitle;
   elements.heroLead.textContent = copy.heroLead;
   elements.heroPrimaryCta.textContent = copy.actions.checkRisk;
+  elements.heroPrimaryCta.href = '#catalogSection';
   elements.heroSecondaryLink.textContent = copy.actions.riskArticle;
   elements.heroSecondaryLink.href = 'articles.html#jobs-most-exposed-to-ai-agents';
   elements.requestKicker.textContent = copy.requests.kicker;

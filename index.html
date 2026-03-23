@@ -141,13 +141,26 @@
       ]
     }
   </script>
-  <link rel="stylesheet" href="styles.css?v=2026-03-23-5">
+  <link rel="stylesheet" href="styles.css?v=2026-03-24-1">
 </head>
-<body>
+<body data-page="home">
   <div class="ambient ambient-left"></div>
   <div class="ambient ambient-right"></div>
 
   <main class="page-shell">
+    <nav class="site-nav" aria-label="Primary">
+      <div class="site-nav-shell">
+        <a class="site-nav-brand" id="navBrandLink" href="./">Will My Job Be Replaced by AI?</a>
+        <div class="site-nav-links">
+          <a class="site-nav-link is-active" id="navHomeLink" href="./" aria-current="page">Home</a>
+          <a class="site-nav-link" id="navCatalogLink" href="#catalogSection">Job Catalog</a>
+          <a class="site-nav-link" id="navNewsLink" href="news.html">AI News</a>
+          <a class="site-nav-link" id="navArticlesLink" href="articles.html">Articles</a>
+          <a class="site-nav-link" id="navFaqLink" href="#faqSection">FAQ</a>
+        </div>
+      </div>
+    </nav>
+
     <header class="hero">
       <div class="hero-copy">
         <div class="topbar">
@@ -169,7 +182,7 @@
         <h1 id="heroTitle">Will My Job Be Replaced by AI? Find Out in Seconds</h1>
         <p class="hero-lead" id="heroLead">Wondering will my job be replaced by AI? You are not alone. Use this free career risk tool to compare jobs, see what AI can automate now, and learn which skills, education paths, and human strengths still matter.</p>
         <div class="hero-actions">
-          <a class="editorial-button editorial-button-strong" id="heroPrimaryCta" href="#jobFilterTitle">Check Your Job Risk Now</a>
+          <a class="editorial-button editorial-button-strong" id="heroPrimaryCta" href="#catalogSection">Check Your Job Risk Now</a>
           <a class="editorial-link" id="heroSecondaryLink" href="articles.html#jobs-most-exposed-to-ai-agents">Read: jobs most at risk from AI</a>
         </div>
       </div>
@@ -190,7 +203,7 @@
       </aside>
     </header>
 
-    <section class="request-card" aria-labelledby="requestTitle">
+    <section class="request-card section-anchor" id="requestSection" aria-labelledby="requestTitle">
       <div class="request-copy">
         <p class="section-kicker" id="requestKicker">Missing your job?</p>
         <h2 id="requestTitle">Request it</h2>
@@ -228,7 +241,7 @@
       </form>
     </section>
 
-    <section class="editorial-grid">
+    <section class="editorial-grid section-anchor" id="editorialSection">
       <article class="editorial-card">
         <div class="editorial-card-header">
           <div>
@@ -261,7 +274,7 @@
       </article>
     </section>
 
-    <section class="filter-stack">
+    <section class="filter-stack section-anchor" id="catalogSection">
       <article class="filter-card">
         <div class="filter-header">
           <p class="section-kicker" id="jobFilterKicker">Job Classification</p>
@@ -315,7 +328,7 @@
       </article>
     </section>
 
-    <section class="insight-grid">
+    <section class="insight-grid section-anchor" id="insightSection">
       <article class="insight-card">
         <p class="section-kicker" id="insightKicker">Portfolio view</p>
         <h2 id="insightTitle">See where the exposure sits.</h2>
@@ -330,114 +343,144 @@
       </article>
     </section>
 
-    <section class="filter-card seo-card" lang="en">
-      <p class="section-kicker">What this tool does</p>
-      <h2>Check if your job will be replaced by AI</h2>
-      <p class="section-copy">This homepage is built for people searching terms like will my job be replaced by AI, will AI replace jobs, and AI job risk. Enter your job title, compare replacement risk, review salary range and hiring demand, see whether AI is replacing tasks or enhancing the worker, and open current AI service links for each role.</p>
-      <div class="section-actions">
-        <a class="editorial-button editorial-button-strong" href="#jobFilterTitle">Check Your Job Risk Now</a>
-        <a class="editorial-link" href="news.html">Track the latest AI job replacement news</a>
-      </div>
-      <div class="seo-grid">
-        <article class="guide-item">
-          <strong>What the risk meter means</strong>
-          <p class="detail-copy">A higher score means the role has more repetitive, measurable, and software-ready tasks. It does not mean instant unemployment, but it does mean career pressure may arrive sooner.</p>
-        </article>
-        <article class="guide-item">
-          <strong>AI replacing jobs vs AI replacing tasks</strong>
-          <p class="detail-copy">The catalog separates replace-first, hybrid, and enhance-first roles so job seekers can see whether AI is likely to compress headcount, reshape the workflow, or make the worker stronger.</p>
-        </article>
-        <article class="guide-item">
-          <strong>Education cost signal</strong>
-          <p class="detail-copy">Each job profile shows whether a university degree is usually required, often preferred, or not usually needed, so people can compare career paths against education cost before committing.</p>
-        </article>
-      </div>
+    <section class="guide-stack section-anchor" id="guideSection">
+      <section class="filter-card seo-card guide-panel" lang="en">
+        <details open>
+          <summary class="guide-panel-summary">
+            <span class="section-kicker">What this tool does</span>
+            <span class="guide-panel-title">Check if your job will be replaced by AI</span>
+            <span class="guide-panel-lead">Open this only when you want a fuller explanation of the catalog, the risk meter, and the education-cost signal.</span>
+          </summary>
+          <div class="guide-panel-body">
+            <p class="section-copy">This homepage is built for people searching terms like will my job be replaced by AI, will AI replace jobs, and AI job risk. Enter your job title, compare replacement risk, review salary range and hiring demand, see whether AI is replacing tasks or enhancing the worker, and open current AI service links for each role.</p>
+            <div class="section-actions">
+              <a class="editorial-button editorial-button-strong" href="#catalogSection">Check Your Job Risk Now</a>
+              <a class="editorial-link" href="news.html">Track the latest AI job replacement news</a>
+            </div>
+            <div class="seo-grid">
+              <article class="guide-item">
+                <strong>What the risk meter means</strong>
+                <p class="detail-copy">A higher score means the role has more repetitive, measurable, and software-ready tasks. It does not mean instant unemployment, but it does mean career pressure may arrive sooner.</p>
+              </article>
+              <article class="guide-item">
+                <strong>AI replacing jobs vs AI replacing tasks</strong>
+                <p class="detail-copy">The catalog separates replace-first, hybrid, and enhance-first roles so job seekers can see whether AI is likely to compress headcount, reshape the workflow, or make the worker stronger.</p>
+              </article>
+              <article class="guide-item">
+                <strong>Education cost signal</strong>
+                <p class="detail-copy">Each job profile shows whether a university degree is usually required, often preferred, or not usually needed, so people can compare career paths against education cost before committing.</p>
+              </article>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="filter-card seo-card guide-panel" lang="en">
+        <details>
+          <summary class="guide-panel-summary">
+            <span class="section-kicker">Risk patterns</span>
+            <span class="guide-panel-title">Jobs most at risk from AI and jobs safer from AI</span>
+            <span class="guide-panel-lead">Open this when you want a fast pattern read on why some jobs are exposed earlier than others.</span>
+          </summary>
+          <div class="guide-panel-body">
+            <p class="section-copy">The strongest pattern is workflow structure, not prestige. Jobs that live inside software and follow repeatable rules are usually more exposed. Jobs built on physical complexity, local trust, regulation, or live responsibility usually stay safer for longer.</p>
+            <div class="seo-columns">
+              <article class="guide-item">
+                <strong>Jobs most at risk from AI</strong>
+                <ul class="seo-list">
+                  <li>Data Entry Clerk</li>
+                  <li>Bookkeeping Clerk</li>
+                  <li>Payroll Clerk</li>
+                  <li>Call Center Agent</li>
+                  <li>Customer Support Specialist</li>
+                  <li>Packaging Machine Operator</li>
+                </ul>
+                <p class="detail-copy">Read the deeper breakdown in <a class="seo-inline-link" href="articles.html#jobs-most-exposed-to-ai-agents">jobs most at risk from AI</a>.</p>
+              </article>
+              <article class="guide-item">
+                <strong>Jobs safer from AI for now</strong>
+                <ul class="seo-list">
+                  <li>Registered Nurse</li>
+                  <li>Physical Therapist</li>
+                  <li>Electrician</li>
+                  <li>HVAC Technician</li>
+                  <li>Plumber</li>
+                  <li>Caregiver</li>
+                </ul>
+                <p class="detail-copy">Read the deeper breakdown in <a class="seo-inline-link" href="articles.html#safest-jobs-from-ai-are-local-physical-and-relational">safe jobs from AI</a>.</p>
+              </article>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="filter-card seo-card guide-panel" lang="en">
+        <details>
+          <summary class="guide-panel-summary">
+            <span class="section-kicker">What you can do next</span>
+            <span class="guide-panel-title">How to protect your career from AI</span>
+            <span class="guide-panel-lead">Open this when you want practical next steps instead of just risk scores.</span>
+          </summary>
+          <div class="guide-panel-body">
+            <p class="section-copy">The goal is not to outrun software at routine output. The goal is to move into work where you own consequences, exceptions, trust, and systems. That is where career durability usually increases as AI improves.</p>
+            <div class="seo-grid">
+              <article class="guide-item">
+                <strong>Move up the workflow</strong>
+                <p class="detail-copy">Shift from basic execution into exception handling, client communication, escalation, and process ownership. The more ambiguity you absorb, the harder you are to compress.</p>
+              </article>
+              <article class="guide-item">
+                <strong>Use degree cost carefully</strong>
+                <p class="detail-copy">Pay for a degree when it changes access to regulated or trust-heavy roles. If the field values proof of execution more than credentials, use the degree signal before taking on education debt. Start with <a class="seo-inline-link" href="articles.html#does-a-degree-still-matter-in-the-age-of-ai">does a degree still matter in the age of AI</a>.</p>
+              </article>
+              <article class="guide-item">
+                <strong>Learn to work with AI, not around it</strong>
+                <p class="detail-copy">The durable skill is workflow design: deciding what the system can do, what needs review, and where humans still carry accountability. Start with <a class="seo-inline-link" href="articles.html#when-ai-becomes-your-coworker-the-skill-is-workflow-design">how to future-proof your career after AI</a>.</p>
+              </article>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="filter-card seo-card guide-panel" id="faqSection" lang="en">
+        <details>
+          <summary class="guide-panel-summary">
+            <span class="section-kicker">FAQ</span>
+            <span class="guide-panel-title">Frequently asked questions about AI job replacement</span>
+            <span class="guide-panel-lead">Open this when you want short answers without scanning the whole homepage.</span>
+          </summary>
+          <div class="guide-panel-body">
+            <div class="faq-list">
+              <details class="faq-item" open>
+                <summary><span class="faq-question">Will AI replace my job in the future?</span></summary>
+                <p class="section-copy">It depends on how repetitive, digital, and rule-based your daily work is. High-risk roles are exposed first, but many jobs move toward hybrid use where AI handles routine steps and people keep judgment, ownership, and relationship work.</p>
+              </details>
+              <details class="faq-item">
+                <summary><span class="faq-question">Which jobs are safest from AI?</span></summary>
+                <p class="section-copy">Jobs tied to local trust, physical environments, regulation, and live responsibility are usually safer. That often includes healthcare roles, skilled trades, field service work, and relationship-heavy jobs.</p>
+              </details>
+              <details class="faq-item">
+                <summary><span class="faq-question">Which jobs are most at risk from AI?</span></summary>
+                <p class="section-copy">Structured digital roles are most exposed, especially when the workflow already looks like software. Data entry, clerical processing, routine customer support, and repetitive operator roles tend to move earlier.</p>
+              </details>
+              <details class="faq-item">
+                <summary><span class="faq-question">How can I protect my career from AI?</span></summary>
+                <p class="section-copy">Build skills around exception handling, workflow design, live communication, field execution, and decision ownership. If AI can do the first draft, aim to own the final judgment and the outcome.</p>
+              </details>
+              <details class="faq-item">
+                <summary><span class="faq-question">Do I need a university degree for an AI-resistant career?</span></summary>
+                <p class="section-copy">Not always. Some careers require formal credentials, while many durable jobs do not. This catalog marks degree required, preferred, or not usually needed so job seekers can compare career resilience against education cost.</p>
+              </details>
+              <details class="faq-item">
+                <summary><span class="faq-question">Does each job show current AI tools or replacement services?</span></summary>
+                <p class="section-copy">Yes. Every profile includes a current AI replacement field and related AI service links when a relevant tool is available. If none is mapped yet, the profile clearly says none.</p>
+              </details>
+            </div>
+          </div>
+        </details>
+      </section>
     </section>
 
-    <section class="filter-card seo-card" lang="en">
-      <p class="section-kicker">Risk patterns</p>
-      <h2>Jobs most at risk from AI and jobs safer from AI</h2>
-      <p class="section-copy">The strongest pattern is workflow structure, not prestige. Jobs that live inside software and follow repeatable rules are usually more exposed. Jobs built on physical complexity, local trust, regulation, or live responsibility usually stay safer for longer.</p>
-      <div class="seo-columns">
-        <article class="guide-item">
-          <strong>Jobs most at risk from AI</strong>
-          <ul class="seo-list">
-            <li>Data Entry Clerk</li>
-            <li>Bookkeeping Clerk</li>
-            <li>Payroll Clerk</li>
-            <li>Call Center Agent</li>
-            <li>Customer Support Specialist</li>
-            <li>Packaging Machine Operator</li>
-          </ul>
-          <p class="detail-copy">Read the deeper breakdown in <a class="seo-inline-link" href="articles.html#jobs-most-exposed-to-ai-agents">jobs most at risk from AI</a>.</p>
-        </article>
-        <article class="guide-item">
-          <strong>Jobs safer from AI for now</strong>
-          <ul class="seo-list">
-            <li>Registered Nurse</li>
-            <li>Physical Therapist</li>
-            <li>Electrician</li>
-            <li>HVAC Technician</li>
-            <li>Plumber</li>
-            <li>Caregiver</li>
-          </ul>
-          <p class="detail-copy">Read the deeper breakdown in <a class="seo-inline-link" href="articles.html#safest-jobs-from-ai-are-local-physical-and-relational">safe jobs from AI</a>.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="filter-card seo-card" lang="en">
-      <p class="section-kicker">What you can do next</p>
-      <h2>How to protect your career from AI</h2>
-      <p class="section-copy">The goal is not to outrun software at routine output. The goal is to move into work where you own consequences, exceptions, trust, and systems. That is where career durability usually increases as AI improves.</p>
-      <div class="seo-grid">
-        <article class="guide-item">
-          <strong>Move up the workflow</strong>
-          <p class="detail-copy">Shift from basic execution into exception handling, client communication, escalation, and process ownership. The more ambiguity you absorb, the harder you are to compress.</p>
-        </article>
-        <article class="guide-item">
-          <strong>Use degree cost carefully</strong>
-          <p class="detail-copy">Pay for a degree when it changes access to regulated or trust-heavy roles. If the field values proof of execution more than credentials, use the degree signal before taking on education debt. Start with <a class="seo-inline-link" href="articles.html#does-a-degree-still-matter-in-the-age-of-ai">does a degree still matter in the age of AI</a>.</p>
-        </article>
-        <article class="guide-item">
-          <strong>Learn to work with AI, not around it</strong>
-          <p class="detail-copy">The durable skill is workflow design: deciding what the system can do, what needs review, and where humans still carry accountability. Start with <a class="seo-inline-link" href="articles.html#when-ai-becomes-your-coworker-the-skill-is-workflow-design">how to future-proof your career after AI</a>.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="filter-card seo-card" lang="en">
-      <p class="section-kicker">FAQ</p>
-      <h2>Frequently asked questions about AI job replacement</h2>
-      <div class="faq-list">
-        <article class="faq-item">
-          <h3>Will AI replace my job in the future?</h3>
-          <p class="section-copy">It depends on how repetitive, digital, and rule-based your daily work is. High-risk roles are exposed first, but many jobs move toward hybrid use where AI handles routine steps and people keep judgment, ownership, and relationship work.</p>
-        </article>
-        <article class="faq-item">
-          <h3>Which jobs are safest from AI?</h3>
-          <p class="section-copy">Jobs tied to local trust, physical environments, regulation, and live responsibility are usually safer. That often includes healthcare roles, skilled trades, field service work, and relationship-heavy jobs.</p>
-        </article>
-        <article class="faq-item">
-          <h3>Which jobs are most at risk from AI?</h3>
-          <p class="section-copy">Structured digital roles are most exposed, especially when the workflow already looks like software. Data entry, clerical processing, routine customer support, and repetitive operator roles tend to move earlier.</p>
-        </article>
-        <article class="faq-item">
-          <h3>How can I protect my career from AI?</h3>
-          <p class="section-copy">Build skills around exception handling, workflow design, live communication, field execution, and decision ownership. If AI can do the first draft, aim to own the final judgment and the outcome.</p>
-        </article>
-        <article class="faq-item">
-          <h3>Do I need a university degree for an AI-resistant career?</h3>
-          <p class="section-copy">Not always. Some careers require formal credentials, while many durable jobs do not. This catalog marks degree required, preferred, or not usually needed so job seekers can compare career resilience against education cost.</p>
-        </article>
-        <article class="faq-item">
-          <h3>Does each job show current AI tools or replacement services?</h3>
-          <p class="section-copy">Yes. Every profile includes a current AI replacement field and related AI service links when a relevant tool is available. If none is mapped yet, the profile clearly says none.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="results-block">
+    <section class="results-block section-anchor" id="resultsSection">
       <div class="results-meta">
         <div>
           <p class="section-kicker" id="resultsKicker">Job profiles</p>
@@ -479,8 +522,10 @@
 
       <section class="footer-block">
         <p class="section-kicker">Visitors</p>
-        <p class="footer-copy"><span id="todayVisitorsLabel">Today</span>: <strong id="todayVisitors">-</strong></p>
-        <p class="footer-copy"><span id="totalVisitorsLabel">Total</span>: <strong id="totalVisitors">-</strong></p>
+        <p class="footer-copy footer-visitors-line">
+          <span><span id="todayVisitorsLabel">Today</span>: <strong id="todayVisitors">-</strong></span>
+          <span><span id="totalVisitorsLabel">Total</span>: <strong id="totalVisitors">-</strong></span>
+        </p>
       </section>
     </div>
   </footer>
@@ -495,6 +540,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=2026-03-23-9"></script>
+  <script src="app.js?v=2026-03-24-1"></script>
 </body>
 </html>
