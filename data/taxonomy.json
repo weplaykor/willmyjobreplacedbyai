@@ -1248,7 +1248,7 @@
                   "labels": {
                     "en": "Procurement Specialist",
                     "ko": "조달 전문가",
-                    "es": "Especialista en adquisicion"
+                    "es": "Especialista en adquisiciones"
                   }
                 }
               ]
@@ -1331,9 +1331,9 @@
                 {
                   "id": "손해사정사",
                   "labels": {
-                    "en": "손해사정사",
+                    "en": "Claims Adjuster",
                     "ko": "손해사정사",
-                    "es": "손해사정사"
+                    "es": "Ajustador de reclamos"
                   }
                 }
               ]
@@ -1349,9 +1349,9 @@
                 {
                   "id": "준법감시인",
                   "labels": {
-                    "en": "준법감시인",
+                    "en": "Compliance Officer",
                     "ko": "준법감시인",
-                    "es": "준법감시인"
+                    "es": "Oficial de cumplimiento"
                   }
                 }
               ]
@@ -1367,9 +1367,9 @@
                 {
                   "id": "내부감사-담당자",
                   "labels": {
-                    "en": "내부감사 담당자",
+                    "en": "Internal Auditor",
                     "ko": "내부감사 담당자",
-                    "es": "내부감사 담당자"
+                    "es": "Auditor interno"
                   }
                 }
               ]
@@ -1385,9 +1385,9 @@
                 {
                   "id": "리스크-분석가",
                   "labels": {
-                    "en": "리스크 분석가",
+                    "en": "Risk Analyst",
                     "ko": "리스크 분석가",
-                    "es": "리스크 분석가"
+                    "es": "Analista de riesgos"
                   }
                 }
               ]
@@ -1403,9 +1403,9 @@
                 {
                   "id": "투자-분석가",
                   "labels": {
-                    "en": "투자 분석가",
+                    "en": "Investment Analyst",
                     "ko": "투자 분석가",
-                    "es": "투자 분석가"
+                    "es": "Analista de inversiones"
                   }
                 }
               ]
@@ -1421,9 +1421,9 @@
                 {
                   "id": "은행-창구-직원",
                   "labels": {
-                    "en": "은행 창구 직원",
+                    "en": "Bank Teller",
                     "ko": "은행 창구 직원",
-                    "es": "은행 창구 직원"
+                    "es": "Cajero de banco"
                   }
                 }
               ]
@@ -1439,9 +1439,9 @@
                 {
                   "id": "대출-심사-담당자",
                   "labels": {
-                    "en": "대출 심사 담당자",
+                    "en": "Loan Underwriter",
                     "ko": "대출 심사 담당자",
-                    "es": "대출 심사 담당자"
+                    "es": "Suscriptor de préstamos"
                   }
                 }
               ]
@@ -1457,9 +1457,9 @@
                 {
                   "id": "보험-언더라이터",
                   "labels": {
-                    "en": "보험 언더라이터",
+                    "en": "Insurance Underwriter",
                     "ko": "보험 언더라이터",
-                    "es": "보험 언더라이터"
+                    "es": "Suscriptor de seguros"
                   }
                 }
               ]
@@ -1475,9 +1475,9 @@
                 {
                   "id": "계약-관리자",
                   "labels": {
-                    "en": "계약 관리자",
+                    "en": "Contract Manager",
                     "ko": "계약 관리자",
-                    "es": "계약 관리자"
+                    "es": "Gerente de contratos"
                   }
                 }
               ]
@@ -1493,9 +1493,9 @@
                 {
                   "id": "문서관리-전문가",
                   "labels": {
-                    "en": "문서관리 전문가",
+                    "en": "Document Management Specialist",
                     "ko": "문서관리 전문가",
-                    "es": "문서관리 전문가"
+                    "es": "Especialista en gestión documental"
                   }
                 }
               ]
@@ -1511,9 +1511,9 @@
                 {
                   "id": "비서",
                   "labels": {
-                    "en": "비서",
+                    "en": "Executive Assistant",
                     "ko": "비서",
-                    "es": "비서"
+                    "es": "Asistente ejecutiva"
                   }
                 }
               ]
@@ -1529,9 +1529,9 @@
                 {
                   "id": "일정-조정-담당자",
                   "labels": {
-                    "en": "일정 조정 담당자",
+                    "en": "Scheduler",
                     "ko": "일정 조정 담당자",
-                    "es": "일정 조정 담당자"
+                    "es": "Planificador"
                   }
                 }
               ]
@@ -1547,9 +1547,9 @@
                 {
                   "id": "법무-보조원",
                   "labels": {
-                    "en": "법무 보조원",
+                    "en": "Legal Assistant",
                     "ko": "법무 보조원",
-                    "es": "법무 보조원"
+                    "es": "Asistente legal"
                   }
                 }
               ]
@@ -1565,9 +1565,9 @@
                 {
                   "id": "세무사",
                   "labels": {
-                    "en": "세무사",
+                    "en": "Tax Advisor",
                     "ko": "세무사",
-                    "es": "세무사"
+                    "es": "Asesor fiscal"
                   }
                 }
               ]
@@ -1583,9 +1583,9 @@
                 {
                   "id": "노무사",
                   "labels": {
-                    "en": "노무사",
+                    "en": "Labor Counsel",
                     "ko": "노무사",
-                    "es": "노무사"
+                    "es": "Asesor laboral"
                   }
                 }
               ]
@@ -1601,9 +1601,9 @@
                 {
                   "id": "경영-컨설턴트",
                   "labels": {
-                    "en": "경영 컨설턴트",
+                    "en": "Management Consultant",
                     "ko": "경영 컨설턴트",
-                    "es": "경영 컨설턴트"
+                    "es": "Consultor de gestión"
                   }
                 }
               ]
@@ -1640,9 +1640,9 @@
                 {
                   "id": "영업-대표",
                   "labels": {
-                    "en": "영업 대표",
+                    "en": "Sales Representative",
                     "ko": "영업 대표",
-                    "es": "영업 대표"
+                    "es": "Representante de ventas"
                   }
                 }
               ]
@@ -1658,9 +1658,9 @@
                 {
                   "id": "b2b-영업-담당자",
                   "labels": {
-                    "en": "B2B 영업 담당자",
+                    "en": "B2B Sales Representative",
                     "ko": "B2B 영업 담당자",
-                    "es": "B2B 영업 담당자"
+                    "es": "Representante de ventas B2B"
                   }
                 }
               ]
@@ -1676,9 +1676,9 @@
                 {
                   "id": "고객-성공-매니저",
                   "labels": {
-                    "en": "고객 성공 매니저",
+                    "en": "Customer Success Manager",
                     "ko": "고객 성공 매니저",
-                    "es": "고객 성공 매니저"
+                    "es": "Gerente de éxito del cliente"
                   }
                 }
               ]
@@ -1694,9 +1694,9 @@
                 {
                   "id": "crm-마케터",
                   "labels": {
-                    "en": "CRM 마케터",
+                    "en": "CRM Marketer",
                     "ko": "CRM 마케터",
-                    "es": "CRM 마케터"
+                    "es": "Especialista en marketing CRM"
                   }
                 }
               ]
@@ -1712,9 +1712,9 @@
                 {
                   "id": "seo-전문가",
                   "labels": {
-                    "en": "SEO 전문가",
+                    "en": "SEO Specialist",
                     "ko": "SEO 전문가",
-                    "es": "SEO 전문가"
+                    "es": "Especialista en SEO"
                   }
                 }
               ]
@@ -1730,9 +1730,9 @@
                 {
                   "id": "퍼포먼스-마케터",
                   "labels": {
-                    "en": "퍼포먼스 마케터",
+                    "en": "Performance Marketer",
                     "ko": "퍼포먼스 마케터",
-                    "es": "퍼포먼스 마케터"
+                    "es": "Especialista en marketing de rendimiento"
                   }
                 }
               ]
@@ -1748,9 +1748,9 @@
                 {
                   "id": "소셜미디어-매니저",
                   "labels": {
-                    "en": "소셜미디어 매니저",
+                    "en": "Social Media Manager",
                     "ko": "소셜미디어 매니저",
-                    "es": "소셜미디어 매니저"
+                    "es": "Gestor de redes sociales"
                   }
                 }
               ]
@@ -1766,9 +1766,9 @@
                 {
                   "id": "홍보pr-전문가",
                   "labels": {
-                    "en": "홍보(PR) 전문가",
+                    "en": "PR Specialist",
                     "ko": "홍보(PR) 전문가",
-                    "es": "홍보(PR) 전문가"
+                    "es": "Especialista en relaciones públicas"
                   }
                 }
               ]
@@ -1784,9 +1784,9 @@
                 {
                   "id": "브랜드-매니저",
                   "labels": {
-                    "en": "브랜드 매니저",
+                    "en": "Brand Manager",
                     "ko": "브랜드 매니저",
-                    "es": "브랜드 매니저"
+                    "es": "Gerente de marca"
                   }
                 }
               ]
@@ -1802,9 +1802,9 @@
                 {
                   "id": "시장조사-분석가",
                   "labels": {
-                    "en": "시장조사 분석가",
+                    "en": "Market Research Analyst",
                     "ko": "시장조사 분석가",
-                    "es": "시장조사 분석가"
+                    "es": "Analista de investigación de mercado"
                   }
                 }
               ]
@@ -1820,9 +1820,9 @@
                 {
                   "id": "미디어-플래너",
                   "labels": {
-                    "en": "미디어 플래너",
+                    "en": "Media Planner",
                     "ko": "미디어 플래너",
-                    "es": "미디어 플래너"
+                    "es": "Planificador de medios"
                   }
                 }
               ]
@@ -1838,9 +1838,9 @@
                 {
                   "id": "광고-운영-담당자",
                   "labels": {
-                    "en": "광고 운영 담당자",
+                    "en": "Advertising Operations Manager",
                     "ko": "광고 운영 담당자",
-                    "es": "광고 운영 담당자"
+                    "es": "Gerente de operaciones publicitarias"
                   }
                 }
               ]
@@ -1856,9 +1856,9 @@
                 {
                   "id": "카피라이터",
                   "labels": {
-                    "en": "카피라이터",
+                    "en": "Copywriter",
                     "ko": "카피라이터",
-                    "es": "카피라이터"
+                    "es": "Redactor publicitario"
                   }
                 }
               ]
@@ -1874,9 +1874,9 @@
                 {
                   "id": "기술-영업-엔지니어",
                   "labels": {
-                    "en": "기술 영업 엔지니어",
+                    "en": "Technical Sales Engineer",
                     "ko": "기술 영업 엔지니어",
-                    "es": "기술 영업 엔지니어"
+                    "es": "Ingeniero de ventas técnicas"
                   }
                 }
               ]
@@ -1892,9 +1892,9 @@
                 {
                   "id": "제휴-마케팅-담당자",
                   "labels": {
-                    "en": "제휴 마케팅 담당자",
+                    "en": "Affiliate Marketing Manager",
                     "ko": "제휴 마케팅 담당자",
-                    "es": "제휴 마케팅 담당자"
+                    "es": "Gerente de marketing de afiliados"
                   }
                 }
               ]
@@ -1910,9 +1910,9 @@
                 {
                   "id": "행사-기획자",
                   "labels": {
-                    "en": "행사 기획자",
+                    "en": "Event Planner",
                     "ko": "행사 기획자",
-                    "es": "행사 기획자"
+                    "es": "Planificador de eventos"
                   }
                 }
               ]
@@ -1928,9 +1928,9 @@
                 {
                   "id": "여행-상담사",
                   "labels": {
-                    "en": "여행 상담사",
+                    "en": "Travel Consultant",
                     "ko": "여행 상담사",
-                    "es": "여행 상담사"
+                    "es": "Consultor de viajes"
                   }
                 }
               ]
@@ -1946,9 +1946,9 @@
                 {
                   "id": "관광-가이드",
                   "labels": {
-                    "en": "관광 가이드",
+                    "en": "Travel Guide",
                     "ko": "관광 가이드",
-                    "es": "관광 가이드"
+                    "es": "Guía turístico"
                   }
                 }
               ]
@@ -1964,9 +1964,9 @@
                 {
                   "id": "레스토랑-매니저",
                   "labels": {
-                    "en": "레스토랑 매니저",
+                    "en": "Restaurant Manager",
                     "ko": "레스토랑 매니저",
-                    "es": "레스토랑 매니저"
+                    "es": "Gerente de restaurante"
                   }
                 }
               ]
@@ -1982,9 +1982,9 @@
                 {
                   "id": "수익관리-분석가",
                   "labels": {
-                    "en": "수익관리 분석가",
+                    "en": "Revenue Analyst",
                     "ko": "수익관리 분석가",
-                    "es": "수익관리 분석가"
+                    "es": "Analista de ingresos"
                   }
                 }
               ]
@@ -2021,9 +2021,9 @@
                 {
                   "id": "it-지원-전문가",
                   "labels": {
-                    "en": "IT 지원 전문가",
+                    "en": "IT Support Specialist",
                     "ko": "IT 지원 전문가",
-                    "es": "IT 지원 전문가"
+                    "es": "Especialista de soporte técnico"
                   }
                 }
               ]
@@ -2039,9 +2039,9 @@
                 {
                   "id": "네트워크-관리자",
                   "labels": {
-                    "en": "네트워크 관리자",
+                    "en": "Network Administrator",
                     "ko": "네트워크 관리자",
-                    "es": "네트워크 관리자"
+                    "es": "Administrador de red"
                   }
                 }
               ]
@@ -2057,9 +2057,9 @@
                 {
                   "id": "시스템-관리자",
                   "labels": {
-                    "en": "시스템 관리자",
+                    "en": "Systems Administrator",
                     "ko": "시스템 관리자",
-                    "es": "시스템 관리자"
+                    "es": "Administrador de sistemas"
                   }
                 }
               ]
@@ -2075,9 +2075,9 @@
                 {
                   "id": "클라우드-엔지니어",
                   "labels": {
-                    "en": "클라우드 엔지니어",
+                    "en": "Cloud Engineer",
                     "ko": "클라우드 엔지니어",
-                    "es": "클라우드 엔지니어"
+                    "es": "Ingeniero de nube"
                   }
                 }
               ]
@@ -2093,9 +2093,9 @@
                 {
                   "id": "데이터-엔지니어",
                   "labels": {
-                    "en": "데이터 엔지니어",
+                    "en": "Data Engineer",
                     "ko": "데이터 엔지니어",
-                    "es": "데이터 엔지니어"
+                    "es": "Ingeniero de datos"
                   }
                 }
               ]
@@ -2111,9 +2111,9 @@
                 {
                   "id": "데이터베이스-관리자",
                   "labels": {
-                    "en": "데이터베이스 관리자",
+                    "en": "Database Administrator",
                     "ko": "데이터베이스 관리자",
-                    "es": "데이터베이스 관리자"
+                    "es": "Administrador de base de datos"
                   }
                 }
               ]
@@ -2129,9 +2129,9 @@
                 {
                   "id": "bi-분석가",
                   "labels": {
-                    "en": "BI 분석가",
+                    "en": "BI Analyst",
                     "ko": "BI 분석가",
-                    "es": "BI 분석가"
+                    "es": "Analista de BI"
                   }
                 }
               ]
@@ -2147,9 +2147,9 @@
                 {
                   "id": "솔루션-아키텍트",
                   "labels": {
-                    "en": "솔루션 아키텍트",
+                    "en": "Solutions Architect",
                     "ko": "솔루션 아키텍트",
-                    "es": "솔루션 아키텍트"
+                    "es": "Arquitecto de soluciones"
                   }
                 }
               ]
@@ -2165,9 +2165,9 @@
                 {
                   "id": "erp-컨설턴트",
                   "labels": {
-                    "en": "ERP 컨설턴트",
+                    "en": "ERP Consultant",
                     "ko": "ERP 컨설턴트",
-                    "es": "ERP 컨설턴트"
+                    "es": "Consultor de ERP"
                   }
                 }
               ]
@@ -2183,9 +2183,9 @@
                 {
                   "id": "crm-컨설턴트",
                   "labels": {
-                    "en": "CRM 컨설턴트",
+                    "en": "CRM Consultant",
                     "ko": "CRM 컨설턴트",
-                    "es": "CRM 컨설턴트"
+                    "es": "Consultor de CRM"
                   }
                 }
               ]
@@ -2201,9 +2201,9 @@
                 {
                   "id": "기술-문서-작성자",
                   "labels": {
-                    "en": "기술 문서 작성자",
+                    "en": "Technical Writer",
                     "ko": "기술 문서 작성자",
-                    "es": "기술 문서 작성자"
+                    "es": "Redactor técnico"
                   }
                 }
               ]
@@ -2219,9 +2219,9 @@
                 {
                   "id": "rpa-개발자",
                   "labels": {
-                    "en": "RPA 개발자",
+                    "en": "RPA Developer",
                     "ko": "RPA 개발자",
-                    "es": "RPA 개발자"
+                    "es": "Desarrollador RPA"
                   }
                 }
               ]
@@ -2237,9 +2237,9 @@
                 {
                   "id": "gis-분석가",
                   "labels": {
-                    "en": "GIS 분석가",
+                    "en": "GIS Analyst",
                     "ko": "GIS 분석가",
-                    "es": "GIS 분석가"
+                    "es": "Analista de GIS"
                   }
                 }
               ]
@@ -2255,9 +2255,9 @@
                 {
                   "id": "로봇-운영-엔지니어",
                   "labels": {
-                    "en": "로봇 운영 엔지니어",
+                    "en": "Robotics Operations Engineer",
                     "ko": "로봇 운영 엔지니어",
-                    "es": "로봇 운영 엔지니어"
+                    "es": "Ingeniero de operaciones de robótica"
                   }
                 }
               ]
@@ -2273,9 +2273,9 @@
                 {
                   "id": "산업-자동화-엔지니어",
                   "labels": {
-                    "en": "산업 자동화 엔지니어",
+                    "en": "Industrial Automation Engineer",
                     "ko": "산업 자동화 엔지니어",
-                    "es": "산업 자동화 엔지니어"
+                    "es": "Ingeniero de automatización industrial"
                   }
                 }
               ]
@@ -2291,9 +2291,9 @@
                 {
                   "id": "반도체-공정-엔지니어",
                   "labels": {
-                    "en": "반도체 공정 엔지니어",
+                    "en": "Semiconductor Process Engineer",
                     "ko": "반도체 공정 엔지니어",
-                    "es": "반도체 공정 엔지니어"
+                    "es": "Ingeniero de procesos de semiconductores"
                   }
                 }
               ]
@@ -2309,9 +2309,9 @@
                 {
                   "id": "반도체-장비-엔지니어",
                   "labels": {
-                    "en": "반도체 장비 엔지니어",
+                    "en": "Semiconductor Equipment Engineer",
                     "ko": "반도체 장비 엔지니어",
-                    "es": "반도체 장비 엔지니어"
+                    "es": "Ingeniero de equipos de semiconductores"
                   }
                 }
               ]
@@ -2327,9 +2327,9 @@
                 {
                   "id": "필드-서비스-엔지니어",
                   "labels": {
-                    "en": "필드 서비스 엔지니어",
+                    "en": "Field Service Engineer",
                     "ko": "필드 서비스 엔지니어",
-                    "es": "필드 서비스 엔지니어"
+                    "es": "Ingeniero de servicio de campo"
                   }
                 }
               ]
@@ -2345,9 +2345,9 @@
                 {
                   "id": "설비-보전-엔지니어",
                   "labels": {
-                    "en": "설비 보전 엔지니어",
+                    "en": "Maintenance Engineer",
                     "ko": "설비 보전 엔지니어",
-                    "es": "설비 보전 엔지니어"
+                    "es": "Ingeniero de mantenimiento"
                   }
                 }
               ]
@@ -2363,9 +2363,9 @@
                 {
                   "id": "로봇-정비-기술자",
                   "labels": {
-                    "en": "로봇 정비 기술자",
+                    "en": "Robot Maintenance Technician",
                     "ko": "로봇 정비 기술자",
-                    "es": "로봇 정비 기술자"
+                    "es": "Técnico de mantenimiento de robots"
                   }
                 }
               ]
@@ -2402,9 +2402,9 @@
                 {
                   "id": "모션그래픽-디자이너",
                   "labels": {
-                    "en": "모션그래픽 디자이너",
+                    "en": "Motion Graphics Designer",
                     "ko": "모션그래픽 디자이너",
-                    "es": "모션그래픽 디자이너"
+                    "es": "Diseñador de motion graphics"
                   }
                 }
               ]
@@ -2420,9 +2420,9 @@
                 {
                   "id": "3d-아티스트",
                   "labels": {
-                    "en": "3D 아티스트",
+                    "en": "3D Artist",
                     "ko": "3D 아티스트",
-                    "es": "3D 아티스트"
+                    "es": "Artista 3D"
                   }
                 }
               ]
@@ -2438,9 +2438,9 @@
                 {
                   "id": "애니메이터",
                   "labels": {
-                    "en": "애니메이터",
+                    "en": "Animator",
                     "ko": "애니메이터",
-                    "es": "애니메이터"
+                    "es": "Animador"
                   }
                 }
               ]
@@ -2456,9 +2456,9 @@
                 {
                   "id": "사진작가",
                   "labels": {
-                    "en": "사진작가",
+                    "en": "Photographer",
                     "ko": "사진작가",
-                    "es": "사진작가"
+                    "es": "Fotógrafo"
                   }
                 }
               ]
@@ -2474,9 +2474,9 @@
                 {
                   "id": "촬영-감독",
                   "labels": {
-                    "en": "촬영 감독",
+                    "en": "Director of Photography",
                     "ko": "촬영 감독",
-                    "es": "촬영 감독"
+                    "es": "Director de fotografía"
                   }
                 }
               ]
@@ -2492,9 +2492,9 @@
                 {
                   "id": "음향-엔지니어",
                   "labels": {
-                    "en": "음향 엔지니어",
+                    "en": "Sound Engineer",
                     "ko": "음향 엔지니어",
-                    "es": "음향 엔지니어"
+                    "es": "Ingeniero de sonido"
                   }
                 }
               ]
@@ -2510,9 +2510,9 @@
                 {
                   "id": "음악-프로듀서",
                   "labels": {
-                    "en": "음악 프로듀서",
+                    "en": "Music Producer",
                     "ko": "음악 프로듀서",
-                    "es": "음악 프로듀서"
+                    "es": "Productor musical"
                   }
                 }
               ]
@@ -2528,9 +2528,9 @@
                 {
                   "id": "방송-작가",
                   "labels": {
-                    "en": "방송 작가",
+                    "en": "Broadcast Writer",
                     "ko": "방송 작가",
-                    "es": "방송 작가"
+                    "es": "Guionista de transmisiones"
                   }
                 }
               ]
@@ -2546,9 +2546,9 @@
                 {
                   "id": "기자",
                   "labels": {
-                    "en": "기자",
+                    "en": "Journalist",
                     "ko": "기자",
-                    "es": "기자"
+                    "es": "Periodista"
                   }
                 }
               ]
@@ -2564,9 +2564,9 @@
                 {
                   "id": "편집-기자",
                   "labels": {
-                    "en": "편집 기자",
+                    "en": "Editor",
                     "ko": "편집 기자",
-                    "es": "편집 기자"
+                    "es": "Editor de noticias"
                   }
                 }
               ]
@@ -2582,9 +2582,9 @@
                 {
                   "id": "출판-편집자",
                   "labels": {
-                    "en": "출판 편집자",
+                    "en": "Publishing Editor",
                     "ko": "출판 편집자",
-                    "es": "출판 편집자"
+                    "es": "Editor editorial"
                   }
                 }
               ]
@@ -2600,9 +2600,9 @@
                 {
                   "id": "일러스트레이터",
                   "labels": {
-                    "en": "일러스트레이터",
+                    "en": "Illustrator",
                     "ko": "일러스트레이터",
-                    "es": "일러스트레이터"
+                    "es": "Ilustrador"
                   }
                 }
               ]
@@ -2618,9 +2618,9 @@
                 {
                   "id": "웹-디자이너",
                   "labels": {
-                    "en": "웹 디자이너",
+                    "en": "Web Designer",
                     "ko": "웹 디자이너",
-                    "es": "웹 디자이너"
+                    "es": "Diseñador web"
                   }
                 }
               ]
@@ -2636,9 +2636,9 @@
                 {
                   "id": "전시-디자이너",
                   "labels": {
-                    "en": "전시 디자이너",
+                    "en": "Exhibition Designer",
                     "ko": "전시 디자이너",
-                    "es": "전시 디자이너"
+                    "es": "Diseñador de exposiciones"
                   }
                 }
               ]
@@ -2654,9 +2654,9 @@
                 {
                   "id": "패션-디자이너",
                   "labels": {
-                    "en": "패션 디자이너",
+                    "en": "Fashion Designer",
                     "ko": "패션 디자이너",
-                    "es": "패션 디자이너"
+                    "es": "Diseñador de moda"
                   }
                 }
               ]
@@ -2672,9 +2672,9 @@
                 {
                   "id": "인테리어-디자이너",
                   "labels": {
-                    "en": "인테리어 디자이너",
+                    "en": "Interior Designer",
                     "ko": "인테리어 디자이너",
-                    "es": "인테리어 디자이너"
+                    "es": "Diseñador de interiores"
                   }
                 }
               ]
@@ -2690,9 +2690,9 @@
                 {
                   "id": "패키지-디자이너",
                   "labels": {
-                    "en": "패키지 디자이너",
+                    "en": "Package Designer",
                     "ko": "패키지 디자이너",
-                    "es": "패키지 디자이너"
+                    "es": "Diseñador de empaques"
                   }
                 }
               ]
@@ -2708,9 +2708,9 @@
                 {
                   "id": "게임-기획자",
                   "labels": {
-                    "en": "게임 기획자",
+                    "en": "Game Planner",
                     "ko": "게임 기획자",
-                    "es": "게임 기획자"
+                    "es": "Planificador de juegos"
                   }
                 }
               ]
@@ -2726,9 +2726,9 @@
                 {
                   "id": "게임-디자이너",
                   "labels": {
-                    "en": "게임 디자이너",
+                    "en": "Game Designer",
                     "ko": "게임 디자이너",
-                    "es": "게임 디자이너"
+                    "es": "Diseñador de videojuegos"
                   }
                 }
               ]
@@ -2744,9 +2744,9 @@
                 {
                   "id": "커뮤니티-매니저",
                   "labels": {
-                    "en": "커뮤니티 매니저",
+                    "en": "Community Manager",
                     "ko": "커뮤니티 매니저",
-                    "es": "커뮤니티 매니저"
+                    "es": "Community manager"
                   }
                 }
               ]
@@ -2783,9 +2783,9 @@
                 {
                   "id": "의료-코더",
                   "labels": {
-                    "en": "의료 코더",
+                    "en": "Medical Coder",
                     "ko": "의료 코더",
-                    "es": "의료 코더"
+                    "es": "Codificador médico"
                   }
                 }
               ]
@@ -2801,9 +2801,9 @@
                 {
                   "id": "의료-청구-담당자",
                   "labels": {
-                    "en": "의료 청구 담당자",
+                    "en": "Medical Billing Specialist",
                     "ko": "의료 청구 담당자",
-                    "es": "의료 청구 담당자"
+                    "es": "Especialista en facturación médica"
                   }
                 }
               ]
@@ -2819,9 +2819,9 @@
                 {
                   "id": "의료-코디네이터",
                   "labels": {
-                    "en": "의료 코디네이터",
+                    "en": "Medical Coordinator",
                     "ko": "의료 코디네이터",
-                    "es": "의료 코디네이터"
+                    "es": "Coordinador médico"
                   }
                 }
               ]
@@ -2837,9 +2837,9 @@
                 {
                   "id": "의무기록사",
                   "labels": {
-                    "en": "의무기록사",
+                    "en": "Medical Records Clerk",
                     "ko": "의무기록사",
-                    "es": "의무기록사"
+                    "es": "Archivista médico"
                   }
                 }
               ]
@@ -2855,9 +2855,9 @@
                 {
                   "id": "방사선사",
                   "labels": {
-                    "en": "방사선사",
+                    "en": "Radiologic Technologist",
                     "ko": "방사선사",
-                    "es": "방사선사"
+                    "es": "Técnico en radiología"
                   }
                 }
               ]
@@ -2873,9 +2873,9 @@
                 {
                   "id": "임상병리사",
                   "labels": {
-                    "en": "임상병리사",
+                    "en": "Clinical Laboratory Technologist",
                     "ko": "임상병리사",
-                    "es": "임상병리사"
+                    "es": "Tecnólogo clínico de laboratorio"
                   }
                 }
               ]
@@ -2891,9 +2891,9 @@
                 {
                   "id": "작업치료사",
                   "labels": {
-                    "en": "작업치료사",
+                    "en": "Occupational Therapist",
                     "ko": "작업치료사",
-                    "es": "작업치료사"
+                    "es": "Terapeuta ocupacional"
                   }
                 }
               ]
@@ -2909,9 +2909,9 @@
                 {
                   "id": "언어치료사",
                   "labels": {
-                    "en": "언어치료사",
+                    "en": "Speech Therapist",
                     "ko": "언어치료사",
-                    "es": "언어치료사"
+                    "es": "Terapeuta del lenguaje"
                   }
                 }
               ]
@@ -2927,9 +2927,9 @@
                 {
                   "id": "치과기공사",
                   "labels": {
-                    "en": "치과기공사",
+                    "en": "Dental Technician",
                     "ko": "치과기공사",
-                    "es": "치과기공사"
+                    "es": "Técnico de prótesis dentales"
                   }
                 }
               ]
@@ -2945,9 +2945,9 @@
                 {
                   "id": "병원-원무-담당자",
                   "labels": {
-                    "en": "병원 원무 담당자",
+                    "en": "Hospital Front Desk Clerk",
                     "ko": "병원 원무 담당자",
-                    "es": "병원 원무 담당자"
+                    "es": "Asistente administrativo hospitalario"
                   }
                 }
               ]
@@ -2963,9 +2963,9 @@
                 {
                   "id": "사회복지사",
                   "labels": {
-                    "en": "사회복지사",
+                    "en": "Social Worker",
                     "ko": "사회복지사",
-                    "es": "사회복지사"
+                    "es": "Trabajador social"
                   }
                 }
               ]
@@ -2981,9 +2981,9 @@
                 {
                   "id": "상담사",
                   "labels": {
-                    "en": "상담사",
+                    "en": "Counselor",
                     "ko": "상담사",
-                    "es": "상담사"
+                    "es": "Consejero"
                   }
                 }
               ]
@@ -2999,9 +2999,9 @@
                 {
                   "id": "직업상담사",
                   "labels": {
-                    "en": "직업상담사",
+                    "en": "Career Counselor",
                     "ko": "직업상담사",
-                    "es": "직업상담사"
+                    "es": "Orientador ocupacional"
                   }
                 }
               ]
@@ -3017,9 +3017,9 @@
                 {
                   "id": "연구원",
                   "labels": {
-                    "en": "연구원",
+                    "en": "Researcher",
                     "ko": "연구원",
-                    "es": "연구원"
+                    "es": "Investigador"
                   }
                 }
               ]
@@ -3035,9 +3035,9 @@
                 {
                   "id": "연구보조원",
                   "labels": {
-                    "en": "연구보조원",
+                    "en": "Research Assistant",
                     "ko": "연구보조원",
-                    "es": "연구보조원"
+                    "es": "Asistente de investigación"
                   }
                 }
               ]
@@ -3053,9 +3053,9 @@
                 {
                   "id": "실험실-기술자",
                   "labels": {
-                    "en": "실험실 기술자",
+                    "en": "Laboratory Technician",
                     "ko": "실험실 기술자",
-                    "es": "실험실 기술자"
+                    "es": "Técnico de laboratorio"
                   }
                 }
               ]
@@ -3071,9 +3071,9 @@
                 {
                   "id": "사서",
                   "labels": {
-                    "en": "사서",
+                    "en": "Librarian",
                     "ko": "사서",
-                    "es": "사서"
+                    "es": "Bibliotecario"
                   }
                 }
               ]
@@ -3089,9 +3089,9 @@
                 {
                   "id": "교육-콘텐츠-개발자",
                   "labels": {
-                    "en": "교육 콘텐츠 개발자",
+                    "en": "Learning Content Developer",
                     "ko": "교육 콘텐츠 개발자",
-                    "es": "교육 콘텐츠 개발자"
+                    "es": "Desarrollador de contenido educativo"
                   }
                 }
               ]
@@ -3107,9 +3107,9 @@
                 {
                   "id": "교재-개발자",
                   "labels": {
-                    "en": "교재 개발자",
+                    "en": "Textbook Developer",
                     "ko": "교재 개발자",
-                    "es": "교재 개발자"
+                    "es": "Desarrollador de libros de texto"
                   }
                 }
               ]
@@ -3125,9 +3125,9 @@
                 {
                   "id": "입학사정관",
                   "labels": {
-                    "en": "입학사정관",
+                    "en": "Admissions Officer",
                     "ko": "입학사정관",
-                    "es": "입학사정관"
+                    "es": "Oficial de admisiones"
                   }
                 }
               ]

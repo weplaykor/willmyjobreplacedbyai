@@ -12686,7 +12686,7 @@
     },
     "content": {
       "en": {
-        "title": "준법감시인",
+        "title": "Compliance Officer",
         "summary": "Compliance Officers help organizations stay aligned with laws, regulations, policies, and audit requirements. AI expands monitoring and documentation speed, but people remain critical for ambiguity, escalation, and accountability.",
         "tasks": [
           "Stay current on laws and regulations and advise the organization on compliance.",
@@ -12765,7 +12765,7 @@
         ]
       },
       "es": {
-        "title": "준법감시인",
+        "title": "Oficial de cumplimiento",
         "summary": "Un oficial de cumplimiento ayuda a que la organizacion cumpla leyes, regulaciones, politicas y auditorias. La IA acelera monitoreo y documentacion, mientras la responsabilidad final y la gestion de excepciones siguen humanas.",
         "tasks": [
           "Mantenerse actualizado en leyes y regulaciones relevantes.",
@@ -12891,7 +12891,7 @@
     },
     "content": {
       "en": {
-        "title": "내부감사 담당자",
+        "title": "Internal Auditor",
         "summary": "The role of 내부감사 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "내부감사 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -12959,7 +12959,7 @@
         ]
       },
       "es": {
-        "title": "내부감사 담당자",
+        "title": "Auditor interno",
         "summary": "El rol de 내부감사 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 내부감사 담당자 y gestionar procesos estandarizados.",
@@ -13080,7 +13080,7 @@
     },
     "content": {
       "en": {
-        "title": "리스크 분석가",
+        "title": "Risk Analyst",
         "summary": "The role of 리스크 분석가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "리스크 분석가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -13148,7 +13148,7 @@
         ]
       },
       "es": {
-        "title": "리스크 분석가",
+        "title": "Analista de riesgos",
         "summary": "El rol de 리스크 분석가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 리스크 분석가 y gestionar procesos estandarizados.",
@@ -13269,7 +13269,7 @@
     },
     "content": {
       "en": {
-        "title": "투자 분석가",
+        "title": "Investment Analyst",
         "summary": "The role of 투자 분석가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "투자 분석가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -13337,7 +13337,7 @@
         ]
       },
       "es": {
-        "title": "투자 분석가",
+        "title": "Analista de inversiones",
         "summary": "El rol de 투자 분석가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 투자 분석가 y gestionar procesos estandarizados.",
@@ -13458,7 +13458,7 @@
     },
     "content": {
       "en": {
-        "title": "은행 창구 직원",
+        "title": "Bank Teller",
         "summary": "The role of 은행 창구 직원 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "은행 창구 직원의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -13526,7 +13526,7 @@
         ]
       },
       "es": {
-        "title": "은행 창구 직원",
+        "title": "Cajero de banco",
         "summary": "El rol de 은행 창구 직원 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 은행 창구 직원 y gestionar procesos estandarizados.",
@@ -13647,7 +13647,7 @@
     },
     "content": {
       "en": {
-        "title": "대출 심사 담당자",
+        "title": "Loan Underwriter",
         "summary": "The role of 대출 심사 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "대출 심사 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -13715,7 +13715,7 @@
         ]
       },
       "es": {
-        "title": "대출 심사 담당자",
+        "title": "Suscriptor de préstamos",
         "summary": "El rol de 대출 심사 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 대출 심사 담당자 y gestionar procesos estandarizados.",
@@ -13836,7 +13836,7 @@
     },
     "content": {
       "en": {
-        "title": "보험 언더라이터",
+        "title": "Insurance Underwriter",
         "summary": "The role of 보험 언더라이터 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "보험 언더라이터의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -13904,7 +13904,7 @@
         ]
       },
       "es": {
-        "title": "보험 언더라이터",
+        "title": "Suscriptor de seguros",
         "summary": "El rol de 보험 언더라이터 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 보험 언더라이터 y gestionar procesos estandarizados.",
@@ -14025,7 +14025,7 @@
     },
     "content": {
       "en": {
-        "title": "계약 관리자",
+        "title": "Contract Manager",
         "summary": "The role of 계약 관리자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "계약 관리자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -14093,7 +14093,7 @@
         ]
       },
       "es": {
-        "title": "계약 관리자",
+        "title": "Gerente de contratos",
         "summary": "El rol de 계약 관리자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 계약 관리자 y gestionar procesos estandarizados.",
@@ -14214,7 +14214,7 @@
     },
     "content": {
       "en": {
-        "title": "문서관리 전문가",
+        "title": "Document Management Specialist",
         "summary": "The role of 문서관리 전문가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "문서관리 전문가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -14282,7 +14282,7 @@
         ]
       },
       "es": {
-        "title": "문서관리 전문가",
+        "title": "Especialista en gestión documental",
         "summary": "El rol de 문서관리 전문가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 문서관리 전문가 y gestionar procesos estandarizados.",
@@ -14403,7 +14403,7 @@
     },
     "content": {
       "en": {
-        "title": "비서",
+        "title": "Executive Assistant",
         "summary": "The role of 비서 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "비서의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -14471,7 +14471,7 @@
         ]
       },
       "es": {
-        "title": "비서",
+        "title": "Asistente ejecutiva",
         "summary": "El rol de 비서 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 비서 y gestionar procesos estandarizados.",
@@ -14592,7 +14592,7 @@
     },
     "content": {
       "en": {
-        "title": "일정 조정 담당자",
+        "title": "Scheduler",
         "summary": "The role of 일정 조정 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "일정 조정 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -14660,7 +14660,7 @@
         ]
       },
       "es": {
-        "title": "일정 조정 담당자",
+        "title": "Planificador",
         "summary": "El rol de 일정 조정 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 일정 조정 담당자 y gestionar procesos estandarizados.",
@@ -14781,7 +14781,7 @@
     },
     "content": {
       "en": {
-        "title": "법무 보조원",
+        "title": "Legal Assistant",
         "summary": "The role of 법무 보조원 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "법무 보조원의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -14849,7 +14849,7 @@
         ]
       },
       "es": {
-        "title": "법무 보조원",
+        "title": "Asistente legal",
         "summary": "El rol de 법무 보조원 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 법무 보조원 y gestionar procesos estandarizados.",
@@ -14970,7 +14970,7 @@
     },
     "content": {
       "en": {
-        "title": "세무사",
+        "title": "Tax Advisor",
         "summary": "The role of 세무사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "세무사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -15038,7 +15038,7 @@
         ]
       },
       "es": {
-        "title": "세무사",
+        "title": "Asesor fiscal",
         "summary": "El rol de 세무사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 세무사 y gestionar procesos estandarizados.",
@@ -15159,7 +15159,7 @@
     },
     "content": {
       "en": {
-        "title": "노무사",
+        "title": "Labor Counsel",
         "summary": "The role of 노무사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "노무사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -15227,7 +15227,7 @@
         ]
       },
       "es": {
-        "title": "노무사",
+        "title": "Asesor laboral",
         "summary": "El rol de 노무사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 노무사 y gestionar procesos estandarizados.",
@@ -15348,7 +15348,7 @@
     },
     "content": {
       "en": {
-        "title": "경영 컨설턴트",
+        "title": "Management Consultant",
         "summary": "The role of 경영 컨설턴트 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "경영 컨설턴트의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -15416,7 +15416,7 @@
         ]
       },
       "es": {
-        "title": "경영 컨설턴트",
+        "title": "Consultor de gestión",
         "summary": "El rol de 경영 컨설턴트 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 경영 컨설턴트 y gestionar procesos estandarizados.",
@@ -15537,7 +15537,7 @@
     },
     "content": {
       "en": {
-        "title": "영업 대표",
+        "title": "Sales Representative",
         "summary": "The role of 영업 대표 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "영업 대표의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -15605,7 +15605,7 @@
         ]
       },
       "es": {
-        "title": "영업 대표",
+        "title": "Representante de ventas",
         "summary": "El rol de 영업 대표 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 영업 대표 y gestionar procesos estandarizados.",
@@ -15726,7 +15726,7 @@
     },
     "content": {
       "en": {
-        "title": "B2B 영업 담당자",
+        "title": "B2B Sales Representative",
         "summary": "The role of B2B 영업 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "B2B 영업 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -15794,7 +15794,7 @@
         ]
       },
       "es": {
-        "title": "B2B 영업 담당자",
+        "title": "Representante de ventas B2B",
         "summary": "El rol de B2B 영업 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de B2B 영업 담당자 y gestionar procesos estandarizados.",
@@ -15915,7 +15915,7 @@
     },
     "content": {
       "en": {
-        "title": "고객 성공 매니저",
+        "title": "Customer Success Manager",
         "summary": "The role of 고객 성공 매니저 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "고객 성공 매니저의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -15983,7 +15983,7 @@
         ]
       },
       "es": {
-        "title": "고객 성공 매니저",
+        "title": "Gerente de éxito del cliente",
         "summary": "El rol de 고객 성공 매니저 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 고객 성공 매니저 y gestionar procesos estandarizados.",
@@ -16104,7 +16104,7 @@
     },
     "content": {
       "en": {
-        "title": "CRM 마케터",
+        "title": "CRM Marketer",
         "summary": "The role of CRM 마케터 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "CRM 마케터의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -16172,7 +16172,7 @@
         ]
       },
       "es": {
-        "title": "CRM 마케터",
+        "title": "Especialista en marketing CRM",
         "summary": "El rol de CRM 마케터 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de CRM 마케터 y gestionar procesos estandarizados.",
@@ -16293,7 +16293,7 @@
     },
     "content": {
       "en": {
-        "title": "SEO 전문가",
+        "title": "SEO Specialist",
         "summary": "The role of SEO 전문가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "SEO 전문가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -16361,7 +16361,7 @@
         ]
       },
       "es": {
-        "title": "SEO 전문가",
+        "title": "Especialista en SEO",
         "summary": "El rol de SEO 전문가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de SEO 전문가 y gestionar procesos estandarizados.",
@@ -16482,7 +16482,7 @@
     },
     "content": {
       "en": {
-        "title": "퍼포먼스 마케터",
+        "title": "Performance Marketer",
         "summary": "The role of 퍼포먼스 마케터 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "퍼포먼스 마케터의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -16550,7 +16550,7 @@
         ]
       },
       "es": {
-        "title": "퍼포먼스 마케터",
+        "title": "Especialista en marketing de rendimiento",
         "summary": "El rol de 퍼포먼스 마케터 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 퍼포먼스 마케터 y gestionar procesos estandarizados.",
@@ -16671,7 +16671,7 @@
     },
     "content": {
       "en": {
-        "title": "소셜미디어 매니저",
+        "title": "Social Media Manager",
         "summary": "The role of 소셜미디어 매니저 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "소셜미디어 매니저의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -16739,7 +16739,7 @@
         ]
       },
       "es": {
-        "title": "소셜미디어 매니저",
+        "title": "Gestor de redes sociales",
         "summary": "El rol de 소셜미디어 매니저 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 소셜미디어 매니저 y gestionar procesos estandarizados.",
@@ -16860,7 +16860,7 @@
     },
     "content": {
       "en": {
-        "title": "홍보(PR) 전문가",
+        "title": "PR Specialist",
         "summary": "The role of 홍보(PR) 전문가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "홍보(PR) 전문가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -16928,7 +16928,7 @@
         ]
       },
       "es": {
-        "title": "홍보(PR) 전문가",
+        "title": "Especialista en relaciones públicas",
         "summary": "El rol de 홍보(PR) 전문가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 홍보(PR) 전문가 y gestionar procesos estandarizados.",
@@ -17049,7 +17049,7 @@
     },
     "content": {
       "en": {
-        "title": "브랜드 매니저",
+        "title": "Brand Manager",
         "summary": "The role of 브랜드 매니저 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "브랜드 매니저의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -17117,7 +17117,7 @@
         ]
       },
       "es": {
-        "title": "브랜드 매니저",
+        "title": "Gerente de marca",
         "summary": "El rol de 브랜드 매니저 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 브랜드 매니저 y gestionar procesos estandarizados.",
@@ -17238,7 +17238,7 @@
     },
     "content": {
       "en": {
-        "title": "시장조사 분석가",
+        "title": "Market Research Analyst",
         "summary": "The role of 시장조사 분석가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "시장조사 분석가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -17306,7 +17306,7 @@
         ]
       },
       "es": {
-        "title": "시장조사 분석가",
+        "title": "Analista de investigación de mercado",
         "summary": "El rol de 시장조사 분석가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 시장조사 분석가 y gestionar procesos estandarizados.",
@@ -17427,7 +17427,7 @@
     },
     "content": {
       "en": {
-        "title": "미디어 플래너",
+        "title": "Media Planner",
         "summary": "The role of 미디어 플래너 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "미디어 플래너의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -17495,7 +17495,7 @@
         ]
       },
       "es": {
-        "title": "미디어 플래너",
+        "title": "Planificador de medios",
         "summary": "El rol de 미디어 플래너 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 미디어 플래너 y gestionar procesos estandarizados.",
@@ -17616,7 +17616,7 @@
     },
     "content": {
       "en": {
-        "title": "광고 운영 담당자",
+        "title": "Advertising Operations Manager",
         "summary": "The role of 광고 운영 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "광고 운영 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -17684,7 +17684,7 @@
         ]
       },
       "es": {
-        "title": "광고 운영 담당자",
+        "title": "Gerente de operaciones publicitarias",
         "summary": "El rol de 광고 운영 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 광고 운영 담당자 y gestionar procesos estandarizados.",
@@ -17805,7 +17805,7 @@
     },
     "content": {
       "en": {
-        "title": "카피라이터",
+        "title": "Copywriter",
         "summary": "The role of 카피라이터 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "카피라이터의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -17873,7 +17873,7 @@
         ]
       },
       "es": {
-        "title": "카피라이터",
+        "title": "Redactor publicitario",
         "summary": "El rol de 카피라이터 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 카피라이터 y gestionar procesos estandarizados.",
@@ -17994,7 +17994,7 @@
     },
     "content": {
       "en": {
-        "title": "기술 영업 엔지니어",
+        "title": "Technical Sales Engineer",
         "summary": "The role of 기술 영업 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "기술 영업 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -18062,7 +18062,7 @@
         ]
       },
       "es": {
-        "title": "기술 영업 엔지니어",
+        "title": "Ingeniero de ventas técnicas",
         "summary": "El rol de 기술 영업 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 기술 영업 엔지니어 y gestionar procesos estandarizados.",
@@ -18183,7 +18183,7 @@
     },
     "content": {
       "en": {
-        "title": "제휴 마케팅 담당자",
+        "title": "Affiliate Marketing Manager",
         "summary": "The role of 제휴 마케팅 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "제휴 마케팅 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -18251,7 +18251,7 @@
         ]
       },
       "es": {
-        "title": "제휴 마케팅 담당자",
+        "title": "Gerente de marketing de afiliados",
         "summary": "El rol de 제휴 마케팅 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 제휴 마케팅 담당자 y gestionar procesos estandarizados.",
@@ -18372,7 +18372,7 @@
     },
     "content": {
       "en": {
-        "title": "행사 기획자",
+        "title": "Event Planner",
         "summary": "The role of 행사 기획자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "행사 기획자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -18440,7 +18440,7 @@
         ]
       },
       "es": {
-        "title": "행사 기획자",
+        "title": "Planificador de eventos",
         "summary": "El rol de 행사 기획자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 행사 기획자 y gestionar procesos estandarizados.",
@@ -18561,7 +18561,7 @@
     },
     "content": {
       "en": {
-        "title": "여행 상담사",
+        "title": "Travel Consultant",
         "summary": "The role of 여행 상담사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "여행 상담사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -18629,7 +18629,7 @@
         ]
       },
       "es": {
-        "title": "여행 상담사",
+        "title": "Consultor de viajes",
         "summary": "El rol de 여행 상담사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 여행 상담사 y gestionar procesos estandarizados.",
@@ -18750,7 +18750,7 @@
     },
     "content": {
       "en": {
-        "title": "관광 가이드",
+        "title": "Travel Guide",
         "summary": "The role of 관광 가이드 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "관광 가이드의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -18818,7 +18818,7 @@
         ]
       },
       "es": {
-        "title": "관광 가이드",
+        "title": "Guía turístico",
         "summary": "El rol de 관광 가이드 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 관광 가이드 y gestionar procesos estandarizados.",
@@ -18939,7 +18939,7 @@
     },
     "content": {
       "en": {
-        "title": "레스토랑 매니저",
+        "title": "Restaurant Manager",
         "summary": "The role of 레스토랑 매니저 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "레스토랑 매니저의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -19007,7 +19007,7 @@
         ]
       },
       "es": {
-        "title": "레스토랑 매니저",
+        "title": "Gerente de restaurante",
         "summary": "El rol de 레스토랑 매니저 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 레스토랑 매니저 y gestionar procesos estandarizados.",
@@ -19128,7 +19128,7 @@
     },
     "content": {
       "en": {
-        "title": "수익관리 분석가",
+        "title": "Revenue Analyst",
         "summary": "The role of 수익관리 분석가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "수익관리 분석가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -19196,7 +19196,7 @@
         ]
       },
       "es": {
-        "title": "수익관리 분석가",
+        "title": "Analista de ingresos",
         "summary": "El rol de 수익관리 분석가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 수익관리 분석가 y gestionar procesos estandarizados.",
@@ -19317,7 +19317,7 @@
     },
     "content": {
       "en": {
-        "title": "IT 지원 전문가",
+        "title": "IT Support Specialist",
         "summary": "The role of IT 지원 전문가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "IT 지원 전문가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -19385,7 +19385,7 @@
         ]
       },
       "es": {
-        "title": "IT 지원 전문가",
+        "title": "Especialista de soporte técnico",
         "summary": "El rol de IT 지원 전문가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de IT 지원 전문가 y gestionar procesos estandarizados.",
@@ -19506,7 +19506,7 @@
     },
     "content": {
       "en": {
-        "title": "네트워크 관리자",
+        "title": "Network Administrator",
         "summary": "The role of 네트워크 관리자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "네트워크 관리자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -19574,7 +19574,7 @@
         ]
       },
       "es": {
-        "title": "네트워크 관리자",
+        "title": "Administrador de red",
         "summary": "El rol de 네트워크 관리자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 네트워크 관리자 y gestionar procesos estandarizados.",
@@ -19695,7 +19695,7 @@
     },
     "content": {
       "en": {
-        "title": "시스템 관리자",
+        "title": "Systems Administrator",
         "summary": "The role of 시스템 관리자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "시스템 관리자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -19763,7 +19763,7 @@
         ]
       },
       "es": {
-        "title": "시스템 관리자",
+        "title": "Administrador de sistemas",
         "summary": "El rol de 시스템 관리자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 시스템 관리자 y gestionar procesos estandarizados.",
@@ -19884,7 +19884,7 @@
     },
     "content": {
       "en": {
-        "title": "클라우드 엔지니어",
+        "title": "Cloud Engineer",
         "summary": "The role of 클라우드 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "클라우드 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -19952,7 +19952,7 @@
         ]
       },
       "es": {
-        "title": "클라우드 엔지니어",
+        "title": "Ingeniero de nube",
         "summary": "El rol de 클라우드 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 클라우드 엔지니어 y gestionar procesos estandarizados.",
@@ -20073,7 +20073,7 @@
     },
     "content": {
       "en": {
-        "title": "데이터 엔지니어",
+        "title": "Data Engineer",
         "summary": "The role of 데이터 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "데이터 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -20141,7 +20141,7 @@
         ]
       },
       "es": {
-        "title": "데이터 엔지니어",
+        "title": "Ingeniero de datos",
         "summary": "El rol de 데이터 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 데이터 엔지니어 y gestionar procesos estandarizados.",
@@ -20262,7 +20262,7 @@
     },
     "content": {
       "en": {
-        "title": "데이터베이스 관리자",
+        "title": "Database Administrator",
         "summary": "The role of 데이터베이스 관리자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "데이터베이스 관리자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -20330,7 +20330,7 @@
         ]
       },
       "es": {
-        "title": "데이터베이스 관리자",
+        "title": "Administrador de base de datos",
         "summary": "El rol de 데이터베이스 관리자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 데이터베이스 관리자 y gestionar procesos estandarizados.",
@@ -20451,7 +20451,7 @@
     },
     "content": {
       "en": {
-        "title": "BI 분석가",
+        "title": "BI Analyst",
         "summary": "The role of BI 분석가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "BI 분석가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -20519,7 +20519,7 @@
         ]
       },
       "es": {
-        "title": "BI 분석가",
+        "title": "Analista de BI",
         "summary": "El rol de BI 분석가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de BI 분석가 y gestionar procesos estandarizados.",
@@ -20640,7 +20640,7 @@
     },
     "content": {
       "en": {
-        "title": "솔루션 아키텍트",
+        "title": "Solutions Architect",
         "summary": "The role of 솔루션 아키텍트 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "솔루션 아키텍트의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -20708,7 +20708,7 @@
         ]
       },
       "es": {
-        "title": "솔루션 아키텍트",
+        "title": "Arquitecto de soluciones",
         "summary": "El rol de 솔루션 아키텍트 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 솔루션 아키텍트 y gestionar procesos estandarizados.",
@@ -20829,7 +20829,7 @@
     },
     "content": {
       "en": {
-        "title": "ERP 컨설턴트",
+        "title": "ERP Consultant",
         "summary": "The role of ERP 컨설턴트 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "ERP 컨설턴트의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -20897,7 +20897,7 @@
         ]
       },
       "es": {
-        "title": "ERP 컨설턴트",
+        "title": "Consultor de ERP",
         "summary": "El rol de ERP 컨설턴트 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de ERP 컨설턴트 y gestionar procesos estandarizados.",
@@ -21018,7 +21018,7 @@
     },
     "content": {
       "en": {
-        "title": "CRM 컨설턴트",
+        "title": "CRM Consultant",
         "summary": "The role of CRM 컨설턴트 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "CRM 컨설턴트의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -21086,7 +21086,7 @@
         ]
       },
       "es": {
-        "title": "CRM 컨설턴트",
+        "title": "Consultor de CRM",
         "summary": "El rol de CRM 컨설턴트 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de CRM 컨설턴트 y gestionar procesos estandarizados.",
@@ -21207,7 +21207,7 @@
     },
     "content": {
       "en": {
-        "title": "기술 문서 작성자",
+        "title": "Technical Writer",
         "summary": "The role of 기술 문서 작성자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "기술 문서 작성자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -21275,7 +21275,7 @@
         ]
       },
       "es": {
-        "title": "기술 문서 작성자",
+        "title": "Redactor técnico",
         "summary": "El rol de 기술 문서 작성자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 기술 문서 작성자 y gestionar procesos estandarizados.",
@@ -21396,7 +21396,7 @@
     },
     "content": {
       "en": {
-        "title": "RPA 개발자",
+        "title": "RPA Developer",
         "summary": "The role of RPA 개발자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "RPA 개발자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -21464,7 +21464,7 @@
         ]
       },
       "es": {
-        "title": "RPA 개발자",
+        "title": "Desarrollador RPA",
         "summary": "El rol de RPA 개발자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de RPA 개발자 y gestionar procesos estandarizados.",
@@ -21585,7 +21585,7 @@
     },
     "content": {
       "en": {
-        "title": "GIS 분석가",
+        "title": "GIS Analyst",
         "summary": "The role of GIS 분석가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "GIS 분석가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -21653,7 +21653,7 @@
         ]
       },
       "es": {
-        "title": "GIS 분석가",
+        "title": "Analista de GIS",
         "summary": "El rol de GIS 분석가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de GIS 분석가 y gestionar procesos estandarizados.",
@@ -21774,7 +21774,7 @@
     },
     "content": {
       "en": {
-        "title": "로봇 운영 엔지니어",
+        "title": "Robotics Operations Engineer",
         "summary": "The role of 로봇 운영 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "로봇 운영 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -21842,7 +21842,7 @@
         ]
       },
       "es": {
-        "title": "로봇 운영 엔지니어",
+        "title": "Ingeniero de operaciones de robótica",
         "summary": "El rol de 로봇 운영 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 로봇 운영 엔지니어 y gestionar procesos estandarizados.",
@@ -21963,7 +21963,7 @@
     },
     "content": {
       "en": {
-        "title": "산업 자동화 엔지니어",
+        "title": "Industrial Automation Engineer",
         "summary": "The role of 산업 자동화 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "산업 자동화 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -22031,7 +22031,7 @@
         ]
       },
       "es": {
-        "title": "산업 자동화 엔지니어",
+        "title": "Ingeniero de automatización industrial",
         "summary": "El rol de 산업 자동화 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 산업 자동화 엔지니어 y gestionar procesos estandarizados.",
@@ -22152,7 +22152,7 @@
     },
     "content": {
       "en": {
-        "title": "반도체 공정 엔지니어",
+        "title": "Semiconductor Process Engineer",
         "summary": "The role of 반도체 공정 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "반도체 공정 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -22220,7 +22220,7 @@
         ]
       },
       "es": {
-        "title": "반도체 공정 엔지니어",
+        "title": "Ingeniero de procesos de semiconductores",
         "summary": "El rol de 반도체 공정 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 반도체 공정 엔지니어 y gestionar procesos estandarizados.",
@@ -22341,7 +22341,7 @@
     },
     "content": {
       "en": {
-        "title": "반도체 장비 엔지니어",
+        "title": "Semiconductor Equipment Engineer",
         "summary": "The role of 반도체 장비 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "반도체 장비 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -22409,7 +22409,7 @@
         ]
       },
       "es": {
-        "title": "반도체 장비 엔지니어",
+        "title": "Ingeniero de equipos de semiconductores",
         "summary": "El rol de 반도체 장비 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 반도체 장비 엔지니어 y gestionar procesos estandarizados.",
@@ -22530,7 +22530,7 @@
     },
     "content": {
       "en": {
-        "title": "필드 서비스 엔지니어",
+        "title": "Field Service Engineer",
         "summary": "The role of 필드 서비스 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "필드 서비스 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -22598,7 +22598,7 @@
         ]
       },
       "es": {
-        "title": "필드 서비스 엔지니어",
+        "title": "Ingeniero de servicio de campo",
         "summary": "El rol de 필드 서비스 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 필드 서비스 엔지니어 y gestionar procesos estandarizados.",
@@ -22719,7 +22719,7 @@
     },
     "content": {
       "en": {
-        "title": "설비 보전 엔지니어",
+        "title": "Maintenance Engineer",
         "summary": "The role of 설비 보전 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "설비 보전 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -22787,7 +22787,7 @@
         ]
       },
       "es": {
-        "title": "설비 보전 엔지니어",
+        "title": "Ingeniero de mantenimiento",
         "summary": "El rol de 설비 보전 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 설비 보전 엔지니어 y gestionar procesos estandarizados.",
@@ -22908,7 +22908,7 @@
     },
     "content": {
       "en": {
-        "title": "로봇 정비 기술자",
+        "title": "Robot Maintenance Technician",
         "summary": "The role of 로봇 정비 기술자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "로봇 정비 기술자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -22976,7 +22976,7 @@
         ]
       },
       "es": {
-        "title": "로봇 정비 기술자",
+        "title": "Técnico de mantenimiento de robots",
         "summary": "El rol de 로봇 정비 기술자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 로봇 정비 기술자 y gestionar procesos estandarizados.",
@@ -23097,7 +23097,7 @@
     },
     "content": {
       "en": {
-        "title": "모션그래픽 디자이너",
+        "title": "Motion Graphics Designer",
         "summary": "The role of 모션그래픽 디자이너 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "모션그래픽 디자이너의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -23165,7 +23165,7 @@
         ]
       },
       "es": {
-        "title": "모션그래픽 디자이너",
+        "title": "Diseñador de motion graphics",
         "summary": "El rol de 모션그래픽 디자이너 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 모션그래픽 디자이너 y gestionar procesos estandarizados.",
@@ -23286,7 +23286,7 @@
     },
     "content": {
       "en": {
-        "title": "3D 아티스트",
+        "title": "3D Artist",
         "summary": "The role of 3D 아티스트 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "3D 아티스트의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -23354,7 +23354,7 @@
         ]
       },
       "es": {
-        "title": "3D 아티스트",
+        "title": "Artista 3D",
         "summary": "El rol de 3D 아티스트 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 3D 아티스트 y gestionar procesos estandarizados.",
@@ -23475,7 +23475,7 @@
     },
     "content": {
       "en": {
-        "title": "애니메이터",
+        "title": "Animator",
         "summary": "The role of 애니메이터 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "애니메이터의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -23543,7 +23543,7 @@
         ]
       },
       "es": {
-        "title": "애니메이터",
+        "title": "Animador",
         "summary": "El rol de 애니메이터 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 애니메이터 y gestionar procesos estandarizados.",
@@ -23664,7 +23664,7 @@
     },
     "content": {
       "en": {
-        "title": "사진작가",
+        "title": "Photographer",
         "summary": "The role of 사진작가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "사진작가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -23732,7 +23732,7 @@
         ]
       },
       "es": {
-        "title": "사진작가",
+        "title": "Fotógrafo",
         "summary": "El rol de 사진작가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 사진작가 y gestionar procesos estandarizados.",
@@ -23853,7 +23853,7 @@
     },
     "content": {
       "en": {
-        "title": "촬영 감독",
+        "title": "Director of Photography",
         "summary": "The role of 촬영 감독 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "촬영 감독의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -23921,7 +23921,7 @@
         ]
       },
       "es": {
-        "title": "촬영 감독",
+        "title": "Director de fotografía",
         "summary": "El rol de 촬영 감독 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 촬영 감독 y gestionar procesos estandarizados.",
@@ -24042,7 +24042,7 @@
     },
     "content": {
       "en": {
-        "title": "음향 엔지니어",
+        "title": "Sound Engineer",
         "summary": "The role of 음향 엔지니어 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "음향 엔지니어의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -24110,7 +24110,7 @@
         ]
       },
       "es": {
-        "title": "음향 엔지니어",
+        "title": "Ingeniero de sonido",
         "summary": "El rol de 음향 엔지니어 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 음향 엔지니어 y gestionar procesos estandarizados.",
@@ -24231,7 +24231,7 @@
     },
     "content": {
       "en": {
-        "title": "음악 프로듀서",
+        "title": "Music Producer",
         "summary": "The role of 음악 프로듀서 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "음악 프로듀서의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -24299,7 +24299,7 @@
         ]
       },
       "es": {
-        "title": "음악 프로듀서",
+        "title": "Productor musical",
         "summary": "El rol de 음악 프로듀서 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 음악 프로듀서 y gestionar procesos estandarizados.",
@@ -24420,7 +24420,7 @@
     },
     "content": {
       "en": {
-        "title": "방송 작가",
+        "title": "Broadcast Writer",
         "summary": "The role of 방송 작가 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "방송 작가의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -24488,7 +24488,7 @@
         ]
       },
       "es": {
-        "title": "방송 작가",
+        "title": "Guionista de transmisiones",
         "summary": "El rol de 방송 작가 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 방송 작가 y gestionar procesos estandarizados.",
@@ -24609,7 +24609,7 @@
     },
     "content": {
       "en": {
-        "title": "기자",
+        "title": "Journalist",
         "summary": "The role of 기자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "기자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -24677,7 +24677,7 @@
         ]
       },
       "es": {
-        "title": "기자",
+        "title": "Periodista",
         "summary": "El rol de 기자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 기자 y gestionar procesos estandarizados.",
@@ -24798,7 +24798,7 @@
     },
     "content": {
       "en": {
-        "title": "편집 기자",
+        "title": "Editor",
         "summary": "The role of 편집 기자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "편집 기자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -24866,7 +24866,7 @@
         ]
       },
       "es": {
-        "title": "편집 기자",
+        "title": "Editor de noticias",
         "summary": "El rol de 편집 기자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 편집 기자 y gestionar procesos estandarizados.",
@@ -24987,7 +24987,7 @@
     },
     "content": {
       "en": {
-        "title": "출판 편집자",
+        "title": "Publishing Editor",
         "summary": "The role of 출판 편집자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "출판 편집자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -25055,7 +25055,7 @@
         ]
       },
       "es": {
-        "title": "출판 편집자",
+        "title": "Editor editorial",
         "summary": "El rol de 출판 편집자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 출판 편집자 y gestionar procesos estandarizados.",
@@ -25176,7 +25176,7 @@
     },
     "content": {
       "en": {
-        "title": "일러스트레이터",
+        "title": "Illustrator",
         "summary": "The role of 일러스트레이터 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "일러스트레이터의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -25244,7 +25244,7 @@
         ]
       },
       "es": {
-        "title": "일러스트레이터",
+        "title": "Ilustrador",
         "summary": "El rol de 일러스트레이터 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 일러스트레이터 y gestionar procesos estandarizados.",
@@ -25365,7 +25365,7 @@
     },
     "content": {
       "en": {
-        "title": "웹 디자이너",
+        "title": "Web Designer",
         "summary": "The role of 웹 디자이너 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "웹 디자이너의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -25433,7 +25433,7 @@
         ]
       },
       "es": {
-        "title": "웹 디자이너",
+        "title": "Diseñador web",
         "summary": "El rol de 웹 디자이너 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 웹 디자이너 y gestionar procesos estandarizados.",
@@ -25554,7 +25554,7 @@
     },
     "content": {
       "en": {
-        "title": "전시 디자이너",
+        "title": "Exhibition Designer",
         "summary": "The role of 전시 디자이너 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "전시 디자이너의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -25622,7 +25622,7 @@
         ]
       },
       "es": {
-        "title": "전시 디자이너",
+        "title": "Diseñador de exposiciones",
         "summary": "El rol de 전시 디자이너 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 전시 디자이너 y gestionar procesos estandarizados.",
@@ -25743,7 +25743,7 @@
     },
     "content": {
       "en": {
-        "title": "패션 디자이너",
+        "title": "Fashion Designer",
         "summary": "The role of 패션 디자이너 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "패션 디자이너의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -25811,7 +25811,7 @@
         ]
       },
       "es": {
-        "title": "패션 디자이너",
+        "title": "Diseñador de moda",
         "summary": "El rol de 패션 디자이너 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 패션 디자이너 y gestionar procesos estandarizados.",
@@ -25932,7 +25932,7 @@
     },
     "content": {
       "en": {
-        "title": "인테리어 디자이너",
+        "title": "Interior Designer",
         "summary": "The role of 인테리어 디자이너 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "인테리어 디자이너의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -26000,7 +26000,7 @@
         ]
       },
       "es": {
-        "title": "인테리어 디자이너",
+        "title": "Diseñador de interiores",
         "summary": "El rol de 인테리어 디자이너 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 인테리어 디자이너 y gestionar procesos estandarizados.",
@@ -26121,7 +26121,7 @@
     },
     "content": {
       "en": {
-        "title": "패키지 디자이너",
+        "title": "Package Designer",
         "summary": "The role of 패키지 디자이너 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "패키지 디자이너의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -26189,7 +26189,7 @@
         ]
       },
       "es": {
-        "title": "패키지 디자이너",
+        "title": "Diseñador de empaques",
         "summary": "El rol de 패키지 디자이너 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 패키지 디자이너 y gestionar procesos estandarizados.",
@@ -26310,7 +26310,7 @@
     },
     "content": {
       "en": {
-        "title": "게임 기획자",
+        "title": "Game Planner",
         "summary": "The role of 게임 기획자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "게임 기획자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -26378,7 +26378,7 @@
         ]
       },
       "es": {
-        "title": "게임 기획자",
+        "title": "Planificador de juegos",
         "summary": "El rol de 게임 기획자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 게임 기획자 y gestionar procesos estandarizados.",
@@ -26499,7 +26499,7 @@
     },
     "content": {
       "en": {
-        "title": "게임 디자이너",
+        "title": "Game Designer",
         "summary": "The role of 게임 디자이너 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "게임 디자이너의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -26567,7 +26567,7 @@
         ]
       },
       "es": {
-        "title": "게임 디자이너",
+        "title": "Diseñador de videojuegos",
         "summary": "El rol de 게임 디자이너 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 게임 디자이너 y gestionar procesos estandarizados.",
@@ -26688,7 +26688,7 @@
     },
     "content": {
       "en": {
-        "title": "커뮤니티 매니저",
+        "title": "Community Manager",
         "summary": "The role of 커뮤니티 매니저 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "커뮤니티 매니저의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -26756,7 +26756,7 @@
         ]
       },
       "es": {
-        "title": "커뮤니티 매니저",
+        "title": "Community manager",
         "summary": "El rol de 커뮤니티 매니저 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 커뮤니티 매니저 y gestionar procesos estandarizados.",
@@ -26877,7 +26877,7 @@
     },
     "content": {
       "en": {
-        "title": "의료 코더",
+        "title": "Medical Coder",
         "summary": "The role of 의료 코더 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "의료 코더의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -26945,7 +26945,7 @@
         ]
       },
       "es": {
-        "title": "의료 코더",
+        "title": "Codificador médico",
         "summary": "El rol de 의료 코더 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 의료 코더 y gestionar procesos estandarizados.",
@@ -27066,7 +27066,7 @@
     },
     "content": {
       "en": {
-        "title": "의료 청구 담당자",
+        "title": "Medical Billing Specialist",
         "summary": "The role of 의료 청구 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "의료 청구 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -27134,7 +27134,7 @@
         ]
       },
       "es": {
-        "title": "의료 청구 담당자",
+        "title": "Especialista en facturación médica",
         "summary": "El rol de 의료 청구 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 의료 청구 담당자 y gestionar procesos estandarizados.",
@@ -27255,7 +27255,7 @@
     },
     "content": {
       "en": {
-        "title": "의료 코디네이터",
+        "title": "Medical Coordinator",
         "summary": "The role of 의료 코디네이터 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "의료 코디네이터의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -27323,7 +27323,7 @@
         ]
       },
       "es": {
-        "title": "의료 코디네이터",
+        "title": "Coordinador médico",
         "summary": "El rol de 의료 코디네이터 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 의료 코디네이터 y gestionar procesos estandarizados.",
@@ -27444,7 +27444,7 @@
     },
     "content": {
       "en": {
-        "title": "의무기록사",
+        "title": "Medical Records Clerk",
         "summary": "The role of 의무기록사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "의무기록사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -27512,7 +27512,7 @@
         ]
       },
       "es": {
-        "title": "의무기록사",
+        "title": "Archivista médico",
         "summary": "El rol de 의무기록사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 의무기록사 y gestionar procesos estandarizados.",
@@ -27633,7 +27633,7 @@
     },
     "content": {
       "en": {
-        "title": "방사선사",
+        "title": "Radiologic Technologist",
         "summary": "The role of 방사선사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "방사선사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -27701,7 +27701,7 @@
         ]
       },
       "es": {
-        "title": "방사선사",
+        "title": "Técnico en radiología",
         "summary": "El rol de 방사선사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 방사선사 y gestionar procesos estandarizados.",
@@ -27822,7 +27822,7 @@
     },
     "content": {
       "en": {
-        "title": "임상병리사",
+        "title": "Clinical Laboratory Technologist",
         "summary": "The role of 임상병리사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "임상병리사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -27890,7 +27890,7 @@
         ]
       },
       "es": {
-        "title": "임상병리사",
+        "title": "Tecnólogo clínico de laboratorio",
         "summary": "El rol de 임상병리사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 임상병리사 y gestionar procesos estandarizados.",
@@ -28011,7 +28011,7 @@
     },
     "content": {
       "en": {
-        "title": "작업치료사",
+        "title": "Occupational Therapist",
         "summary": "The role of 작업치료사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "작업치료사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -28079,7 +28079,7 @@
         ]
       },
       "es": {
-        "title": "작업치료사",
+        "title": "Terapeuta ocupacional",
         "summary": "El rol de 작업치료사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 작업치료사 y gestionar procesos estandarizados.",
@@ -28200,7 +28200,7 @@
     },
     "content": {
       "en": {
-        "title": "언어치료사",
+        "title": "Speech Therapist",
         "summary": "The role of 언어치료사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "언어치료사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -28268,7 +28268,7 @@
         ]
       },
       "es": {
-        "title": "언어치료사",
+        "title": "Terapeuta del lenguaje",
         "summary": "El rol de 언어치료사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 언어치료사 y gestionar procesos estandarizados.",
@@ -28389,7 +28389,7 @@
     },
     "content": {
       "en": {
-        "title": "치과기공사",
+        "title": "Dental Technician",
         "summary": "The role of 치과기공사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "치과기공사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -28457,7 +28457,7 @@
         ]
       },
       "es": {
-        "title": "치과기공사",
+        "title": "Técnico de prótesis dentales",
         "summary": "El rol de 치과기공사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 치과기공사 y gestionar procesos estandarizados.",
@@ -28578,7 +28578,7 @@
     },
     "content": {
       "en": {
-        "title": "병원 원무 담당자",
+        "title": "Hospital Front Desk Clerk",
         "summary": "The role of 병원 원무 담당자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "병원 원무 담당자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -28646,7 +28646,7 @@
         ]
       },
       "es": {
-        "title": "병원 원무 담당자",
+        "title": "Asistente administrativo hospitalario",
         "summary": "El rol de 병원 원무 담당자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 병원 원무 담당자 y gestionar procesos estandarizados.",
@@ -28767,7 +28767,7 @@
     },
     "content": {
       "en": {
-        "title": "사회복지사",
+        "title": "Social Worker",
         "summary": "The role of 사회복지사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "사회복지사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -28835,7 +28835,7 @@
         ]
       },
       "es": {
-        "title": "사회복지사",
+        "title": "Trabajador social",
         "summary": "El rol de 사회복지사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 사회복지사 y gestionar procesos estandarizados.",
@@ -28956,7 +28956,7 @@
     },
     "content": {
       "en": {
-        "title": "상담사",
+        "title": "Counselor",
         "summary": "The role of 상담사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "상담사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -29024,7 +29024,7 @@
         ]
       },
       "es": {
-        "title": "상담사",
+        "title": "Consejero",
         "summary": "El rol de 상담사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 상담사 y gestionar procesos estandarizados.",
@@ -29145,7 +29145,7 @@
     },
     "content": {
       "en": {
-        "title": "직업상담사",
+        "title": "Career Counselor",
         "summary": "The role of 직업상담사 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "직업상담사의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -29213,7 +29213,7 @@
         ]
       },
       "es": {
-        "title": "직업상담사",
+        "title": "Orientador ocupacional",
         "summary": "El rol de 직업상담사 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 직업상담사 y gestionar procesos estandarizados.",
@@ -29334,7 +29334,7 @@
     },
     "content": {
       "en": {
-        "title": "연구원",
+        "title": "Researcher",
         "summary": "The role of 연구원 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "연구원의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -29402,7 +29402,7 @@
         ]
       },
       "es": {
-        "title": "연구원",
+        "title": "Investigador",
         "summary": "El rol de 연구원 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 연구원 y gestionar procesos estandarizados.",
@@ -29523,7 +29523,7 @@
     },
     "content": {
       "en": {
-        "title": "연구보조원",
+        "title": "Research Assistant",
         "summary": "The role of 연구보조원 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "연구보조원의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -29591,7 +29591,7 @@
         ]
       },
       "es": {
-        "title": "연구보조원",
+        "title": "Asistente de investigación",
         "summary": "El rol de 연구보조원 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 연구보조원 y gestionar procesos estandarizados.",
@@ -29712,7 +29712,7 @@
     },
     "content": {
       "en": {
-        "title": "실험실 기술자",
+        "title": "Laboratory Technician",
         "summary": "The role of 실험실 기술자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "실험실 기술자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -29780,7 +29780,7 @@
         ]
       },
       "es": {
-        "title": "실험실 기술자",
+        "title": "Técnico de laboratorio",
         "summary": "El rol de 실험실 기술자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 실험실 기술자 y gestionar procesos estandarizados.",
@@ -29901,7 +29901,7 @@
     },
     "content": {
       "en": {
-        "title": "사서",
+        "title": "Librarian",
         "summary": "The role of 사서 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "사서의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -29969,7 +29969,7 @@
         ]
       },
       "es": {
-        "title": "사서",
+        "title": "Bibliotecario",
         "summary": "El rol de 사서 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 사서 y gestionar procesos estandarizados.",
@@ -30090,7 +30090,7 @@
     },
     "content": {
       "en": {
-        "title": "교육 콘텐츠 개발자",
+        "title": "Learning Content Developer",
         "summary": "The role of 교육 콘텐츠 개발자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "교육 콘텐츠 개발자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -30158,7 +30158,7 @@
         ]
       },
       "es": {
-        "title": "교육 콘텐츠 개발자",
+        "title": "Desarrollador de contenido educativo",
         "summary": "El rol de 교육 콘텐츠 개발자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 교육 콘텐츠 개발자 y gestionar procesos estandarizados.",
@@ -30279,7 +30279,7 @@
     },
     "content": {
       "en": {
-        "title": "교재 개발자",
+        "title": "Textbook Developer",
         "summary": "The role of 교재 개발자 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "교재 개발자의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -30347,7 +30347,7 @@
         ]
       },
       "es": {
-        "title": "교재 개발자",
+        "title": "Desarrollador de libros de texto",
         "summary": "El rol de 교재 개발자 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 교재 개발자 y gestionar procesos estandarizados.",
@@ -30468,7 +30468,7 @@
     },
     "content": {
       "en": {
-        "title": "입학사정관",
+        "title": "Admissions Officer",
         "summary": "The role of 입학사정관 involves handling structured workflows, quality checks, coordination, and decision support.",
         "tasks": [
           "입학사정관의 핵심 업무를 수행하고 표준 프로세스를 관리합니다.",
@@ -30536,7 +30536,7 @@
         ]
       },
       "es": {
-        "title": "입학사정관",
+        "title": "Oficial de admisiones",
         "summary": "El rol de 입학사정관 implica manejar flujos de trabajo estructurados, controles de calidad, coordinacion y soporte de decision.",
         "tasks": [
           "Realizar tareas principales de 입학사정관 y gestionar procesos estandarizados.",
