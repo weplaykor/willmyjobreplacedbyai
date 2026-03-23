@@ -476,6 +476,24 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "legal-support-workers",
+              "labels": {
+                "en": "Legal Support Workers",
+                "ko": "법률 지원 종사자",
+                "es": "Trabajadores de apoyo legal"
+              },
+              "details": [
+                {
+                  "id": "paralegal",
+                  "labels": {
+                    "en": "Paralegal",
+                    "ko": "법무 보조원",
+                    "es": "Paralegal"
+                  }
+                }
+              ]
             }
           ]
         }

@@ -15182,6 +15182,227 @@
     }
   },
   {
+    "id": "paralegal",
+    "category": "professional",
+    "automationRisk": 68,
+    "aiRole": "hybrid",
+    "classification": {
+      "majorId": "professional",
+      "midId": "business-legal",
+      "subId": "legal-support-workers",
+      "detailId": "paralegal"
+    },
+    "currentReplacementUrl": "https://www.thomsonreuters.com/en-us/cocounsel.html",
+    "degree": {
+      "status": "preferred",
+      "level": "associate"
+    },
+    "aiEvidence": {
+      "rationale": {
+        "en": "Paralegal work includes strong structural AI exposure in research, summarization, drafting, and document review, but the role stays needed for legal workflow judgment, factual accuracy, and execution discipline.",
+        "ko": "법무 보조 업무는 연구, 요약, 초안 작성, 문서 검토처럼 구조화된 구간에서 AI 노출이 높지만, 법무 워크플로 판단, 사실 정확성, 업무 실행 책임 때문에 완전 대체는 어렵습니다.",
+        "es": "El trabajo de paralegal tiene alta exposicion a IA en investigacion, resumen, redaccion y revision de documentos, pero sigue siendo necesario por el juicio del flujo legal, la exactitud fáctica y la disciplina operativa."
+      },
+      "automatableNow": {
+        "en": [
+          "First-pass legal research, document summarization, clause spotting, and draft generation.",
+          "Bulk document review and legal drafting support.",
+          "Document classification and search across case files.",
+          "Routine compliance and citation-oriented prep for teams."
+        ],
+        "ko": [
+          "1차 법률 조사, 문서 요약, 조항 식별, 초안 작성",
+          "대량 문서 검토와 법률 서면 작성 보조",
+          "사건 파일 내 문서 분류와 검색",
+          "사내 기준 문서 정리 및 반복 서류 준비"
+        ],
+        "es": [
+          "Investigacion inicial legal, resumen documental, identificacion de clausulas y redaccion de borradores.",
+          "Revision masiva de documentos y apoyo a redaccion legal.",
+          "Clasificacion y busqueda documental en expedientes.",
+          "Preparacion rutinaria de documentos conforme a estandares de compliance."
+        ]
+      },
+      "humanEdge": {
+        "en": [
+          "Keeping case facts, evidence, and chronology clean when the record becomes messy.",
+          "Supporting attorneys through deadline pressure and execution under strict legal process.",
+          "Catching factual mismatches or practical issues not fully represented in model summaries.",
+          "Serving as a reliable operator between legal strategy and actual completed workflow."
+        ],
+        "ko": [
+          "요건이 복잡해질 때 사건 사실관계, 증거, 연대순서를 정합성 있게 유지하는 일.",
+          "마감 압박 속에서 대리인을 지원하는 실행력과 마감 규율.",
+          "모델 요약이 담지 못한 사실 불일치나 실무 리스크를 잡아내는 일.",
+          "법률 전략과 실제 처리된 결과물 사이를 연결하는 실행 허브 역할."
+        ],
+        "es": [
+          "Mantener limpios los hechos del caso, evidencia y cronologia cuando el expediente se vuelve irregular.",
+          "Apoyar a abogados bajo presion de plazos y con disciplina de ejecucion.",
+          "Detectar inconsistencias practicas o fácticas que un resumen de modelo no refleja.",
+          "Actuar como un operador confiable entre estrategia legal y cumplimiento del flujo real."
+        ]
+      },
+      "references": [
+        {
+          "name": "BLS: Paralegals and Legal Assistants",
+          "url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm"
+        },
+        {
+          "name": "BLS: Occupational projections and worker characteristics",
+          "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+        },
+        {
+          "name": "BLS: Education and training assignments by occupation",
+          "url": "https://www.bls.gov/emp/ep_table_100.htm"
+        },
+        {
+          "name": "O*NET: Paralegals and Legal Assistants",
+          "url": "https://www.onetonline.org/link/summary/23-2011.00"
+        },
+        {
+          "name": "Thomson Reuters CoCounsel Legal",
+          "url": "https://www.thomsonreuters.com/en-us/cocounsel.html"
+        },
+        {
+          "name": "Lexis+ with Protégé",
+          "url": "https://www.lexisnexis.com/en-us/products/lexis-plus.page"
+        },
+        {
+          "name": "Harvey Legal",
+          "url": "https://www.harvey.ai/"
+        }
+      ]
+    },
+    "content": {
+      "en": {
+        "title": "Paralegal",
+        "summary": "Paralegal supports lawyers by investigating facts, preparing legal documents, organizing case materials, and helping prepare for legal proceedings. AI is growing in research and document-analysis workflows, but human control remains essential for legal workflow accuracy and accountable execution.",
+        "tasks": [
+          "Investigate facts and collect relevant evidence.",
+          "Prepare legal documents and organize case files.",
+          "Research legal precedent and support legal teams before proceedings."
+        ],
+        "skills": [
+          "Research skill",
+          "Organizational skill",
+          "Document accuracy",
+          "Deadline control",
+          "Legal writing support",
+          "Fact gathering",
+          "Case-file management"
+        ],
+        "path": [
+          "Paralegal work commonly starts through an associate-level legal track or certificate.",
+          "Build competence in document handling, legal research, and case coordination.",
+          "Strengthen execution discipline around deadlines, accuracy, and attorney-facing communication."
+        ],
+        "degreeNote": "An associate's degree is typically expected for many paralegal roles, while some employers accept certificates or practical experience; career progression can move toward broader legal workflow roles.",
+        "aiNow": "AI supports legal teams with document analysis, drafting, summarization, litigation review, and bulk-review workflows.",
+        "aiFuture": "The repeatable first-pass layers are shrinking first: first-pass research, document summarization, drafting, and volume file review. Human value remains strongest in workflow control, factual accuracy, exception handling, and attorney-facing execution.",
+        "services": [
+          "Thomson Reuters CoCounsel Legal",
+          "Lexis+ with Protégé",
+          "Harvey"
+        ],
+        "educationPathways": [
+          "Start with an associate degree or certificate in paralegal support.",
+          "Practice legal research, legal document preparation, and evidence organization in real case environments.",
+          "Progress toward high-trust legal workflow support through accuracy under deadlines, consistency, and attorney communication."
+        ]
+      },
+      "ko": {
+        "title": "법무 보조원",
+        "summary": "법무 보조원은 변호사를 지원하며 사실 조사, 법률 문서 작성, 사건 자료 정리, 절차 준비를 담당합니다. AI가 연구·문서 분석·요약에 진입했지만, 정확도와 책임을 요구하는 법무 실행은 여전히 사람이 관리해야 합니다.",
+        "tasks": [
+          "사건 관련 사실을 조사하고 증거를 수집합니다.",
+          "법률 문서를 작성하고 사건 자료를 정리·보관합니다.",
+          "법률 판례를 조사하고 사건 진행을 위한 내부 검토를 지원합니다."
+        ],
+        "skills": [
+          "연구 능력",
+          "조직력",
+          "문서 정확성",
+          "마감 관리",
+          "법률 문안 지원",
+          "사실 수집",
+          "사건 자료 운영"
+        ],
+        "path": [
+          "법무 보조는 보통 전문 학위(부전공 포함) 또는 학위 전 교육 트랙으로 시작합니다.",
+          "문서 처리, 법률 조사, 사건 조정 실무를 통해 실무 역량을 쌓습니다.",
+          "마감 준수와 정확도, 변호사 커뮤니케이션을 동시에 수행할 수 있는 실행력을 강화합니다."
+        ],
+        "degreeNote": "법무 보조직의 진입 신호는 보통 전문학사 수준이지만, 일부 기관은 자격증·실무 경험을 인정하기도 합니다.",
+        "aiNow": "AI는 연구 보조, 문서 분석, 문헌 요약, 소송 문서 리뷰 등 반복적인 구조화 작업을 빠르게 지원합니다.",
+        "aiFuture": "반복적인 1차 조사가 먼저 축소될 가능성이 큽니다. 남는 가치는 사건 운영 통제, 사실 정확성, 예외 상황 판단, 변호사 실행 지원에 있습니다.",
+        "services": [
+          "Thomson Reuters CoCounsel Legal",
+          "Lexis+ with Protégé",
+          "Harvey"
+        ],
+        "educationPathways": [
+          "법무 보조 관련 전문학사 또는 자격 기반의 실무 교육에서 시작합니다.",
+          "사건 파일 관리, 문서 처리, 법률 연구를 실제 사례로 반복 학습합니다.",
+          "정확한 마감 수행과 attorney-facing 커뮤니케이션으로 신뢰를 쌓아 상향 이동합니다."
+        ]
+      },
+      "es": {
+        "title": "Paralegal",
+        "summary": "El paralegal apoya a los abogados investigando hechos, preparando documentos legales, organizando expedientes y colaborando en la preparación del caso. La IA avanza en investigacion y analisis documental, pero la ejecucion y responsabilidad seguira requiriendo control humano.",
+        "tasks": [
+          "Investigar los hechos y reunir evidencia relevante.",
+          "Preparar documentos legales y organizar los expedientes.",
+          "Investigar precedentes y apoyar a los equipos antes de los procedimientos."
+        ],
+        "skills": [
+          "Capacidad de investigacion",
+          "Habilidad organizativa",
+          "Precision documental",
+          "Gestion de plazos",
+          "Soporte de redaccion legal",
+          "Recopilacion de hechos",
+          "Gestion de expedientes"
+        ],
+        "path": [
+          "El rol suele comenzar por una ruta de grado asociado o una certificacion legal.",
+          "Desarrollar documentacion juridica, investigacion y organizacion de expedientes en entornos reales.",
+          "Fortalecer disciplina de entrega y comunicacion con abogados para manejar casos con responsabilidad."
+        ],
+        "degreeNote": "Para muchos mercados, el titulo de grado asociado es una expectativa comun, aunque algunos empleadores valoran certificados o experiencia practica.",
+        "aiNow": "La IA ya apoya la investigacion, analisis de documentos, resumen de grandes volúmenes y revisiones iniciales en revisiones juridicas y litigiosas.",
+        "aiFuture": "Se espera que se automatice primero la capa repetitiva de analisis inicial y resumen documental. El valor humano permanece en control del flujo, exactitud fáctica, excepciones y ejecucion orientada al abogado.",
+        "services": [
+          "Thomson Reuters CoCounsel Legal",
+          "Lexis+ con Protégé",
+          "Harvey"
+        ],
+        "educationPathways": [
+          "Comienza por un programa de carrera de asistente juridico con grado asociado o certificacion.",
+          "Practica investigacion, preparacion documental y organizacion de casos con casos reales.",
+          "Progresa hacia responsabilidades de mayor confianza mejorando disciplina de entrega y comunicacion con abogados."
+        ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 39710,
+        "max": 98990
+      },
+      "hiringDemand": {
+        "level": "low",
+        "note": {
+          "en": "Demand is relatively stable overall, with replacement-driven openings remaining important as organizations continue needing legal support, quality control, and deadline-driven execution.",
+          "ko": "전체적인 수요는 안정적인 편이지만, 조직이 여전히 법무 지원, 품질 통제, 마감 준수 실행을 요구하면서 대체 채용 중심 수요가 유지됩니다.",
+          "es": "La demanda se mantiene relativamente estable, con vacantes por reemplazo persistentes a medida que las organizaciones siguen necesitando soporte legal, control de calidad y ejecucion bajo plazos."
+        }
+      }
+    }
+  },
+  {
     "id": "법무-보조원",
     "category": "business",
     "automationRisk": 62,
