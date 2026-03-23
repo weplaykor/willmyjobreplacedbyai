@@ -132,30 +132,30 @@
             "ko": "사업 운영 전문가",
             "es": "Especialistas en operaciones empresariales"
           },
-      "subs": [
-        {
-          "id": "buyers-and-purchasing-agents",
-          "labels": {
-            "en": "Buyers and Purchasing Agents",
-            "ko": "바이어 및 구매 에이전트",
-            "es": "Compradores y agentes de compras"
-          },
-          "details": [
+          "subs": [
             {
-              "id": "purchasing-agent",
+              "id": "buyers-and-purchasing-agents",
               "labels": {
-                "en": "Purchasing Agent",
-                "ko": "구매 에이전트",
-                "es": "Agente de compras"
-              }
-            }
-          ]
-        },
-        {
-          "id": "project-management-specialists",
-          "labels": {
-            "en": "Project Management Specialists",
-            "ko": "프로젝트 관리 전문가",
+                "en": "Buyers and Purchasing Agents",
+                "ko": "바이어 및 구매 에이전트",
+                "es": "Compradores y agentes de compras"
+              },
+              "details": [
+                {
+                  "id": "purchasing-agent",
+                  "labels": {
+                    "en": "Purchasing Agent",
+                    "ko": "구매 에이전트",
+                    "es": "Agente de compras"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "project-management-specialists",
+              "labels": {
+                "en": "Project Management Specialists",
+                "ko": "프로젝트 관리 전문가",
                 "es": "Especialistas en gestion de proyectos"
               },
               "details": [
@@ -165,6 +165,34 @@
                     "en": "Project Manager",
                     "ko": "프로젝트 매니저",
                     "es": "Gerente de proyectos"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "financial-specialists",
+          "labels": {
+            "en": "Financial Specialists",
+            "ko": "재무 전문가",
+            "es": "Especialistas financieros"
+          },
+          "subs": [
+            {
+              "id": "budget-analysts",
+              "labels": {
+                "en": "Budget Analysts",
+                "ko": "예산 분석가",
+                "es": "Analistas de presupuesto"
+              },
+              "details": [
+                {
+                  "id": "budget-analyst",
+                  "labels": {
+                    "en": "Budget Analyst",
+                    "ko": "예산 분석가",
+                    "es": "Analista de presupuesto"
                   }
                 }
               ]

@@ -1358,6 +1358,218 @@
     }
   },
   {
+    "id": "budget-analyst",
+    "category": "business",
+    "automationRisk": 63,
+    "aiRole": "hybrid",
+    "classification": {
+      "majorId": "business-financial-operations",
+      "midId": "financial-specialists",
+      "subId": "budget-analysts",
+      "detailId": "budget-analyst"
+    },
+    "currentReplacementUrl": "https://www.oracle.com/enterprise-performance-management/",
+    "degree": {
+      "status": "required",
+      "level": "bachelor"
+    },
+    "aiEvidence": {
+      "rationale": {
+        "en": "Budget analysis is more exposed than relationship-heavy finance roles because a large portion of the work is structured: data gathering, consolidation, baseline modeling, variance tracking, report drafting, and forecast iteration. But it is not fully replace-first, because budgets are ultimately political, strategic, and constraint-driven documents. Someone still has to judge tradeoffs, defend funding choices, explain consequences, and own the recommendation when model outputs are incomplete or misleading.",
+        "ko": "예산 분석은 관계형 업무가 강한 재무 직무보다 노출도가 큽니다. 데이터 수집, 통합, 기본 예측 모델링, 편차 추적, 보고서 작성, 시나리오 반복과 같은 구조화 작업이 많기 때문입니다. 하지만 단기 전면 대체는 어렵습니다. 예산은 정책·전략·제약 조건이 강하게 작동하는 문서이므로, 트레이드오프 판단, 지원 근거 제시, 결과 설명, 모델 누락 위험 대응의 책임이 사람에게 남습니다.",
+        "es": "El analisis presupuestario esta mas expuesto que roles financieros con enfoque de relacion porque gran parte del trabajo es estructurado: recopilacion de datos, consolidacion, modelado basico, control de variaciones, redaccion de reportes e iteracion de pronosticos. Pero no es reemplazo total, porque los presupuestos son documentos politicos, estrategicos y condicionados por restricciones. Alguien debe seguir juzgando tradeoffs, defendiendo decisiones de financiamiento, explicando consecuencias y asumiendo recomendaciones cuando la salida del modelo sea incompleta o engañosa."
+      },
+      "automatableNow": {
+        "en": [
+          "Preparing draft summaries of budget status.",
+          "Checking budget variances and spending deviations.",
+          "Supporting baseline projections and scenario modeling.",
+          "Automating recurring reporting and planning workflows.",
+          "Improving forecasting speed and consistency across finance teams."
+        ],
+        "ko": [
+          "예산 현황 초안을 작성.",
+          "편차와 지출 이상 징후를 확인.",
+          "기준 예측 및 시나리오 모델링 지원.",
+          "반복적 보고/기획 워크플로우 자동화.",
+          "재무팀 전반의 예측 속도와 일관성 개선."
+        ],
+        "es": [
+          "Preparar borradores de estado presupuestario.",
+          "Verificar variaciones de presupuesto y desviaciones de gasto.",
+          "Apoyar proyecciones base y modelado de escenarios.",
+          "Automatizar flujos recurrentes de reportes y planificacion.",
+          "Mejorar la velocidad y consistencia de pronosticos en equipos de finanzas."
+        ]
+      },
+      "humanEdge": {
+        "en": [
+          "Explaining tradeoffs to executives, legislators, or the public.",
+          "Balancing policy goals or business priorities that do not fit a single optimization target.",
+          "Judging when historical data is not a reliable guide because conditions changed.",
+          "Taking responsibility for funding recommendations that affect real programs, jobs, and outcomes."
+        ],
+        "ko": [
+          "임원·의원·대중에게 트레이드오프를 설명하는 일.",
+          "단일 최적화 기준으로 설명되지 않는 정책 목표/사업 우선순위를 조정.",
+          "환경 변화로 과거 데이터가 신뢰할 수 없을 때 판단을 내리는 일.",
+          "실제 프로그램·고용·성과에 영향을 주는 자금 배분 결정 책임."
+        ],
+        "es": [
+          "Explicar tradeoffs a ejecutivos, legisladores o al publico.",
+          "Equilibrar objetivos de politica o prioridades de negocio que no caben en una sola optimizacion.",
+          "Juzgar cuando el historial no es guia confiable porque las condiciones cambiaron.",
+          "Asumir responsabilidad de recomendaciones de financiamiento que afectan programas y resultados reales."
+        ]
+      },
+      "references": [
+        {
+          "name": "BLS: Budget Analysts",
+          "url": "https://www.bls.gov/ooh/business-and-financial/budget-analysts.htm"
+        },
+        {
+          "name": "OECD: Using Artificial Intelligence in Public Financial Management",
+          "url": "https://www.oecd.org/en/topics/public-finance-and-taxation/"
+        },
+        {
+          "name": "Oracle: Enterprise Performance Management",
+          "url": "https://www.oracle.com/enterprise-performance-management/"
+        },
+        {
+          "name": "Anaplan: AI-driven Financial Planning",
+          "url": "https://www.anaplan.com/solutions/financial-planning-forecasting/"
+        }
+      ]
+    },
+    "content": {
+      "en": {
+        "title": "Budget Analyst",
+        "summary": "Budget Analyst helps organizations plan finances, evaluate funding requests, consolidate budgets, monitor spending, estimate future needs, and explain tradeoffs to managers, legislators, or the public. AI is getting strong at the modeling, variance-checking, summarizing, and forecasting layer, but humans still carry the recommendation, explanation, and accountability burden.",
+        "tasks": [
+          "Work with program and project managers to build budgets, review funding requests for accuracy and compliance, combine department budgets into an organization-wide plan, monitor spending against budget, estimate future financial needs, and explain discrepancies or tradeoffs to decision-makers.",
+          "In government settings, the role may also involve committee hearings, policy assessment, and draft budget-related legislation."
+        ],
+        "skills": [
+          "Analytical skill",
+          "Cost-benefit thinking",
+          "Communication",
+          "Writing",
+          "Detail orientation",
+          "Math comfort",
+          "Financial software fluency",
+          "Ability to defend recommendations in conflicting-priority meetings"
+        ],
+        "path": [
+          "The standard entry route is a bachelor’s degree, often with coursework in accounting, economics, and statistics.",
+          "Some employers prefer a master’s degree, and in some cases budget- or finance-related experience can substitute for formal education.",
+          "The clearest signal is being able to turn messy financial inputs into defensible recommendations under deadline pressure."
+        ],
+        "degreeNote": "Budget analysts typically need a bachelor’s degree to enter the occupation, and BLS lists that as the typical entry-level education. Some employers prefer advanced study, but the occupation is not usually framed as a pure certification route.",
+        "aiNow": "AI already supports budget planning and monitoring by helping build expenditure baselines, cost new policies, track deviations from allocations, and analyze financial data in real time. Commercial finance-planning platforms also market AI for modeling, planning, reporting, forecasting accuracy, and budget-task automation.",
+        "aiFuture": "The first layer to compress is the spreadsheet-and-reporting layer: variance checks, recurring summaries, scenario drafts, template-based forecasts, and routine explanations of budget status. The surviving value shifts upward toward policy judgment, political explanation, resource-allocation tradeoffs, exception handling, and defending recommendations when the “right” budget depends on goals that conflict with one another.",
+        "services": [
+          "Oracle Fusion Cloud EPM",
+          "Anaplan Finance Analyst",
+          "Board AI"
+        ],
+        "educationPathways": [
+          "Start with a bachelor’s degree in business, economics, accounting, mathematics, social science, or another numerically strong field.",
+          "Build experience in budgeting, reporting, variance analysis, forecasting, and explaining financial tradeoffs to non-finance stakeholders.",
+          "Add AI workflow literacy in FP&A and EPM systems so you are not competing as a purely manual spreadsheet operator."
+        ]
+      },
+      "ko": {
+        "title": "예산 분석가",
+        "summary": "예산 분석가는 조직의 재무 계획 수립, 자금 요청 검토, 예산 통합, 지출 모니터링, 미래 재무 수요 추정, 그리고 임원·의사결정권자·대중을 위한 트레이드오프 설명을 담당합니다. AI가 모델링, 편차 검사, 요약, 예측 영역을 빠르게 강화하고 있지만, 추천·설명·책임의 핵심은 여전히 사람이 집니다.",
+        "tasks": [
+          "사업별 예산을 구축하고 자금 요청의 정확성과 준수 여부를 점검해 보고서를 검토하며, 부서별 예산을 통합해 조직 전체 계획으로 정리합니다. 예산 대비 집행을 모니터링하고, 향후 재무 수요를 추정한 뒤 의사결정자에게 차이와 트레이드오프를 설명합니다.",
+          "정부 조직에서는 위원회 청문, 정책 평가, 예산 관련 입법 초안 작성까지 관여할 수 있습니다."
+        ],
+        "skills": [
+          "분석력",
+          "비용-편익 사고",
+          "의사소통",
+          "문서화",
+          "세부 집요함",
+          "수리 리터러시",
+          "재무 소프트웨어 활용",
+          "우선순위 충돌 상황에서 권고안을 방어하는 능력"
+        ],
+        "path": [
+          "표준 진입 루트는 회계·경제학·통계학 과목을 포함한 학사 학위입니다.",
+          "일부 고용주는 석사 학위를 선호하고, 경우에 따라 예산/재무 실무 경력으로 학력을 보완할 수 있습니다.",
+          "핵심은 마감 압박에서도 복잡한 재무 입력을 신뢰 가능한 추천안으로 바꾸는 실력입니다."
+        ],
+        "degreeNote": "예산 분석가 직무는 보통 학사 학위를 요구합니다. BLS도 전형적인 진입 교육으로 학사 학위를 제시합니다. 일부 고용주는 석사를 선호하지만, 이 직무는 순수 자격증만으로 대체되는 경로는 아닙니다.",
+        "aiNow": "AI는 지출 기준선 생성, 정책 비용 추정, 배분 편차 추적, 실시간 재무 데이터 분석을 통해 예산 계획·모니터링을 지원합니다. 상용 재무기획 플랫폼은 AI 기반 모델링, 계획, 보고, 예측 정확도 개선, 예산 업무 자동화를 이미 제품화하고 있습니다.",
+        "aiFuture": "가장 먼저 축소되는 층은 스프레드시트·보고층입니다. 편차 점검, 반복 요약, 시나리오 초안, 템플릿형 예측, 예산 현황의 정형 설명이 자동화됩니다. 남는 가치는 정책 판단, 정치적 설명 책임, 자원 배분 트레이드오프, 예외 처리, 상충되는 목표 아래 최적 예산을 방어하는 커뮤니케이션으로 이동합니다.",
+        "services": [
+          "Oracle Fusion Cloud EPM",
+          "Anaplan Finance Analyst",
+          "Board AI"
+        ],
+        "educationPathways": [
+          "비즈니스, 경제학, 회계학, 수학, 사회과학 등 수리 기반 학문으로 학사 과정을 시작하세요.",
+          "예산 수립, 보고, 변동 분석, 예측, 비재무권자 대상 재무 설명 경험을 쌓으세요.",
+          "FP&A 및 EPM 시스템에서 AI 워크플로 활용 능력을 더해, 단순 수동 스프레드시트 작업자와 차별화하세요."
+        ]
+      },
+      "es": {
+        "title": "Analista de presupuesto",
+        "summary": "El analista de presupuesto ayuda a las organizaciones a planificar finanzas, evaluar solicitudes de fondos, consolidar presupuestos, monitorear gastos, estimar necesidades futuras y explicar tradeoffs a gerentes, legisladores o al publico. La IA se esta fortaleciendo en modelado, control de variaciones, resumos y pronostico, pero los humanos siguen asumiendo recomendacion, explicacion y responsabilidad.",
+        "tasks": [
+          "Trabaja con gerentes de programas y proyectos para construir presupuestos, revisar solicitudes de financiamiento por exactitud y cumplimiento, consolidar presupuestos departamentales en un plan global, monitorear gastos vs presupuesto y explicar discrepancias o tradeoffs a tomadores de decision.",
+          "En entornos gubernamentales, el rol tambien puede incluir audiencias de comites, evaluaciones de politica y borradores de legislacion presupuestaria."
+        ],
+        "skills": [
+          "Pensamiento analitico",
+          "Razonamiento costo-beneficio",
+          "Comunicacion",
+          "Redaccion",
+          "Orientacion al detalle",
+          "Alfabetizacion numerica",
+          "Fluidez en software financiero",
+          "Capacidad de defender recomendaciones cuando chocan prioridades"
+        ],
+        "path": [
+          "La ruta estandar de entrada suele ser una licenciatura con cursos de contabilidad, economia y estadistica.",
+          "Algunos empleadores prefieren una maestria y, en algunos casos, experiencia en presupuesto o finanzas puede sustituir parte de la formacion formal.",
+          "La seala mas clara es transformar insumos financieros desordenados en recomendaciones defendibles bajo presion de plazos."
+        ],
+        "degreeNote": "Normalmente se requiere licenciatura para entrar a esta ocupacion, y BLS lo registra como la educacion de entrada tipica. Algunos empleadores prefieren estudio avanzado, pero no se trata de una trayectoria basada en certificaciones puras.",
+        "aiNow": "La IA ya apoya la planificacion y monitoreo presupuestario ayudando a construir lineas base de gasto, costear nuevas politicas, rastrear desviaciones de asignaciones y analizar datos financieros en tiempo real. Plataformas comerciales de planificacion financiera tambien promocionan IA para modelado, planificacion, reportes, precision de pronostico y automatizacion de tareas de presupuesto.",
+        "aiFuture": "La primera capa que se reduce es la de hojas de calculo y reportes: controles de variacion, resumenes recurrentes, borradores de escenarios, pronosticos basados en plantillas y explicaciones rutinarias del estado presupuestario. El valor que permanece sube hacia juicio de politica, explicacion politica, tradeoffs de asignacion de recursos, manejo de excepciones y defensa de recomendaciones cuando el presupuesto correcto depende de metas en conflicto.",
+        "services": [
+          "Oracle Fusion Cloud EPM",
+          "Anaplan Finance Analyst",
+          "Board AI"
+        ],
+        "educationPathways": [
+          "Comienza con una licenciatura en negocios, economia, contabilidad, matematica o ciencias sociales u otro campo con fuerte base numerica.",
+          "Desarrolla experiencia en presupuestacion, reportes, analisis de variaciones, pronosticos y explicacion de tradeoffs financieros para actores no financieros.",
+          "Añade alfabetizacion de IA en sistemas FP&A y EPM para no competir solo como operador manual de hojas de calculo."
+        ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 60510,
+        "max": 134640
+      },
+      "hiringDemand": {
+        "level": "low",
+        "note": {
+          "en": "Employment of budget analysts is projected to grow 1% from 2024 to 2034, slower than average, with about 3,100 openings per year on average in the U.S. Demand still persists where organizations need people to estimate costs, develop budgets, and explain results, especially around public-fund efficiency.",
+          "ko": "BLS는 예산 분석가 고용이 2024~2034년에 1% 성장해 평균보다 느릴 것으로 보지만, 수요는 여전히 존재한다고 봅니다. 특히 공공 자금 효율성 측면에서 비용 추정, 예산 수립, 결과 설명을 담당할 인력이 필요합니다.",
+          "es": "El empleo de analistas de presupuesto se proyecta que crezca 1% de 2024 a 2034, mas lento que el promedio, con alrededor de 3,100 vacantes anuales promedio en EE. UU. La demanda persiste donde las organizaciones necesitan estimar costos, desarrollar presupuestos y explicar resultados, especialmente sobre la eficiencia de fondos publicos."
+        }
+      }
+    }
+  },
+  {
     "id": "registered-nurse",
     "category": "care",
     "automationRisk": 24,

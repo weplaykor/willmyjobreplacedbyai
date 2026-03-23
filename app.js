@@ -1,4 +1,4 @@
-const ASSET_VERSION = '2026-03-23-6';
+const ASSET_VERSION = '2026-03-23-7';
 
 const DATA_FILES = {
   jobs: 'data/jobs.json',
