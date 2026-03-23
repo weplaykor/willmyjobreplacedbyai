@@ -117,91 +117,6 @@
       ]
     },
     {
-      "id": "business-financial-operations",
-      "majorCode": "10",
-      "labels": {
-        "en": "Business and Financial Operations Occupations",
-        "ko": "사업 및 재무 운영 관련 직종",
-        "es": "Ocupaciones de operaciones empresariales y financieras"
-      },
-      "mids": [
-        {
-          "id": "business-operations-specialists",
-          "labels": {
-            "en": "Business Operations Specialists",
-            "ko": "사업 운영 전문가",
-            "es": "Especialistas en operaciones empresariales"
-          },
-          "subs": [
-            {
-              "id": "buyers-and-purchasing-agents",
-              "labels": {
-                "en": "Buyers and Purchasing Agents",
-                "ko": "바이어 및 구매 에이전트",
-                "es": "Compradores y agentes de compras"
-              },
-              "details": [
-                {
-                  "id": "purchasing-agent",
-                  "labels": {
-                    "en": "Purchasing Agent",
-                    "ko": "구매 에이전트",
-                    "es": "Agente de compras"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "project-management-specialists",
-              "labels": {
-                "en": "Project Management Specialists",
-                "ko": "프로젝트 관리 전문가",
-                "es": "Especialistas en gestion de proyectos"
-              },
-              "details": [
-                {
-                  "id": "project-manager",
-                  "labels": {
-                    "en": "Project Manager",
-                    "ko": "프로젝트 매니저",
-                    "es": "Gerente de proyectos"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "financial-specialists",
-          "labels": {
-            "en": "Financial Specialists",
-            "ko": "재무 전문가",
-            "es": "Especialistas financieros"
-          },
-          "subs": [
-            {
-              "id": "budget-analysts",
-              "labels": {
-                "en": "Budget Analysts",
-                "ko": "예산 분석가",
-                "es": "Analistas de presupuesto"
-              },
-              "details": [
-                {
-                  "id": "budget-analyst",
-                  "labels": {
-                    "en": "Budget Analyst",
-                    "ko": "예산 분석가",
-                    "es": "Analista de presupuesto"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "professional",
       "majorCode": "2",
       "labels": {
@@ -1277,6 +1192,1942 @@
                     "en": "Delivery Rider",
                     "ko": "배달 기사",
                     "es": "Repartidor"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business-financial-operations",
+      "majorCode": "10",
+      "labels": {
+        "en": "Business and Financial Operations Occupations",
+        "ko": "사업 및 재무 운영 관련 직종",
+        "es": "Ocupaciones de operaciones empresariales y financieras"
+      },
+      "mids": [
+        {
+          "id": "business-operations-specialists",
+          "labels": {
+            "en": "Business Operations Specialists",
+            "ko": "사업 운영 전문가",
+            "es": "Especialistas en operaciones empresariales"
+          },
+          "subs": [
+            {
+              "id": "buyers-and-purchasing-agents",
+              "labels": {
+                "en": "Buyers and Purchasing Agents",
+                "ko": "바이어 및 구매 에이전트",
+                "es": "Compradores y agentes de compras"
+              },
+              "details": [
+                {
+                  "id": "purchasing-agent",
+                  "labels": {
+                    "en": "Purchasing Agent",
+                    "ko": "구매 담당자",
+                    "es": "Agente de compras"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "procurement-specialists",
+              "labels": {
+                "en": "Procurement Specialists",
+                "ko": "조달 전문가",
+                "es": "Especialistas en adquisicion"
+              },
+              "details": [
+                {
+                  "id": "procurement-specialist",
+                  "labels": {
+                    "en": "Procurement Specialist",
+                    "ko": "조달 전문가",
+                    "es": "Especialista en adquisicion"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "project-management-specialists",
+              "labels": {
+                "en": "Project Management Specialists",
+                "ko": "프로젝트 관리 전문가",
+                "es": "Especialistas en gestion de proyectos"
+              },
+              "details": [
+                {
+                  "id": "project-manager",
+                  "labels": {
+                    "en": "Project Manager",
+                    "ko": "프로젝트 관리자",
+                    "es": "Gerente de proyectos"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "financial-specialists",
+          "labels": {
+            "en": "Financial Specialists",
+            "ko": "재무 전문가",
+            "es": "Especialistas financieros"
+          },
+          "subs": [
+            {
+              "id": "budget-analysts",
+              "labels": {
+                "en": "Budget Analysts",
+                "ko": "예산 분석가",
+                "es": "Analistas de presupuesto"
+              },
+              "details": [
+                {
+                  "id": "budget-analyst",
+                  "labels": {
+                    "en": "Budget Analyst",
+                    "ko": "예산 분석가",
+                    "es": "Analista de presupuesto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management-office-finance-legal",
+      "majorCode": "80",
+      "labels": {
+        "en": "Management, Office, Finance, Legal",
+        "ko": "경영 · 사무 · 재무 · 법무",
+        "es": "Gestion, oficina, finanzas, legal"
+      },
+      "mids": [
+        {
+          "id": "management-office-finance-legal-roles",
+          "labels": {
+            "en": "Management, Office, Finance, Legal Roles",
+            "ko": "경영 · 사무 · 재무 · 법무 직종",
+            "es": "Gestion, oficina, finanzas, legal Roles"
+          },
+          "subs": [
+            {
+              "id": "손해사정사",
+              "labels": {
+                "en": "손해사정사",
+                "ko": "손해사정사",
+                "es": "손해사정사"
+              },
+              "details": [
+                {
+                  "id": "손해사정사",
+                  "labels": {
+                    "en": "손해사정사",
+                    "ko": "손해사정사",
+                    "es": "손해사정사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "준법감시인",
+              "labels": {
+                "en": "준법감시인",
+                "ko": "준법감시인",
+                "es": "준법감시인"
+              },
+              "details": [
+                {
+                  "id": "준법감시인",
+                  "labels": {
+                    "en": "준법감시인",
+                    "ko": "준법감시인",
+                    "es": "준법감시인"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "내부감사-담당자",
+              "labels": {
+                "en": "내부감사 담당자",
+                "ko": "내부감사 담당자",
+                "es": "내부감사 담당자"
+              },
+              "details": [
+                {
+                  "id": "내부감사-담당자",
+                  "labels": {
+                    "en": "내부감사 담당자",
+                    "ko": "내부감사 담당자",
+                    "es": "내부감사 담당자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "리스크-분석가",
+              "labels": {
+                "en": "리스크 분석가",
+                "ko": "리스크 분석가",
+                "es": "리스크 분석가"
+              },
+              "details": [
+                {
+                  "id": "리스크-분석가",
+                  "labels": {
+                    "en": "리스크 분석가",
+                    "ko": "리스크 분석가",
+                    "es": "리스크 분석가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "투자-분석가",
+              "labels": {
+                "en": "투자 분석가",
+                "ko": "투자 분석가",
+                "es": "투자 분석가"
+              },
+              "details": [
+                {
+                  "id": "투자-분석가",
+                  "labels": {
+                    "en": "투자 분석가",
+                    "ko": "투자 분석가",
+                    "es": "투자 분석가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "은행-창구-직원",
+              "labels": {
+                "en": "은행 창구 직원",
+                "ko": "은행 창구 직원",
+                "es": "은행 창구 직원"
+              },
+              "details": [
+                {
+                  "id": "은행-창구-직원",
+                  "labels": {
+                    "en": "은행 창구 직원",
+                    "ko": "은행 창구 직원",
+                    "es": "은행 창구 직원"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "대출-심사-담당자",
+              "labels": {
+                "en": "대출 심사 담당자",
+                "ko": "대출 심사 담당자",
+                "es": "대출 심사 담당자"
+              },
+              "details": [
+                {
+                  "id": "대출-심사-담당자",
+                  "labels": {
+                    "en": "대출 심사 담당자",
+                    "ko": "대출 심사 담당자",
+                    "es": "대출 심사 담당자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "보험-언더라이터",
+              "labels": {
+                "en": "보험 언더라이터",
+                "ko": "보험 언더라이터",
+                "es": "보험 언더라이터"
+              },
+              "details": [
+                {
+                  "id": "보험-언더라이터",
+                  "labels": {
+                    "en": "보험 언더라이터",
+                    "ko": "보험 언더라이터",
+                    "es": "보험 언더라이터"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "계약-관리자",
+              "labels": {
+                "en": "계약 관리자",
+                "ko": "계약 관리자",
+                "es": "계약 관리자"
+              },
+              "details": [
+                {
+                  "id": "계약-관리자",
+                  "labels": {
+                    "en": "계약 관리자",
+                    "ko": "계약 관리자",
+                    "es": "계약 관리자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "문서관리-전문가",
+              "labels": {
+                "en": "문서관리 전문가",
+                "ko": "문서관리 전문가",
+                "es": "문서관리 전문가"
+              },
+              "details": [
+                {
+                  "id": "문서관리-전문가",
+                  "labels": {
+                    "en": "문서관리 전문가",
+                    "ko": "문서관리 전문가",
+                    "es": "문서관리 전문가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "비서",
+              "labels": {
+                "en": "비서",
+                "ko": "비서",
+                "es": "비서"
+              },
+              "details": [
+                {
+                  "id": "비서",
+                  "labels": {
+                    "en": "비서",
+                    "ko": "비서",
+                    "es": "비서"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "일정-조정-담당자",
+              "labels": {
+                "en": "일정 조정 담당자",
+                "ko": "일정 조정 담당자",
+                "es": "일정 조정 담당자"
+              },
+              "details": [
+                {
+                  "id": "일정-조정-담당자",
+                  "labels": {
+                    "en": "일정 조정 담당자",
+                    "ko": "일정 조정 담당자",
+                    "es": "일정 조정 담당자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "법무-보조원",
+              "labels": {
+                "en": "법무 보조원",
+                "ko": "법무 보조원",
+                "es": "법무 보조원"
+              },
+              "details": [
+                {
+                  "id": "법무-보조원",
+                  "labels": {
+                    "en": "법무 보조원",
+                    "ko": "법무 보조원",
+                    "es": "법무 보조원"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "세무사",
+              "labels": {
+                "en": "세무사",
+                "ko": "세무사",
+                "es": "세무사"
+              },
+              "details": [
+                {
+                  "id": "세무사",
+                  "labels": {
+                    "en": "세무사",
+                    "ko": "세무사",
+                    "es": "세무사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "노무사",
+              "labels": {
+                "en": "노무사",
+                "ko": "노무사",
+                "es": "노무사"
+              },
+              "details": [
+                {
+                  "id": "노무사",
+                  "labels": {
+                    "en": "노무사",
+                    "ko": "노무사",
+                    "es": "노무사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "경영-컨설턴트",
+              "labels": {
+                "en": "경영 컨설턴트",
+                "ko": "경영 컨설턴트",
+                "es": "경영 컨설턴트"
+              },
+              "details": [
+                {
+                  "id": "경영-컨설턴트",
+                  "labels": {
+                    "en": "경영 컨설턴트",
+                    "ko": "경영 컨설턴트",
+                    "es": "경영 컨설턴트"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sales-marketing-service",
+      "majorCode": "81",
+      "labels": {
+        "en": "Sales, Marketing, Service",
+        "ko": "영업 · 마케팅 · 서비스",
+        "es": "Ventas, marketing, servicio"
+      },
+      "mids": [
+        {
+          "id": "sales-marketing-service-roles",
+          "labels": {
+            "en": "Sales, Marketing, Service Roles",
+            "ko": "영업 · 마케팅 · 서비스 직종",
+            "es": "Ventas, marketing, servicio Roles"
+          },
+          "subs": [
+            {
+              "id": "영업-대표",
+              "labels": {
+                "en": "영업 대표",
+                "ko": "영업 대표",
+                "es": "영업 대표"
+              },
+              "details": [
+                {
+                  "id": "영업-대표",
+                  "labels": {
+                    "en": "영업 대표",
+                    "ko": "영업 대표",
+                    "es": "영업 대표"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b2b-영업-담당자",
+              "labels": {
+                "en": "B2B 영업 담당자",
+                "ko": "B2B 영업 담당자",
+                "es": "B2B 영업 담당자"
+              },
+              "details": [
+                {
+                  "id": "b2b-영업-담당자",
+                  "labels": {
+                    "en": "B2B 영업 담당자",
+                    "ko": "B2B 영업 담당자",
+                    "es": "B2B 영업 담당자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "고객-성공-매니저",
+              "labels": {
+                "en": "고객 성공 매니저",
+                "ko": "고객 성공 매니저",
+                "es": "고객 성공 매니저"
+              },
+              "details": [
+                {
+                  "id": "고객-성공-매니저",
+                  "labels": {
+                    "en": "고객 성공 매니저",
+                    "ko": "고객 성공 매니저",
+                    "es": "고객 성공 매니저"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "crm-마케터",
+              "labels": {
+                "en": "CRM 마케터",
+                "ko": "CRM 마케터",
+                "es": "CRM 마케터"
+              },
+              "details": [
+                {
+                  "id": "crm-마케터",
+                  "labels": {
+                    "en": "CRM 마케터",
+                    "ko": "CRM 마케터",
+                    "es": "CRM 마케터"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "seo-전문가",
+              "labels": {
+                "en": "SEO 전문가",
+                "ko": "SEO 전문가",
+                "es": "SEO 전문가"
+              },
+              "details": [
+                {
+                  "id": "seo-전문가",
+                  "labels": {
+                    "en": "SEO 전문가",
+                    "ko": "SEO 전문가",
+                    "es": "SEO 전문가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "퍼포먼스-마케터",
+              "labels": {
+                "en": "퍼포먼스 마케터",
+                "ko": "퍼포먼스 마케터",
+                "es": "퍼포먼스 마케터"
+              },
+              "details": [
+                {
+                  "id": "퍼포먼스-마케터",
+                  "labels": {
+                    "en": "퍼포먼스 마케터",
+                    "ko": "퍼포먼스 마케터",
+                    "es": "퍼포먼스 마케터"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "소셜미디어-매니저",
+              "labels": {
+                "en": "소셜미디어 매니저",
+                "ko": "소셜미디어 매니저",
+                "es": "소셜미디어 매니저"
+              },
+              "details": [
+                {
+                  "id": "소셜미디어-매니저",
+                  "labels": {
+                    "en": "소셜미디어 매니저",
+                    "ko": "소셜미디어 매니저",
+                    "es": "소셜미디어 매니저"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "홍보pr-전문가",
+              "labels": {
+                "en": "홍보(PR) 전문가",
+                "ko": "홍보(PR) 전문가",
+                "es": "홍보(PR) 전문가"
+              },
+              "details": [
+                {
+                  "id": "홍보pr-전문가",
+                  "labels": {
+                    "en": "홍보(PR) 전문가",
+                    "ko": "홍보(PR) 전문가",
+                    "es": "홍보(PR) 전문가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "브랜드-매니저",
+              "labels": {
+                "en": "브랜드 매니저",
+                "ko": "브랜드 매니저",
+                "es": "브랜드 매니저"
+              },
+              "details": [
+                {
+                  "id": "브랜드-매니저",
+                  "labels": {
+                    "en": "브랜드 매니저",
+                    "ko": "브랜드 매니저",
+                    "es": "브랜드 매니저"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "시장조사-분석가",
+              "labels": {
+                "en": "시장조사 분석가",
+                "ko": "시장조사 분석가",
+                "es": "시장조사 분석가"
+              },
+              "details": [
+                {
+                  "id": "시장조사-분석가",
+                  "labels": {
+                    "en": "시장조사 분석가",
+                    "ko": "시장조사 분석가",
+                    "es": "시장조사 분석가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "미디어-플래너",
+              "labels": {
+                "en": "미디어 플래너",
+                "ko": "미디어 플래너",
+                "es": "미디어 플래너"
+              },
+              "details": [
+                {
+                  "id": "미디어-플래너",
+                  "labels": {
+                    "en": "미디어 플래너",
+                    "ko": "미디어 플래너",
+                    "es": "미디어 플래너"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "광고-운영-담당자",
+              "labels": {
+                "en": "광고 운영 담당자",
+                "ko": "광고 운영 담당자",
+                "es": "광고 운영 담당자"
+              },
+              "details": [
+                {
+                  "id": "광고-운영-담당자",
+                  "labels": {
+                    "en": "광고 운영 담당자",
+                    "ko": "광고 운영 담당자",
+                    "es": "광고 운영 담당자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "카피라이터",
+              "labels": {
+                "en": "카피라이터",
+                "ko": "카피라이터",
+                "es": "카피라이터"
+              },
+              "details": [
+                {
+                  "id": "카피라이터",
+                  "labels": {
+                    "en": "카피라이터",
+                    "ko": "카피라이터",
+                    "es": "카피라이터"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "기술-영업-엔지니어",
+              "labels": {
+                "en": "기술 영업 엔지니어",
+                "ko": "기술 영업 엔지니어",
+                "es": "기술 영업 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "기술-영업-엔지니어",
+                  "labels": {
+                    "en": "기술 영업 엔지니어",
+                    "ko": "기술 영업 엔지니어",
+                    "es": "기술 영업 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "제휴-마케팅-담당자",
+              "labels": {
+                "en": "제휴 마케팅 담당자",
+                "ko": "제휴 마케팅 담당자",
+                "es": "제휴 마케팅 담당자"
+              },
+              "details": [
+                {
+                  "id": "제휴-마케팅-담당자",
+                  "labels": {
+                    "en": "제휴 마케팅 담당자",
+                    "ko": "제휴 마케팅 담당자",
+                    "es": "제휴 마케팅 담당자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "행사-기획자",
+              "labels": {
+                "en": "행사 기획자",
+                "ko": "행사 기획자",
+                "es": "행사 기획자"
+              },
+              "details": [
+                {
+                  "id": "행사-기획자",
+                  "labels": {
+                    "en": "행사 기획자",
+                    "ko": "행사 기획자",
+                    "es": "행사 기획자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "여행-상담사",
+              "labels": {
+                "en": "여행 상담사",
+                "ko": "여행 상담사",
+                "es": "여행 상담사"
+              },
+              "details": [
+                {
+                  "id": "여행-상담사",
+                  "labels": {
+                    "en": "여행 상담사",
+                    "ko": "여행 상담사",
+                    "es": "여행 상담사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "관광-가이드",
+              "labels": {
+                "en": "관광 가이드",
+                "ko": "관광 가이드",
+                "es": "관광 가이드"
+              },
+              "details": [
+                {
+                  "id": "관광-가이드",
+                  "labels": {
+                    "en": "관광 가이드",
+                    "ko": "관광 가이드",
+                    "es": "관광 가이드"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "레스토랑-매니저",
+              "labels": {
+                "en": "레스토랑 매니저",
+                "ko": "레스토랑 매니저",
+                "es": "레스토랑 매니저"
+              },
+              "details": [
+                {
+                  "id": "레스토랑-매니저",
+                  "labels": {
+                    "en": "레스토랑 매니저",
+                    "ko": "레스토랑 매니저",
+                    "es": "레스토랑 매니저"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "수익관리-분석가",
+              "labels": {
+                "en": "수익관리 분석가",
+                "ko": "수익관리 분석가",
+                "es": "수익관리 분석가"
+              },
+              "details": [
+                {
+                  "id": "수익관리-분석가",
+                  "labels": {
+                    "en": "수익관리 분석가",
+                    "ko": "수익관리 분석가",
+                    "es": "수익관리 분석가"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-data-engineering",
+      "majorCode": "82",
+      "labels": {
+        "en": "IT, Data, Engineering",
+        "ko": "IT · 데이터 · 엔지니어링",
+        "es": "IT, datos, ingenieria"
+      },
+      "mids": [
+        {
+          "id": "it-data-engineering-roles",
+          "labels": {
+            "en": "IT, Data, Engineering Roles",
+            "ko": "IT · 데이터 · 엔지니어링 직종",
+            "es": "IT, datos, ingenieria Roles"
+          },
+          "subs": [
+            {
+              "id": "it-지원-전문가",
+              "labels": {
+                "en": "IT 지원 전문가",
+                "ko": "IT 지원 전문가",
+                "es": "IT 지원 전문가"
+              },
+              "details": [
+                {
+                  "id": "it-지원-전문가",
+                  "labels": {
+                    "en": "IT 지원 전문가",
+                    "ko": "IT 지원 전문가",
+                    "es": "IT 지원 전문가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "네트워크-관리자",
+              "labels": {
+                "en": "네트워크 관리자",
+                "ko": "네트워크 관리자",
+                "es": "네트워크 관리자"
+              },
+              "details": [
+                {
+                  "id": "네트워크-관리자",
+                  "labels": {
+                    "en": "네트워크 관리자",
+                    "ko": "네트워크 관리자",
+                    "es": "네트워크 관리자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "시스템-관리자",
+              "labels": {
+                "en": "시스템 관리자",
+                "ko": "시스템 관리자",
+                "es": "시스템 관리자"
+              },
+              "details": [
+                {
+                  "id": "시스템-관리자",
+                  "labels": {
+                    "en": "시스템 관리자",
+                    "ko": "시스템 관리자",
+                    "es": "시스템 관리자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "클라우드-엔지니어",
+              "labels": {
+                "en": "클라우드 엔지니어",
+                "ko": "클라우드 엔지니어",
+                "es": "클라우드 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "클라우드-엔지니어",
+                  "labels": {
+                    "en": "클라우드 엔지니어",
+                    "ko": "클라우드 엔지니어",
+                    "es": "클라우드 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "데이터-엔지니어",
+              "labels": {
+                "en": "데이터 엔지니어",
+                "ko": "데이터 엔지니어",
+                "es": "데이터 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "데이터-엔지니어",
+                  "labels": {
+                    "en": "데이터 엔지니어",
+                    "ko": "데이터 엔지니어",
+                    "es": "데이터 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "데이터베이스-관리자",
+              "labels": {
+                "en": "데이터베이스 관리자",
+                "ko": "데이터베이스 관리자",
+                "es": "데이터베이스 관리자"
+              },
+              "details": [
+                {
+                  "id": "데이터베이스-관리자",
+                  "labels": {
+                    "en": "데이터베이스 관리자",
+                    "ko": "데이터베이스 관리자",
+                    "es": "데이터베이스 관리자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "bi-분석가",
+              "labels": {
+                "en": "BI 분석가",
+                "ko": "BI 분석가",
+                "es": "BI 분석가"
+              },
+              "details": [
+                {
+                  "id": "bi-분석가",
+                  "labels": {
+                    "en": "BI 분석가",
+                    "ko": "BI 분석가",
+                    "es": "BI 분석가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "솔루션-아키텍트",
+              "labels": {
+                "en": "솔루션 아키텍트",
+                "ko": "솔루션 아키텍트",
+                "es": "솔루션 아키텍트"
+              },
+              "details": [
+                {
+                  "id": "솔루션-아키텍트",
+                  "labels": {
+                    "en": "솔루션 아키텍트",
+                    "ko": "솔루션 아키텍트",
+                    "es": "솔루션 아키텍트"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "erp-컨설턴트",
+              "labels": {
+                "en": "ERP 컨설턴트",
+                "ko": "ERP 컨설턴트",
+                "es": "ERP 컨설턴트"
+              },
+              "details": [
+                {
+                  "id": "erp-컨설턴트",
+                  "labels": {
+                    "en": "ERP 컨설턴트",
+                    "ko": "ERP 컨설턴트",
+                    "es": "ERP 컨설턴트"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "crm-컨설턴트",
+              "labels": {
+                "en": "CRM 컨설턴트",
+                "ko": "CRM 컨설턴트",
+                "es": "CRM 컨설턴트"
+              },
+              "details": [
+                {
+                  "id": "crm-컨설턴트",
+                  "labels": {
+                    "en": "CRM 컨설턴트",
+                    "ko": "CRM 컨설턴트",
+                    "es": "CRM 컨설턴트"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "기술-문서-작성자",
+              "labels": {
+                "en": "기술 문서 작성자",
+                "ko": "기술 문서 작성자",
+                "es": "기술 문서 작성자"
+              },
+              "details": [
+                {
+                  "id": "기술-문서-작성자",
+                  "labels": {
+                    "en": "기술 문서 작성자",
+                    "ko": "기술 문서 작성자",
+                    "es": "기술 문서 작성자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "rpa-개발자",
+              "labels": {
+                "en": "RPA 개발자",
+                "ko": "RPA 개발자",
+                "es": "RPA 개발자"
+              },
+              "details": [
+                {
+                  "id": "rpa-개발자",
+                  "labels": {
+                    "en": "RPA 개발자",
+                    "ko": "RPA 개발자",
+                    "es": "RPA 개발자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "gis-분석가",
+              "labels": {
+                "en": "GIS 분석가",
+                "ko": "GIS 분석가",
+                "es": "GIS 분석가"
+              },
+              "details": [
+                {
+                  "id": "gis-분석가",
+                  "labels": {
+                    "en": "GIS 분석가",
+                    "ko": "GIS 분석가",
+                    "es": "GIS 분석가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "로봇-운영-엔지니어",
+              "labels": {
+                "en": "로봇 운영 엔지니어",
+                "ko": "로봇 운영 엔지니어",
+                "es": "로봇 운영 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "로봇-운영-엔지니어",
+                  "labels": {
+                    "en": "로봇 운영 엔지니어",
+                    "ko": "로봇 운영 엔지니어",
+                    "es": "로봇 운영 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "산업-자동화-엔지니어",
+              "labels": {
+                "en": "산업 자동화 엔지니어",
+                "ko": "산업 자동화 엔지니어",
+                "es": "산업 자동화 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "산업-자동화-엔지니어",
+                  "labels": {
+                    "en": "산업 자동화 엔지니어",
+                    "ko": "산업 자동화 엔지니어",
+                    "es": "산업 자동화 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "반도체-공정-엔지니어",
+              "labels": {
+                "en": "반도체 공정 엔지니어",
+                "ko": "반도체 공정 엔지니어",
+                "es": "반도체 공정 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "반도체-공정-엔지니어",
+                  "labels": {
+                    "en": "반도체 공정 엔지니어",
+                    "ko": "반도체 공정 엔지니어",
+                    "es": "반도체 공정 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "반도체-장비-엔지니어",
+              "labels": {
+                "en": "반도체 장비 엔지니어",
+                "ko": "반도체 장비 엔지니어",
+                "es": "반도체 장비 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "반도체-장비-엔지니어",
+                  "labels": {
+                    "en": "반도체 장비 엔지니어",
+                    "ko": "반도체 장비 엔지니어",
+                    "es": "반도체 장비 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "필드-서비스-엔지니어",
+              "labels": {
+                "en": "필드 서비스 엔지니어",
+                "ko": "필드 서비스 엔지니어",
+                "es": "필드 서비스 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "필드-서비스-엔지니어",
+                  "labels": {
+                    "en": "필드 서비스 엔지니어",
+                    "ko": "필드 서비스 엔지니어",
+                    "es": "필드 서비스 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "설비-보전-엔지니어",
+              "labels": {
+                "en": "설비 보전 엔지니어",
+                "ko": "설비 보전 엔지니어",
+                "es": "설비 보전 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "설비-보전-엔지니어",
+                  "labels": {
+                    "en": "설비 보전 엔지니어",
+                    "ko": "설비 보전 엔지니어",
+                    "es": "설비 보전 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "로봇-정비-기술자",
+              "labels": {
+                "en": "로봇 정비 기술자",
+                "ko": "로봇 정비 기술자",
+                "es": "로봇 정비 기술자"
+              },
+              "details": [
+                {
+                  "id": "로봇-정비-기술자",
+                  "labels": {
+                    "en": "로봇 정비 기술자",
+                    "ko": "로봇 정비 기술자",
+                    "es": "로봇 정비 기술자"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative-media-extended",
+      "majorCode": "83",
+      "labels": {
+        "en": "Creative, Media",
+        "ko": "크리에이티브 · 미디어",
+        "es": "Creativo, medios"
+      },
+      "mids": [
+        {
+          "id": "creative-media-extended-roles",
+          "labels": {
+            "en": "Creative, Media Roles",
+            "ko": "크리에이티브 · 미디어 직종",
+            "es": "Creativo, medios Roles"
+          },
+          "subs": [
+            {
+              "id": "모션그래픽-디자이너",
+              "labels": {
+                "en": "모션그래픽 디자이너",
+                "ko": "모션그래픽 디자이너",
+                "es": "모션그래픽 디자이너"
+              },
+              "details": [
+                {
+                  "id": "모션그래픽-디자이너",
+                  "labels": {
+                    "en": "모션그래픽 디자이너",
+                    "ko": "모션그래픽 디자이너",
+                    "es": "모션그래픽 디자이너"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d-아티스트",
+              "labels": {
+                "en": "3D 아티스트",
+                "ko": "3D 아티스트",
+                "es": "3D 아티스트"
+              },
+              "details": [
+                {
+                  "id": "3d-아티스트",
+                  "labels": {
+                    "en": "3D 아티스트",
+                    "ko": "3D 아티스트",
+                    "es": "3D 아티스트"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "애니메이터",
+              "labels": {
+                "en": "애니메이터",
+                "ko": "애니메이터",
+                "es": "애니메이터"
+              },
+              "details": [
+                {
+                  "id": "애니메이터",
+                  "labels": {
+                    "en": "애니메이터",
+                    "ko": "애니메이터",
+                    "es": "애니메이터"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "사진작가",
+              "labels": {
+                "en": "사진작가",
+                "ko": "사진작가",
+                "es": "사진작가"
+              },
+              "details": [
+                {
+                  "id": "사진작가",
+                  "labels": {
+                    "en": "사진작가",
+                    "ko": "사진작가",
+                    "es": "사진작가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "촬영-감독",
+              "labels": {
+                "en": "촬영 감독",
+                "ko": "촬영 감독",
+                "es": "촬영 감독"
+              },
+              "details": [
+                {
+                  "id": "촬영-감독",
+                  "labels": {
+                    "en": "촬영 감독",
+                    "ko": "촬영 감독",
+                    "es": "촬영 감독"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "음향-엔지니어",
+              "labels": {
+                "en": "음향 엔지니어",
+                "ko": "음향 엔지니어",
+                "es": "음향 엔지니어"
+              },
+              "details": [
+                {
+                  "id": "음향-엔지니어",
+                  "labels": {
+                    "en": "음향 엔지니어",
+                    "ko": "음향 엔지니어",
+                    "es": "음향 엔지니어"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "음악-프로듀서",
+              "labels": {
+                "en": "음악 프로듀서",
+                "ko": "음악 프로듀서",
+                "es": "음악 프로듀서"
+              },
+              "details": [
+                {
+                  "id": "음악-프로듀서",
+                  "labels": {
+                    "en": "음악 프로듀서",
+                    "ko": "음악 프로듀서",
+                    "es": "음악 프로듀서"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "방송-작가",
+              "labels": {
+                "en": "방송 작가",
+                "ko": "방송 작가",
+                "es": "방송 작가"
+              },
+              "details": [
+                {
+                  "id": "방송-작가",
+                  "labels": {
+                    "en": "방송 작가",
+                    "ko": "방송 작가",
+                    "es": "방송 작가"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "기자",
+              "labels": {
+                "en": "기자",
+                "ko": "기자",
+                "es": "기자"
+              },
+              "details": [
+                {
+                  "id": "기자",
+                  "labels": {
+                    "en": "기자",
+                    "ko": "기자",
+                    "es": "기자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "편집-기자",
+              "labels": {
+                "en": "편집 기자",
+                "ko": "편집 기자",
+                "es": "편집 기자"
+              },
+              "details": [
+                {
+                  "id": "편집-기자",
+                  "labels": {
+                    "en": "편집 기자",
+                    "ko": "편집 기자",
+                    "es": "편집 기자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "출판-편집자",
+              "labels": {
+                "en": "출판 편집자",
+                "ko": "출판 편집자",
+                "es": "출판 편집자"
+              },
+              "details": [
+                {
+                  "id": "출판-편집자",
+                  "labels": {
+                    "en": "출판 편집자",
+                    "ko": "출판 편집자",
+                    "es": "출판 편집자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "일러스트레이터",
+              "labels": {
+                "en": "일러스트레이터",
+                "ko": "일러스트레이터",
+                "es": "일러스트레이터"
+              },
+              "details": [
+                {
+                  "id": "일러스트레이터",
+                  "labels": {
+                    "en": "일러스트레이터",
+                    "ko": "일러스트레이터",
+                    "es": "일러스트레이터"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "웹-디자이너",
+              "labels": {
+                "en": "웹 디자이너",
+                "ko": "웹 디자이너",
+                "es": "웹 디자이너"
+              },
+              "details": [
+                {
+                  "id": "웹-디자이너",
+                  "labels": {
+                    "en": "웹 디자이너",
+                    "ko": "웹 디자이너",
+                    "es": "웹 디자이너"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "전시-디자이너",
+              "labels": {
+                "en": "전시 디자이너",
+                "ko": "전시 디자이너",
+                "es": "전시 디자이너"
+              },
+              "details": [
+                {
+                  "id": "전시-디자이너",
+                  "labels": {
+                    "en": "전시 디자이너",
+                    "ko": "전시 디자이너",
+                    "es": "전시 디자이너"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "패션-디자이너",
+              "labels": {
+                "en": "패션 디자이너",
+                "ko": "패션 디자이너",
+                "es": "패션 디자이너"
+              },
+              "details": [
+                {
+                  "id": "패션-디자이너",
+                  "labels": {
+                    "en": "패션 디자이너",
+                    "ko": "패션 디자이너",
+                    "es": "패션 디자이너"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "인테리어-디자이너",
+              "labels": {
+                "en": "인테리어 디자이너",
+                "ko": "인테리어 디자이너",
+                "es": "인테리어 디자이너"
+              },
+              "details": [
+                {
+                  "id": "인테리어-디자이너",
+                  "labels": {
+                    "en": "인테리어 디자이너",
+                    "ko": "인테리어 디자이너",
+                    "es": "인테리어 디자이너"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "패키지-디자이너",
+              "labels": {
+                "en": "패키지 디자이너",
+                "ko": "패키지 디자이너",
+                "es": "패키지 디자이너"
+              },
+              "details": [
+                {
+                  "id": "패키지-디자이너",
+                  "labels": {
+                    "en": "패키지 디자이너",
+                    "ko": "패키지 디자이너",
+                    "es": "패키지 디자이너"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "게임-기획자",
+              "labels": {
+                "en": "게임 기획자",
+                "ko": "게임 기획자",
+                "es": "게임 기획자"
+              },
+              "details": [
+                {
+                  "id": "게임-기획자",
+                  "labels": {
+                    "en": "게임 기획자",
+                    "ko": "게임 기획자",
+                    "es": "게임 기획자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "게임-디자이너",
+              "labels": {
+                "en": "게임 디자이너",
+                "ko": "게임 디자이너",
+                "es": "게임 디자이너"
+              },
+              "details": [
+                {
+                  "id": "게임-디자이너",
+                  "labels": {
+                    "en": "게임 디자이너",
+                    "ko": "게임 디자이너",
+                    "es": "게임 디자이너"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "커뮤니티-매니저",
+              "labels": {
+                "en": "커뮤니티 매니저",
+                "ko": "커뮤니티 매니저",
+                "es": "커뮤니티 매니저"
+              },
+              "details": [
+                {
+                  "id": "커뮤니티-매니저",
+                  "labels": {
+                    "en": "커뮤니티 매니저",
+                    "ko": "커뮤니티 매니저",
+                    "es": "커뮤니티 매니저"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "healthcare-education-public",
+      "majorCode": "84",
+      "labels": {
+        "en": "Healthcare, Education, Research, Public Service",
+        "ko": "의료 · 교육 · 연구 · 공공지원",
+        "es": "Salud, educacion, investigacion, servicio publico"
+      },
+      "mids": [
+        {
+          "id": "healthcare-education-public-roles",
+          "labels": {
+            "en": "Healthcare, Education, Research, Public Service Roles",
+            "ko": "의료 · 교육 · 연구 · 공공지원 직종",
+            "es": "Salud, educacion, investigacion, servicio publico Roles"
+          },
+          "subs": [
+            {
+              "id": "의료-코더",
+              "labels": {
+                "en": "의료 코더",
+                "ko": "의료 코더",
+                "es": "의료 코더"
+              },
+              "details": [
+                {
+                  "id": "의료-코더",
+                  "labels": {
+                    "en": "의료 코더",
+                    "ko": "의료 코더",
+                    "es": "의료 코더"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "의료-청구-담당자",
+              "labels": {
+                "en": "의료 청구 담당자",
+                "ko": "의료 청구 담당자",
+                "es": "의료 청구 담당자"
+              },
+              "details": [
+                {
+                  "id": "의료-청구-담당자",
+                  "labels": {
+                    "en": "의료 청구 담당자",
+                    "ko": "의료 청구 담당자",
+                    "es": "의료 청구 담당자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "의료-코디네이터",
+              "labels": {
+                "en": "의료 코디네이터",
+                "ko": "의료 코디네이터",
+                "es": "의료 코디네이터"
+              },
+              "details": [
+                {
+                  "id": "의료-코디네이터",
+                  "labels": {
+                    "en": "의료 코디네이터",
+                    "ko": "의료 코디네이터",
+                    "es": "의료 코디네이터"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "의무기록사",
+              "labels": {
+                "en": "의무기록사",
+                "ko": "의무기록사",
+                "es": "의무기록사"
+              },
+              "details": [
+                {
+                  "id": "의무기록사",
+                  "labels": {
+                    "en": "의무기록사",
+                    "ko": "의무기록사",
+                    "es": "의무기록사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "방사선사",
+              "labels": {
+                "en": "방사선사",
+                "ko": "방사선사",
+                "es": "방사선사"
+              },
+              "details": [
+                {
+                  "id": "방사선사",
+                  "labels": {
+                    "en": "방사선사",
+                    "ko": "방사선사",
+                    "es": "방사선사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "임상병리사",
+              "labels": {
+                "en": "임상병리사",
+                "ko": "임상병리사",
+                "es": "임상병리사"
+              },
+              "details": [
+                {
+                  "id": "임상병리사",
+                  "labels": {
+                    "en": "임상병리사",
+                    "ko": "임상병리사",
+                    "es": "임상병리사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "작업치료사",
+              "labels": {
+                "en": "작업치료사",
+                "ko": "작업치료사",
+                "es": "작업치료사"
+              },
+              "details": [
+                {
+                  "id": "작업치료사",
+                  "labels": {
+                    "en": "작업치료사",
+                    "ko": "작업치료사",
+                    "es": "작업치료사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "언어치료사",
+              "labels": {
+                "en": "언어치료사",
+                "ko": "언어치료사",
+                "es": "언어치료사"
+              },
+              "details": [
+                {
+                  "id": "언어치료사",
+                  "labels": {
+                    "en": "언어치료사",
+                    "ko": "언어치료사",
+                    "es": "언어치료사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "치과기공사",
+              "labels": {
+                "en": "치과기공사",
+                "ko": "치과기공사",
+                "es": "치과기공사"
+              },
+              "details": [
+                {
+                  "id": "치과기공사",
+                  "labels": {
+                    "en": "치과기공사",
+                    "ko": "치과기공사",
+                    "es": "치과기공사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "병원-원무-담당자",
+              "labels": {
+                "en": "병원 원무 담당자",
+                "ko": "병원 원무 담당자",
+                "es": "병원 원무 담당자"
+              },
+              "details": [
+                {
+                  "id": "병원-원무-담당자",
+                  "labels": {
+                    "en": "병원 원무 담당자",
+                    "ko": "병원 원무 담당자",
+                    "es": "병원 원무 담당자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "사회복지사",
+              "labels": {
+                "en": "사회복지사",
+                "ko": "사회복지사",
+                "es": "사회복지사"
+              },
+              "details": [
+                {
+                  "id": "사회복지사",
+                  "labels": {
+                    "en": "사회복지사",
+                    "ko": "사회복지사",
+                    "es": "사회복지사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "상담사",
+              "labels": {
+                "en": "상담사",
+                "ko": "상담사",
+                "es": "상담사"
+              },
+              "details": [
+                {
+                  "id": "상담사",
+                  "labels": {
+                    "en": "상담사",
+                    "ko": "상담사",
+                    "es": "상담사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "직업상담사",
+              "labels": {
+                "en": "직업상담사",
+                "ko": "직업상담사",
+                "es": "직업상담사"
+              },
+              "details": [
+                {
+                  "id": "직업상담사",
+                  "labels": {
+                    "en": "직업상담사",
+                    "ko": "직업상담사",
+                    "es": "직업상담사"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "연구원",
+              "labels": {
+                "en": "연구원",
+                "ko": "연구원",
+                "es": "연구원"
+              },
+              "details": [
+                {
+                  "id": "연구원",
+                  "labels": {
+                    "en": "연구원",
+                    "ko": "연구원",
+                    "es": "연구원"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "연구보조원",
+              "labels": {
+                "en": "연구보조원",
+                "ko": "연구보조원",
+                "es": "연구보조원"
+              },
+              "details": [
+                {
+                  "id": "연구보조원",
+                  "labels": {
+                    "en": "연구보조원",
+                    "ko": "연구보조원",
+                    "es": "연구보조원"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "실험실-기술자",
+              "labels": {
+                "en": "실험실 기술자",
+                "ko": "실험실 기술자",
+                "es": "실험실 기술자"
+              },
+              "details": [
+                {
+                  "id": "실험실-기술자",
+                  "labels": {
+                    "en": "실험실 기술자",
+                    "ko": "실험실 기술자",
+                    "es": "실험실 기술자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "사서",
+              "labels": {
+                "en": "사서",
+                "ko": "사서",
+                "es": "사서"
+              },
+              "details": [
+                {
+                  "id": "사서",
+                  "labels": {
+                    "en": "사서",
+                    "ko": "사서",
+                    "es": "사서"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "교육-콘텐츠-개발자",
+              "labels": {
+                "en": "교육 콘텐츠 개발자",
+                "ko": "교육 콘텐츠 개발자",
+                "es": "교육 콘텐츠 개발자"
+              },
+              "details": [
+                {
+                  "id": "교육-콘텐츠-개발자",
+                  "labels": {
+                    "en": "교육 콘텐츠 개발자",
+                    "ko": "교육 콘텐츠 개발자",
+                    "es": "교육 콘텐츠 개발자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "교재-개발자",
+              "labels": {
+                "en": "교재 개발자",
+                "ko": "교재 개발자",
+                "es": "교재 개발자"
+              },
+              "details": [
+                {
+                  "id": "교재-개발자",
+                  "labels": {
+                    "en": "교재 개발자",
+                    "ko": "교재 개발자",
+                    "es": "교재 개발자"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "입학사정관",
+              "labels": {
+                "en": "입학사정관",
+                "ko": "입학사정관",
+                "es": "입학사정관"
+              },
+              "details": [
+                {
+                  "id": "입학사정관",
+                  "labels": {
+                    "en": "입학사정관",
+                    "ko": "입학사정관",
+                    "es": "입학사정관"
                   }
                 }
               ]
