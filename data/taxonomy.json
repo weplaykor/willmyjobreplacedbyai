@@ -132,12 +132,30 @@
             "ko": "사업 운영 전문가",
             "es": "Especialistas en operaciones empresariales"
           },
-          "subs": [
+      "subs": [
+        {
+          "id": "buyers-and-purchasing-agents",
+          "labels": {
+            "en": "Buyers and Purchasing Agents",
+            "ko": "바이어 및 구매 에이전트",
+            "es": "Compradores y agentes de compras"
+          },
+          "details": [
             {
-              "id": "project-management-specialists",
+              "id": "purchasing-agent",
               "labels": {
-                "en": "Project Management Specialists",
-                "ko": "프로젝트 관리 전문가",
+                "en": "Purchasing Agent",
+                "ko": "구매 에이전트",
+                "es": "Agente de compras"
+              }
+            }
+          ]
+        },
+        {
+          "id": "project-management-specialists",
+          "labels": {
+            "en": "Project Management Specialists",
+            "ko": "프로젝트 관리 전문가",
                 "es": "Especialistas en gestion de proyectos"
               },
               "details": [

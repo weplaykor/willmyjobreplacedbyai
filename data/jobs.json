@@ -1149,6 +1149,215 @@
     }
   },
   {
+    "id": "purchasing-agent",
+    "category": "business",
+    "automationRisk": 58,
+    "aiRole": "hybrid",
+    "classification": {
+      "majorId": "business-financial-operations",
+      "midId": "business-operations-specialists",
+      "subId": "buyers-and-purchasing-agents",
+      "detailId": "purchasing-agent"
+    },
+    "currentReplacementUrl": "https://www.oracle.com/enterprise-resource-planning/procurement/",
+    "degree": {
+      "status": "required",
+      "level": "bachelor"
+    },
+    "aiEvidence": {
+      "rationale": {
+        "en": "Purchasing work is meaningfully exposed because a large share of the workflow is structured: supplier comparisons, purchase requests, document processing, spend categorization, approvals, and monitoring. That makes it more automatable than open-ended relationship-heavy work. But it is not fully replace-first, because procurement still depends on negotiation, supplier trust, business-specific tradeoffs, and accountability when supply, compliance, or operational risk changes suddenly.",
+        "ko": "구매 업무는 상당 부분이 구조화된 흐름으로 구성됩니다. 공급업체 비교, 구매 요청, 문서 처리, 지출 분류, 승인, 모니터링이 많아 AI로 자동화되는 영역이 큽니다. 다만 공급망 리스크, 준수, 협력사 신뢰처럼 맥락 의존적인 판단과 예외 처리, 협상은 사람의 역할이 남습니다.",
+        "es": "La adquisicion de compras tiene una exposicion importante porque gran parte del flujo es estructurado: comparaciones de proveedores, solicitudes, procesamiento de documentos, clasificacion de gastos, aprobaciones y monitoreo. Eso la hace mas automatizable que roles centrados en relaciones abiertas. Pero no es remplazo total porque la compra sigue dependiendo de negociacion, confianza del proveedor, tradeoffs del negocio y responsabilidad cuando cambia el riesgo de suministro, cumplimiento o continuidad operativa."
+      },
+      "automatableNow": {
+        "en": [
+          "Automating purchase request intake and form filling from uploaded documents.",
+          "Generating RFP drafts, negotiation summaries, and procurement content.",
+          "Recommending suppliers and screening them for risk or compliance issues.",
+          "Analyzing spend patterns and spotting savings opportunities.",
+          "Automating routine purchasing, invoice, and approval workflows."
+        ],
+        "ko": [
+          "업로드된 문서에서 구매요청 접수와 입력 양식 작성을 자동화.",
+          "RFP 초안, 협상 요약, 조달 관련 콘텐츠를 생성.",
+          "공급업체를 추천하고 리스크/규정 점검용으로 선별.",
+          "지출 패턴을 분석해 절감 기회를 찾기.",
+          "루틴 구매, 인보이스, 승인 업무흐름을 자동화."
+        ],
+        "es": [
+          "Automatizar la recepcion de solicitudes de compra y el llenado de formularios desde documentos.",
+          "Generar borradores de RFP, resúmenes de negociación y contenido de compras.",
+          "Recomendar proveedores y filtrarlos por riesgo o cumplimiento.",
+          "Analizar patrones de gasto y detectar oportunidades de ahorro.",
+          "Automatizar flujos rutinarios de compra, facturacion y aprobaciones."
+        ]
+      },
+      "humanEdge": {
+        "en": [
+          "Running negotiations when supplier leverage, timing, and relationship history matter.",
+          "Balancing price against reliability, quality, lead time, and internal priorities.",
+          "Handling exceptions when suppliers fail, documents conflict, or urgency overrides process.",
+          "Taking responsibility for sourcing decisions that affect continuity, compliance, and trust."
+        ],
+        "ko": [
+          "공급업체 영향력, 시점, 과거 거래 관계가 핵심이 되는 협상 진행.",
+          "가격만이 아니라 안정성, 품질, 납기, 내부 우선순위를 함께 조정.",
+          "공급 실패, 문서 충돌, 긴급 상황에서 예외를 처리.",
+          "운영 지속성·규정·신뢰에 영향을 주는 조달 결정 책임."
+        ],
+        "es": [
+          "Conducir negociaciones cuando el poder de los proveedores, el tiempo y la historia de relacion cuentan.",
+          "Equilibrar precio con fiabilidad, calidad, tiempo de entrega y prioridades internas.",
+          "Gestionar excepciones cuando hay fallo de proveedores, conflictos de documentos o urgencias.",
+          "Asumir responsabilidad de decisiones de sourcing que afectan continuidad, cumplimiento y confianza."
+        ]
+      },
+      "references": [
+        {
+          "name": "BLS: Purchasing Managers, Buyers, and Purchasing Agents",
+          "url": "https://www.bls.gov/ooh/business-and-financial/buyers-and-purchasing-agents.htm"
+        },
+        {
+          "name": "Oracle: AI in Procurement",
+          "url": "https://www.oracle.com/enterprise-resource-planning/procurement/"
+        },
+        {
+          "name": "Oracle Fusion Cloud Procurement",
+          "url": "https://www.oracle.com/erp/supply-chain-management/procurement/"
+        },
+        {
+          "name": "IBM watsonx Orchestrate procurement agents",
+          "url": "https://www.ibm.com/products/watsonx-orchestrate"
+        }
+      ]
+    },
+    "content": {
+      "en": {
+        "title": "Purchasing Agent",
+        "summary": "Purchasing Agent evaluates suppliers, compares prices and delivery terms, negotiates purchases, and keeps goods and services flowing into the business. AI is getting strong at the structured parts of procurement, but human judgment still matters when supplier relationships, negotiations, exceptions, and business risk get messy.",
+        "tasks": [
+          "Evaluate suppliers on price, quality, delivery speed, reliability, and service.",
+          "Analyze proposals, negotiate contracts, track orders, review product performance, and work with vendors when goods or services are defective or off-spec.",
+          "Maintain records on purchases, costs, inventories, and deliveries."
+        ],
+        "skills": [
+          "Supplier evaluation",
+          "Negotiation",
+          "Cost analysis",
+          "Contract awareness",
+          "Inventory judgment",
+          "Risk sensing"
+        ],
+        "path": [
+          "Start in procurement operations, supply chain coordination, inventory control, vendor support, or buying assistant roles.",
+          "Learn how purchasing workflows, supplier qualification, pricing analysis, and contract terms work in real companies.",
+          "The strongest proof is not theory alone but showing that you can buy reliably, control cost, and prevent supplier problems from turning into operational pain."
+        ],
+        "degreeNote": "A bachelor's degree is typically expected for entry-level roles, although some employers still hire for certain positions with a high school diploma plus training. Business, finance, and supply management backgrounds are especially relevant.",
+        "aiNow": "AI already helps procurement teams automate purchase requests, analyze spending, generate RFP and negotiation content, recommend suppliers, flag supplier risk, prefill intake forms from documents, and speed invoice or PO workflows.",
+        "aiFuture": "The first part of this job to shrink is the administrative layer: request intake, document reading, spend classification, supplier screening, routine comparison, status tracking, and standard drafting. The value of the human buyer shifts upward toward negotiation, escalation, supplier trust, exception handling, internal alignment, and decisions where the best supplier depends on context that is not cleanly captured in the system.",
+        "services": [
+          "Oracle Fusion Cloud Procurement",
+          "Zip AI",
+          "IBM watsonx Orchestrate procurement agents"
+        ],
+        "educationPathways": [
+          "Start with a bachelor's degree in business, finance, supply chain, or a field tied to the goods you will buy.",
+          "Build hands-on experience with inventory, vendor communication, PO workflows, contract basics, and price comparison.",
+          "Add AI fluency in spend analysis, supplier screening, requisition workflows, and document extraction so you are not competing as a purely manual buyer."
+        ]
+      },
+      "ko": {
+        "title": "구매 에이전트",
+        "summary": "구매 에이전트는 공급업체를 평가하고 가격·납기 조건을 비교하며 구매 협상을 하고, 필요한 재화와 서비스를 회사에 안정적으로 공급하는 역할을 합니다. AI가 조달의 구조화 업무는 빠르게 흡수하고 있지만, 공급업체 관계·협상·예외 처리·사업 리스크가 복잡해질수록 사람 판단이 필수입니다.",
+        "tasks": [
+          "가격, 품질, 납품 속도, 신뢰성, 서비스 기준으로 공급업체를 평가합니다.",
+          "제안서를 분석하고 계약을 협상하며 주문을 추적하고, 불량·규격 미달 발생 시 납품사와 대응합니다.",
+          "구매, 비용, 재고, 입고 기록을 체계적으로 관리합니다."
+        ],
+        "skills": [
+          "공급업체 평가",
+          "협상",
+          "원가 분석",
+          "계약 이해",
+          "재고 판단",
+          "리스크 감지"
+        ],
+        "path": [
+          "구매 운영, 공급망 조정, 재고 관리, 벤더 지원, 구매 보조 역할로 시작할 수 있습니다.",
+          "실제 기업에서 조달 흐름, 공급업체 자격 평가, 가격 분석, 계약 조건 처리 방법을 익히세요.",
+          "실전 성과의 핵심은 이론보다 ‘정상 조달을 유지하고, 비용을 통제하며, 운영 리스크를 미리 막는’ 실적 증빙입니다."
+        ],
+        "degreeNote": "입문 단계에서는 일반적으로 학사 학위가 요구되는 편이지만, 산업에 따라 고졸+교육으로 진입 가능한 직무도 있습니다. 사업·금융·공급망 관련 배경이 특히 유리합니다.",
+        "aiNow": "AI는 구매 요청 자동화, 지출 분석, RFP/협상 콘텐츠 생성, 공급업체 추천, 공급 리스크 경고, 문서 기반 요청 자동 입력, 인보이스·발주 업무 자동화에 이미 활용되고 있습니다.",
+        "aiFuture": "이 직무에서 가장 먼저 축소되는 층은 행정 라인입니다. 요청 접수, 문서 판독, 지출 분류, 공급업체 사전 점검, 반복적인 비교, 상태 추적, 기본 문서 초안은 AI가 대체합니다. 사람의 가치는 협상, 에스컬레이션, 공급업체 신뢰 관리, 예외 처리, 내부 정렬, 시스템으로 단정할 수 없는 의사결정으로 이동합니다.",
+        "services": [
+          "Oracle Fusion Cloud Procurement",
+          "Zip AI",
+          "IBM watsonx Orchestrate"
+        ],
+        "educationPathways": [
+          "사업/금융/공급망 관련 학사 과정을 시작점으로 선택하세요.",
+          "재고, 협력사 커뮤니케이션, 발주 흐름, 계약 기초, 가격 비교 업무를 실제로 경험하세요.",
+          "문서 추출, 지출 분석, 공급업체 스크리닝, 구매 자동화 도구를 통한 AI 활용 역량을 더해 수동형 구매자 경쟁을 피하세요."
+        ]
+      },
+      "es": {
+        "title": "Agente de compras",
+        "summary": "El agente de compras evalua proveedores, compara precios y condiciones de entrega, negocia adquisiciones y mantiene el flujo de bienes y servicios para la empresa. La IA se vuelve fuerte en las partes estructuradas de la adquisicion, pero el juicio humano sigue siendo clave cuando aparecen relaciones con proveedores complejas, negociaciones, excepciones y riesgo empresarial.",
+        "tasks": [
+          "Evaluar proveedores por precio, calidad, velocidad de entrega, confiabilidad y servicio.",
+          "Analizar propuestas, negociar contratos, hacer seguimiento de ordenes, revisar rendimiento y resolver cuando hay defectos o especificaciones incumplidas.",
+          "Mantener registros de compras, costos, inventario y entregas."
+        ],
+        "skills": [
+          "Evaluacion de proveedores",
+          "Negociacion",
+          "Analisis de costos",
+          "Conocimiento contractual",
+          "Juicio de inventario",
+          "Deteccion de riesgos"
+        ],
+        "path": [
+          "Empieza en operaciones de compras, coordinacion de cadena de suministro, control de inventario, soporte a proveedores o roles de asistente de compras.",
+          "Aprende como funcionan los flujos de compra, la elegibilidad de proveedores, el analisis de precios y los terminos contractuales en empresas reales.",
+          "La prueba mas fuerte no es la teoria: demostrar que compras de forma confiable, controlas costos y evitas que problemas de proveedores escalen."
+        ],
+        "degreeNote": "Generalmente se espera una licenciatura para puestos iniciales, aunque algunos empleadores contratan para ciertos roles con diploma de secundaria y entrenamiento. Son especialmente utiles negocio, finanzas y gestion de cadena de suministro.",
+        "aiNow": "La IA ya ayuda a equipos de compras a automatizar solicitudes, analizar gastos, generar RFP y contenidos de negociacion, recomendar proveedores, detectar riesgo, rellenar formularios desde documentos y agilizar facturas o flujos de orden de compra.",
+        "aiFuture": "La parte de este trabajo que primero se reduce es la capa administrativa: ingreso de solicitudes, lectura de documentos, clasificacion de gastos, filtrado de proveedores, comparaciones rutinarias, seguimiento de estatus y redaccion estandar.",
+        "services": [
+          "Oracle Fusion Cloud Procurement",
+          "Zip AI",
+          "Agentes de compras IBM watsonx Orchestrate"
+        ],
+        "educationPathways": [
+          "Comienza con una licenciatura en negocios, finanzas, cadena de suministro o un area relacionada con lo que compras.",
+          "Desarrolla experiencia practica con inventario, comunicacion con proveedores, flujos de orden de compra, fundamentos contractuales y comparacion de precios.",
+          "Añade alfabetizacion en IA para analisis de gastos, filtrado de proveedores, flujos de requisicion y extraccion de documentos para no competir como comprador puramente manual."
+        ]
+      }
+    },
+    "marketSignals": {
+      "salaryRange": {
+        "currency": "USD",
+        "period": "year",
+        "scope": "illustrative-us-annual-base",
+        "min": 46460,
+        "max": 127520
+      },
+      "hiringDemand": {
+        "level": "high",
+        "note": {
+          "en": "BLS projects buyers and purchasing agents to grow 6% from 2024 to 2034, faster than average. For the broader purchasing manager, buyer, and purchasing agent family, BLS projects about 58,700 openings per year on average over the decade.",
+          "ko": "BLS는 구매 관리자, 구매원, 구매 에이전트 분야의 고용이 2024~2034년에 6% 성장할 것으로 예측하며, 전반적으로 10년간 연평균 약 58,700개의 채용이 예상된다고 분석합니다.",
+          "es": "BLS proyecta que compradores y agentes de compras crezcan 6% de 2024 a 2034, mas rápido que el promedio. Para la familia de managers, buyers y agentes de compras, proyecta aproximadamente 58,700 vacantes anuales en promedio durante la decada."
+        }
+      }
+    }
+  },
+  {
     "id": "registered-nurse",
     "category": "care",
     "automationRisk": 24,
