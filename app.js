@@ -1,4 +1,4 @@
-const ASSET_VERSION = '2026-03-24-1';
+const ASSET_VERSION = '2026-03-24-6';
 const VISITOR_NAMESPACE = 'willmyjobreplacedbyai';
 const VISITOR_TOTAL_KEY = 'site-total-visits';
 
@@ -101,6 +101,13 @@ const UI = {
         { title: 'High risk', body: 'Standardized digital output, repetitive rules, and structured data make replacement more likely.' }
       ]
     },
+    patterns: {
+      note: 'Top 10 roles update automatically from the current dataset.',
+      topRiskTitle: 'Jobs most at risk from AI',
+      safeTitle: 'Jobs safer from AI for now',
+      loading: 'Loading jobs...',
+      empty: 'No jobs available yet.'
+    },
     results: {
       kicker: 'Job profiles',
       title: 'Scan the current catalog',
@@ -110,6 +117,7 @@ const UI = {
     actions: {
       checkRisk: 'Check Your Job Risk Now',
       riskArticle: 'Read: jobs most at risk from AI',
+      searchCatalog: 'Search',
       openDetails: 'View full profile',
       closeDetails: 'Close job details'
     },
@@ -281,6 +289,13 @@ const UI = {
         { title: '높은 위험', body: '표준화된 디지털 산출물, 반복 규칙, 구조화된 데이터는 대체 가능성을 높입니다.' }
       ]
     },
+    patterns: {
+      note: '현재 데이터셋 기준 Top 10 목록이 자동으로 업데이트됩니다.',
+      topRiskTitle: 'AI 대체 위험이 높은 직업 Top 10',
+      safeTitle: '상대적으로 더 안전한 직업 Top 10',
+      loading: '직업 목록을 불러오는 중입니다...',
+      empty: '표시할 직업이 아직 없습니다.'
+    },
     results: {
       kicker: '직무 프로필',
       title: '현재 카탈로그 탐색',
@@ -290,6 +305,7 @@ const UI = {
     actions: {
       checkRisk: '내 직업 위험도 확인하기',
       riskArticle: '읽기: AI에 가장 노출된 직업',
+      searchCatalog: '검색',
       openDetails: '상세 프로필 보기',
       closeDetails: '직무 상세 닫기'
     },
@@ -461,6 +477,13 @@ const UI = {
         { title: 'Riesgo alto', body: 'La salida digital estandarizada, las reglas repetitivas y los datos estructurados facilitan el reemplazo.' }
       ]
     },
+    patterns: {
+      note: 'El Top 10 se actualiza automaticamente segun el conjunto de datos actual.',
+      topRiskTitle: 'Top 10 trabajos con mayor riesgo por IA',
+      safeTitle: 'Top 10 trabajos mas seguros frente a la IA por ahora',
+      loading: 'Cargando trabajos...',
+      empty: 'Todavia no hay trabajos disponibles.'
+    },
     results: {
       kicker: 'Perfiles laborales',
       title: 'Explora el catalogo actual',
@@ -470,6 +493,7 @@ const UI = {
     actions: {
       checkRisk: 'Revisar riesgo de mi trabajo',
       riskArticle: 'Leer: trabajos con mas riesgo por IA',
+      searchCatalog: 'Buscar',
       openDetails: 'Ver perfil completo',
       closeDetails: 'Cerrar detalles del puesto'
     },
@@ -628,6 +652,7 @@ const elements = {
   midSelect: document.getElementById('midSelect'),
   subLabel: document.getElementById('subLabel'),
   subSelect: document.getElementById('subSelect'),
+  jobSearchButton: document.getElementById('jobSearchButton'),
   riskLabel: document.getElementById('riskLabel'),
   riskSelect: document.getElementById('riskSelect'),
   roleLabel: document.getElementById('roleLabel'),
@@ -636,9 +661,15 @@ const elements = {
   degreeSelect: document.getElementById('degreeSelect'),
   sortLabel: document.getElementById('sortLabel'),
   sortSelect: document.getElementById('sortSelect'),
+  aiSearchButton: document.getElementById('aiSearchButton'),
   insightKicker: document.getElementById('insightKicker'),
   insightTitle: document.getElementById('insightTitle'),
   insightLead: document.getElementById('insightLead'),
+  riskPatternsNote: document.getElementById('riskPatternsNote'),
+  riskTopTitle: document.getElementById('riskTopTitle'),
+  safeTopTitle: document.getElementById('safeTopTitle'),
+  riskTopList: document.getElementById('riskTopList'),
+  safeTopList: document.getElementById('safeTopList'),
   riskBars: document.getElementById('riskBars'),
   guideKicker: document.getElementById('guideKicker'),
   guideTitle: document.getElementById('guideTitle'),
@@ -748,6 +779,14 @@ function attachEvents() {
     render();
   });
 
+  elements.jobSearchButton.addEventListener('click', () => {
+    window.location.href = buildCatalogUrl();
+  });
+
+  elements.aiSearchButton.addEventListener('click', () => {
+    window.location.href = buildCatalogUrl();
+  });
+
   elements.languageSwitch.addEventListener('click', (event) => {
     const button = event.target.closest('[data-lang]');
 
@@ -818,6 +857,7 @@ function render() {
   hydrateFilters(copy);
   hydrateStats(copy, stats);
   hydrateInsights(copy, stats, filteredJobs.length);
+  hydrateRiskPatterns(copy);
   renderLanguageButtons();
   hydrateModalCopy(copy);
 
@@ -876,6 +916,8 @@ function hydrateChrome(copy) {
   elements.roleLabel.textContent = copy.controls.role;
   elements.degreeLabel.textContent = copy.controls.degree;
   elements.sortLabel.textContent = copy.controls.sort;
+  elements.jobSearchButton.textContent = copy.actions.searchCatalog;
+  elements.aiSearchButton.textContent = copy.actions.searchCatalog;
   elements.resultsKicker.textContent = copy.results.kicker;
   elements.resultsTitle.textContent = copy.results.title;
   elements.insightKicker.textContent = copy.insights.kicker;
@@ -887,6 +929,22 @@ function hydrateChrome(copy) {
 }
 
 function hydrateEditorial(copy) {
+  if (
+    !elements.newsKicker ||
+    !elements.newsTitle ||
+    !elements.newsLead ||
+    !elements.newsPreviewList ||
+    !elements.newsMoreLink ||
+    !elements.articleKicker ||
+    !elements.articleTitle ||
+    !elements.articleLead ||
+    !elements.articlePreview ||
+    !elements.articleReadLink ||
+    !elements.articleMoreLink
+  ) {
+    return;
+  }
+
   elements.newsKicker.textContent = copy.editorial.news.kicker;
   elements.newsTitle.textContent = copy.editorial.news.title;
   elements.newsLead.textContent = copy.editorial.news.lead;
@@ -902,7 +960,7 @@ function hydrateEditorial(copy) {
   if (state.news.length === 0) {
     elements.newsPreviewList.innerHTML = `<p class="editorial-empty">${escapeHtml(copy.editorial.news.empty)}</p>`;
   } else {
-    elements.newsPreviewList.innerHTML = state.news.slice(0, 4).map((item) => renderNewsPreviewCard(item, copy)).join('');
+    elements.newsPreviewList.innerHTML = state.news.slice(0, 2).map((item) => renderNewsPreviewCard(item, copy)).join('');
   }
 
   if (state.articles.length === 0) {
@@ -1001,12 +1059,73 @@ function hydrateInsights(copy, stats, totalCount) {
     `;
   }).join('');
 
-  elements.guideList.innerHTML = copy.insights.guideItems.map((item) => `
-    <div class="guide-item">
-      <strong>${escapeHtml(item.title)}</strong>
-      <p class="detail-copy">${escapeHtml(item.body)}</p>
-    </div>
-  `).join('');
+  elements.guideList.innerHTML = bars.map(([band], index) => {
+    const item = copy.insights.guideItems[index];
+
+    return `
+      <div class="guide-legend-item ${band}">
+        <span class="guide-legend-swatch ${band}" aria-hidden="true"></span>
+        <div class="guide-legend-copy">
+          <strong>${escapeHtml(item.title)}</strong>
+          <p class="detail-copy">${escapeHtml(item.body)}</p>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function hydrateRiskPatterns(copy) {
+  if (
+    !elements.riskPatternsNote ||
+    !elements.riskTopTitle ||
+    !elements.safeTopTitle ||
+    !elements.riskTopList ||
+    !elements.safeTopList
+  ) {
+    return;
+  }
+
+  elements.riskPatternsNote.textContent = copy.patterns.note;
+  elements.riskTopTitle.textContent = copy.patterns.topRiskTitle;
+  elements.safeTopTitle.textContent = copy.patterns.safeTitle;
+
+  if (state.loadError) {
+    elements.riskTopList.innerHTML = `<li>${escapeHtml(copy.patterns.empty)}</li>`;
+    elements.safeTopList.innerHTML = `<li>${escapeHtml(copy.patterns.empty)}</li>`;
+    return;
+  }
+
+  if (!state.isReady) {
+    elements.riskTopList.innerHTML = `<li>${escapeHtml(copy.patterns.loading)}</li>`;
+    elements.safeTopList.innerHTML = `<li>${escapeHtml(copy.patterns.loading)}</li>`;
+    return;
+  }
+
+  const byTitle = (left, right) => {
+    return getLocalizedJobContent(left).title.localeCompare(
+      getLocalizedJobContent(right).title,
+      UI[state.lang].locale
+    );
+  };
+
+  const highestRisk = [...state.jobs]
+    .sort((left, right) => (right.automationRisk - left.automationRisk) || byTitle(left, right))
+    .slice(0, 10);
+
+  const lowestRisk = [...state.jobs]
+    .sort((left, right) => (left.automationRisk - right.automationRisk) || byTitle(left, right))
+    .slice(0, 10);
+
+  elements.riskTopList.innerHTML = renderRiskPatternList(highestRisk, copy.patterns.empty);
+  elements.safeTopList.innerHTML = renderRiskPatternList(lowestRisk, copy.patterns.empty);
+}
+
+function renderRiskPatternList(jobs, emptyLabel) {
+  if (jobs.length === 0) {
+    return `<li>${escapeHtml(emptyLabel)}</li>`;
+  }
+
+  return jobs.map((job) => `<li>${escapeHtml(getLocalizedJobContent(job).title)}</li>`).join('');
 }
 
 function hydrateResults(copy, jobs) {
@@ -1279,7 +1398,7 @@ function renderArticlePreviewCard(article, copy) {
       <p class="article-preview-hook">${escapeHtml(article.hook)}</p>
       <p class="article-preview-summary">${escapeHtml(article.excerpt)}</p>
       <div class="keyword-list">
-        ${article.keywords.slice(0, 4).map((keyword) => `<span class="keyword-chip">${escapeHtml(keyword)}</span>`).join('')}
+        ${article.keywords.slice(0, 3).map((keyword) => `<span class="keyword-chip">${escapeHtml(keyword)}</span>`).join('')}
       </div>
     </div>
   `;
@@ -1677,6 +1796,46 @@ function detectLanguage() {
 
 function getQueryParam() {
   return new URLSearchParams(window.location.search).get('search')?.trim().toLowerCase() || '';
+}
+
+function buildCatalogUrl() {
+  const url = new URL('catalog.html', window.location.href);
+
+  url.searchParams.set('lang', state.lang);
+
+  if (state.query) {
+    url.searchParams.set('search', state.query);
+  }
+
+  if (state.major !== 'all') {
+    url.searchParams.set('major', state.major);
+  }
+
+  if (state.mid !== 'all') {
+    url.searchParams.set('mid', state.mid);
+  }
+
+  if (state.sub !== 'all') {
+    url.searchParams.set('sub', state.sub);
+  }
+
+  if (state.risk !== 'all') {
+    url.searchParams.set('risk', state.risk);
+  }
+
+  if (state.aiRole !== 'all') {
+    url.searchParams.set('role', state.aiRole);
+  }
+
+  if (state.degree !== 'all') {
+    url.searchParams.set('degree', state.degree);
+  }
+
+  if (state.sort !== 'riskDesc') {
+    url.searchParams.set('sort', state.sort);
+  }
+
+  return url.toString();
 }
 
 function hasJobRequestSuccess() {

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtered Job Catalog | Will My Job Be Replaced by AI?</title>
+  <meta name="description" content="Open a focused results page for the jobs that match your occupation search, AI replacement risk, AI impact, and degree filters.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="https://www.willmyjobreplacedbyai.com/catalog.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Filtered Job Catalog | Will My Job Be Replaced by AI?">
+  <meta property="og:description" content="See the job cards that match your current occupation and AI classification filters.">
+  <meta property="og:url" content="https://www.willmyjobreplacedbyai.com/catalog.html">
+  <meta property="og:site_name" content="Will My Job Be Replaced by AI?">
+  <meta property="og:image" content="https://www.willmyjobreplacedbyai.com/og-image.svg">
+  <link rel="stylesheet" href="styles.css?v=2026-03-24-6">
+</head>
+<body data-page="catalog">
+  <div class="ambient ambient-left"></div>
+  <div class="ambient ambient-right"></div>
+
+  <main class="page-shell">
+    <nav class="site-nav" aria-label="Primary">
+      <div class="site-nav-shell">
+        <a class="site-nav-brand" id="navBrandLink" href="./">Will My Job Be Replaced by AI?</a>
+        <div class="site-nav-links">
+          <a class="site-nav-link" id="navHomeLink" href="./">Home</a>
+          <a class="site-nav-link is-active" id="navCatalogLink" href="catalog.html" aria-current="page">Job Catalog</a>
+          <a class="site-nav-link" id="navNewsLink" href="news.html">AI News</a>
+          <a class="site-nav-link" id="navArticlesLink" href="articles.html">Articles</a>
+          <a class="site-nav-link" id="navFaqLink" href="./#faqSection">FAQ</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="subpage-hero catalog-hero">
+      <a class="back-link" id="catalogBackLink" href="./#catalogSection">Back to home</a>
+      <p class="section-kicker" id="catalogHeroKicker">Filtered Catalog</p>
+      <h1 id="catalogHeroTitle">Cards for your current search and filters</h1>
+      <p class="section-copy" id="catalogHeroLead">This page shows the job cards that match what you selected in job classification and AI classification.</p>
+      <div class="catalog-summary-stack">
+        <p class="subpage-summary" id="catalogSummary">Loading results...</p>
+        <div class="filter-chip-list" id="catalogActiveFilters" aria-live="polite">
+          <span class="meta-pill">Loading filters...</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="results-block">
+      <div class="results-meta">
+        <div>
+          <p class="section-kicker" id="resultsKicker">Matching jobs</p>
+          <h2 id="resultsTitle">Results</h2>
+        </div>
+        <a class="editorial-button" id="catalogEditLink" href="./#catalogSection">Edit filters on home</a>
+      </div>
+
+      <div class="job-grid" id="jobGrid">
+        <div class="empty-state">Loading results...</div>
+      </div>
+    </section>
+  </main>
+
+  <div class="job-modal-overlay" id="jobModal" aria-hidden="true">
+    <div class="job-modal-panel" role="dialog" aria-modal="true" aria-labelledby="jobModalTitle">
+      <div class="job-modal-header">
+        <h2 id="jobModalTitle"></h2>
+        <button class="job-modal-close" id="jobModalClose" type="button" aria-label="Close job details">×</button>
+      </div>
+      <div class="job-modal-body" id="jobModalBody"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-shell">
+      <section class="footer-block">
+        <p class="section-kicker">Company info</p>
+        <p class="footer-title">Weplay Inc. 종이비행기국가대표팀 위플레이</p>
+        <a class="footer-link" href="https://www.weplaykor.com" target="_blank" rel="noreferrer noopener">www.weplaykor.com</a>
+      </section>
+
+      <section class="footer-block">
+        <p class="section-kicker">Developer</p>
+        <p class="footer-copy">Seunghoon Lee</p>
+        <p class="footer-copy">Contact: <a class="footer-link" href="mailto:weplaykor@naver.com">weplaykor@naver.com</a></p>
+      </section>
+
+      <section class="footer-block footer-highlight">
+        <p class="section-kicker">Support</p>
+        <p class="footer-title">Support Our Channel !</p>
+      </section>
+    </div>
+  </footer>
+
+  <script src="catalog.js?v=2026-03-24-6"></script>
+</body>
+</html>
