@@ -106,6 +106,17 @@ const UI = {
       openDetails: 'View full profile',
       closeDetails: 'Close job details'
     },
+    requests: {
+      kicker: 'Missing your job?',
+      title: 'Request it',
+      lead: 'If your job is not in the catalog yet, send it here. New jobs are added every week.',
+      inputLabel: 'Enter a job title you want added',
+      inputPlaceholder: 'Enter the job you want added',
+      button: 'Request job',
+      note: 'Submissions are sent to the site owner email inbox.',
+      success: 'Request received. Thank you.',
+      subject: 'New job request from willmyjobreplacedbyai.com'
+    },
     editorial: {
       news: {
         kicker: 'Recent News',
@@ -267,6 +278,17 @@ const UI = {
       riskArticle: '읽기: AI에 가장 노출된 직업',
       openDetails: '상세 프로필 보기',
       closeDetails: '직무 상세 닫기'
+    },
+    requests: {
+      kicker: '자신의 직업이 없나요?',
+      title: '요청하세요',
+      lead: '카탈로그에 아직 없는 직업이라면 여기에서 요청하세요. 매주 새로운 직업이 업데이트 됩니다.',
+      inputLabel: '추가를 원하는 직업명을 입력하세요',
+      inputPlaceholder: '추가를 원하는 직업명을 입력하세요',
+      button: '직업 요청',
+      note: '제출 내용은 사이트 운영자 이메일로 전송됩니다.',
+      success: '요청이 접수되었습니다. 감사합니다.',
+      subject: 'willmyjobreplacedbyai.com 신규 직업 요청'
     },
     editorial: {
       news: {
@@ -430,6 +452,17 @@ const UI = {
       openDetails: 'Ver perfil completo',
       closeDetails: 'Cerrar detalles del puesto'
     },
+    requests: {
+      kicker: 'No encuentras tu trabajo?',
+      title: 'Solicitalo',
+      lead: 'Si tu trabajo aun no esta en el catalogo, envialo aqui. Se agregan nuevos trabajos cada semana.',
+      inputLabel: 'Escribe el puesto que quieres agregar',
+      inputPlaceholder: 'Escribe el puesto que quieres agregar',
+      button: 'Solicitar trabajo',
+      note: 'Los envios se mandan al correo del administrador del sitio.',
+      success: 'Solicitud recibida. Gracias.',
+      subject: 'Nueva solicitud de trabajo desde willmyjobreplacedbyai.com'
+    },
     editorial: {
       news: {
         kicker: 'Recent News',
@@ -525,6 +558,18 @@ const elements = {
   heroLead: document.getElementById('heroLead'),
   heroPrimaryCta: document.getElementById('heroPrimaryCta'),
   heroSecondaryLink: document.getElementById('heroSecondaryLink'),
+  requestKicker: document.getElementById('requestKicker'),
+  requestTitle: document.getElementById('requestTitle'),
+  requestLead: document.getElementById('requestLead'),
+  jobRequestForm: document.getElementById('jobRequestForm'),
+  jobRequestInputLabel: document.getElementById('jobRequestInputLabel'),
+  jobRequestInput: document.getElementById('jobRequestInput'),
+  jobRequestButton: document.getElementById('jobRequestButton'),
+  requestNote: document.getElementById('requestNote'),
+  requestSuccess: document.getElementById('requestSuccess'),
+  jobRequestSubject: document.getElementById('jobRequestSubject'),
+  jobRequestNext: document.getElementById('jobRequestNext'),
+  jobRequestLanguage: document.getElementById('jobRequestLanguage'),
   statJobsValue: document.getElementById('statJobsValue'),
   statJobsLabel: document.getElementById('statJobsLabel'),
   statRiskValue: document.getElementById('statRiskValue'),
@@ -772,6 +817,18 @@ function hydrateChrome(copy) {
   elements.heroPrimaryCta.textContent = copy.actions.checkRisk;
   elements.heroSecondaryLink.textContent = copy.actions.riskArticle;
   elements.heroSecondaryLink.href = 'articles.html#jobs-most-exposed-to-ai-agents';
+  elements.requestKicker.textContent = copy.requests.kicker;
+  elements.requestTitle.textContent = copy.requests.title;
+  elements.requestLead.textContent = copy.requests.lead;
+  elements.jobRequestInputLabel.textContent = copy.requests.inputLabel;
+  elements.jobRequestInput.placeholder = copy.requests.inputPlaceholder;
+  elements.jobRequestButton.textContent = copy.requests.button;
+  elements.requestNote.textContent = copy.requests.note;
+  elements.requestSuccess.textContent = copy.requests.success;
+  elements.jobRequestSubject.value = copy.requests.subject;
+  elements.jobRequestLanguage.value = state.lang;
+  elements.jobRequestNext.value = buildJobRequestNextUrl();
+  elements.requestSuccess.hidden = !hasJobRequestSuccess();
   elements.jobFilterKicker.textContent = copy.filterGroups.jobKicker;
   elements.jobFilterTitle.textContent = copy.filterGroups.jobTitle;
   elements.aiFilterKicker.textContent = copy.filterGroups.aiKicker;
@@ -1586,4 +1643,14 @@ function detectLanguage() {
 
 function getQueryParam() {
   return new URLSearchParams(window.location.search).get('search')?.trim().toLowerCase() || '';
+}
+
+function hasJobRequestSuccess() {
+  return new URLSearchParams(window.location.search).get('job-request') === 'success';
+}
+
+function buildJobRequestNextUrl() {
+  const url = new URL(window.location.href);
+  url.searchParams.set('job-request', 'success');
+  return url.toString();
 }

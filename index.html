@@ -190,6 +190,44 @@
       </aside>
     </header>
 
+    <section class="request-card" aria-labelledby="requestTitle">
+      <div class="request-copy">
+        <p class="section-kicker" id="requestKicker">Missing your job?</p>
+        <h2 id="requestTitle">Request it</h2>
+        <p class="section-copy" id="requestLead">If your job is not in the catalog yet, send it here. New jobs are added every week.</p>
+      </div>
+
+      <form
+        class="request-form"
+        id="jobRequestForm"
+        action="https://formsubmit.co/weplaykor@gmail.com"
+        method="POST"
+      >
+        <input type="hidden" name="_subject" id="jobRequestSubject" value="New job request from willmyjobreplacedbyai.com">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" id="jobRequestNext" value="https://www.willmyjobreplacedbyai.com/?job-request=success">
+        <input type="hidden" name="_language" id="jobRequestLanguage" value="en">
+        <input type="text" name="_honey" class="request-honeypot" tabindex="-1" autocomplete="off">
+
+        <label class="sr-only" for="jobRequestInput" id="jobRequestInputLabel">Enter a job title you want added</label>
+        <div class="request-form-row">
+          <input
+            id="jobRequestInput"
+            name="requested_job"
+            type="text"
+            maxlength="120"
+            required
+            autocomplete="off"
+            placeholder="Enter the job you want added"
+          >
+          <button class="editorial-button editorial-button-strong" id="jobRequestButton" type="submit">Request job</button>
+        </div>
+        <p class="request-note" id="requestNote">Submissions are sent to the site owner email inbox.</p>
+        <p class="request-success" id="requestSuccess" hidden>Request received. Thank you.</p>
+      </form>
+    </section>
+
     <section class="editorial-grid">
       <article class="editorial-card">
         <div class="editorial-card-header">
